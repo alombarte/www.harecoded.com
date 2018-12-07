@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conferencias on Harecoded</title>
+    <link>https://www.harecoded.com/tags/conferencias/</link>
+    <description>Recent content in Conferencias on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Feb 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/conferencias/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exitazo de la primera PHP Barcelona Conference</title>
+      <link>https://www.harecoded.com/exitazo-primera-php-barcelona-conference-96367/</link>
+      <pubDate>Mon, 25 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/exitazo-primera-php-barcelona-conference-96367/</guid>
+      <description>Pues s&amp;iacute;, el s&amp;aacute;bado 23 de Febrero celebramos la primera PHP Barcelona Conference, y fue todo un exitazo: de participaci&amp;oacute;n, de organizaci&amp;oacute;n (no se nos descuajaring&amp;oacute; la agenda), las instalaciones (Bocanord) eran fant&amp;aacute;sticas as&amp;iacute; como los medios que pusieron a nuestra disposici&amp;oacute;n; la mejor sala del complejo, un equipo de proyecci&amp;oacute;n de cine y buena voluntad a raudales.
+Por mi parte, qued&amp;eacute; muy contento con mi presentaci&amp;oacute;n &#34;Optimizaci&amp;oacute;n de aplicaciones PHP - Client Side&#34;</description>
+    </item>
+    
+    <item>
+      <title>Primera Barcelona PHP Conference</title>
+      <link>https://www.harecoded.com/primera-barcelona-php-conference-96366/</link>
+      <pubDate>Fri, 22 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/primera-barcelona-php-conference-96366/</guid>
+      <description>El S&amp;aacute;bado 23 de Febrero tendr&amp;eacute; el placer de realizar una presentaci&amp;oacute;n en la Primera Barcelona PHPConference. La verdad es que alegra (y acojona) que haya tenido tanto &amp;eacute;xito de participaci&amp;oacute;n... &amp;iexcl;Nada menos que 150 asistentes en la primera convocatoria! Estoy seguro que nos lo vamos a pasar fant&amp;aacute;sticamente, haremos bastantes contactos a nivel personal y profesional y podremos sobre todo vernos las caras algunos de los que estamos en este mundillo del PHP por estos lares catalanes.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Instalar Memcache en Mac &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Instalar Memcache en Mac</h1>
+  <time datetime=2010-02-12T20:23:00Z class="post-date">Fri, Feb 12, 2010</time>
+  <p>Instalar el demonio de memcached en Mac no es tan complicado como parece siguiendo estos sencillos pasos.</p>
+<p>Primero de todo aseg&uacute;rate que tienes todos los requisitos</p>
+<h3>Requisitos para instalar Memcached</h3>
+<ul>
+<li>Un compilador GCC. No te asustes! Viene instalando las <a href="http://developer.apple.com/tools/download/">XTools</a> de Mac si es que ya no las tienes</li>
+<li>Descargarte el <a href="http://topfunky.net/svn/shovel/memcached/install-memcached.sh">script de instalaci&oacute;n</a> desde topfunky</li>
+</ul>
+<h3>Instalaci&oacute;n del servidor Memcached</h3>
+<p>Abre una terminal i navega hasta la ruta donde te has descargado el script. Dale permisos de ejecuci&oacute;n y ejec&uacute;talo. As&iacute;:</p>
+<pre>chmod +x install-memcached.sh
+sudo ./install-memcached.sh
+echo "export EVENT_NOKQUEUE=1" &gt;&gt; ~/.bash_profile
+</pre>
+<p>La &uacute;ltima linea a&ntilde;ade al inicio de tu shell la variable de entorno que requiere Memcache. Si durante la compilaci&oacute;n ves que algo falla es que el compilador no est&aacute; bien instalado. Aseg&uacute;rate de bajarlo e instalarlo correctamente.</p>
+<p>Si has instalado correctamente el servidor podr&aacute;s ver la licencia o el manual de ayuda</p>
+<pre>memcached -i
+memcached -h
+</pre>
+<p>Ahora, para <strong>arrancar memcached en mac</strong> con 100MB de memoria en el puerto 11211 como demonio haz:</p>
+<pre>memcached -m 100 -p 11211 -d
+</pre>
+<p>Puedes conectarte ahora y ver si est&aacute; funcionando:</p>
+<pre>telnet 127.0.0.1 11211
+	Trying 127.0.0.1...
+	Connected to artomb.local.
+	Escape character is '^]'.
+	stats
+	STAT pid 97257
+	STAT uptime 10
+	STAT time 1266004819
+	STAT version 1.1.12
+	STAT rusage_user 0.004421
+	STAT rusage_system 0.005540
+	STAT curr_items 0
+	STAT total_items 0
+	STAT bytes 0
+	STAT curr_connections 1
+	STAT total_connections 2
+	STAT connection_structures 2
+	STAT cmd_get 0
+	STAT cmd_set 0
+	STAT get_hits 0
+	STAT get_misses 0
+	STAT bytes_read 7
+	STAT bytes_written 0
+	STAT limit_maxbytes 104857600
+	END
+	quit
+Connection closed by foreign host.
+</pre>
+<p>Para pararlo, tampoco sin misterios, un kill y arreando:</p>
+<pre>killall memcached
+</pre>
+<h3>Instalar Memcache para PHP en Mac y scripts MAMP</h3>
+<p>Si quieres adem&aacute;s integrar todo esto en MAMP para que se inicie al arrancar y instalar las librer&iacute;as PHP hay un tutorial ingl&eacute;s muy bueno en <a href="http://www.lullabot.com/articles/setup-memcached-mamp-sandbox-environment">Lullabot</a></p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>How to play MP3 with Ubuntu &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>How to play MP3 with Ubuntu</h1>
+  <time datetime=2006-02-17T00:00:00Z class="post-date">Fri, Feb 17, 2006</time>
+  <p>It's usual to find many distributions without MP3 support due to licensing issues. If you have MP3 files and don't know how to play them do the following:</p>
+<ol>
+<li>Open the terminal</li>
+<li>Type <tt>sudo gedit /etc/apt/sources.list</tt></li>
+<li>Remove comments to packages (This is erasing the # characters in lines starting with <tt>##deb</tt>)</li>
+<li>Save changes and close gedit</li>
+<li>Update the packages <tt>sudo apt-get update</tt></li>
+<li>Install the mulitmedia codecs:</li>
+</ol>
+<p><code>sudo apt-get install gstreamer0.8-plugins gstreamer0.8-lame gstreamer0.8-ffmpeg w32codecs libdivx4linux lame sox ffmpeg mjpegtools vorbis-tools gst-register-0.8</code></p>
+<p>Now you can open a player like Rythmbox or Kaffeine and start listening songs. <strong>Totem won't play mp3 with this</strong>. To associate mp3 files with a player, right-clic on a mp3 file and go to "Open with" tab.</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

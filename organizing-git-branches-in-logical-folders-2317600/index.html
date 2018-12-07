@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Organizing git branches in logical folders  &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Organizing git branches in logical folders </h1>
+  <time datetime=2013-12-10T22:19:00Z class="post-date">Tue, Dec 10, 2013</time>
+  <p>
+  <img title="SourceTree" src=  "/img/posts/52a7869131cd8s135443.jpg"  alt=" TAGS:" align="left">
+</p>
+<p>
+  It is easier to find things when they are well organized. If you
+  are a git user a good practice to name the branches would be to
+  use descriptive names including slashes "/" (as in paths) where
+  everything before the slash is the folder you want to use and
+  then the logical name after it.
+</p>
+<p>
+  If you use the fantastic git graphical interface SourceTree (free
+  for Windows and Mac) then you will be able to navigate these
+  branches using folders.
+</p>
+<p>
+  Of course if you use advanced tools like the git-flow extensions
+  (strongly recommended in large environments) this kind of
+  behaviour is automatically managed.
+</p>
+<p>
+  <strong>An example:</strong>
+</p>
+<p>
+  Let's say we usually work in branches when we want to release new
+  features. This is a screenshot on how it would look like creating
+  the following branches in SourceTree:
+</p>
+<pre>
+git checkout -b feature/editor<br>git checkout -b feature/reset-email<br>git checkout -b devel
+</pre>
+<p>
+  <img style=  "display: block; margin-left: auto; margin-right: auto;" title=""  src="/img/posts/52a789883b835s12091.jpg"  alt=" TAGS:">
+</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

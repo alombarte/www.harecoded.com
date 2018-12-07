@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Conectar por SSH sin password (autenticación de clave pública) &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Conectar por SSH sin password (autenticación de clave pública)</h1>
+  <time datetime=2011-08-29T07:03:00Z class="post-date">Mon, Aug 29, 2011</time>
+  <p>
+  <img title="" src=  "/img/posts/4e5b5a92b5f42s23631.jpg" alt=  " TAGS:" align="right">
+</p>
+<p>
+  Para <strong>conectar a un servidor remoto por SSH sin usuario ni
+  contraseña</strong> todo lo que hace falta es compartir una clave
+  entre cliente y servidor. Los pasos son muy sencillos:
+</p>
+<ol>
+  <li>
+    <strong>Asegurarse que la carpeta .ssh existe</strong> en el
+    servidor al que nos queremos conectar
+  </li>
+  <li>
+    <strong>Crear una clave RSA</strong> en la máquina cliente (la
+    que se conecta):<br>
+    <pre>
+ssh-keygen -t rsa
+</pre>Cuando se te pida por un password, dale al enter sin poner
+ninguno (este es el propósito del artículo, sin passwords)
+  </li>
+  <li>
+    <strong>Copiar la clave pública en el servidor</strong>:<br>
+    <pre>
+scp ~/.ssh/id_rsa.pub usuario@servidor.com:.ssh/authorized_keys2
+</pre><br>
+    Puedes omitir la parte <code>usuario@</code> si te conectas con
+    el mismo usuario.
+  </li>
+</ol>
+<p>
+  Y esto es todo amigos.&nbsp;En la siguiente conexión por SSH ya
+  no se pedirá de nuevo el password.
+</p>
+<p>
+  <strong>Importante:</strong>
+</p>
+<p>
+  A partir de este momento, si alguien robara la clave
+  privada&nbsp;que has guardado en&nbsp;<code>~/.ssh/id_rsa</code>
+  tendría acceso completo a tu servidor. Más vale que la protejas
+  bien :)
+</p>
+<p>
+  Si dejas un password en la autenticación RSA puede ser una buena
+  idea desactivar en el servidor el acceso SSH vía login/password y
+  dejar sólo autenticación por clave.
+</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

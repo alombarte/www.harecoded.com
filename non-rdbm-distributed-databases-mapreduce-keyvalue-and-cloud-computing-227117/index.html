@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>non-RDBM distributed databases, map/reduce, key/value and cloud computing &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>non-RDBM distributed databases, map/reduce, key/value and cloud computing</h1>
+  <time datetime=2009-03-30T21:50:00Z class="post-date">Mon, Mar 30, 2009</time>
+  <p>I've been playing recently with several distributed databases with the aim of choosing the best solution for my needs. Since there isn't much documentation on the web with a general overview on the subject, I write here some comments, thoughts and my humble experience. Hope it's usefull for you, this document is not a comparison of performance, or a "mine is bigger than yours",&nbsp; just some ideas ;)</p>
+<p><strong>My background</strong><br /> Being my experience based on relational databases (like MySQL or Postgres) and Object oriented databases (like ZODB) it was very easy for me to get hooked on this new challenge, anything but the relational databases (no offense). Last year, in Mainz, Germany, and after having heard a lot of buzz on the subject, <a href="http://jan.prima.de/">Jan Lehnardt</a> gave an interesting lecture on CouchDB. (BTW, thanks Jan for all the questions you answered to me). That event was the firestarter and since that I've been trying things... So I am a newbie in this expert area.</p>
+<p><strong>Now</strong>, I am working on a project that performs <strong>WRITES</strong> on very large set of data. All this data doesn't need to be in a relational database since it's a simple collector of activity, flat and with a variant structure that writes some gigabytes every day that must be processed at night, under different criteria.</p>
+<p>To store this, I started doing some research on what I could use to store that data, and here are some of the things I tried. The principles were:</p>
+<ol>
+<li><strong>Horizontally scalable</strong></li>
+<li><strong>Able to handle and process a lot of non-trivial data</strong></li>
+<li><strong>Able to write at least 1000 reqs/s, non-bulk<br /></strong></li>
+<li><strong>Open source</strong></li>
+</ol>
+<p><em>(I still have a decision to make)</em></p>
+<h2>Tokyo Cabinet + Tokyo Tyrant (key/value)</h2>
+<p><a href="http://tokyocabinet.sourceforge.net/index.html">Tokyo Cabinet</a> is library of routines for managaing a database that in conjunction with <a href="http://tokyocabinet.sourceforge.net/tyrantdoc/">Tokyo Tyrant</a>, the network interface, create an excellent network database. Tokyo supports up to <strong>8 Exabytes</strong> of data and it's <strong>really fast</strong> both in write and in read. Currently is used in the Japan's Mixi Social Network (more than 14 billion page views monthly). It's a<strong> key/value database</strong>.</p>
+<p>From the sysadmin point of view was a lovely product, easy to install, start, manage, backup or replicate. It's everything as easy as they state in the website, and it works. If you, like me, are a <a href="http://www.danga.com/memcached/">Memcached</a> lover, Tokyo is completely compatible with the memcached protocol, allowing you to do delights as "<em>persistent but volatile data</em>" . You can run the database in memory-only or with persistence (If you want in-memory, I think memcached is slightly faster for that purpose, but it's just my impression on few tests, do yours or Google it).</p>
+<p>To start a master-slave system is as easy as (you might want only a master, or several slaves):</p>
+<p>Start the Master: <strong>ttserver -port 1978 -sid 1 casket-1.tch</strong></p>
+<p>Start the Slave: <strong>ttserver -port 1979 -sid 2 -mhost localhost -mport 1978 -rts 2.rts casket-2.tch</strong></p>
+<p>Where <em>casket </em>are the databases and the extensions define what algorythm you want to use. Easy as hell. Just be aware to set a different and unique identifier (sid) for every server and say the slaves who is the master host (mhost). That would run a master and a slave on the same machine on ports 1978 and 1979.</p>
+<p>Ok, that was really exciting for me but I found that despite Tokyo is wonderful and everything, as in memcached, you need to know the KEY of the element you want to retrieve (yeah, that's what a key/value is supposed to do). In my case, I need to <strong>map/reduce the vast amount of data, so Tokyo is not an option for me</strong>, but might be what you've been looking for. I'll use it for any other project, sure.</p>
+<p>The weak points I found where that when used through the HTTP wrapper the performance goes down significantly. For instance, I had much better results using curl POSTs with CouchDB on a single node. Oh, and I hope you speak Japanese, you won't find much documentation in English ;)</p>
+<p>Basic example on how to write data in Tokyo using the HTTP wrapper:</p>
+<p><strong>curl -s -X PUT -d "my_value" "http://127.0.0.1:1978/my_key"</strong></p>
+<p>But the fastest way is using the C binaries:</p>
+<p><strong>tcrmgr put -port 1978 127.0.0.1 "my_key" "my_value"</strong></p>
+<p>You can <strong>list </strong>the contents using:</p>
+<p><strong>tcrmgr list -port 1978 localhost</strong></p>
+<p>Here I link a presentation so you can see the whole picture<a style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;" title="View Tokyo Cabinet and Tokyo Tyrant Presentation on Scribd" href="http://www.scribd.com/doc/12016121/Tokyo-Cabinet-and-Tokyo-Tyrant-Presentation">Tokyo Cabinet and Tokyo Tyrant Presentation</a>
+<object id="doc_752384524678630" width="100%" height="500" data="http://d.scribd.com/ScribdViewer.swf?document_id=12016121&amp;access_key=key-2h7ogv90u2eyujenzyla&amp;page=1&amp;version=1&amp;viewMode=" type="application/x-shockwave-flash">
+<param name="name" value="doc_752384524678630" />
+<param name="align" value="middle" />
+<param name="quality" value="high" />
+<param name="play" value="true" />
+<param name="loop" value="true" />
+<param name="scale" value="showall" />
+<param name="wmode" value="opaque" />
+<param name="devicefont" value="false" />
+<param name="bgcolor" value="#ffffff" />
+<param name="menu" value="true" />
+<param name="allowFullScreen" value="true" />
+<param name="allowScriptAccess" value="always" />
+<param name="src" value="http://d.scribd.com/ScribdViewer.swf?document_id=12016121&amp;access_key=key-2h7ogv90u2eyujenzyla&amp;page=1&amp;version=1&amp;viewMode=" />
+</object>
+</p>
+<h2>CouchDB (document oriented database)</h2>
+<p><a href="http://couchdb.apache.org/">CouchDB</a> is a <strong>schema-free document oriented database</strong>. A wonderful project of Apache with more community than the others behind it. CouchDB works using a RESTful HTTP/JSON API meaning that with simple HTML and JS you can create a dynamic website. Of course you can use other wrappers like <a href="http://kore-nordmann.de/projects/phpillow/">PHPillow</a> if you want to use PHP.</p>
+<p>The default query language of the database is Javascript. You write map/reduce functions that are stored as views to get only the content of your interest, your docs are fully indexable, and although you might be pretty used to SQL do give CouchDB a chance.</p>
+<p>Amongst all the systems is the one I like more as a product, although is not having a daemon for managing the service (tried the 0.9 from checkout) it is very easy to install and run.</p>
+<p><strong>Some things I really like:</strong></p>
+<ol>
+<li>No language scripting needed</li>
+<li>The replication is bi-directional, peer-based</li>
+<li>Leave your nodes offline for a while, reconnect them and nothing happened.</li>
+<li>The Futon interface. Some sort of, let's say, phpMyAdmin where you can play and test your views</li>
+</ol>
+<p><strong>A basic sample of insertion using curl:</strong></p>
+<p><strong>curl -s -X POST 'http://localhost:5984/mynewdb/' -H "Content-Type: application/json" -d '{ "my_key": "my_value" }'</strong></p>
+<p>If you want to insert a lot of documents you should insert documents in bulk mode. It's faster and your database will be more compact. Do not perform this test over a million iterations or your space disk will grow a lot.</p>
+<p><a style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;" title="View What is CouchDB on Scribd" href="http://www.scribd.com/doc/6532502/What-is-CouchDB">What is CouchDB</a>
+<object id="doc_701819509899267" width="100%" height="500" data="http://d.scribd.com/ScribdViewer.swf?document_id=6532502&amp;access_key=key-7zyg8a1srbeur38435x&amp;page=1&amp;version=1&amp;viewMode=" type="application/x-shockwave-flash">
+<param name="name" value="doc_701819509899267" />
+<param name="align" value="middle" />
+<param name="quality" value="high" />
+<param name="play" value="true" />
+<param name="loop" value="true" />
+<param name="scale" value="showall" />
+<param name="wmode" value="opaque" />
+<param name="devicefont" value="false" />
+<param name="bgcolor" value="#ffffff" />
+<param name="menu" value="true" />
+<param name="allowFullScreen" value="true" />
+<param name="allowScriptAccess" value="always" />
+<param name="src" value="http://d.scribd.com/ScribdViewer.swf?document_id=6532502&amp;access_key=key-7zyg8a1srbeur38435x&amp;page=1&amp;version=1&amp;viewMode=" />
+</object>
+</p>
+<h2>MongoDB (document-oriented)</h2>
+<p><a href="http://www.mongodb.org/display/DOCS/Home">MongoDB </a>is like CouchDB, another <strong>document-oriented database</strong>. This project was born this year 2009, so it's <strong>very young</strong>. With a colleague we tried to install the server and run it with the PHP libraries under CentOS, but it was completelly impossible.</p>
+<p>Despite all, I'll keep an eye on it, very interesting as well, because:</p>
+<ol>
+<li>You can filter data by fields without knowing the keys (as couchDb)</li>
+<li>You can create indexes to accelerate the data filtering</li>
+<li>Sexy functionalities to operate with the database</li>
+<li>Internal drivers ready for C, Ruby or Python. A PHP module available.</li>
+<li>Without much learning curve</li>
+<li>Replication, failover and auto-sharding coming soon.</li>
+</ol>
+<h2>Project Voldemort (key/value)</h2>
+<p>Behind this curious name from Harry Potter there is an interesting Java distributed key-value system database. <a href="http://project-voldemort.com/">Project Voldemort</a> handles replication and partitioning automatically, every server contains only a subset of the data and if a node fails your data integrity is not compromised, nor there is a central point for coordination. The balancer read from any node but writes in all them at the time, that can reduce your writing experience. This system is used in some parts of the well-known <a href="http://www.linkedin.com/">LinkedIn</a> with 12TB of data. But I am not a big fan of Java, so I played a little bit, and after going nuts running the examples and installing the Ecplise stuff,&nbsp; i tried something else, not for me :$&nbsp; (Not a lover of Tomcat either)</p>
+<p>Again, another key/value. Doesn't fit me at this moment.</p>
+<h2>Hbase (column-oriented)</h2>
+<p><a href="http://hadoop.apache.org/hbase/">Hbase</a> is a Key/value Hadoop project. I am using it right now with the HTTP interface and it's very fast on writing (the quicker for my tests). If you want to serve your website content from this database, you better skip this one, the latency is high. I jumped from here to cloudera.</p>
+<p>Some basics:</p>
+<p><strong>Create a table in Hbase:</strong></p>
+<p>&nbsp;</p>
+<pre>curl -H "Content-Type: text/xml" -H "Accept: text/xml" -v -X POST -T - http://ip.to.hbase:60050/api/
+</pre>
+<p>Then paste something like this and press Ctrl+D twice after:</p>
+<p>&nbsp;</p>
+<pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;<br />&lt;table&gt;<br />  &lt;name&gt;table1&lt;/name&gt;<br />  &lt;columnfamilies&gt;<br />    &lt;columnfamily&gt;<br />      &lt;name&gt;col1&lt;/name&gt;<br />      &lt;max-versions&gt;2&lt;/max-versions&gt;<br />      &lt;compression&gt;NONE&lt;/compression&gt;<br />      &lt;in-memory&gt;false&lt;/in-memory&gt;<br />      &lt;block-cache&gt;true&lt;/block-cache&gt;<br />    &lt;/columnfamily&gt;<br />	&lt;columnfamily&gt;<br />      &lt;name&gt;col2&lt;/name&gt;<br />      &lt;max-versions&gt;2&lt;/max-versions&gt;<br />      &lt;compression&gt;NONE&lt;/compression&gt;<br />      &lt;in-memory&gt;false&lt;/in-memory&gt;<br />      &lt;block-cache&gt;true&lt;/block-cache&gt;<br />    &lt;/columnfamily&gt;<br />  &lt;/columnfamilies&gt;<br />&lt;/table&gt;</pre>
+<p>After version 0.19 the JSON notation will be supported, so you will be able to do things like:</p>
+<pre>curl -H "Content-Type: application/json" -H "Accept: application/json" -v -X POST -T - http://ip.to.hbase:60050/api/
+
+{"name":"test5", "column_families":[{ "name":"columnfam1", "bloomfilter":true, "time_to_live":10, "in_memory":false, "max_versions":2, "compression":"", "max_value_length":50, "block_cache_enabled":true } ]}
+</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Show tables in Hbase:</strong><br /> Any of these:</p>
+<pre>curl -v http://ip.to.hbase:60050/api/
+curl -v -H "Accept: text/xml" -X GET http://ip.to.hbase:60050/api/
+</pre>
+<p><strong>And to see the metadata of a table:</strong></p>
+<pre>curl http://ip.to.hbase:60050/api/table1</pre>
+<p>&nbsp;</p>
+<p><strong>Insert a row</strong></p>
+<p>&nbsp;</p>
+<pre>curl -v -T row_contents.xml http://172.20.4.42:60050/api/table1/row/</pre>
+<p>&nbsp;</p>
+<p>... where row_contents.xml has something similar to the XML code pasted above.</p>
+<p>Other commands...</p>
+<p><strong>Disable/enable a table:</strong></p>
+<pre>curl -v -X POST http://ip.to.hbase:60050/api/restest/disable
+curl -v -X POST http://ip.to.hbase:60050/api/restest/enable
+</pre>
+<p><strong>PUT:</strong></p>
+<pre>curl -v -T y.row http://ip.to.hbase:60050/api/table1/row/y?column=a
+</pre>
+<p><strong>GET:</strong></p>
+<pre>curl -v  http://ip.to.hbase:60050/api/table1/row/y
+</pre>
+<p><strong>SCAN</strong></p>
+<pre>curl -v -T ./y.row http://ip.to.hbase:60050/api/table1/scanner?column=a:
+curl -v -T ./y.row http://ip.to.hbase:60050/api/table1/scanner?column=a:
+# That returns an ID, like b959591, retrieve it:
+curl -v -T ./y.row http://ip.to.hbase:60050/api/table1/scanner/b959591
+</pre>
+<h2>Cloudera (hadoop cluster)</h2>
+<p><a href="http://www.cloudera.com/">Cloudera</a> is a company that offers an Apache-licensed packed solution based on the <a href="http://hadoop.apache.org/core/">Hadoop</a> family. If you are interested in cloud computing and you have been after projects like the <a href="http://research.yahoo.com/node/90">Yahoo!'s Pig</a> or the <a href="http://wiki.apache.org/hadoop/Hive">Facebook's Hive</a>,&nbsp; then you'll like to know that Cloudera brings to the 'mere mortals' all that power in an easy RPM.</p>
+<p>Cloudera combines the Hadoop cluster and filesystem HDFS with Hive and all the pain that is configure a Hadoop cluster. You will be able to summarie, analyze and query an ingent amount of data. Have a look at the <a href="http://www.cloudera.com/hadoop-training-basic">latest video of training sessions</a> to get an idea on how the Hive query language similar to SQL looks like. You can even download an VMWare virtual machine with the solution running.</p>
+<p>I am recently looking at this, it's a lot more complex than any of the other solutions, but since I'll need to store and process several Gigabytes every day, this seems the way to go...&nbsp; :_/ sniff...</p>
+<p>If you are interested in this, you can also have a running Hadoop via <a href="http://aws.amazon.com/elasticmapreduce/">Amazon Elastic MapReduce</a>, billing is hourly and by machine.</p>
+<h2>More interesting projects:</h2>
+<p>The folling project aren't less interesting, nor I hadn't time to fully test, but for my current needs aren't suitable,&nbsp; they are worth a mention anyway:</p>
+<ul>
+<li><a href="http://discoproject.org/">Disco Project</a>: Another map/reduce framework started at <a href="http://research.nokia.com/">Nokia</a>. Uses python and quite simple.</li>
+<li><a href="http://opensource.plurk.com/LightCloud/">LightCloud</a>: Distributed key-value database using the Tokyo Tyrant network interface (Plurk open source)</li>
+<li><a href="http://incubator.apache.org/cassandra">Cassandra</a>: Another Facebook project based on <a href="http://en.wikipedia.org/wiki/BigTable">Google's BigTable</a></li>
+<li><a href="http://hypertable.org/">Hypertable</a>: Also based on BigTable, a distributed storage system using a <a href="http://code.google.com/p/hypertable/wiki/HQLTutorial">query language</a>. It's not supporting load balancing as far as I am concerned.<a href="http://code.google.com/p/hypertable/wiki/HQLTutorial"><br /></a></li>
+<li><a href="http://www.onscale.de/scalaris.html">Scalaris</a>: An interesting key-value store allowing <strong>range queries</strong>, but it <strong>doesn't support persistence </strong>yet.</li>
+<li><a href="http://code.google.com/p/redis/">Redis</a>: <a href="http://highscalability.com/product-redis-not-just-another-key-value-store">Not just another key/value</a>. Has a lot of libraries for PHP, Python, Ruby, Lua, Perl... If the numbers are true it's <strong>fast as hell</strong>! A complete protocol to interact.</li>
+<li><a href="http://memcachedb.org/">MemcacheDB</a>: Memcache made persistent (key/value of course)</li>
+</ul>
+<p>These are only a few ideas that may help to you. Hope it helped :)</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

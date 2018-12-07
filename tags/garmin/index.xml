@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Garmin on Harecoded</title>
+    <link>https://www.harecoded.com/tags/garmin/</link>
+    <description>Recent content in Garmin on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 May 2012 20:17:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/garmin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arreglar un Garmin Forerunner cuando no se enciende</title>
+      <link>https://www.harecoded.com/arreglar-garmin-forerunner-cuando-no-se-enciende-1952196/</link>
+      <pubDate>Wed, 16 May 2012 20:17:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/arreglar-garmin-forerunner-cuando-no-se-enciende-1952196/</guid>
+      <description>Después de muchisimos kilómetros con el pulsómetro Garmin, hoy me he encontrado que no le daba la gana de arrancar, por mucho que pulsaba el power no respondía y justo lo había quitado del cradle donde había pasado algunas horas y aparecía el mensaje de carga de batería finalizada.  Aún poniéndolo de nuevo en el cradle no arrancaba hasta que he hecho un soft reset:  Para hacer un soft reset del Garmin hay que dejar pulsados unos instantes el botón Mode y el botón Lap simultáneamente.</description>
+    </item>
+    
+    <item>
+      <title>No funciona el pulsómetro o GPS del Garmin Forerunner?</title>
+      <link>https://www.harecoded.com/no-funciona-pulsometro-o-gps-garmin-forerunnerr-1190538/</link>
+      <pubDate>Tue, 12 Apr 2011 21:50:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/no-funciona-pulsometro-o-gps-garmin-forerunnerr-1190538/</guid>
+      <description>Tengo un Garmin Forerunner 305 GPS que utilizo para salir a correr. Un día el pulsómetro dejó de funcionar correctamente, primero&amp;nbsp;empezó a espaciarse el ritmo de los latidos hasta que finalmente (en un par de días) el reloj no llegaba ni a sincronizarse, problema:&amp;nbsp;no detecta los latidos del corazón. Si que detectaba sin embargo los pulsómetros de mis amigos. para añadir más elementos a esta fiesta, uno de estos mismo amigos, tenía un problema con el GPS: &amp;nbsp;El dispositivo Garmin GPS no detecta los satélites.</description>
+    </item>
+    
+  </channel>
+</rss>

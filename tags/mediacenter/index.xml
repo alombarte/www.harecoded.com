@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mediacenter on Harecoded</title>
+    <link>https://www.harecoded.com/tags/mediacenter/</link>
+    <description>Recent content in Mediacenter on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Aug 2009 00:34:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/mediacenter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Teclados mediacenter para el comedor</title>
+      <link>https://www.harecoded.com/teclados-mediacenter-comedor-310963/</link>
+      <pubDate>Thu, 06 Aug 2009 00:34:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/teclados-mediacenter-comedor-310963/</guid>
+      <description>Actualmente dispongo de un ruidoso PC de DELL con la &amp;uacute;ltima versi&amp;oacute;n de Ubuntu que utilizo a modo de media center en el comedor de casa. Estoy content&amp;iacute;simo de como funciona, pero para manejarlo tengo uno de los teclados m&amp;aacute;s grandes de la historia (uno de esos que tienen botones hasta para tirar de la cadena del ba&amp;ntilde;o remotamente) junto con otro rat&amp;oacute;n que me desespera al uso.
+El teclado no lo puedo perder porque es grandioso, pero el rat&amp;oacute;n lo pierdo casi a diario (adem&amp;aacute;s que funciona realmente mal), asi que harto de la situaci&amp;oacute;n me dispongo a buscar una teclado con rat&amp;oacute;n/trackpad integrado para el comedor (tambi&amp;eacute;n deber&amp;iacute;a cambiar el PC por un Mac Mini, menos bulto y m&amp;aacute;s majo, pero eso ya es otro tema).</description>
+    </item>
+    
+    <item>
+      <title>Cómo reproducir ficheros .RMVB en Ubuntu</title>
+      <link>https://www.harecoded.com/reproducir-ficheros-rmvb-ubuntu-211216/</link>
+      <pubDate>Sat, 28 Feb 2009 13:57:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/reproducir-ficheros-rmvb-ubuntu-211216/</guid>
+      <description>Los ficheros .rmvb no se pueden reproducir por defecto en Ubuntu, esta extensi&amp;oacute;n es para los de tipo RealMedia Variable Bitrate, pero instalando los c&amp;oacute;decs de Mplayer los podr&amp;aacute;s abrir sin problemas.
+Lo primero que debes instalar, aunque no sea intuitivo es la librer&amp;iacute;a libstdc++5, para hacerlo o bien abre Synaptic ( Sistema -&amp;gt; Administraci&amp;oacute;n -&amp;gt; Gestor de Paquetes )&amp;nbsp; y haz doble click sobre libstdc++5 o ejecuta en la terminal:</description>
+    </item>
+    
+    <item>
+      <title>How to watch and record TV with a PC Ubuntu linux</title>
+      <link>https://www.harecoded.com/how-to-watch-and-record-tv-with-pc-ubuntu-linux-99682/</link>
+      <pubDate>Mon, 16 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-watch-and-record-tv-with-pc-ubuntu-linux-99682/</guid>
+      <description>Catalan speakers see: &#34;Com veure la TV amb Ubuntu&#34;
+There are many alternatives when we speak of media centers, but I can&#39;t figure out anything other than a computer. It offers all the functionallity you could want in a well-known interface. That&#39;s why I have a PC in the living room, I browse the Internet using my TV (using an HDMI cable) and now I record stuff when I am not at home.</description>
+    </item>
+    
+  </channel>
+</rss>

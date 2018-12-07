@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on Harecoded</title>
+    <link>https://www.harecoded.com/tags/css/</link>
+    <description>Recent content in Css on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Mar 2013 16:33:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configure Compass,Sass,Less... in PHPStorm</title>
+      <link>https://www.harecoded.com/configure-compasssassless-in-phpstorm-2257005/</link>
+      <pubDate>Wed, 13 Mar 2013 16:33:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/configure-compasssassless-in-phpstorm-2257005/</guid>
+      <description>PHPStorm 6 bundles a new feature called &#34;File watchers&#34; which enables Sass, LESS, SCSS, CoffeeScript, TypeScript transpilation. This option will compile your compass/scss/whatever files when the source file is saved (this is when you lose the focus or manually save).  So, for the basic stuff you can stop using external programs and watchers likeCodeKit or LESS.app&amp;nbsp;now. But of course unexpensive software like CodeKit is a must have if you are a frontend developer.</description>
+    </item>
+    
+    <item>
+      <title>XRAY: Bookmarklet para desarrolladores web</title>
+      <link>https://www.harecoded.com/xray-bookmarklet-desarrolladores-web-96349/</link>
+      <pubDate>Tue, 07 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/xray-bookmarklet-desarrolladores-web-96349/</guid>
+      <description>Hoy he descubierto XRAY, un bookmarklet que funciona para Firefox, Safari, Camino o Mozilla y que permite ver las propiedades de un elemento de la pantalla haciendo click sobre &amp;eacute;l.
+No es para nada comparable a FireBug o el Safari WebKit pero puede resultar igualmente interesante. Por su naturaleza de bookmarklet, no es necesaria ninguna instalaci&amp;oacute;n, s&amp;oacute;lo hace falta arrastar el v&amp;iacute;nculo que ofrecen desde la web a la barra de herramientas del navegador.</description>
+    </item>
+    
+    <item>
+      <title>A free good cross-platform CSS editor</title>
+      <link>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</link>
+      <pubDate>Fri, 02 Feb 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</guid>
+      <description>There are many applications where you can edit your Cascading Style Sheets (CSS) in Linux, Windows or Mac, but specifically in my Ubuntu I haven&#39;t found an application like CSSED (GTK). It supports auto-completion, really useful wizards, color pickers, preview and a long etcetera. You can go directly to the download page and see specific instructions for Gentoo, BSD, Mac OS X (via Fink), Windows ... or if you are an ubuntu or debian user just type in a terminal (or through the synaptic manager):</description>
+    </item>
+    
+  </channel>
+</rss>

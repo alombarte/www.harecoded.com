@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on Harecoded</title>
+    <link>https://www.harecoded.com/tags/google/</link>
+    <description>Recent content in Google on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Mar 2013 10:09:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Best web-based alternatives to Google Reader</title>
+      <link>https://www.harecoded.com/best-web-based-alternatives-to-google-reader-2257200/</link>
+      <pubDate>Thu, 14 Mar 2013 10:09:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/best-web-based-alternatives-to-google-reader-2257200/</guid>
+      <description>If you are a Google Reader reader you have certainly seen the message that is going to disappear by July 1st 2013. If you read from mobile then plenty of cool apps like Flipboard you can use, but when it comes to a web-based interface these are the alternatives I found worth using.  The first thing you should do before it is too late is to download a copy of your Google Reader feeds using Takeout  Then take your time to pick another service, there are plenty.</description>
+    </item>
+    
+  </channel>
+</rss>

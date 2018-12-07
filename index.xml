@@ -1,0 +1,1848 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harecoded</title>
+    <link>https://www.harecoded.com/</link>
+    <description>Recent content on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 May 2016 18:18:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to backup Flickr into Amazon S3/Dropbox/Google Cloud/Drive...</title>
+      <link>https://www.harecoded.com/how-to-backup-flickr-into-amazon-s3dropboxgoogle-clouddrive-2418512/</link>
+      <pubDate>Sat, 07 May 2016 18:18:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-backup-flickr-into-amazon-s3dropboxgoogle-clouddrive-2418512/</guid>
+      <description>The following recipe is an&amp;nbsp;easy&amp;nbsp;way to get your full Flickr account backed up in Amazon S3 or similar cloud storage.  Unless you have a really good Internet connection at home or you are doing a backup of a small library the first thing to do would be to create&amp;nbsp;a machine in the cloud, such as Digital Ocean or Amazon EC2 so you can have a high throughput. Once the process is finished you can destroy the machine and the whole operation will cost you a few cents.</description>
+    </item>
+    
+    <item>
+      <title>Engineering culture for an Internet company</title>
+      <link>https://www.harecoded.com/engineering-culture-for-an-internet-company-2374777/</link>
+      <pubDate>Thu, 11 Dec 2014 19:52:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/engineering-culture-for-an-internet-company-2374777/</guid>
+      <description>Hope you will bear with me improvising the definition of engineering culture as the ideas, attitudes, organization and behavior of the members of an engineering-driven company.  Each one of the Internet companies we work in have an engineering culture, regardless of the awareness of their members (and managers). That&#39;s because a company is an ecosystem that operates under a series of individually-disconnected and collectively-connected principles that when placed together over time they become ideas, attitudes and behaviors conforming an Engineering culture: the reality on which the company operates and organizes itself.</description>
+    </item>
+    
+    <item>
+      <title>OS X renaming using parameter expansion</title>
+      <link>https://www.harecoded.com/os-x-renaming-using-parameter-expansion-2368474/</link>
+      <pubDate>Sat, 18 Oct 2014 23:07:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/os-x-renaming-using-parameter-expansion-2368474/</guid>
+      <description>When it comes to rename files via command line there is no rename utility under OS X without installing Homebrew. But I still never needed to install it since there is a lot you can do by just making use of the shell parameter expansion.  The parameter expansion allows you to manipulate variables in a very convenient way and when mixed with the mv command you have an unstoppable renaming tool.</description>
+    </item>
+    
+    <item>
+      <title>Merging two, three or more git repositories keeping the log history</title>
+      <link>https://www.harecoded.com/merging-two-three-or-more-git-repositories-keeping-the-log-history-2366393/</link>
+      <pubDate>Wed, 01 Oct 2014 20:59:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/merging-two-three-or-more-git-repositories-keeping-the-log-history-2366393/</guid>
+      <description>If you ask anyone, merging several git repositories&amp;nbsp;into a single one would usually be considered a bad strategy: as a rule of thumb, your code base should&amp;nbsp;have several components isolated and then use a dependency manager (e.g: Composer) to bring&amp;nbsp;them together.  Nevertheless, there are always many different scenarios and with them come different use cases, weird situations or just plain normal activities that would justify this procedure.&amp;nbsp;In any case if you ever need to merge several repos into one, and still want to keep the git history this is an easy way to do it.</description>
+    </item>
+    
+    <item>
+      <title>Terminal tuning for Git developers in Mac</title>
+      <link>https://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</link>
+      <pubDate>Fri, 19 Sep 2014 17:52:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</guid>
+      <description>If you work with Git in the terminal there are some tweaks you might want to apply to your prompt for safer and faster coding. The following lines are part of my ~/.bash_profile file. I use it on Mac although that might work in Linux as well.  You can copy and paste this code in your ~/.bash_profile (create it if it doesn&#39;t exist), save and open a new terminal to see the changes every time you save.</description>
+    </item>
+    
+    <item>
+      <title>VCL&#39;s Varnish syntax highlighting for PHPStorm</title>
+      <link>https://www.harecoded.com/vcls-varnish-syntax-highlighting-for-phpstorm-2356757/</link>
+      <pubDate>Wed, 23 Jul 2014 15:14:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/vcls-varnish-syntax-highlighting-for-phpstorm-2356757/</guid>
+      <description>If you are looking for Varnish&amp;nbsp;syntax highlighting for PHPStorm, as per today, you won&#39;t find a plugin. This post is not publishing a plugin for proper vcl syntax highlighting but a quick hack to see some coloring.  Given the fact&amp;nbsp;Varnish configuration files are very similar to C I tried to associate the .vlc type to C files. &amp;nbsp;It is not rocket science but at least your eyes will hurt less.</description>
+    </item>
+    
+    <item>
+      <title>Solved: Firefox and IE blocking font awesome (CORS)</title>
+      <link>https://www.harecoded.com/solved-firefox-and-ie-blocking-font-awesome-cors-2353749/</link>
+      <pubDate>Wed, 02 Jul 2014 22:54:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/solved-firefox-and-ie-blocking-font-awesome-cors-2353749/</guid>
+      <description>It seemed today that Firefox was blocking the font files when using font-awesome and the web didn&#39;t work properly. But our friend Jorge from the Sphinxdev&amp;nbsp;blog explained us a solution..  In order to enable automatically CORS&amp;nbsp;when a TTF, OTF, EOT or WOFF file is detected&amp;nbsp;you only have to create a .conf file insde&amp;nbsp;/etc/httpd/conf.d with any name and paste inside:  AddType application/font-woff woff AddType application/vnd.ms-fontobject eot AddType application/x-font-ttf ttc ttf AddType font/opentype otf AddType image/svg+xml svg svgz AddEncoding gzip svgz &amp;lt;FilesMatch &#34;</description>
+    </item>
+    
+    <item>
+      <title>Organizing git branches in logical folders </title>
+      <link>https://www.harecoded.com/organizing-git-branches-in-logical-folders-2317600/</link>
+      <pubDate>Tue, 10 Dec 2013 22:19:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/organizing-git-branches-in-logical-folders-2317600/</guid>
+      <description>It is easier to find things when they are well organized. If you are a git user a good practice to name the branches would be to use descriptive names including slashes &#34;/&#34; (as in paths) where everything before the slash is the folder you want to use and then the logical name after it.  If you use the fantastic git graphical interface SourceTree (free for Windows and Mac) then you will be able to navigate these branches using folders.</description>
+    </item>
+    
+    <item>
+      <title>Automatically archive S3 backups to Amazon Glacier</title>
+      <link>https://www.harecoded.com/automatically-archive-s3-backups-to-amazon-glacier-2310752/</link>
+      <pubDate>Fri, 06 Dec 2013 22:53:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/automatically-archive-s3-backups-to-amazon-glacier-2310752/</guid>
+      <description>Amazon S3 is an on-cloud storage service used in a variety of scenarios. On of these common scenarios is the one where you upload your server backups to S3 using any of the multiple convenient libraries and tools.&amp;nbsp;  In the other hand, Amazon offers another service more oriented to data archiving and backup named Amazon Glacier. If you store a lot of data (and I am not talking about &amp;nbsp;a couple of GB) then you can save money using Glacier instead of S3.</description>
+    </item>
+    
+    <item>
+      <title>Kill processes using string search</title>
+      <link>https://www.harecoded.com/kill-processes-using-string-search-2303030/</link>
+      <pubDate>Sat, 23 Nov 2013 23:28:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/kill-processes-using-string-search-2303030/</guid>
+      <description>A lot of Linux distributions (and Mac) come with a handy command named&amp;nbsp;pkill installed by default. This command is very useful to kill processes in a more natural way.  Instead of doing a kill/killall based on the ID of the process or the binary name, you can just pass a string that appears in any part of the process list, including the parameters you used to start a service.</description>
+    </item>
+    
+    <item>
+      <title>Force kill of processes in Windows</title>
+      <link>https://www.harecoded.com/force-kill-processes-in-windows-2291505/</link>
+      <pubDate>Mon, 16 Sep 2013 17:07:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/force-kill-processes-in-windows-2291505/</guid>
+      <description>  Sometimes Windows Tasks Manager is not able to kill an in-memory process. We try to close it several times with no luck :(  For these frustration moments we can make use of a console command named&amp;nbsp;TaskKill  With TaskKill the pain ends simply with:   taskkill /IM filename.exe /F    More info about taskkill:&amp;nbsp;http://technet.microsoft.com/en-us/library/cc725602.aspx </description>
+    </item>
+    
+    <item>
+      <title>A true multiline regexp in PHP. The &#34;I miss U&#34; technique</title>
+      <link>https://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</link>
+      <pubDate>Thu, 08 Aug 2013 16:44:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</guid>
+      <description>The following regular expression matches tags that are opened and close in different lines, albeit can be used for any other purpose. It is also&amp;nbsp;ungreedy, meaning that when the first closing tag is found the rest of equal tags will be ignored.  It is very easy to remember and to apply, I call it the &#34;I MISS YOU&#34; technique, see the why in the regexp modifiers: misU&amp;nbsp;  $html =&amp;lt;&amp;lt;&amp;lt;MULTILINE &amp;lt;p class=&#34;</description>
+    </item>
+    
+    <item>
+      <title>Finding abusers. List of most frequent IPs in Apache log</title>
+      <link>https://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</link>
+      <pubDate>Tue, 25 Jun 2013 07:53:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</guid>
+      <description>Internet is full of malware and people with leisure time who will hammer your server with no good intentions, most of them will try to access well-known URLs looking for exploits of software like Wordpress (/wp-admin.php, /edit, etc...).  If you monitor for a while your access_log it&#39;s easy to find out unwanted behaviour. If you want to get a list of the most frequent IPs in your Apache log&amp;nbsp;the following command will get a list of those IPs sorted by number of requests:  [root@www3 ~]# cat /var/log/httpd/access_log_20130620 | awk &#39;{print $1}&#39; | sort | uniq -c | sort -rn | head 912545 95.</description>
+    </item>
+    
+    <item>
+      <title>Converting a CSV to SQL using 1 line in bash</title>
+      <link>https://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</link>
+      <pubDate>Fri, 07 Jun 2013 11:55:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</guid>
+      <description>The command line is very powerful and can do amazing stuff in one single line by pipelining a series of commands. This post is inspired after creating a line that mixed sed and awk, but with just only awk I&#39;ll show you an example on how to convert a CSV file to an SQL insert  Let&#39;s take an input CSV named events-2013-06-06.csv with 16 columns per line. It looks like this:  k51b04876036e2,192.</description>
+    </item>
+    
+    <item>
+      <title>Migrating a Github repo to Bitbucket (or similar services)</title>
+      <link>https://www.harecoded.com/migrating-github-repo-to-bitbucket-or-similar-services-2275467/</link>
+      <pubDate>Thu, 06 Jun 2013 21:17:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/migrating-github-repo-to-bitbucket-or-similar-services-2275467/</guid>
+      <description>Github is awesome. Bitbucket is awesome too. They are both excellent services, but Bitbucket has a plus:&amp;nbsp;it&#39;s free for private repos.  That&#39;s one of the reasons on why we decided to stop paying our $25/mo Github account for small projects and moved to Bitbucket. Although the Bitbucket guys have now a one-click &#34;import from Github tool&#34;, the solution is so simple that I don&#39;t even think it is worth using it.</description>
+    </item>
+    
+    <item>
+      <title>Rellenar una columna con Hash aleatorio en MySQL</title>
+      <link>https://www.harecoded.com/rellenar-columna-hash-aleatorio-mysql-2274754/</link>
+      <pubDate>Mon, 03 Jun 2013 10:52:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/rellenar-columna-hash-aleatorio-mysql-2274754/</guid>
+      <description>Tenemos unos cuantos cientos de datos y queremos crear un hash para poder acceder a ellos de forma directa y cifrada.  Imagina, por ejemplo, la típica tabla de usuarios en la que un campo contiene un hash para guardar en cookies y hacer el autologin por cookie.  Al crear el nuevo atributo este queda vacío así que necesitarás esta pequeña consulta para generar códigos hash de forma aleatoria y muy rápida:  UPDATE `users` SET autologin_hash = MD5(RAND()) WHERE autologin_hash IS NULL;   Fácil eh?</description>
+    </item>
+    
+    <item>
+      <title>Migrate Posterous without losing the images</title>
+      <link>https://www.harecoded.com/migrate-posterous-without-losing-the-images-2264987/</link>
+      <pubDate>Mon, 15 Apr 2013 20:54:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/migrate-posterous-without-losing-the-images-2264987/</guid>
+      <description>It might seem very obvious to you that if you migrate from Posterous&amp;nbsp;blogs to another service your images should be transitioned as well.  If you want a free service (as Posterous was) there are only two options where you can migrate your Posterous to without writing all your posts one by one&amp;nbsp;again:  1)&amp;nbsp;Wordpress.com (but losing all the images)
+2)&amp;nbsp;Obolog.com (and keeping all the images)  So, if you want your blog back including images the only option you have is Obolog.</description>
+    </item>
+    
+    <item>
+      <title>Best web-based alternatives to Google Reader</title>
+      <link>https://www.harecoded.com/best-web-based-alternatives-to-google-reader-2257200/</link>
+      <pubDate>Thu, 14 Mar 2013 10:09:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/best-web-based-alternatives-to-google-reader-2257200/</guid>
+      <description>If you are a Google Reader reader you have certainly seen the message that is going to disappear by July 1st 2013. If you read from mobile then plenty of cool apps like Flipboard you can use, but when it comes to a web-based interface these are the alternatives I found worth using.  The first thing you should do before it is too late is to download a copy of your Google Reader feeds using Takeout  Then take your time to pick another service, there are plenty.</description>
+    </item>
+    
+    <item>
+      <title>Configure Compass,Sass,Less... in PHPStorm</title>
+      <link>https://www.harecoded.com/configure-compasssassless-in-phpstorm-2257005/</link>
+      <pubDate>Wed, 13 Mar 2013 16:33:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/configure-compasssassless-in-phpstorm-2257005/</guid>
+      <description>PHPStorm 6 bundles a new feature called &#34;File watchers&#34; which enables Sass, LESS, SCSS, CoffeeScript, TypeScript transpilation. This option will compile your compass/scss/whatever files when the source file is saved (this is when you lose the focus or manually save).  So, for the basic stuff you can stop using external programs and watchers likeCodeKit or LESS.app&amp;nbsp;now. But of course unexpensive software like CodeKit is a must have if you are a frontend developer.</description>
+    </item>
+    
+    <item>
+      <title>Features in PHP 5.4</title>
+      <link>https://www.harecoded.com/features-in-php-54-2255484/</link>
+      <pubDate>Thu, 07 Mar 2013 12:19:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/features-in-php-54-2255484/</guid>
+      <description>We had to create a file upload form that allows a user to upload big files. In order to keep a good experience for the user we decided to show the progress bars.  There are several ways of doing that but it came to my mind that PHP 5.4 had an improvement on file upload, making it easier now and wondered if I had the last excuse to upgrade the servers from 5.</description>
+    </item>
+    
+    <item>
+      <title>Mails perdidos en Gmail por redireccionamiento [Solucionado]</title>
+      <link>https://www.harecoded.com/mails-perdidos-gmail-redireccionamiento-solucionado-2253221/</link>
+      <pubDate>Mon, 25 Feb 2013 09:52:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/mails-perdidos-gmail-redireccionamiento-solucionado-2253221/</guid>
+      <description>El problema   Seguro que no soy el único que tiene más de una dirección de correo electrónico. En muchas ocasiones, por orden o por practicidad, configuramos nuestras múltiples direcciones de correo electrónico para que podamos recibirlo en un mismo buzón.  Cuando alguna de esas direcciones está configurada en Gmail, en ocasiones, podemos experimenter pérdida de mensajes.  El motivo   Gmail pasa todo el correo entrante por un motor de detección de correo sospechoso de ser no deseado.</description>
+    </item>
+    
+    <item>
+      <title>A life explained in HTTP status codes</title>
+      <link>https://www.harecoded.com/life-explained-in-http-status-codes-2246877/</link>
+      <pubDate>Mon, 04 Feb 2013 15:47:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/life-explained-in-http-status-codes-2246877/</guid>
+      <description>This is a made-up story of a life explained with HTTP status code. It was written up to down at once without much thinking, feel free to improve it!    Status Code   Event   HTTP meaning       100   You are curious about her   Continue     101   First time sex   Switching Protocols     200   Love   OK     201   She&#39;s pregnant   Created     202   And you are the father   Accepted     203   Were you looking forward it?</description>
+    </item>
+    
+    <item>
+      <title>Apache RewriteCond -f check file exists solution</title>
+      <link>https://www.harecoded.com/apache-rewritecond-f-check-file-exists-solution-2246468/</link>
+      <pubDate>Sat, 02 Feb 2013 19:44:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/apache-rewritecond-f-check-file-exists-solution-2246468/</guid>
+      <description>If your Apache virtualhost or htaccess configuration uses a rewrite condition (RewriteCond) in order to allow nice URLs, you should be aware that since Apache 2.2 the &#34;check if file or exists&#34; works a little bit different. Any of the following examples might have stopped working for you:  RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILENAME} !-s   The solution to correct it is very simple, but I couldn&#39;t see it documented.</description>
+    </item>
+    
+    <item>
+      <title>Convertir de ISO a UTF-8 por línea de comandos</title>
+      <link>https://www.harecoded.com/convertir-iso-utf-8-linea-comandos-2230931/</link>
+      <pubDate>Mon, 10 Dec 2012 11:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/convertir-iso-utf-8-linea-comandos-2230931/</guid>
+      <description>Esta mañana he tenido que utilizar un .CSV generado desde Excel.  Al acceder a él desde la línea de comandos me he encontrado que se perdían todos los acentos. Un problema ya clásico este de &#34;los carácteres especiales&#34;.  Gracias al comando &#39;file&#39; he podido descubrir la codificación que Excel le da a nuestro fichero en el momento de hacer la exportación.  &amp;gt;file nombre_fichero.csv
+nombre_fichero.csv: ISO-8859 text, with CRLF line terminators   Lo único que he tenido que hacer es convertirlo en la misma terminal a UTF-8.</description>
+    </item>
+    
+    <item>
+      <title>Textos grandes a partir de caracteres básicos en terminal</title>
+      <link>https://www.harecoded.com/textos-grandes-partir-caracteres-basicos-terminal-2186683/</link>
+      <pubDate>Wed, 14 Nov 2012 10:19:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/textos-grandes-partir-caracteres-basicos-terminal-2186683/</guid>
+      <description>Estaba haciendo un script para automatizar el proceso de conexión a una base de datos, en producción.  Uno de esos scripts que conviene usar con cuidad así que pensé en poner un aviso que se mostrara al ejecutarlo:  [user~]$ cat prod_mysql.sh
+echo &#34;CUIDAOOOOOOOOO!!!!!&#34; mysql -h localhost -u user_prod -plucksoytuhijo main_data   Pero al ejecutarlo pensé que ese aviso no era tan visible com me gustaría así que recordé una herramienta que usaba hace muchos años.</description>
+    </item>
+    
+    <item>
+      <title>Llamadas cURL a través de distintas interfaces</title>
+      <link>https://www.harecoded.com/llamadas-curl-traves-distintas-interfaces-2183696/</link>
+      <pubDate>Tue, 13 Nov 2012 07:50:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/llamadas-curl-traves-distintas-interfaces-2183696/</guid>
+      <description>Si tu servidor web dispone de varias interfaces de red y quieres que ciertas peticiones que haces con cURL salgan a través de una IP específica puedes modificar el flag CURLOPT_INTERFACE de cURL pásandole la IP.  Un ejemplo tonto podría ser:  ... // Todas mis interfaces de red: $interfaces = array( &#39;91.121.157.41&#39;, &#39;178.33.161.225&#39;, &#39;188.165.128.67&#39;, &#39;178.33.166.125&#39;, &#39;178.33.163.125&#39;, ); // Salir aleatoriamente por una de ellas: $rand_interface = $interfaces[rand(0,count($interfaces)-1)]; curl_setopt($curl_handle, CURLOPT_INTERFACE, $rand_interface ); .</description>
+    </item>
+    
+    <item>
+      <title>Copy/clone/duplicate a mysql database script</title>
+      <link>https://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</link>
+      <pubDate>Thu, 08 Nov 2012 12:25:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</guid>
+      <description>This is a simple script that duplicates your entire database. There are many ways in which you can take advantage of having an exact replica of your production database.  In short, the behaviour of the script is the following (in this order, all piped):  Delete the COPY database if possible to start with a fresh one  Create the COPY database  Dump the PRODUCTION database  Inject the output of the dump into the COPY database   Any errors during the process will be logged to the file defined as $ERROR.</description>
+    </item>
+    
+    <item>
+      <title>Varnish allow/reject connections with IPs list (ACL)</title>
+      <link>https://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</link>
+      <pubDate>Tue, 06 Nov 2012 12:29:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</guid>
+      <description>In a web server you can use directives to deny the unwanted eye to look at your content. This is an example of how Apache would handle a virtual host that only accepts connections from a series of IPs, but in Varnish that won&#39;t work.  Order Deny,Allow Deny from all # Barcelona IPs Allow from 89.140.xxx.xxx/27 # Japan IP Allow from 222.229.xxx.xxx/32   The reason that this won&#39;t work in Varnish is because the IP Apache is receiving is 127.</description>
+    </item>
+    
+    <item>
+      <title>Evitar que Chrome lance a Google tu url como búsqueda</title>
+      <link>https://www.harecoded.com/evitar-chrome-lance-google-url-busqueda-2180657/</link>
+      <pubDate>Fri, 26 Oct 2012 20:09:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/evitar-chrome-lance-google-url-busqueda-2180657/</guid>
+      <description>El problema   Como desarrollador cada vez me siento más cómodo trabajando con Google Chrome pero hay una cosa que muchas veces me hace perder algo de tiempo:  En ocasiones, al intentar buscar una url poco &#34;normal&#34;, como puede ser en un dominio típico en un entorno de desarrollo, Chrome detecta que no es una url válida y la lanza contra Google en forma de búsqueda.  Un ejemplo   Queremos acceder a nuestra working copy con una url como ésta:&amp;nbsp;development_area/test_script.</description>
+    </item>
+    
+    <item>
+      <title>Determining the real client IP with Varnish (w/ X-Forwarded-For)</title>
+      <link>https://www.harecoded.com/determining-the-real-client-ip-with-varnish-w-x-forwarded-for-2177289/</link>
+      <pubDate>Mon, 15 Oct 2012 11:03:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/determining-the-real-client-ip-with-varnish-w-x-forwarded-for-2177289/</guid>
+      <description>If you implement Varnish in your application one of the early things that you discover is that &amp;nbsp;any IP functionalities you had are now gone. Some examples are:  GEOIP does not resolve the country  Apache logs write 127.0.0.1 as request client IP (or another IP of your LAN)  My own PHP logic cannot longer apply filters by IP    Why? Well, it&#39;s easy to answer.</description>
+    </item>
+    
+    <item>
+      <title>Puppet Syntax highlighting under Textmate</title>
+      <link>https://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</link>
+      <pubDate>Thu, 11 Oct 2012 16:55:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</guid>
+      <description> Add some color to your puppet scripts opened in TextMate! Fire this in a terminal:  mkdir -p ~/Application\ Support/TextMate/Bundles git clone https://github.com/masterzen/puppet-textmate-bundle.git Puppet.tmbundle mv Puppet.tmbundle/ ~/Library/Application\ Support/TextMate/Bundles/ rm -fr Puppet.tmbundle   And voilà!   </description>
+    </item>
+    
+    <item>
+      <title>Varnish VCL: Delete ALL cookies and other magic</title>
+      <link>https://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</link>
+      <pubDate>Tue, 09 Oct 2012 14:48:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</guid>
+      <description>This morning Javi Callón&amp;nbsp;gave me a great introduction in few minutes to the Varnish in steroids world, I really appreciate it. &amp;nbsp;I&#39;d like to share this snippet which might be very interesting for you if you are new to the Varnish magic too.  This has been my first contact with Varnish ever, and I have to say I am quite amazed on how the application is responding now in terms of performance.</description>
+    </item>
+    
+    <item>
+      <title>Simple Varnish Installation</title>
+      <link>https://www.harecoded.com/simple-varnish-installation-2175362/</link>
+      <pubDate>Mon, 08 Oct 2012 19:18:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/simple-varnish-installation-2175362/</guid>
+      <description>The first thing to do is to make sure your application is passing the headers properly. At least you&#39;ll need this (in PHP):  // Let&#39;s say Varnish caches for 12 hours: $cache_max_age = 60*60*12; header( &#34;Cache-Control: public, must-revalidate, max-age=0, s-maxage=$cache_max_age&#34; );   Varnish installation (CentOS/Redhat):
+RPM taken from https://www.varnish-cache.org/installation/redhat  rpm --nosignature -i https://repo.varnish-cache.org/redhat/varnish-3.0.el5.rpm   After adding the package:  yum install varnish   If you have another Linux see in the link, is more or less the same.</description>
+    </item>
+    
+    <item>
+      <title>Smarty: Concatenation of variables inside block parameters</title>
+      <link>https://www.harecoded.com/smarty-concatenation-variables-inside-block-parameters-2162707/</link>
+      <pubDate>Tue, 04 Sep 2012 11:37:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/smarty-concatenation-variables-inside-block-parameters-2162707/</guid>
+      <description>In Smarty sometimes you need to concatenate 2 variables and pass it as a single variable inside a&amp;nbsp;block. But the placeholder won&#39;t allow any expected PHP syntax  You want to accomplish something like:  {assign var=&#34;MYVAR&#34; value=$variable1.$variable2}   But, the dot in smarty is for array access, so, what about...  {assign var=&#34;MYVAR&#34; value=$variable1+$variable2}   No. It does not work either. Ah! Let&#39;s try a modifier:  {assign var=&#34;</description>
+    </item>
+    
+    <item>
+      <title>Mantener la sesión abierta en iTerm (keep-alive)</title>
+      <link>https://www.harecoded.com/mantener-sesion-abierta-iterm-keep-alive-2160763/</link>
+      <pubDate>Wed, 29 Aug 2012 10:12:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/mantener-sesion-abierta-iterm-keep-alive-2160763/</guid>
+      <description>Similarmente a como explicamos sobre cómo mantener la sesión activa en Putty, si queremos dejar la terminal abierta y que no se nos cierre con&amp;nbsp;iTerm cada vez que vamos a hacer un café, comer, o liberar la próstata, hay que seguir estos sencillos pasos:  Abrir Bookmarks&amp;nbsp;-&amp;gt;&amp;nbsp;Manage Profiles  Desplegar Terminal Profiles y seleccionar  Default  Marcar When idle, sends ASCII code    El valor de esta casilla por defecto es 0, pero lo podéis cambiar a cualquier otro código ASCII.</description>
+    </item>
+    
+    <item>
+      <title>How to setup a remote development environment over SFTP (working copy)</title>
+      <link>https://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</link>
+      <pubDate>Thu, 09 Aug 2012 00:10:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</guid>
+      <description>This article explains how to setup the server and client to work with a remote working copy.  To properly understand this post you should have read the previous post, When to setup a remote development environment over SFTP (working copy).  To have the enviroment up and running you must setup once the server, and then apply the configuration of the client in every developer machine. But the client side is very simple and requires no installation at all.</description>
+    </item>
+    
+    <item>
+      <title>When to setup a remote development environment over SFTP (working copy)</title>
+      <link>https://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</link>
+      <pubDate>Wed, 08 Aug 2012 17:49:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</guid>
+      <description>When a programmer has a local copy of the code and an environment fully functional where the web can be tested before going live, we usually call it a&amp;nbsp;working copy.  The action of moving/copying/putting this work in the final live server (a.k.a production server/environment) is called the&amp;nbsp;deploy&amp;nbsp;action.  There are many ways of having a working copy up and running. We, the key stroker maniacs, use to work more or less with one of the following working copy configurations:   No working copy.</description>
+    </item>
+    
+    <item>
+      <title>Putty keep-alive session (mantener activa la sesión)</title>
+      <link>https://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</link>
+      <pubDate>Fri, 03 Aug 2012 10:11:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</guid>
+      <description>Cuando utilizamos putty como cliente ssh muchas veces nos encontramos que, tras un tiempo de inactividad, la sesión se cierra.  Putty cuenta con una opción que nos permite envíar paquestes nulos, de forma automática, cada periodo definido de tiempo. De esa manera, putty, mantendrá la sesión activa.  Antes de activar esta opción hay que tener en cuenta que, el sistema de cancelación automática de una conexión no es más que una medida de seguridad por lo que, en caso de conectarnos a sistemas &#34;</description>
+    </item>
+    
+    <item>
+      <title>Git log mejorado. Color y ramas dibujadas</title>
+      <link>https://www.harecoded.com/git-log-mejorado-color-ramas-dibujadas-2081319/</link>
+      <pubDate>Thu, 26 Jul 2012 10:53:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/git-log-mejorado-color-ramas-dibujadas-2081319/</guid>
+      <description>Hace unos días me llegó un tweet de Dani&amp;nbsp;con uno de esos regalos que hace de tanto en cuanto, que se acuerda de los amigos y te manda algo interesante. En este caso era un artículo en inglés de Filipe Kiss donde nos enseñaba como convertir el git log de terminal en algo con cara y ojos (hacer clic en imágen).  He modificado &amp;nbsp;el comando original para que muestre el email en vez de los nombres, que tiene problemas en algunas terminales con los acentos.</description>
+    </item>
+    
+    <item>
+      <title>Mysql: Llenar tabla con datos aleatorios (de una lista)</title>
+      <link>https://www.harecoded.com/mysql-llenar-tabla-datos-aleatorios-lista-2057615/</link>
+      <pubDate>Fri, 20 Jul 2012 12:09:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/mysql-llenar-tabla-datos-aleatorios-lista-2057615/</guid>
+      <description> En alguna ocasión nos hemos encontrado con la necesidad de actualizar / insertar registors de una tabla con elementos aleatoris a partir de una lista.  Esta operación es especialmente útil cuando queremos crear datos &#34;dummy&#34; para entornos de desarrollo.  El ejemplo de este post es para MySql:  UPDATE files f SET license_type = (SELECT ELT(0.5 + RAND() * 2, &#39;Free&#39;, &#39;Try&#39; ) ) </description>
+    </item>
+    
+    <item>
+      <title>Cómo expulsar un CD o DVD atascado en Mac</title>
+      <link>https://www.harecoded.com/expulsar-cd-o-dvd-atascado-mac-1966986/</link>
+      <pubDate>Fri, 15 Jun 2012 21:37:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/expulsar-cd-o-dvd-atascado-mac-1966986/</guid>
+      <description>Hoy he puesto un DVD en la unidad del Macbook y a través de los botones de eject era imposible sacar el CD. Mi portátil no tiene el clásico agujero para meter un clip y sacarlo mecánicamente.  Lo que me ha funcionado finalmente es ejecutar desde la terminal:  drutil tray eject   Otras cosas que pueden funcionar son:  Probar de expulsarlo desde la &#34;Utilidad de Discos&#34;</description>
+    </item>
+    
+    <item>
+      <title>Volcado Mysql de municipios y provincias españolas y territorios UE</title>
+      <link>https://www.harecoded.com/volcado-mysql-municipios-provincias-espanolas-territorios-ue-1963492/</link>
+      <pubDate>Sat, 09 Jun 2012 12:41:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/volcado-mysql-municipios-provincias-espanolas-territorios-ue-1963492/</guid>
+      <description>Son muchos los proyectos de Internet que necesitan una base de datos donde se muestra a los usuarios listados de provincias y municipios (caso España) o de regiones, departamentos, länder... (caso Europa).  Esta información no suele estar disponible para su consumo rápido ya que hay que ir a las webs de los organismos oficiales, buscar los CSV (cuando funciona) y crear la base de datos.  Así que hoy me he decidido a agrupar estas organizaciones territoriales cogiendo las fuentes de los organismos oficiales&amp;nbsp;para que cualquier persona pueda descargar un volcado sql de muncipios, provincias y comunidades autónomas de España (formato Mysql) y otro volcado mysql de los países de la Unión Europea con sus regiones, departamentos, länder, estados federados o cualesquiera que sea su organización territorial.</description>
+    </item>
+    
+    <item>
+      <title>Arreglar un Garmin Forerunner cuando no se enciende</title>
+      <link>https://www.harecoded.com/arreglar-garmin-forerunner-cuando-no-se-enciende-1952196/</link>
+      <pubDate>Wed, 16 May 2012 20:17:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/arreglar-garmin-forerunner-cuando-no-se-enciende-1952196/</guid>
+      <description>Después de muchisimos kilómetros con el pulsómetro Garmin, hoy me he encontrado que no le daba la gana de arrancar, por mucho que pulsaba el power no respondía y justo lo había quitado del cradle donde había pasado algunas horas y aparecía el mensaje de carga de batería finalizada.  Aún poniéndolo de nuevo en el cradle no arrancaba hasta que he hecho un soft reset:  Para hacer un soft reset del Garmin hay que dejar pulsados unos instantes el botón Mode y el botón Lap simultáneamente.</description>
+    </item>
+    
+    <item>
+      <title>¿Qué versión de Linux utilizo?</title>
+      <link>https://www.harecoded.com/version-linux-utilizor-1949347/</link>
+      <pubDate>Thu, 10 May 2012 11:33:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/version-linux-utilizor-1949347/</guid>
+      <description> Hay muchas formas de saber qué versión de linux estás utilizando, prueba con alguna de estas:  cat /etc/*-release cat /etc/*version cat /proc/version cat /etc/issue   &#34;Lo dejo aquí anotado porqué soy flojo de memoria para este tipo de cosas :)&#34; </description>
+    </item>
+    
+    <item>
+      <title>¿Funciona el Office en Mac?</title>
+      <link>https://www.harecoded.com/funciona-office-macr-1890097/</link>
+      <pubDate>Mon, 07 May 2012 16:05:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/funciona-office-macr-1890097/</guid>
+      <description>Esa pregunta me resulta, realmente, odiosa. Es una de las típicas preguntas del usuario de PC que piensa migrar a Mac pero está preocupado por las compatibilidades.  Si la pregunta fuera acerca de cualquier otro software no me molestaría tanto pero... precisamente ese... permite&amp;nbsp; que me justifique:  Estaremos de acuerdo en que, Microsoft Office, es uno de los mejores productos de los que haya lanzado Microsoft. Su calidad se ha ido manteniendo actualización tras actualización desde 1989.</description>
+    </item>
+    
+    <item>
+      <title>IP&#39;s que usa Facebook Open Graph</title>
+      <link>https://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</link>
+      <pubDate>Mon, 30 Apr 2012 10:33:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</guid>
+      <description>Queremos desarrollar una funcionalidad en nuestro proyecto web que intereactua con Facebook mediante el protocolo Open Graph.  Facebook nos ofrece una herramienta de Debug para validar que, las entradas OG de nuestro site son las esperadas. Con añadir nuestra url en esa herramiento podemos ver un interesante informe.  Cuando lanzamos cualquier tipo de acción desde nuestro site, desde el clásico &#34;me gusta&#34; a las más elaboradas &#34;Custom Actions&#34;</description>
+    </item>
+    
+    <item>
+      <title>Google Drive ofrece hasta 16TB de espacio</title>
+      <link>https://www.harecoded.com/google-drive-ofrece-hasta-16tb-espacio-1876609/</link>
+      <pubDate>Wed, 25 Apr 2012 14:13:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/google-drive-ofrece-hasta-16tb-espacio-1876609/</guid>
+      <description>Desde hace unos días corría por la web un rumor que decía que, Drive, podría ofrecer hasta 100Gb (pagando por ello, claro está).  Justo veo que han actualizado su web de contratación de espacio.  Cómo podéis ver en la captura, Drive ofrece hasta 16TB de espacio por 800$ al mes.  Una verdadera animalada!. Dropbox ofrece hasta 1TB en su cuenta Teams por el mismo precio.  Considero los precios de google muy competitivos además, gracias a su funcionamiento, es una alternativa muy interesante para compartir archivos.</description>
+    </item>
+    
+    <item>
+      <title>Cómo borrar tags de Github</title>
+      <link>https://www.harecoded.com/borrar-tags-github-1832646/</link>
+      <pubDate>Tue, 17 Apr 2012 08:53:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/borrar-tags-github-1832646/</guid>
+      <description> Si por ejemplo deseo borrar un tag llamado &#34;1.0-stable-php-5.2&#34;  Borro en local:  git tag -d 1.0-stable-php-5.2  Borro en el repositorio:  git push origin :1.0-stable-php-5.2  Atentos a los dos puntos delante del tag al hacer el push.  Actualización: He escrito el artículo dos veces, el original aquí:&amp;nbsp;http://www.harecoded.com/borrar-tag-github-u-remoto-1612712&amp;nbsp;:P </description>
+    </item>
+    
+    <item>
+      <title>Saltar a página siguiente en direcciones secuenciales</title>
+      <link>https://www.harecoded.com/saltar-pagina-siguiente-direcciones-secuenciales-1776183/</link>
+      <pubDate>Mon, 09 Apr 2012 10:49:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/saltar-pagina-siguiente-direcciones-secuenciales-1776183/</guid>
+      <description>En muchas ocasiones, en un sitio web nos encontramos una url del tipo:  http://url.ltd/path?id=XXXX   Donde XXXX es un identificador. En ocasiones este identificador es la página que estamos viendo y, en otras, el id del propio elemento.  Imagina, por ejemplo, una lista de perfiles de usuarios, donde el id fuera secuencial. Si quisieras verlos todos tendrías que ir cambiando este número o volviendo a la lista de usuarios y haciendo click en el siguiente.</description>
+    </item>
+    
+    <item>
+      <title>Autocompletar hosts al escribir ssh en la terminal</title>
+      <link>https://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</link>
+      <pubDate>Fri, 23 Mar 2012 15:06:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</guid>
+      <description>Esta mañana mi compañero Borja me ha enseñado un pequeño truquito para olvidarse de los bookmarks en la terminal. Se trata de autocompletar el comando ssh con los hosts conocidos.  De este modo, cuando escribes ssh en la terminal puedes darle al tabulador para que sugiera o escriba el resto de host por ti. Ejemplo:    Existen múltiples maneras de hacer esto, leyendo configs con puertos y otras barbaridades, pero esta es realmente simple y efectiva y sin duda la que más me gusta.</description>
+    </item>
+    
+    <item>
+      <title>Cómo borrar un tag de GitHub u otro remoto</title>
+      <link>https://www.harecoded.com/borrar-tag-github-u-remoto-1612712/</link>
+      <pubDate>Thu, 08 Mar 2012 13:30:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/borrar-tag-github-u-remoto-1612712/</guid>
+      <description>No resulta muy obvio cómo se pueden eliminar los tags de Github. Incluso hay algunos tutoriales por ahí que no funcionan. Estos son los dos comandos que utilizo yo únicamente para borrar los tags que pongo y quito en el proyecto de&amp;nbsp;SIFO&amp;nbsp;en&amp;nbsp;Github.  El listado de tags del repositorio local se puede sacar fácilmente usando el comando git tag, por ejemplo:  artomb@petekaner:~/htdocs/sifo$ git tag sifo-1.9 sifo-2.1 sifo-2.2 stable-php-5.2 stable-php-5.</description>
+    </item>
+    
+    <item>
+      <title>Contar veces que se pide una URL (y las que no es esa URL)</title>
+      <link>https://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</link>
+      <pubDate>Tue, 14 Feb 2012 20:14:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</guid>
+      <description>Hay veces que queremos saber cuántas veces se ha pedido una URL en nuestro servidor y Google Analytics o otro servicio de monitorización basado en Javascript no está disponible. Entonces siempre podemos recurrir a la fuente original de datos, los logs de acceso (esos gran incomprendidos y frecuentemente abandonados) de Apache, Nginx o donde sea.  Si por ejemplo queremos saber cuántas veces se ha pedido la página /abc.html en el mes de febrero (2012_02) y tenemos los logs segmentados por día, será tan sencillo como lanzar un:  grep -c &#34;</description>
+    </item>
+    
+    <item>
+      <title>Merge Json files</title>
+      <link>https://www.harecoded.com/merge-json-files-1407663/</link>
+      <pubDate>Wed, 01 Feb 2012 10:22:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/merge-json-files-1407663/</guid>
+      <description>With this small script you could merge some json files in a new one in json validated format. &amp;nbsp;The script uses each file name like array key.  Look the example:  file1.json:  {&#34;array1&#34;:[&#34;elem1&#34;,&#34;elem2&#34;,&#34;elem3&#34;],&#34;array2&#34;:[&#34;elem1&#34;,&#34;elem2&#34;,&#34;elem3&#34;]}   file2.json  {&#34;array3&#34;:[&#34;elem1&#34;,&#34;elem2&#34;,&#34;elem3&#34;]}   &amp;nbsp;  Whit our script you could run:  php merge_jsons.php file1.json file2.json &amp;gt; merged_jsons.json    &amp;nbsp;  Now you can open merged_jsons.json and look this:  {&#34;</description>
+    </item>
+    
+    <item>
+      <title>Convert a CSV to JSON with PHP</title>
+      <link>https://www.harecoded.com/convert-csv-to-json-with-php-1380114/</link>
+      <pubDate>Tue, 24 Jan 2012 23:12:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/convert-csv-to-json-with-php-1380114/</guid>
+      <description>Imagine a data list dumped in a plain text file (e.g: CSV) and you need to convert it to JSON format. You could use this simple php script to do such task.  It&#39;s the simplest version but from here you can customize it to fit your requeriments.  Usage:  php script_name.php file_to_convert.csv &amp;gt; result.json   The script:  $csv = file_get_contents( $argv[1] );
+$csv = explode(&#34;\n&#34;, trim($csv) );</description>
+    </item>
+    
+    <item>
+      <title>Activar y cambiar los colores de la terminal &#43; Prompt</title>
+      <link>https://www.harecoded.com/activar-cambiar-colores-terminal-prompt-1332387/</link>
+      <pubDate>Mon, 05 Dec 2011 07:22:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/activar-cambiar-colores-terminal-prompt-1332387/</guid>
+      <description>Ya uses iTerm, Terminal o cualquier otra herramienta en Mac, para ver y tunear los colores de tu terminal basta con editar el fichero ~/.bash_profile e incluir lo siguiente:  export CLICOLOR=&#39;true&#39; export LSCOLORS=&#34;gxfxcxdxbxegedabagacad&#34;   Y conseguirás algo parecido a esto: La primera línea activa los colores, la segunda dice qué colores usar. Cuando guardes el fichero y abras de nuevo la terminal ya verás los colores. Si no te gustan siempre puedes poner los tuyos usando esta referencia:  a black b red c green d brown e blue f magenta g cyan h light grey A block black (gris oscuro) B bold red C bold green D bold brown (amarillo oiga) E bold blue F bold magenta G bold cyan H bold light grey x color por defecto   Además, puedes cambiar la apariencia y modificar tu prompt añadiendo a continuación en tu .</description>
+    </item>
+    
+    <item>
+      <title>Cómo hacer un sparse checkout en Git</title>
+      <link>https://www.harecoded.com/sparse-checkout-git-1329553/</link>
+      <pubDate>Thu, 01 Dec 2011 22:23:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/sparse-checkout-git-1329553/</guid>
+      <description>Si quieres hacer clone de un proyecto parcialmente y no llevarte todo el árbol es muy sencillo. Si todavía no tienes los ficheros es tan sencillo como:  Crear una carpeta e inicializar Git  Activar sparse checkout  Decirle qué carpetas queremos  Añadir el repo remoto  Traer los ficheros con pull    Traducido en un ejemplo y sus comandos, pongamos que queremos descargar el fantástico PHP framework SIFO.</description>
+    </item>
+    
+    <item>
+      <title>Move a SVN repository to Git with the whole commit history</title>
+      <link>https://www.harecoded.com/move-svn-repository-to-git-with-the-whole-commit-history-1314733/</link>
+      <pubDate>Fri, 11 Nov 2011 18:37:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/move-svn-repository-to-git-with-the-whole-commit-history-1314733/</guid>
+      <description>It is in your mind, like a worm that eats away the apple, &#34;I have to switch to Git&#34;. And one day it happens and you realize that it was not that diffcult.  I started using Git as my local repository, but still using SVN as the central repository with git itself thanks to the git svn&amp;nbsp;set of commands. After some time I decided to entirely move the vast majority of projects from SVN to Git but of course not by creating a new fresh and empty repository but importing the whole&amp;nbsp;svn commit history, as if the commits were made using Git itself ten years ago.</description>
+    </item>
+    
+    <item>
+      <title>Upload an existing Git repository to a remote GitHub, Bitbucket, Beanstalk...</title>
+      <link>https://www.harecoded.com/upload-an-existing-git-repository-to-remote-github-bitbucket-beanstalk-1314699/</link>
+      <pubDate>Fri, 11 Nov 2011 18:26:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/upload-an-existing-git-repository-to-remote-github-bitbucket-beanstalk-1314699/</guid>
+      <description>These are the steps I followed to upload my existing local git repository to a new Bitbucket repository while keeping the whole commit history. You can use this simple steps to move your source code to&amp;nbsp;GitHub, Beanstalk or any other repository you like, commands are just the same. I put as example Bitbucket because you can have unlimited&amp;nbsp;private repositories for free.  How to do it...  Register to bitbucket for free, add your&amp;nbsp;SSH key, and create an empty repo.</description>
+    </item>
+    
+    <item>
+      <title>Instalar PHP 5.3 en CentOS</title>
+      <link>https://www.harecoded.com/instalar-php-53-centos-1295513/</link>
+      <pubDate>Thu, 13 Oct 2011 23:45:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/instalar-php-53-centos-1295513/</guid>
+      <description>Me tienen contento!  Hace muchísimo que deberían haber incluído la versión de PHP 5.3 en los paquetes php por defecto de CentOS, pero parece que se van a quedar con la 5.2 hasta el fin de los tiempos. Ofrecen la versión 5.3 como un paquete separado (php53), lo que implica desinstalar PHP y librerías asociadas para reinstalar la 5.3 con este paquete distinto (incompatible con el anterior claro).  Así que, no pudiéndome aguantar más y con mono de namespaces, funciones lambda y toda la pesca, he migrado mi CentOS 5.</description>
+    </item>
+    
+    <item>
+      <title>Synchronize your VIM configuration across different machines</title>
+      <link>https://www.harecoded.com/synchronize-your-vim-configuration-across-different-machines-1295014/</link>
+      <pubDate>Thu, 13 Oct 2011 07:33:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/synchronize-your-vim-configuration-across-different-machines-1295014/</guid>
+      <description>If you are a Vim user, chances are that you also work with several machines, and you spread the same configuration over them.
+I do share my vim configurations between Windows, Mac and Linux and store the same configuration for all the environments in my Dropbox folder. The idea is to have a central place where I can manage all my Vim installations, and then link it. Easy as that.</description>
+    </item>
+    
+    <item>
+      <title>GMAIL: Bulk deleted emails based on date</title>
+      <link>https://www.harecoded.com/gmail-bulk-deleted-emails-based-on-date-1293021/</link>
+      <pubDate>Wed, 12 Oct 2011 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/gmail-bulk-deleted-emails-based-on-date-1293021/</guid>
+      <description>When I created my gmail account, there was a counter giving you everyday more space. They &#34;sold us&#34; the product as if you never had to delete email again. By looking at that counter it seemed that by now I should have more than a Terabyte of data, truth is that after many years I have less than 8GB. Although it&#39;s a lot of space for the email, if you have automatic notifications, reports, and so on.</description>
+    </item>
+    
+    <item>
+      <title>Conectar por SSH sin password (autenticación de clave pública)</title>
+      <link>https://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</link>
+      <pubDate>Mon, 29 Aug 2011 07:03:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</guid>
+      <description>Para conectar a un servidor remoto por SSH sin usuario ni contraseña todo lo que hace falta es compartir una clave entre cliente y servidor. Los pasos son muy sencillos:   Asegurarse que la carpeta .ssh existe en el servidor al que nos queremos conectar   Crear una clave RSA en la máquina cliente (la que se conecta):
+ ssh-keygen -t rsa Cuando se te pida por un password, dale al enter sin poner ninguno (este es el propósito del artículo, sin passwords)   Copiar la clave pública en el servidor:</description>
+    </item>
+    
+    <item>
+      <title>Comando `tree` para Mac</title>
+      <link>https://www.harecoded.com/comando-tree-mac-1265483/</link>
+      <pubDate>Sat, 27 Aug 2011 16:03:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/comando-tree-mac-1265483/</guid>
+      <description>Existe una utilidad llamada &#34;tree&#34; en Windows y Linux que sirve para ver un listado de directorio en un formato ASCII un poco más agradable a la vista. Si no quieres bajarte los MacPorts para esta pequeña utilidad lo más fácil es crear un script de una línea y enlazarlo en /bin para poder llamarlo directamente.  El comando en cuestión es este:  find . -print | sed -e &#39;s;[^/]*/;|--;g;s;--|; |;g&#39;   Ahora, para utilizarlo a troche y moche basta con pegar su contenido en un fichero en cualquier ubicación.</description>
+    </item>
+    
+    <item>
+      <title>Delete keys by pattern using REDIS-cli</title>
+      <link>https://www.harecoded.com/delete-keys-by-pattern-using-redis-cli-1261064/</link>
+      <pubDate>Thu, 18 Aug 2011 07:10:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/delete-keys-by-pattern-using-redis-cli-1261064/</guid>
+      <description>I do store a lot of statistical data in Redis, storing information on what users do and behave every day, week, month and so on... But storing a huge amount of data in memory has a little drawback: memory is cheap and fast, but is finite.  From time to time (e.g: cron job) I need to clean up the house because there is too much memory filled that is no longer interesting to keep it.</description>
+    </item>
+    
+    <item>
+      <title>How to backup your full Flickr account (script)</title>
+      <link>https://www.harecoded.com/how-to-backup-your-full-flickr-account-script-1246194/</link>
+      <pubDate>Sun, 24 Jul 2011 11:29:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-backup-your-full-flickr-account-script-1246194/</guid>
+      <description>Why you would like to copy all your images stored at Flickr to your computer? Well, maybe you want to browse them later offline, maybe you want to stop paying your PRO account, or to keep them just in case...
+In any case, Flickrtouchr is a simple command-line script to backup Flickr. You don&#39;t need to know python or programming at all. A couple of lines in the Terminal and that&#39;s it.</description>
+    </item>
+    
+    <item>
+      <title>Cómo cambiar la extensión a múltiples ficheros desde terminal (unix shell)</title>
+      <link>https://www.harecoded.com/cambiar-extension-multiples-ficheros-terminal-unix-shell-1222900/</link>
+      <pubDate>Fri, 17 Jun 2011 21:37:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/cambiar-extension-multiples-ficheros-terminal-unix-shell-1222900/</guid>
+      <description>Para renombrar la extensi&amp;oacute;n de muchos ficheros a la vez en la terminal, se puede hacer con la siguiente l&amp;iacute;nea:
+for file in *.phtml ; do mv $file `echo $file | sed &#39;s/\(.*\.\)phtml/\1tpl/&#39;` ; done Esto cambiar&amp;iacute;a todas las extensiones phtml por tpl del directorio en que lo lanz&amp;eacute;is. Cambiando la parte en negrita por vuestra extensi&amp;oacute;n favorita ya funcionar&amp;iacute;a.
+Lo que hace la l&amp;iacute;nea es buscar todos los archivos que cumplen la condici&amp;oacute;n *.</description>
+    </item>
+    
+    <item>
+      <title>Writing complex regular expressions</title>
+      <link>https://www.harecoded.com/writing-complex-regular-expressions-1192414/</link>
+      <pubDate>Fri, 15 Apr 2011 20:48:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/writing-complex-regular-expressions-1192414/</guid>
+      <description>Regular expressions are usually hard to read and understand. Even if you have a lot of experience in the subject chances are that when you revisit one of these that you wrote some time ago, it is very difficult to catch up.  Several days ago, a very smart guy at work named Zoltán, recommended us to write complex regular expressions sepparating each logical part in a different line&amp;nbsp;and also comment every single line.</description>
+    </item>
+    
+    <item>
+      <title>No funciona el pulsómetro o GPS del Garmin Forerunner?</title>
+      <link>https://www.harecoded.com/no-funciona-pulsometro-o-gps-garmin-forerunnerr-1190538/</link>
+      <pubDate>Tue, 12 Apr 2011 21:50:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/no-funciona-pulsometro-o-gps-garmin-forerunnerr-1190538/</guid>
+      <description>Tengo un Garmin Forerunner 305 GPS que utilizo para salir a correr. Un día el pulsómetro dejó de funcionar correctamente, primero&amp;nbsp;empezó a espaciarse el ritmo de los latidos hasta que finalmente (en un par de días) el reloj no llegaba ni a sincronizarse, problema:&amp;nbsp;no detecta los latidos del corazón. Si que detectaba sin embargo los pulsómetros de mis amigos. para añadir más elementos a esta fiesta, uno de estos mismo amigos, tenía un problema con el GPS: &amp;nbsp;El dispositivo Garmin GPS no detecta los satélites.</description>
+    </item>
+    
+    <item>
+      <title>Cómo revertir los cambios de una revisión en SVN</title>
+      <link>https://www.harecoded.com/revertir-cambios-revision-svn-1181187/</link>
+      <pubDate>Sun, 20 Mar 2011 12:51:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/revertir-cambios-revision-svn-1181187/</guid>
+      <description>Si eres usuario de subversion te habr&amp;aacute; pasado alguna vez que despu&amp;eacute;s de hacer commit y probar posteriormente el c&amp;oacute;digo has visto que debes volver a una versi&amp;oacute;n anterior y dejar el c&amp;oacute;digo tal y como estaba en una versi&amp;oacute;n anterior. No todos los clientes gr&amp;aacute;ficos disponen de la opci&amp;oacute;n de &#34;reverse merge&#34;, pero en la terminal es muy sencillo de hacer...
+
+Imaginemos que en la revisi&amp;oacute;n 1190 sub&amp;iacute; unos cambios que hicieron el c&amp;oacute;digo inestable y deseo dejar el c&amp;oacute;digo tal y como estaba en la revisi&amp;oacute;n 914, entonces har&amp;iacute;a:</description>
+    </item>
+    
+    <item>
+      <title>How to create a patch and apply it with subversion</title>
+      <link>https://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</link>
+      <pubDate>Tue, 15 Feb 2011 21:16:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</guid>
+      <description>If you want to create a patch with svn you only have to type in the terminal something like:  svn diff yourproject &amp;gt; yourproject.patch   Where yourproject is the folder containing the modified source code.  Then, to restore the patch (apply the changes stored in patch in a new working copy), copy the patch file yourproject.patch in the machine where you want apply the patch and &#34;</description>
+    </item>
+    
+    <item>
+      <title>Las mejores series de tv (2011-2015)</title>
+      <link>https://www.harecoded.com/mejores-series-tv-2011-2015-1160092/</link>
+      <pubDate>Thu, 27 Jan 2011 21:57:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/mejores-series-tv-2011-2015-1160092/</guid>
+      <description>Me encanta ver un par de capítulos de alguna serie&amp;nbsp;antes de ir a dormir. Con el tiempo he visto un montón de ellas, desde grandes tramas como Breaking Bad&amp;nbsp;a series para simplemente echar unas risas como Modern Family.&amp;nbsp;  A continuación muestro un top de mis series favoritas, algunas de ellas todavía en curso y otras que han finalizado para no volver nunca jamás. No significa que sean las mejores del mundo, sinó de las que he visto las que más me han gustado.</description>
+    </item>
+    
+    <item>
+      <title>Ocultar los ficheros .svn de la web</title>
+      <link>https://www.harecoded.com/ocultar-ficheros-svn-web-1158447/</link>
+      <pubDate>Sun, 23 Jan 2011 22:44:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/ocultar-ficheros-svn-web-1158447/</guid>
+      <description>Si utilizas subversion para trabajar y tienes un checkout en tus carpetas p&amp;uacute;blicas de la web es peligroso que la gente pueda navegar a trav&amp;eacute;s de tu directorio oculto .svn, ya que puede contener informaci&amp;oacute;n que comprometer&amp;aacute; la seguridad de tu site. Prueba a acceder a http://tuservidor.com/.svn para ver si es tu caso.
+Para denegar la visita de los ojos curiosos (error 403) y que nadie pueda entrar, en el apartado virtualhost de tu Apache incluye esto:</description>
+    </item>
+    
+    <item>
+      <title>Exportar una consulta de Mysql en un fichero CSV</title>
+      <link>https://www.harecoded.com/exportar-consulta-mysql-fichero-csv-945014/</link>
+      <pubDate>Sun, 24 Oct 2010 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/exportar-consulta-mysql-fichero-csv-945014/</guid>
+      <description>Si tienes una tabla o consulta que quieres exportar a CSV tienes dos maneras muy fáciles de hacerlo. La primera es dentro de la consola mysql utilizando después del SELECT la opción INTO OUTFILE. Esto escribirá en el fichero externo que indiques el contenido de la consulta. La segunda opción es desde la propia línea de comandos utilizando la opción &#34;Batch&#34;.  Diferencias entre método 1 y 2: El primero permite especificar la terminación de las líneas en el csv así como si quieres comillas en cada campo.</description>
+    </item>
+    
+    <item>
+      <title>Best distraction-free writing programs</title>
+      <link>https://www.harecoded.com/best-distraction-free-writing-programs-943854/</link>
+      <pubDate>Wed, 20 Oct 2010 20:16:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/best-distraction-free-writing-programs-943854/</guid>
+      <description>I am not a writer, but as many other mortals a lot of times I need to write long documents or put my ideas alltogether. For anyone who works with a computer and needs to write text in a non-distracting environment these tools will be very useful.
+These programs usually are full-screen and only let you see the text you are typing, and usually plain text (without any formats). It might sound simple or even ridiculous, but I am more productive when I stop receiving notifications and being tempted of clicking on that little red number showing unread email or any other procastinators.</description>
+    </item>
+    
+    <item>
+      <title>Get the absolute path in a bash script. Linux and BSD/Mac</title>
+      <link>https://www.harecoded.com/get-the-absolute-path-in-bash-script-linux-and-bsdmac-933017/</link>
+      <pubDate>Sat, 16 Oct 2010 22:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/get-the-absolute-path-in-bash-script-linux-and-bsdmac-933017/</guid>
+      <description>&amp;iquest;Have you ever needed to get the absolute path to a script in a bash script? Here I explain how to set in a variable the current absolute path to the executed script and to its folder as well.
+When it comes to development I work under Mac, but when I publish my work I do it usually under Linux. It happens sometimes to me that I create bash scripts that don&#39;t work in one or the other system.</description>
+    </item>
+    
+    <item>
+      <title>Musica online gratis y sin anuncios</title>
+      <link>https://www.harecoded.com/musica-online-gratis-anuncios-915374/</link>
+      <pubDate>Sat, 09 Oct 2010 20:39:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/musica-online-gratis-anuncios-915374/</guid>
+      <description>Desde hace ya bastantes meses vengo usando Grooveshark. Un servicio de streaming que te permite escuchar la m&amp;uacute;sica que quieras de forma gratuita, que a diferencia de Spotify en su versi&amp;oacute;n gratuita no ponen cortes publicitarios, cosa que se agradece enormemente. Grooveshark solo muestra un banner en un lado del reproductor web, por lo que se puede dejar abierto en segundo plano y seguir con otras cosas.
+
+Hoy he descubierto adem&amp;aacute;s PlayListNow, un servicio que ofrece m&amp;uacute;sica en funci&amp;oacute;n de lo que est&amp;eacute;s haciendo en ese momento.</description>
+    </item>
+    
+    <item>
+      <title>Instalar PHP 5.3 en MAMP</title>
+      <link>https://www.harecoded.com/instalar-php-53-mamp-559108/</link>
+      <pubDate>Wed, 14 Apr 2010 21:41:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/instalar-php-53-mamp-559108/</guid>
+      <description>Actualizaci&amp;oacute;n: La nueva versi&amp;oacute;n de MAMP ya trae PHP 5.3 por lo que ya no es necesario hacerlo a mano. B&amp;aacute;jate la &amp;uacute;ltima versi&amp;oacute;n!
+Hola,
+A d&amp;iacute;a de escribir este post MAMP viene con la versi&amp;oacute;n 5.2.11 de PHP por lo que no se pueden utilizar muchas de las funciones interesantes que tiene la nueva versi&amp;oacute;n, yo concretamente quer&amp;iacute;a utilizar funciones de fecha como DateTime::createFromFormat() y los namespaces. Para solucionarlo he hecho lo siguiente</description>
+    </item>
+    
+    <item>
+      <title>Pasar enlaces Youtube a un punto de tiempo específico</title>
+      <link>https://www.harecoded.com/pasar-enlaces-youtube-punto-tiempo-especifico-540779/</link>
+      <pubDate>Wed, 24 Mar 2010 21:04:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/pasar-enlaces-youtube-punto-tiempo-especifico-540779/</guid>
+      <description>Muchas veces pasamos enlaces de Youtube donde la parte interesante no llega hasta cierto punto. Puedes pasar a tus colegas el enlace para que salte directamente a un minuto y segundo que tu quieras.
+Si por ejemplo quieres que un video empieze en el minuto 1 y el segundo 2 tan s&amp;oacute;lo tienes que a&amp;ntilde;adir al final:
+#t=1m02s
+ Delante de la m los minutos y delante de la s los segundos.</description>
+    </item>
+    
+    <item>
+      <title>&#34;Unicomp Customizer&#34; mechanical keyboard review</title>
+      <link>https://www.harecoded.com/unicomp-customizer-mechanical-keyboard-review-539708/</link>
+      <pubDate>Tue, 23 Mar 2010 09:52:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/unicomp-customizer-mechanical-keyboard-review-539708/</guid>
+      <description>Among all the facts that remind me that I am getting old, one of them is chatting with other fellows about the technology we were using back when we started working at our first jobs. It has been 16 years since then in my case, and I sometimes find myself talking about how it was like working with a 386 and 4mb of ram, typing lots of text in such a fantastic wordprocessor as it was Wordperfect, switching from Windows 3.</description>
+    </item>
+    
+    <item>
+      <title>Reset iTerm preferences to default</title>
+      <link>https://www.harecoded.com/reset-iterm-preferences-to-default-529907/</link>
+      <pubDate>Sun, 07 Mar 2010 20:09:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/reset-iterm-preferences-to-default-529907/</guid>
+      <description>If you have messed up your iTerm application preferences you can aways return to the factory settings by deleting your iTerm preferences file. Just delete the following file:
+rm ~/Library/Preferences/net.sourceforge.iTerm.plist This will delete your profiles, very useful when you have remapped keys and you can&#39;t remember how to go back.</description>
+    </item>
+    
+    <item>
+      <title>Restore broken hard disk creating an image with Ubuntu</title>
+      <link>https://www.harecoded.com/restore-broken-hard-disk-creating-an-image-with-ubuntu-526239/</link>
+      <pubDate>Mon, 01 Mar 2010 00:22:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/restore-broken-hard-disk-creating-an-image-with-ubuntu-526239/</guid>
+      <description>If your boot partition has been damaged and you cannot boot Ubuntu you still might be able to recover your hard disk and save your data by making an image. All you need is the Ubuntu LiveCD and Partimage, an excellent tool for making backups, or the SystemRescueCD.
+Here you&#39;ll find a detailed explanation on how to use partimage as well:
+http://www.psychocats.net/ubuntu/partimage</description>
+    </item>
+    
+    <item>
+      <title>Instalar Memcache en Mac</title>
+      <link>https://www.harecoded.com/instalar-memcache-mac-517262/</link>
+      <pubDate>Fri, 12 Feb 2010 20:23:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/instalar-memcache-mac-517262/</guid>
+      <description>Instalar el demonio de memcached en Mac no es tan complicado como parece siguiendo estos sencillos pasos.
+Primero de todo aseg&amp;uacute;rate que tienes todos los requisitos
+Requisitos para instalar Memcached  Un compilador GCC. No te asustes! Viene instalando las XTools de Mac si es que ya no las tienes Descargarte el script de instalaci&amp;oacute;n desde topfunky  Instalaci&amp;oacute;n del servidor Memcached Abre una terminal i navega hasta la ruta donde te has descargado el script.</description>
+    </item>
+    
+    <item>
+      <title>TortoiseSVN for Ubuntu Linux: The real alternative</title>
+      <link>https://www.harecoded.com/tortoisesvn-for-ubuntu-linux-the-real-alternative-373573/</link>
+      <pubDate>Sun, 25 Oct 2009 12:03:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/tortoisesvn-for-ubuntu-linux-the-real-alternative-373573/</guid>
+      <description>I have posted several articles regarding subversion in this blog. If you ask me one thing I like in Windows, then I only have one answer: Tortoise SVN client. This small application is the only thing I love in Windows, for anything else, I&#39;d rather user Mac or Linux.
+But now, there is a Linux alternative to Tortoise SVN called RabbitVCS. I&#39;ve tried it and it works pretty well. This project, formerly NautilusSVN, looks really well and is inspired in the windows tool.</description>
+    </item>
+    
+    <item>
+      <title>All ISO-639 language codes for MySQL</title>
+      <link>https://www.harecoded.com/all-iso-639-language-codes-for-mysql-329937/</link>
+      <pubDate>Sat, 05 Sep 2009 18:18:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/all-iso-639-language-codes-for-mysql-329937/</guid>
+      <description>If you ever needed a mysql table with all the languages detailed in the ISO-639 language codes, here it is. I took the list from the registration authority and created the table in Mysql.  There are 21 languages that have alternative codes for bibliographic or terminology purposes. In those cases I took the bibliographic ones. The script contains the 2 and 3 letter ISO-639 language codes, as well as the English and French names of the languages.</description>
+    </item>
+    
+    <item>
+      <title>Fill: Smarty PHP plugin to fill variables in string (sprintf brother)</title>
+      <link>https://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</link>
+      <pubDate>Thu, 06 Aug 2009 23:48:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</guid>
+      <description>Today I quickly created a plugin for Smarty to fill variables inside a string (subject) using the passed parameters as variable names.&amp;nbsp;I use this specially while constructing URLs because my addresses are translated and they &#34;subjects&#34; are always variables. This plugin does nearly the same you could do with the sprintf modifier, but I placed this behaviour inside a function.  The &#34;subject&#34; defines the string containing the pattern to be filled and containing the vars to be filled, and the variables are any string surrounded by your preferred delimiter (defaults to %).</description>
+    </item>
+    
+    <item>
+      <title>Teclados mediacenter para el comedor</title>
+      <link>https://www.harecoded.com/teclados-mediacenter-comedor-310963/</link>
+      <pubDate>Thu, 06 Aug 2009 00:34:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/teclados-mediacenter-comedor-310963/</guid>
+      <description>Actualmente dispongo de un ruidoso PC de DELL con la &amp;uacute;ltima versi&amp;oacute;n de Ubuntu que utilizo a modo de media center en el comedor de casa. Estoy content&amp;iacute;simo de como funciona, pero para manejarlo tengo uno de los teclados m&amp;aacute;s grandes de la historia (uno de esos que tienen botones hasta para tirar de la cadena del ba&amp;ntilde;o remotamente) junto con otro rat&amp;oacute;n que me desespera al uso.
+El teclado no lo puedo perder porque es grandioso, pero el rat&amp;oacute;n lo pierdo casi a diario (adem&amp;aacute;s que funciona realmente mal), asi que harto de la situaci&amp;oacute;n me dispongo a buscar una teclado con rat&amp;oacute;n/trackpad integrado para el comedor (tambi&amp;eacute;n deber&amp;iacute;a cambiar el PC por un Mac Mini, menos bulto y m&amp;aacute;s majo, pero eso ya es otro tema).</description>
+    </item>
+    
+    <item>
+      <title>Evitar que se abra iTunes al conectar el iPhone o Ipod</title>
+      <link>https://www.harecoded.com/evitar-se-abra-itunes-al-conectar-iphone-o-ipod-270774/</link>
+      <pubDate>Wed, 03 Jun 2009 07:19:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/evitar-se-abra-itunes-al-conectar-iphone-o-ipod-270774/</guid>
+      <description>Esto es una chorrada, pero si sincronizas tu dispositivo con m&amp;aacute;s de un ordernador y te interesa que al enchufarlo no se abra el iTunes hay que seguir estos sencillos pasos (esto vale para Windows y Mac):
+ Enchufar el iPhone (o iPod) al ordenador En el iTunes, en el men&amp;uacute; de la derecha, hacer click en el dispositivo Quitar la marca de la casilla &#34;Sincronizar autom&amp;aacute;ticamente al conectar este iPhone&#34;</description>
+    </item>
+    
+    <item>
+      <title>Dirty Twitter</title>
+      <link>https://www.harecoded.com/dirty-twitter-248589/</link>
+      <pubDate>Fri, 08 May 2009 16:11:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/dirty-twitter-248589/</guid>
+      <description>Fuck! I can&#39;t believe there is a service out there that filters all the world tweets and presents only the dirtiest ones... The offender site is called Cursebird, and that is his job plus it does it well.
+So we all will have to watch our sayings more than ever...</description>
+    </item>
+    
+    <item>
+      <title>non-RDBM distributed databases, map/reduce, key/value and cloud computing</title>
+      <link>https://www.harecoded.com/non-rdbm-distributed-databases-mapreduce-keyvalue-and-cloud-computing-227117/</link>
+      <pubDate>Mon, 30 Mar 2009 21:50:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/non-rdbm-distributed-databases-mapreduce-keyvalue-and-cloud-computing-227117/</guid>
+      <description>I&#39;ve been playing recently with several distributed databases with the aim of choosing the best solution for my needs. Since there isn&#39;t much documentation on the web with a general overview on the subject, I write here some comments, thoughts and my humble experience. Hope it&#39;s usefull for you, this document is not a comparison of performance, or a &#34;mine is bigger than yours&#34;,&amp;nbsp; just some ideas ;)
+My background</description>
+    </item>
+    
+    <item>
+      <title>Cómo reproducir ficheros .RMVB en Ubuntu</title>
+      <link>https://www.harecoded.com/reproducir-ficheros-rmvb-ubuntu-211216/</link>
+      <pubDate>Sat, 28 Feb 2009 13:57:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/reproducir-ficheros-rmvb-ubuntu-211216/</guid>
+      <description>Los ficheros .rmvb no se pueden reproducir por defecto en Ubuntu, esta extensi&amp;oacute;n es para los de tipo RealMedia Variable Bitrate, pero instalando los c&amp;oacute;decs de Mplayer los podr&amp;aacute;s abrir sin problemas.
+Lo primero que debes instalar, aunque no sea intuitivo es la librer&amp;iacute;a libstdc++5, para hacerlo o bien abre Synaptic ( Sistema -&amp;gt; Administraci&amp;oacute;n -&amp;gt; Gestor de Paquetes )&amp;nbsp; y haz doble click sobre libstdc++5 o ejecuta en la terminal:</description>
+    </item>
+    
+    <item>
+      <title>SVN merge for Mac OS X</title>
+      <link>https://www.harecoded.com/svn-merge-for-mac-os-x-157489/</link>
+      <pubDate>Wed, 11 Feb 2009 06:30:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/svn-merge-for-mac-os-x-157489/</guid>
+      <description>If you want to merge branches in your projects using a Mac OS X, you&#39;ll probably miss how straightforward is to do that with the TortoiseSVN client.
+Mac has many SVN-fashioned clients where you can fall in love when you see the GUI, but when it comes to do a merge it seems that all they have forgotten to include support for it. I haven&#39;t seen any free or comercial application for Mac that integrates all the subversion commands in the same tool without pain.</description>
+    </item>
+    
+    <item>
+      <title>&#34;ipconfig /flushdns&#34; para Mac OS X</title>
+      <link>https://www.harecoded.com/ipconfig-flushdns-mac-os-x-200405/</link>
+      <pubDate>Mon, 09 Feb 2009 20:58:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/ipconfig-flushdns-mac-os-x-200405/</guid>
+      <description>Desde el lanzamiento de Mac OS X Leopard (de esto ya hace unos cuantos d&amp;iacute;as) que ya no funciona el comando lookupd -flushcache que utiliz&amp;aacute;bamos para invalidar la cach&amp;eacute; de DNS de Mac.
+Este comando, que era el equivalente mac de ipconfig /flushdns de Windows ahora se ejecuta usando:
+dscacheutil -flushcache
+Lo dejo aqu&amp;iacute; anotado porqu&amp;eacute; soy flojo de memoria para este tipo de cosas :)</description>
+    </item>
+    
+    <item>
+      <title>Spotify, escuchar música online. Competencia de Last.fm</title>
+      <link>https://www.harecoded.com/spotify-escuchar-musica-online-competencia-lastfm-193785/</link>
+      <pubDate>Tue, 27 Jan 2009 15:13:48 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/spotify-escuchar-musica-online-competencia-lastfm-193785/</guid>
+      <description>Llevo unos d&amp;iacute;as probando Spotify, gracias a una cuenta beta gratuita que me di&amp;oacute; mi compa&amp;ntilde;ero de trabajo Rufino . Para quienes no hayan o&amp;iacute;do hablar de Spotify es un reproductor de m&amp;uacute;sica en streaming (es decir, la m&amp;uacute;sica no est&amp;aacute; en tu ordenador, sino en sus servidores). Hay que bajarse el programa, que de momento est&amp;aacute; disponible s&amp;oacute;lo para Mac y Windows (Linux a trav&amp;eacute;s de Wine).
+La aplicaci&amp;oacute;n promete mucho (no he probado la de pago), pero lo que se se puede hacer con la versi&amp;oacute;n gratuita incita a usar el programa en su forma completa.</description>
+    </item>
+    
+    <item>
+      <title>Borra 10 amigos de Facebook y llévate una Whopper gratis</title>
+      <link>https://www.harecoded.com/borra-10-amigos-facebook-llevate-whopper-gratis-184528/</link>
+      <pubDate>Fri, 09 Jan 2009 18:00:16 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/borra-10-amigos-facebook-llevate-whopper-gratis-184528/</guid>
+      <description>S&amp;iacute;, s&amp;iacute;, como los has le&amp;iacute;do. Sacrifica 10 de tus amigos en Facebook por una hamburguesa. As&amp;iacute; de absurdo.
+Hoy me encuentro en un art&amp;iacute;culo de CNET que los se&amp;ntilde;ores de Burger King han lanzado una campa&amp;ntilde;a de m&amp;aacute;rketing viral que consiste en instalarse una aplicaci&amp;oacute;n de Facebook y borrar 10 de tus amigos. La han bautizado Whopper Sacrifice, y seg&amp;uacute;n parece, al acabar el sacrificio te dan un cup&amp;oacute;n v&amp;aacute;lido para una Whopper gratis (un cup&amp;oacute;n por cuenta Facebook).</description>
+    </item>
+    
+    <item>
+      <title>El fin de las fotos movidas en el iPhone, con Darkroom</title>
+      <link>https://www.harecoded.com/fotos-movidas-iphone-darkroom-183552/</link>
+      <pubDate>Fri, 09 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/fotos-movidas-iphone-darkroom-183552/</guid>
+      <description>Se acab&amp;oacute; que las fotos del iphone salgan movidas!
+Si tienes un pulso tan bueno como el m&amp;iacute;o te habr&amp;aacute;s encontrado m&amp;aacute;s de una vez que haces varias tomas de fotograf&amp;iacute;as y siempre te sale la foto desenfocada o movida. Pero tu tienes paciencia y tiras la misma foto 40 veces hasta que sale bien. El simple hecho de pulsar el bot&amp;oacute;n de fotografiar hace que esa m&amp;iacute;nima presi&amp;oacute;n nos mueva el objetivo y adi&amp;oacute;s foto.</description>
+    </item>
+    
+    <item>
+      <title>El todo o nada para Palm: presentación de Nova en el CES de 2009</title>
+      <link>https://www.harecoded.com/o-nada-palm-presentacion-nova-ces-2009-183065/</link>
+      <pubDate>Wed, 07 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/o-nada-palm-presentacion-nova-ces-2009-183065/</guid>
+      <description>De todos es conocido que Palm, la inventora del concepto pda que por tanto tiempo domin&amp;oacute; el nuevo mercado que tan bien supo crear, atraviesa por una situaci&amp;oacute;n muy, muy dif&amp;iacute;cil despu&amp;eacute;s de varios a&amp;ntilde;os de ir a la deriva. Tras un sistema operativo excelente pero inestable y vetusto (PalmOS) que no ha sabido renovar en 5 a&amp;ntilde;os, una l&amp;iacute;nea de smartphones Treo legendaria pero que ya no puede con la competencia y fiascos como el Foleo, Palm lleva dos temporadas sobreviviendo a base de sacar el en&amp;eacute;simo smartphone Treo con Windows Mobile, inferior a los dem&amp;aacute;s en dise&amp;ntilde;o, tama&amp;ntilde;o y prestaciones.</description>
+    </item>
+    
+    <item>
+      <title>Shoutcast para iphone/ipod touch, espectacular app de radio por Internet</title>
+      <link>https://www.harecoded.com/shoutcast-iphoneipod-touch-espectacular-app-radio-internet-183019/</link>
+      <pubDate>Tue, 06 Jan 2009 22:41:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/shoutcast-iphoneipod-touch-espectacular-app-radio-internet-183019/</guid>
+      <description>&amp;nbsp;  Ya tengo mi primera app esencial para iphone/ipod touch de este año 2009: Shoutcast. Se trata de una de las mejores aplicaciones de radio por Internet (junto a last.fm), ofreciendo más de 25.000 emisoras de todo el mundo y con una interfaz de usuario fantástica para interactuar con ellas. Con tantas emisoras, no es nada difícil encontrar aquel tipo de música que busquemos para un momento dado: por ejemplo, buscad &#39;turk&#39; y Shoutcast os ofrecerá al momento un montón de emisoras de radio turcas, tanto las más comerciales como aquellas perlas en forma de música étnica del país.</description>
+    </item>
+    
+    <item>
+      <title>La actualización de software de Mac se cuelga</title>
+      <link>https://www.harecoded.com/actualizacion-software-mac-se-cuelga-178879/</link>
+      <pubDate>Sun, 28 Dec 2008 11:55:44 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/actualizacion-software-mac-se-cuelga-178879/</guid>
+      <description>Ya es la segunda vez que el sistema operativo me dice que hay nuevas actualizaciones disponibles y que necesito reiniciar el ordenador, y cuando lo hago, la barra de progreso se detiene mientras est&amp;aacute; &#34;Configurando la instalaci&amp;oacute;n&#34;. Para salir de ah&amp;iacute; tengo que cerrar a lo b&amp;eacute;stia (dejar pulsado unos segundos el bot&amp;oacute;n de encendido).
+Pues bien, seg&amp;uacute;n parece el problema es que los ficheros de actualizaci&amp;oacute;n descargados est&amp;aacute;n corruptos o incompletos y basta con borrar todos los contenidos de la carpeta /Library/Updates.</description>
+    </item>
+    
+    <item>
+      <title>Incluir programas externos en Eclipse, Dreamweaver, VIM o Notepad&#43;&#43;</title>
+      <link>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
+      <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
+      <description>Es muy &amp;uacute;til incluir otros programas o macros propias dentro de los editores que utilizamos cada d&amp;iacute;a para desarrollar. A veces necesitamos validar nuestro c&amp;oacute;digo con otro programa, ya sea lanz&amp;aacute;ndolo en un navegador determinado, pas&amp;aacute;ndolo por un script propio, etc...
+En mi caso particular tengo un conjunto de scripts que verifican que el c&amp;oacute;digo sigue unas determinadas reglas de formato, de este forma el c&amp;oacute;digo siempre sigue unos determinados patrones.</description>
+    </item>
+    
+    <item>
+      <title>Más herramientas para Textmate</title>
+      <link>https://www.harecoded.com/mas-herramientas-textmate-166469/</link>
+      <pubDate>Mon, 01 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/mas-herramientas-textmate-166469/</guid>
+      <description>Siguiendo la l&amp;iacute;nea lanzada por Albert, vamos a ver un par de nuevas herramientas que nos facilitar&amp;aacute;n todav&amp;iacute;a m&amp;aacute;s el uso de Textmate.
+&#34;Open in Textmate&#34;, abrir en Textmate desde el Finder
+Se trata de un icono/lanzador muy &amp;uacute;til para colocar en el omnipresente Finder, mediante el cu&amp;aacute;l podemos abrir cualquier fichero/directorio en Textmate. S&amp;oacute;lo hay que arrastrar el fichero (o grupo de ficheros) o directorio/s encima de este nuevo icono, y autom&amp;aacute;ticamente se nos iniciar&amp;aacute; Textmate usando la selecci&amp;oacute;n que le hemos pedido.</description>
+    </item>
+    
+    <item>
+      <title>Textmate: Plugins de PHP, Smarty y Subversion</title>
+      <link>https://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</link>
+      <pubDate>Fri, 28 Nov 2008 16:47:55 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</guid>
+      <description>Textmate es sin duda uno de aquellos editores para Mac OS X de los que hacen quitarse el sombrero. Como muchos otros editores, Textmate tambi&amp;eacute;n soporta plugins (Bundles les llaman) y se pueden instalar un mont&amp;oacute;n de ellos.
+Para los programadores y webmasters que trabajan con PHP hay dos Bundles de especial utilidad: los que permiten Autocompletion para Smarty y Autocompletion para PHP. Para instalarlos simplemente hay que ejectuar en una terminal:</description>
+    </item>
+    
+    <item>
+      <title>Subversion (svn) 1.5 para Mac OS X</title>
+      <link>https://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</link>
+      <pubDate>Wed, 12 Nov 2008 20:54:35 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</guid>
+      <description>Si utilizas distintos sistemas operativos y en ellos utilizas versiones distintas de subversion te habr&amp;aacute;s encontrado alguna vez con el mensaje de error:
+svn: This client is too old to work with working copy &#39;.&#39;; please get a newer Subversion client
+Si eres usuario de Mac y te ha pasado esto, o simplemente necesitas un cliente svn 1.5 para mac puedes descargarte la &amp;uacute;ltima versi&amp;oacute;n de SCPlugin que ya incluye soporte para la 1.</description>
+    </item>
+    
+    <item>
+      <title>Iphone europeo libre y sin permanencia con Symio</title>
+      <link>https://www.harecoded.com/iphone-europeo-libre-permanencia-symio-136763/</link>
+      <pubDate>Wed, 15 Oct 2008 17:01:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/iphone-europeo-libre-permanencia-symio-136763/</guid>
+      <description>Parece que los señores de Simyo (del que ya hemos dicho alguna cosa) están vendiendo en su portal los Iphone liberados al módico precio de 599€  Esto va a ser divertido: Veremos lo que hace Movistar al respeto y como empieza el carrusel de precios de iphone segunda mano. De momento parece que symio no le está dando demasiado bombo...  Yo seguiré con mi teléfono antediluviano, pero para el que tenga ganas de gastar:  https://www.</description>
+    </item>
+    
+    <item>
+      <title>Grabar y ejecutar macros en Vim</title>
+      <link>https://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</link>
+      <pubDate>Tue, 09 Sep 2008 12:08:17 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</guid>
+      <description>Quiz&amp;aacute; VIM sea un editor para freaks, no lo vamos a discutir, pero la verdad es que bien conocido nos puede ahorrar mucho tiempo en hacer las tareas diarias. En este post, explicamos r&amp;aacute;pidamente como grabar una macro y reproducirla N veces.
+Si por ejemplo queremos eliminar de un listado de ficheros de un proyecto las im&amp;aacute;genes, podemos hacer algo como:
+ q (Con esto entramos en modo de grabar)</description>
+    </item>
+    
+    <item>
+      <title>GnomeDo: Quicksilver/Launchy para Gnome (Linux)</title>
+      <link>https://www.harecoded.com/gnomedo-quicksilverlaunchy-gnome-linux-124196/</link>
+      <pubDate>Tue, 02 Sep 2008 12:08:17 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/gnomedo-quicksilverlaunchy-gnome-linux-124196/</guid>
+      <description>Si hace ya mucho tiempo hablamos de Katapult, un lanzador para KDE, ahora damos el turno a Gnome, con el GnomeDo.&amp;nbsp;
+Al igual que en Quicksilver, se pueden descargar varios plugins interesantes&amp;nbsp;que ampl&amp;iacute;an las funcionalidades b&amp;aacute;sicas del programa, que no son simplemente limitarse a abrir documentos y programas tecleando parte de su nombre.
+Lo que m&amp;aacute;s me gusta de estos programas (sin duda el mejor, la versi&amp;oacute;n original de Mac, Quicksilver) es como uno se olvida de navegar por los men&amp;uacute;s y los sistemas de ficheros.</description>
+    </item>
+    
+    <item>
+      <title>Calidad de servicio de Symio. Ranking operadoras movil</title>
+      <link>https://www.harecoded.com/calidad-servicio-symio-ranking-operadoras-movil-124015/</link>
+      <pubDate>Mon, 01 Sep 2008 20:18:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/calidad-servicio-symio-ranking-operadoras-movil-124015/</guid>
+      <description>He estado en todas las compa&amp;ntilde;&amp;iacute;as de tel&amp;eacute;fono m&amp;oacute;vil que hay disponibles en este pa&amp;iacute;s (bueno, la del Carrefour y la de Pepe no las prob&amp;eacute;). Con todas he tenido alg&amp;uacute;n problema:
+Problemas de facturaci&amp;oacute;n excesiva con Movistar, publicidad no solicitada a&amp;uacute;n estando dado de baja de este &#34;servicio&#34;, Vodafone que me cobra a n&amp;uacute;meros que no llamo, accesos a internet que no realizo (en tramos perfectos de 1h a las tantas de la madrugada), falta de cobertura en Orange, publicidad no solicitada otra vez, mensajes de n&amp;uacute;meros de alta tarificaci&amp;oacute;n, llamadas nocturnas para venderme una moto.</description>
+    </item>
+    
+    <item>
+      <title>Borrar muchas fotos en Flickr</title>
+      <link>https://www.harecoded.com/borrar-muchas-fotos-flickr-119623/</link>
+      <pubDate>Sun, 17 Aug 2008 11:20:52 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/borrar-muchas-fotos-flickr-119623/</guid>
+      <description>Parece que los amigos de Flickr no lo han puesto f&amp;aacute;cil si quieres eliminar un &amp;aacute;lbum entero... Hoy me he encontrado que quer&amp;iacute;a borrar m&amp;aacute;s de 400 fotos y me ha costado un ratito ver c&amp;oacute;mo se hac&amp;iacute;a, ya que la opci&amp;oacute;n de Eliminar &amp;Aacute;lbum no borra las fotos, s&amp;oacute;lo la agrupaci&amp;oacute;n, y hacerlo de una en una, pues... como que no. As&amp;iacute; que para hacerlo:
+ Entra en organizar En la barra de navegaci&amp;oacute;n del pi&amp;eacute;, selecciona el &amp;aacute;lbum que quieras borrar Arrastra las fotos que quieras&amp;nbsp;al &amp;aacute;rea central Desplega el men&amp;uacute; de arriba del todo Editar fotos Eliminar  Si borras muchas fotos el proceso puede ser bastante lento.</description>
+    </item>
+    
+    <item>
+      <title>Cómo mover un proyecto en Eclipse</title>
+      <link>https://www.harecoded.com/mover-proyecto-eclipse-114092/</link>
+      <pubDate>Wed, 30 Jul 2008 10:53:03 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/mover-proyecto-eclipse-114092/</guid>
+      <description>A veces necesitamos mover un proyecto de una unidad a otra, o de un&amp;nbsp;volumen&amp;nbsp;a otro, ya sea que estamos en Windows, Linux o Mac. Tenemos configuradas&amp;nbsp;much&amp;iacute;simas opciones, como los workspaces, las carpetas ignoradas, librer&amp;iacute;as externas, codificaci&amp;oacute;n, etc, etc... y no queremos pasar 2 horas m&amp;aacute;s redefiniendo. As&amp;iacute; que deja de hacer la danza del fuego y bailar descalzo sobre las brasas, no es dif&amp;iacute;cil si tienes unas pocas cosas en cuenta.</description>
+    </item>
+    
+    <item>
+      <title>¡Hola Nexoblogs! Ya estamos aquí.</title>
+      <link>https://www.harecoded.com/hola-nexoblogs-aqui-112363/</link>
+      <pubDate>Wed, 23 Jul 2008 23:16:40 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/hola-nexoblogs-aqui-112363/</guid>
+      <description>Harecoded lleva varios a&amp;ntilde;os online contando historias relacionadas principalmente con la tecnolog&amp;iacute;a, combinando art&amp;iacute;culos en espa&amp;ntilde;ol (los menos) &amp;nbsp;y en ingl&amp;eacute;s. Hoy hemos dado un paso adelante y migramos nuestro antiguo sistema wordpress al gestor de contenidos OboLog, formando parte de la red de blogs Nexoblogs.
+De esta forma, pasamos a formar parte de una gran comunidad y aprovechamos las fant&amp;aacute;sticas funcionalidades que ofrece OboLog. Con este cambio, aprovechamos para publicar el nuevo dise&amp;ntilde;o y nos marcamos como objetivo publicar m&amp;aacute;s art&amp;iacute;culos en espa&amp;ntilde;ol ya que nexoblogs es una red de habla hispana.</description>
+    </item>
+    
+    <item>
+      <title>How to watch and record TV with a PC Ubuntu linux</title>
+      <link>https://www.harecoded.com/how-to-watch-and-record-tv-with-pc-ubuntu-linux-99682/</link>
+      <pubDate>Mon, 16 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-watch-and-record-tv-with-pc-ubuntu-linux-99682/</guid>
+      <description>Catalan speakers see: &#34;Com veure la TV amb Ubuntu&#34;
+There are many alternatives when we speak of media centers, but I can&#39;t figure out anything other than a computer. It offers all the functionallity you could want in a well-known interface. That&#39;s why I have a PC in the living room, I browse the Internet using my TV (using an HDMI cable) and now I record stuff when I am not at home.</description>
+    </item>
+    
+    <item>
+      <title>Automatix for Ubuntu 8 is dead</title>
+      <link>https://www.harecoded.com/automatix-for-ubuntu-8-is-dead-96369/</link>
+      <pubDate>Thu, 24 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/automatix-for-ubuntu-8-is-dead-96369/</guid>
+      <description>Today I read on the GetAutomatix Forum that Getautomatix for Ubuntu has been discontinued. That&#39;s sad news since we were all pretty used to it. Everything outside-the-box was installed with a single click and was a great improvement for the end-user experience. Now I can only hope that someone will resume the development with a new project. These guys are now working only for the distro Pioneer Warrior. The original message by the authors is:</description>
+    </item>
+    
+    <item>
+      <title>Gestión de la batería en Macbook, con SmartSleep</title>
+      <link>https://www.harecoded.com/gestion-bateria-macbook-smartsleep-96368/</link>
+      <pubDate>Thu, 28 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/gestion-bateria-macbook-smartsleep-96368/</guid>
+      <description>Si quieres ahondar m&amp;aacute;s en el ahorro de energ&amp;iacute;a de tu mac, en vez de de conformarte con las opciones por defecto del sistema, puedes instalar SmartSleep.prefPane. Una utilidad que te permite configurar qu&amp;eacute; debe hacer el ordenador cuando est&amp;aacute; inactivo, pero teniendo en cuenta la bater&amp;iacute;a restante.&amp;nbsp;
+Si por ejemplo a tu port&amp;aacute;til le queda un 20% de bater&amp;iacute;a probablemente querr&amp;aacute;s que el ahorro sea el m&amp;aacute;ximo, mientras que cuando est&amp;aacute; por encima preferimos algo menos de ahorro y no sufrir los continuos apagones.</description>
+    </item>
+    
+    <item>
+      <title>Exitazo de la primera PHP Barcelona Conference</title>
+      <link>https://www.harecoded.com/exitazo-primera-php-barcelona-conference-96367/</link>
+      <pubDate>Mon, 25 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/exitazo-primera-php-barcelona-conference-96367/</guid>
+      <description>Pues s&amp;iacute;, el s&amp;aacute;bado 23 de Febrero celebramos la primera PHP Barcelona Conference, y fue todo un exitazo: de participaci&amp;oacute;n, de organizaci&amp;oacute;n (no se nos descuajaring&amp;oacute; la agenda), las instalaciones (Bocanord) eran fant&amp;aacute;sticas as&amp;iacute; como los medios que pusieron a nuestra disposici&amp;oacute;n; la mejor sala del complejo, un equipo de proyecci&amp;oacute;n de cine y buena voluntad a raudales.
+Por mi parte, qued&amp;eacute; muy contento con mi presentaci&amp;oacute;n &#34;Optimizaci&amp;oacute;n de aplicaciones PHP - Client Side&#34;</description>
+    </item>
+    
+    <item>
+      <title>Primera Barcelona PHP Conference</title>
+      <link>https://www.harecoded.com/primera-barcelona-php-conference-96366/</link>
+      <pubDate>Fri, 22 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/primera-barcelona-php-conference-96366/</guid>
+      <description>El S&amp;aacute;bado 23 de Febrero tendr&amp;eacute; el placer de realizar una presentaci&amp;oacute;n en la Primera Barcelona PHPConference. La verdad es que alegra (y acojona) que haya tenido tanto &amp;eacute;xito de participaci&amp;oacute;n... &amp;iexcl;Nada menos que 150 asistentes en la primera convocatoria! Estoy seguro que nos lo vamos a pasar fant&amp;aacute;sticamente, haremos bastantes contactos a nivel personal y profesional y podremos sobre todo vernos las caras algunos de los que estamos en este mundillo del PHP por estos lares catalanes.</description>
+    </item>
+    
+    <item>
+      <title>File List: Utilidad para renombrar ficheros en lote para Mac OS X</title>
+      <link>https://www.harecoded.com/file-list-utilidad-renombrar-ficheros-lote-mac-os-x-96365/</link>
+      <pubDate>Mon, 11 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/file-list-utilidad-renombrar-ficheros-lote-mac-os-x-96365/</guid>
+      <description>De la mano de Many Tricks nos llega esta excelente utilidad gratuita para renombrar archivos en lote llamada File list. Nos permite hacer las tareas b&amp;aacute;sicas de renombrado de ficheros, como cambiar la extensi&amp;oacute;n, cambiar may&amp;uacute;sculas/min&amp;uacute;sculas, a&amp;ntilde;adir un n&amp;uacute;mero secuencialmente en los ficheros, reemplazar las apariciones de un texto, hacer tareas de ordenaci&amp;oacute;n o crear nuestras propias expresiones regulares... y siempre nos permite previsualizar el resultado final antes de hacer &#34;</description>
+    </item>
+    
+    <item>
+      <title>Moving to a Macbook core 2 duo</title>
+      <link>https://www.harecoded.com/moving-to-macbook-core-2-duo-96364/</link>
+      <pubDate>Mon, 04 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/moving-to-macbook-core-2-duo-96364/</guid>
+      <description>I have owned 5 laptops for the last 6 years, which are a lot of laptops if you ask me... From a Toshiba Satellite with DSTN screen, going next to an IBM Thinkpad 600x and owning only macs since then: Powerbook G4 550 titanium, Powerbook G4 1Ghz 12&#34; and, since yesterday, a shinny (second handed) Macbook 2 Core Duo.
+All those machines were bought second handed and sold consequently. I have been lucky enough with all of them to never consider buying a new (from stores) laptop.</description>
+    </item>
+    
+    <item>
+      <title>Good news for Christmas</title>
+      <link>https://www.harecoded.com/good-news-for-christmas-96363/</link>
+      <pubDate>Fri, 14 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/good-news-for-christmas-96363/</guid>
+      <description>Well, this has not been a good year overall for me, but it seems it might end a little better than it started...
+FIATC, my burned car&#39;s insurance company is doing a straight good job, so I will get a fair compensation for my car&#39;s lost, hopefully over the next week. Hurrah! Now that it seems 70% of the cash invested in my poor 2 years old Honda Civic is going to be restored, I am looking for some candidates to choose the car that will drive my ways everyday.</description>
+    </item>
+    
+    <item>
+      <title>Burned out</title>
+      <link>https://www.harecoded.com/burned-out-96362/</link>
+      <pubDate>Sun, 09 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/burned-out-96362/</guid>
+      <description>Sadly, the subject of this post is not related in any way to the console game. Following is the actual state of my beloved car (as of beautiful, useful and non problematic), a 2005 Honda Civic which always worked like a charm.
+ The Civic was correctly parked in front of my house when yesterday at 3am the car next to him started burning and the flames took by assault my car as well: this is known as the &#34;</description>
+    </item>
+    
+    <item>
+      <title>Installing Firefox 3 beta on Ubuntu Gutsy, with Firebug!</title>
+      <link>https://www.harecoded.com/installing-firefox-3-beta-on-ubuntu-gutsy-with-firebug-96361/</link>
+      <pubDate>Fri, 23 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/installing-firefox-3-beta-on-ubuntu-gutsy-with-firebug-96361/</guid>
+      <description>If you want to test the Firefox 3 new features on your Ubuntu Gutsy installation, but don&#39;t want to loose all the Firebug niceties for developing web apps, here are some quick and dirty steps:
+ $ sudo apt-get install Firefox-3.0 (upgrades/downgrades to kernel 2.6.20... weird!) &amp;nbsp;Go to the Fireclipse site and download Firebug-1.1.0b10.xpi. This is a modified version from the firebug original, compatible with Firefox 3.&amp;nbsp; Open Firefox 3, install the xpi by drag &amp;amp; drop to the firefox window.</description>
+    </item>
+    
+    <item>
+      <title>Are you addicted to all things Apple?</title>
+      <link>https://www.harecoded.com/are-you-addicted-to-all-things-appler-96360/</link>
+      <pubDate>Tue, 20 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/are-you-addicted-to-all-things-appler-96360/</guid>
+      <description>Here you are a survey regarding addictness to Apple... I have only scored 56%, but I know I can make it better :-)
+56%How Addicted to Apple Are You?
+We actually have at home an iMac 20&#34;, powerbook 12&#34;, ibook G3 13&#34;, ipod touch, ipod nano 2nd generation, ipod 4g 20Gb... It sums up 6 Apple items. I know we are in the middle low range of Apple fetishers, so... How many Apple products do you own?</description>
+    </item>
+    
+    <item>
+      <title>Linux web development. Test web sites in Internet Explorer inside Linux</title>
+      <link>https://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</link>
+      <pubDate>Mon, 19 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</guid>
+      <description>IE: We hate it, but our customers don&#39;t know anything else... So, we must test how Internet Explorer renders our websites. It&#39;s a bit unpractical to boot from another partition, or change your machine for testing. There are a couple of useful practices:
+ Install a Virtual Machine for Linux, such as Virtualbox with a windows XP in it Install IE5, IE5.5 or IE6 as a linux standalone application with IEs4Linux  I have a Windows XP with 128MB RAM for Internet Explorer 7 testing inside my VirtualBox for linux.</description>
+    </item>
+    
+    <item>
+      <title>Recovering space on an iphone or ipod touch</title>
+      <link>https://www.harecoded.com/recovering-space-on-an-iphone-or-ipod-touch-96358/</link>
+      <pubDate>Fri, 16 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/recovering-space-on-an-iphone-or-ipod-touch-96358/</guid>
+      <description>When you decide that it is worth to risk your ipod touch&#39;s warranty in order to install a vast number of third party apps, you are sure to end filling up all the space dedicated to the ipod operative system. This ain&#39;t good for a lot of reasons: you won&#39;t be able to install new software and some will fail (as of YouTube not being able to create its cache files).</description>
+    </item>
+    
+    <item>
+      <title>Quicksilver goes opensource</title>
+      <link>https://www.harecoded.com/quicksilver-goes-opensource-96357/</link>
+      <pubDate>Thu, 08 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/quicksilver-goes-opensource-96357/</guid>
+      <description>The excellent launcher (and much more) Quicksilver that Mac users have been using for so long has been opensourced. This is great news, since more developers can join the product and improve it and extend it.
+
+My hope is that someone will make a cross-platform version, or other projects like Launchy or gnome-launch will add more features thanks to quicksilver knowledgebase. The code can be reached via Google Code.</description>
+    </item>
+    
+    <item>
+      <title>ipod touch first impressions, a great experience so far</title>
+      <link>https://www.harecoded.com/ipod-touch-first-impressions-great-experience-so-far-96356/</link>
+      <pubDate>Mon, 29 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/ipod-touch-first-impressions-great-experience-so-far-96356/</guid>
+      <description>A few days ago I said: ipod touch, I&#39;ll pass on this one. Can you guess what happened next? Well, it is pretty obvious... I bought one. I was extremely happy with an ipod nano 8Gb I bought 2 weeks ago, but a colleague of mine came to the office with a shinny new ipod touch, bought at the Apple store. One touch that had no TFT contrast problems, one touch jailbreaked with lots of apps, one touch with a terminal, ssh access and even an ebook reader.</description>
+    </item>
+    
+    <item>
+      <title>Nautilus subversion integration tool. Execute SVN commands with Gnome scripts</title>
+      <link>https://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</link>
+      <pubDate>Thu, 25 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</guid>
+      <description>I have been using subversion (svn) for years from the command line... But some months ago I changed my job and I started using windows environments. And I must admit TortoiseSVN is the best GUI SVN client i&#39;ve seen ever before. While my needs are satisfied in Windows with TortoiseSVN and in Mac OS X with SCPlugin and SvnX, I was lacking a subversion tool to manage my files while exploring files in my Ubuntu (nautilus file explorer).</description>
+    </item>
+    
+    <item>
+      <title>Upgrade to Ubuntu Gutsy not so smooth and udevd 100% cpu usage</title>
+      <link>https://www.harecoded.com/upgrade-to-ubuntu-gutsy-not-so-smooth-and-udevd-100-cpu-usage-96354/</link>
+      <pubDate>Wed, 24 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/upgrade-to-ubuntu-gutsy-not-so-smooth-and-udevd-100-cpu-usage-96354/</guid>
+      <description>I upgraded my dell computer at work from Ubuntu Feisty to Ubuntu Gutsy, but I have to say that this time the upgrade went far less smoother than previous ones. The process halted the computer at some point in time, I had to start it up again, and in the end I lost all my compiz - beryl configurations (3d desktop, effects), which I have not been able to recover by now.</description>
+    </item>
+    
+    <item>
+      <title>Automatic keylock for windows mobile smartphone edition</title>
+      <link>https://www.harecoded.com/automatic-keylock-for-windows-mobile-smartphone-edition-96353/</link>
+      <pubDate>Thu, 04 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/automatic-keylock-for-windows-mobile-smartphone-edition-96353/</guid>
+      <description>I&#39;m having some fun testing a Samsung i600 (a.k.a. Blackjack) windows mobile smartphone edition. I will probably sell it to someone else who has more respect for Microsoft software, but the Samsung hardware is top notch nonetheless, and I&#39;m liking the device more and more.
+Samsung tries very hard to disguise windows on this mobile, and the result is very good, frankly. Just like Nokia&#39;s Symbian 3rd edition mobiles, this Samsung i600 comes with no automatic keylock, which is INSANE.</description>
+    </item>
+    
+    <item>
+      <title>Como se formatea un Samsung SGH-i600v</title>
+      <link>https://www.harecoded.com/se-formatea-samsung-sgh-i600v-96352/</link>
+      <pubDate>Mon, 01 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/se-formatea-samsung-sgh-i600v-96352/</guid>
+      <description>Para formatear un tel&amp;eacute;fono (hard reset) samsung sgh i600v como los que proporciona Vodafone, hay que hacer un ejercicio de dedos muy interesante. Primero de todo apagar el tel&amp;eacute;fono, y a continuaci&amp;oacute;n pulsar simult&amp;aacute;neamente TODO esto:
+  Arriba Ok (si tienes un dedo gordo pues ya est&amp;aacute;n estos dos) N&amp;uacute;mero 0 Bot&amp;oacute;n volver (el del lateral debajo de la rueda)&amp;nbsp; Sin soltar todo esto dejar pulsado el bot&amp;oacute;n de encendido (igual necesitas un pi&amp;eacute;)&amp;nbsp;   Te saldr&amp;aacute; un mensaje con una tipografia de dudosa seriedad indic&amp;aacute;ndote que presiones el n&amp;uacute;mero 1 si quieres seguir con la broma.</description>
+    </item>
+    
+    <item>
+      <title>Ipod touch, I&#39;ll pass on this one</title>
+      <link>https://www.harecoded.com/ipod-touch-ill-pass-on-this-one-96351/</link>
+      <pubDate>Thu, 27 Sep 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/ipod-touch-ill-pass-on-this-one-96351/</guid>
+      <description>Last week I sold my 30Gb ipod video for a bargain prize, just anticipating the shinny acquisition of a new generation ipod. I was never very happy with the ipod video anyways, being the main gripe its short battery life, which could only handle 2 hours of video playback and no more than 10 hours of music. I was never able to abstract from this issue, always observing the battery meter on the screen.</description>
+    </item>
+    
+    <item>
+      <title>Overburning script for Mac OS X, Record large films in Mac</title>
+      <link>https://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</link>
+      <pubDate>Sat, 08 Sep 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</guid>
+      <description>If you use the Finder burning tool to create your CDs, or an application that doesn&#39;t support overburning (surpass a little bit the CD or DVD maximum size) I am sure that some time you got anrgy.
+Sometimes are films, sometimes it&#39;s just one more song in the CD library you are creating... The thing is that you have 703MB and you cannot burn a 700MB CD. It won&#39;t happen again!</description>
+    </item>
+    
+    <item>
+      <title>XRAY: Bookmarklet para desarrolladores web</title>
+      <link>https://www.harecoded.com/xray-bookmarklet-desarrolladores-web-96349/</link>
+      <pubDate>Tue, 07 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/xray-bookmarklet-desarrolladores-web-96349/</guid>
+      <description>Hoy he descubierto XRAY, un bookmarklet que funciona para Firefox, Safari, Camino o Mozilla y que permite ver las propiedades de un elemento de la pantalla haciendo click sobre &amp;eacute;l.
+No es para nada comparable a FireBug o el Safari WebKit pero puede resultar igualmente interesante. Por su naturaleza de bookmarklet, no es necesaria ninguna instalaci&amp;oacute;n, s&amp;oacute;lo hace falta arrastar el v&amp;iacute;nculo que ofrecen desde la web a la barra de herramientas del navegador.</description>
+    </item>
+    
+    <item>
+      <title>Spartans and their laconic phrases</title>
+      <link>https://www.harecoded.com/spartans-and-their-laconic-phrases-96348/</link>
+      <pubDate>Mon, 16 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/spartans-and-their-laconic-phrases-96348/</guid>
+      <description>From the Wikipedia: A &#34;Laconic phrase&#34; is a very short or terse statement, named after Laconia, an area of modern and ancient Greece. Laconians focused less on the development of education, arts, and literature.&amp;nbsp;Some view this as having contributed to the Laconian characteristically blunt speech.
+The Spartans were especially famous for their dry wit, which we now know as &#34;laconic humour&#34; after the region and its people. This can be contrasted with the &#34;</description>
+    </item>
+    
+    <item>
+      <title>Amazon S3: un servicio bueno, bonito y barato pero nada práctico.</title>
+      <link>https://www.harecoded.com/amazon-s3-servicio-bueno-bonito-barato-nada-practico-96347/</link>
+      <pubDate>Thu, 12 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/amazon-s3-servicio-bueno-bonito-barato-nada-practico-96347/</guid>
+      <description>Recientemente compr&amp;eacute; (y luego cancel&amp;eacute;) una cuenta de Amazon Simple Storage Service (Amazon S3). Un espacio de almacenamiento virtual, dig&amp;aacute;mosle un disco duro, a un precio muy competitivo.
+Con S3, pagas tan s&amp;oacute;lo lo que usas. En dos conceptos diferentes: por espacio que consumes al mes, y por peticiones que recibe el servidor.
+Para hacernos una r&amp;aacute;pida idea de los precios, si tenemos que almacenar unos 10GB nos costar&amp;iacute;an 1,5$ al mes.</description>
+    </item>
+    
+    <item>
+      <title>Screencast: Cómo capturar tu escritorio Linux en una película</title>
+      <link>https://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</link>
+      <pubDate>Wed, 04 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</guid>
+      <description>Si quieres grabar una pel&amp;iacute;cula para ense&amp;ntilde;ar al mundo lo que est&amp;aacute;s haciendo en tu escritorio Linux, necesitas recordMyDesktop, una aplicaci&amp;oacute;n que te permite capturar la sesi&amp;oacute;n en formato video utilizando los formatos abiertos OGG Vorbis y theora. Aunque se puede utilizar desde la l&amp;iacute;nea de comandos tambi&amp;eacute;n est&amp;aacute;n disponibles dos versi&amp;oacute;nes gr&amp;aacute;ficas (GTK y PyQT).
+
+Si utilizas la versi&amp;oacute;n 7.04 de Ubuntu (Fesity) puedes instalarlo usando el comando:</description>
+    </item>
+    
+    <item>
+      <title>Google Desktop for Linux</title>
+      <link>https://www.harecoded.com/google-desktop-for-linux-96344/</link>
+      <pubDate>Fri, 29 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/google-desktop-for-linux-96344/</guid>
+      <description>As a mac user at home, I&#39;ve depended for a long time upon Spotlight to find stuff in my computer. Not the perfect solution, but at least does the trick. As an Ubuntu Linux user at work, I tried Beagle a long time ago but it was too unstable for my tastes... and never came back. Now comes along Google Desktop for Linux, with a lot of politeness and power. Hurrah!</description>
+    </item>
+    
+    <item>
+      <title>How to convert MP3 to AAC, or how to set MP3 as ringtone in your mobile phone</title>
+      <link>https://www.harecoded.com/how-to-convert-mp3-to-aac-or-how-to-set-mp3-as-ringtone-in-your-mobile-phone-96342/</link>
+      <pubDate>Mon, 25 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-convert-mp3-to-aac-or-how-to-set-mp3-as-ringtone-in-your-mobile-phone-96342/</guid>
+      <description>As if I were a teenager, yesterday I found an mp3 song that I hadn&#39;t heard in maybe ten years and a smile came to my face when I imagined that it could be played in my mobile when I need a loud tone (I am on of those who preffer having it silent all the time)
+So I passed the MP3 directly to the mobile but it failed, the mobile can play it but can&#39;t be set as ringtone.</description>
+    </item>
+    
+    <item>
+      <title>Subtle differences between Safari for Windows and Mac?</title>
+      <link>https://www.harecoded.com/subtle-differences-between-safari-for-windows-and-macr-96343/</link>
+      <pubDate>Mon, 25 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/subtle-differences-between-safari-for-windows-and-macr-96343/</guid>
+      <description>I have tested Safari for Windows during ONE minute, but I think I have seen it all....
+While I was testing a layout in progress for a new site (appareantly was working in all browsers) I found a subtle difference.... Nothing to worry about, though (sorry for the small image):
+
+Shame on you Apple!</description>
+    </item>
+    
+    <item>
+      <title>Introspección gadgetera</title>
+      <link>https://www.harecoded.com/introspeccion-gadgetera-96341/</link>
+      <pubDate>Wed, 20 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/introspeccion-gadgetera-96341/</guid>
+      <description>A ra&amp;iacute;z de unos art&amp;iacute;culos (1 y 2) muy interesantes del compa&amp;ntilde;ero Serantes, &#39;gadgetero&#39; e inductor de compras donde los haya, me he puesto tambi&amp;eacute;n a pensar en mi relaci&amp;oacute;n con los aparatos electr&amp;oacute;nicos que pueblan mis estanter&amp;iacute;as y mochila...
+Viene a ser una excusa cualquiera para autoanalizarme, para realizar una introspecci&amp;oacute;n aunque sea s&amp;oacute;lo en esta peque&amp;ntilde;a parcela de mi vida. Como David, realizar&amp;eacute; un breve an&amp;aacute;lisis donde colocar&amp;eacute; en dos zonas bien diferenciadas los dispositivos electr&amp;oacute;nicos que uso en la actualidad:</description>
+    </item>
+    
+    <item>
+      <title>Servicios web basados en REST</title>
+      <link>https://www.harecoded.com/servicios-web-basados-rest-96340/</link>
+      <pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/servicios-web-basados-rest-96340/</guid>
+      <description>Os dejo un enlace a un fant&amp;aacute;stico art&amp;iacute;culo de mi compa&amp;ntilde;ero Oriol Jim&amp;eacute;nez sobre servicios web basados en REST. Desde luego, c&amp;oacute;mo se agradece cuando la gente no se limita a postear sobre un tema a la ligera, sino que en cambio se moja y dedica unas horillas de su vida a explicar con todo lujo de detalles lo que considera de inter&amp;eacute;s para los dem&amp;aacute;s.</description>
+    </item>
+    
+    <item>
+      <title>A fantastic rss reader: readermini.com</title>
+      <link>https://www.harecoded.com/fantastic-rss-reader-readerminicom-96339/</link>
+      <pubDate>Sun, 17 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/fantastic-rss-reader-readerminicom-96339/</guid>
+      <description>I have been searching for a good rss reader since I switched my Nokia N800 for a Nokia 770, as the latter doesn&#39;t come with a default application for handling news feeds. And since I had already found a truly perfect image viewer, this became the last software I needed to complete what was a fantastic mobile computer by the way.
+I am a big fan of Google Reader, to the point that I stopped using Netnewswire, one of the best Mac OSX apps in my opinion.</description>
+    </item>
+    
+    <item>
+      <title>Cómo reiniciar o resetear un ipod colgado</title>
+      <link>https://www.harecoded.com/reiniciar-o-resetear-ipod-colgado-96338/</link>
+      <pubDate>Wed, 13 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/reiniciar-o-resetear-ipod-colgado-96338/</guid>
+      <description> Si se te ha colgado el iPod (la pantalla se ha quedado encendida y no responde a nada) tienes que seguir estos pasos:  Bloquearlo (pestaña hold) y desbloquearlo  Mantener pulsados el botón central (el del medio) y el menú a la vez por almenos 6 segundos    A mi hoy me ha funcionado :)  El artículo original de apple aquí </description>
+    </item>
+    
+    <item>
+      <title>Basic and simple iptables configurations for home users</title>
+      <link>https://www.harecoded.com/basic-and-simple-iptables-configurations-for-home-users-96337/</link>
+      <pubDate>Tue, 12 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/basic-and-simple-iptables-configurations-for-home-users-96337/</guid>
+      <description>OpenBSD has been always my prefered distribution when I have to install a firewall based on a *NIX machine. The PF rules are what I am used to see. But last year I had to write several configurations for a debian machine using iptables which I am not really used to. Since I tend to forget these things, I paste here a basic configuration, if you want to use it, paste this in your desired starting script.</description>
+    </item>
+    
+    <item>
+      <title>Comentarios a la presentación de Steve Jobs en la Apple WWDC 2007</title>
+      <link>https://www.harecoded.com/comentarios-presentacion-steve-jobs-apple-wwdc-2007-96335/</link>
+      <pubDate>Tue, 12 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/comentarios-presentacion-steve-jobs-apple-wwdc-2007-96335/</guid>
+      <description>Las expectativas respecto a las novedades que Steve Jobs iba a desvelar ayer en la conferencia para desarrolladores de Apple que tiene lugar estos d&amp;iacute;as eran tan altas que parece que algunos se han quedado con mucha hambre todav&amp;iacute;a... hambre de hardware.
+ Y es que Steve present&amp;oacute; durante largo rato el nuevo Mac OSX Leopard y habl&amp;oacute; al final de la sesi&amp;oacute;n de ciertos aspectos del iPhone (que en breve se comercializar&amp;aacute; en EEUU), pero dada la gran cantidad de rumores respecto a nuevo hardware que hab&amp;iacute;an estado circulando los &amp;uacute;ltimos meses por la blogsfera mac, parece que se qued&amp;oacute; bastante corto.</description>
+    </item>
+    
+    <item>
+      <title>Un slogan desacertado?</title>
+      <link>https://www.harecoded.com/slogan-desacertador-96336/</link>
+      <pubDate>Tue, 12 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/slogan-desacertador-96336/</guid>
+      <description>Hoy he entrado en la web de apple para consultar precio del dock del iPod y me he econtrado con esto:
+&amp;nbsp;Aunque en el site de apple debajo del slogan hay una im&amp;aacute;gen clarificadora con dos portatiles a diferente resoluci&amp;oacute;n de pantalla es inevitable que a todos nos venga a la cabeza la competencia. O es que soy yo que tengo una mente sucia? A ver lo que dura :)</description>
+    </item>
+    
+    <item>
+      <title>Browsing MySQL databases inside Eclipse without having a local mysql server or client</title>
+      <link>https://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</link>
+      <pubDate>Mon, 11 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</guid>
+      <description>EclipseSQL is an aid to people programming with databases. Allows to make queries, browse tables, change structures and all the common operations performed in databases. This is how it looks like:
+
+The application can be downloaded as a standalone (screenshot) although since I am using eclipse to develop PHP (PDT plugin) and Java code, what I find more interesting is the plugin version. By installing the plugin another &#34;View&#34; called SQL is available, where you can browse the databases.</description>
+    </item>
+    
+    <item>
+      <title>Why I Changed my brand new Nokia N800 For a 770 (and something more)</title>
+      <link>https://www.harecoded.com/why-i-changed-my-brand-new-nokia-n800-for-770-and-something-more-96334/</link>
+      <pubDate>Sat, 09 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/why-i-changed-my-brand-new-nokia-n800-for-770-and-something-more-96334/</guid>
+      <description>Nokia had a relative success selling the first incarnation of its Internet tablet concept: the Nokia 770.
+Quietly and without much advertising, the company managed to grab the attention of a lot of geeks (mostly in the Linux domain) who quickly saw a device full of software hackabilities (a.k.a. possibilities). That is exactly the level of attention that Palm pretends/needs to make the Foleo the start of a successful line of products, but if they do not opensource its.</description>
+    </item>
+    
+    <item>
+      <title>De conferencias con una Psion 5mx</title>
+      <link>https://www.harecoded.com/conferencias-psion-5mx-96331/</link>
+      <pubDate>Mon, 04 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/conferencias-psion-5mx-96331/</guid>
+      <description>Hace unos d&amp;iacute;as tuve la oportunidad de asistir a la PHP Conference 2007 spring edition celebrada en Stuttgart, Alemania. Dada la experiencia de conferencias anteriores, sab&amp;iacute;a al 100% que no quer&amp;iacute;a llevar un port&amp;aacute;til a las sesiones... Lo he hecho otras veces y odio tener que arrastrar los kilos de tecnolog&amp;iacute;a a todas partes para usarlos s&amp;oacute;lo en contadas ocasiones. Pero sobre todo, odio la dependenia que provoca de los enchufes.</description>
+    </item>
+    
+    <item>
+      <title>Automatic code formatting for PHP in your editor or CVS/SVN</title>
+      <link>https://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</link>
+      <pubDate>Mon, 28 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</guid>
+      <description>PhpCodeBeautififier is a free tool for PHP programmers that formats PHP files to get a nice presentation and keeps the programmer sanity. We all programmers have our own way of representing code lines, but when the code is shared amongst many programmers it has to be formatted following some conventions.
+PhpCodeBeautifier allows you to specify those patterns you&#39;d like to follow and it will format every file for you. The idea is simple, you continue on being that little unchangeable typer and delegate the &#34;</description>
+    </item>
+    
+    <item>
+      <title>Quicksilver substitute for windows</title>
+      <link>https://www.harecoded.com/quicksilver-substitute-for-windows-96329/</link>
+      <pubDate>Fri, 27 Apr 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/quicksilver-substitute-for-windows-96329/</guid>
+      <description>Some time ago I published an article about an application similar to quicksilver in Linux. Now, after changing my job to another company and being forced to use Windows, the first thing I did was looking for a launcher to quickly open documents and applications. The result was a skinnable program with a simple interface called Launchy . It&#39;s free. With that app, I open a new category in this blog called Windows: I would never believed that i were going to do this :| Enjoy Launchy.</description>
+    </item>
+    
+    <item>
+      <title>Difficult to implement a GTD system on PalmOS... too many choices!!!</title>
+      <link>https://www.harecoded.com/difficult-to-implement-gtd-system-on-palmos-too-many-choices-96328/</link>
+      <pubDate>Tue, 06 Feb 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/difficult-to-implement-gtd-system-on-palmos-too-many-choices-96328/</guid>
+      <description>These last days I am trying to be very serious about implementing GTD on my Treo 650. This is something that I have been wanting to do for quite some time, but I have been delaying as it demanded to sit for a while and start playing with different strategies to find a system that suits my needs and makes me comfortable with the organizational burden.
+There are several applications on Palm devices that can help us with this GTD implementation: outliners (shadow plan, bonsai comes to mind), project managers (progect), wiki apps (note studio), time managers (Datebk), plain vanilla apps (Palm To Do, Calendar, Contacts), etc.</description>
+    </item>
+    
+    <item>
+      <title>A free good cross-platform CSS editor</title>
+      <link>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</link>
+      <pubDate>Fri, 02 Feb 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</guid>
+      <description>There are many applications where you can edit your Cascading Style Sheets (CSS) in Linux, Windows or Mac, but specifically in my Ubuntu I haven&#39;t found an application like CSSED (GTK). It supports auto-completion, really useful wizards, color pickers, preview and a long etcetera. You can go directly to the download page and see specific instructions for Gentoo, BSD, Mac OS X (via Fink), Windows ... or if you are an ubuntu or debian user just type in a terminal (or through the synaptic manager):</description>
+    </item>
+    
+    <item>
+      <title>Como conectarse a internet con un móvil symbian y Ubuntu</title>
+      <link>https://www.harecoded.com/conectarse-internet-movil-symbian-ubuntu-96326/</link>
+      <pubDate>Sat, 16 Dec 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/conectarse-internet-movil-symbian-ubuntu-96326/</guid>
+      <description>En un art&amp;iacute;culo anterior habl&amp;aacute;bamos sobre c&amp;oacute;mo conectarse a internet con un m&amp;oacute;bil nokia 3G y macintosh. Esta vez, nos conectaremos desde un linux (Ubuntu 6.10).
+Primero de todo el m&amp;oacute;bil tiene que estar bien configurado para hacer de m&amp;oacute;dem. Estos pasos son los mismos que ya hemos explicado anteriormente, en cuanto a Linux, para no andar instalando m&amp;aacute;s software del que viene por defecto usaremos el programa wvdial.
+Manos a la obra.</description>
+    </item>
+    
+    <item>
+      <title>Your Logitech webcam in OS X</title>
+      <link>https://www.harecoded.com/your-logitech-webcam-in-os-x-96325/</link>
+      <pubDate>Wed, 22 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/your-logitech-webcam-in-os-x-96325/</guid>
+      <description>Tired of chatting or using Skype without video? For all of us who didn&#39;t have an Apple&#39;s iSight camera it&#39;s possible to use almost any PC USB webcam with Macam. Macam is a driver for USB webcams on Mac OS X. It allows hundreds of USB webcams to be used by many Mac OS X video-aware applications. Macam installation is very easy, you only have to copy the Macam component under /Library/Quicktime in your system.</description>
+    </item>
+    
+    <item>
+      <title>Gmail en Nokia e61</title>
+      <link>https://www.harecoded.com/gmail-nokia-e61-96324/</link>
+      <pubDate>Mon, 13 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/gmail-nokia-e61-96324/</guid>
+      <description>Hace tiempo que no publicaba, pero os aseguro que esta vez ha sido por una buena causa... estoy configurando mi nuevo gadget, un Nokia e61, que finalmente y por lo que estoy viendo va a conseguir una cosa impensable... &amp;iexcl;desterrar de mi vida los dispositivos PalmOS!
+Falta muy poco para que eso ocurra, un par de aplicaciones no m&amp;aacute;s, pero ya no hay vuelta atr&amp;aacute;s :-)&amp;nbsp;Prometo hacer un review m&amp;aacute;s adelante, cuando tenga una base estable de aplicaciones instaladas, ya que no quiero publicar la en&amp;eacute;sima versi&amp;oacute;n del art&amp;iacute;culo &#34;</description>
+    </item>
+    
+    <item>
+      <title>Cómo conectarse a Internet con un móvil symbian vodafone y OS X</title>
+      <link>https://www.harecoded.com/conectarse-internet-movil-symbian-vodafone-os-x-96323/</link>
+      <pubDate>Thu, 19 Oct 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/conectarse-internet-movil-symbian-vodafone-os-x-96323/</guid>
+      <description>Si te quieres conectar a internet utilizando tu m&amp;oacute;vil Vodafone via blueetooth (tambi&amp;eacute;n es posible hacerlo v&amp;iacute;a infrarrojos, aunque es m&amp;aacute;s lento que el caballo del malo) aqu&amp;iacute; van algunas observaciones antes de que te empiezes a tirar de los pelos:
+ Asegurate que tu m&amp;oacute;vil tiene acceso a Internet En el menu del m&amp;oacute;vil dirigete a: Herramientas &amp;raquo; Ajustes &amp;raquo; Conexi&amp;oacute;n &amp;raquo; Paquetes de datos &amp;raquo; Punto de acceso. Aqu&amp;iacute; debes tener airtelnet.</description>
+    </item>
+    
+    <item>
+      <title>Passion &amp; progression</title>
+      <link>https://www.harecoded.com/passion-progression-96322/</link>
+      <pubDate>Sat, 23 Sep 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/passion-progression-96322/</guid>
+      <description>Please, let me allow myself to take this graph out of context and publish it here with a slightly different meaning: Without passion, there is no way to excel on anything in this life. </description>
+    </item>
+    
+    <item>
+      <title>How to disable the opening of XTerm when you start X11 on OS X</title>
+      <link>https://www.harecoded.com/how-to-disable-the-opening-xterm-when-you-start-x11-on-os-x-96321/</link>
+      <pubDate>Tue, 04 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-disable-the-opening-xterm-when-you-start-x11-on-os-x-96321/</guid>
+      <description>Some applications like OpenOffice II, in OS X, run under X11 platform. Due to this, when you open this type of applications the X11 environment starts, opening by default XTerm terminal. To avoid this behaviour you have to edit, by hand, the init file of X11. This file is placed under
+/etc/X11/xinit/xinitrc and the only thing you have to do is to comment the line where it starts XTerm, that is#xterm</description>
+    </item>
+    
+    <item>
+      <title>Xubuntu: I&#39;ve lost the menu!!</title>
+      <link>https://www.harecoded.com/xubuntu-ive-lost-the-menu-96320/</link>
+      <pubDate>Tue, 13 Jun 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/xubuntu-ive-lost-the-menu-96320/</guid>
+      <description>Don&#39;t panic!
+It seems to be common to lose the right-button menu when you open the menu editor (I had a &#39;Segment violation&#39; error). To recover it, open a terminal, and type:
+ cp /etc/xdg/xfce4/desktop/menu.xml ~/.config/xfce4/desktop/menu.xml
+That&#39;s all. If you have problems because the directory doesn&#39;t exist, create it first:
+mkdir ~/.config/xfce4/desktop</description>
+    </item>
+    
+    <item>
+      <title>RSS Readers: NetNewsWire free alternative</title>
+      <link>https://www.harecoded.com/rss-readers-netnewswire-free-alternative-96319/</link>
+      <pubDate>Tue, 16 May 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/rss-readers-netnewswire-free-alternative-96319/</guid>
+      <description>I&#39;ve tried several free RSS readers but the commercial NetNewsWire always seemed better to my opinion. Recentlly, I discovered Vienna which could be a great substitute. Tab navigation, smart folders, styles.... I&#39;ll give it a long try :)</description>
+    </item>
+    
+    <item>
+      <title>Comments closed</title>
+      <link>https://www.harecoded.com/comments-closed-96318/</link>
+      <pubDate>Fri, 21 Apr 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/comments-closed-96318/</guid>
+      <description>Fed up of deleteing spam, I decided to disable comments for a while. I will open only comments on a few posts.</description>
+    </item>
+    
+    <item>
+      <title>Essential applications for Mac OS X</title>
+      <link>https://www.harecoded.com/essential-applications-for-mac-os-x-96317/</link>
+      <pubDate>Sun, 02 Apr 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/essential-applications-for-mac-os-x-96317/</guid>
+      <description>Recently I installed from scratch a couple of machines, and as long I were needing my applications I generated this list of essential ones:
+   Quicksilver Free. Quicksilver is a launcher. When you call Quicksilver through the key combination Ctrl+space and you start typing, it suggests an application, document or file that contains that letters you typed in any place. Then you can open it, send it by email, reveal it on Finder and a long long etc.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu: Play mp3, extract RAR files, install the java plugin... and much more</title>
+      <link>https://www.harecoded.com/ubuntu-play-mp3-extract-rar-files-install-the-java-plugin-and-much-more-96316/</link>
+      <pubDate>Sun, 02 Apr 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/ubuntu-play-mp3-extract-rar-files-install-the-java-plugin-and-much-more-96316/</guid>
+      <description>Recentlly I posted on How to play mp3 with ubuntu and now I am posting how to do it again but also:
+ How to install the Java Plugin How to install the Flash Plugin How to play windows videos RealPlayer Extract RAR files, ACE files and 7-Zip files Enable the Num Lock at system startup Install microsoft fonts and much much more...  The solution arrives by installing EasyUbuntu</description>
+    </item>
+    
+    <item>
+      <title>A little Ajax library that makes a difference</title>
+      <link>https://www.harecoded.com/little-ajax-library-that-makes-difference-96315/</link>
+      <pubDate>Tue, 28 Mar 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/little-ajax-library-that-makes-difference-96315/</guid>
+      <description>It is a typical situation in the web developing arena that when a new technology emerges so strongly as Ajax or the so called Web 2.0 have done, programmers tend to use it to their last consequences. So we may go from a nearly 100% server side-processing-with-pages-refresh paradigm to establish multiple HTTPRequest petitions on every little interaction between the visitors and our application, to better serve their user experience.
+But as some people have warned us before (on uk.</description>
+    </item>
+    
+    <item>
+      <title>Quicksilver for Linux</title>
+      <link>https://www.harecoded.com/quicksilver-for-linux-96314/</link>
+      <pubDate>Tue, 21 Mar 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/quicksilver-for-linux-96314/</guid>
+      <description>Quicksilver is for me the most useful application in the OS X environment. Few days ago someone shown me the same concept ported to Linux: Katapult. It&#39;s a long way to walk for Katapult to become as much powerful as Quicksilver is, but it gives to Linux users a very useful functionallity. Despite Katapult is a KDE application I&#39;ve been running it in Ubuntu (Gnome) without trouble. If you want to install it (ubuntu): sudo apt-get install katapult In the picture you can see how I started typing &#34;</description>
+    </item>
+    
+    <item>
+      <title>How to play MP3 with Ubuntu</title>
+      <link>https://www.harecoded.com/how-to-play-mp3-with-ubuntu-96313/</link>
+      <pubDate>Fri, 17 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-play-mp3-with-ubuntu-96313/</guid>
+      <description>It&#39;s usual to find many distributions without MP3 support due to licensing issues. If you have MP3 files and don&#39;t know how to play them do the following:
+ Open the terminal Type sudo gedit /etc/apt/sources.list Remove comments to packages (This is erasing the # characters in lines starting with ##deb) Save changes and close gedit Update the packages sudo apt-get update Install the mulitmedia codecs:  sudo apt-get install gstreamer0.</description>
+    </item>
+    
+    <item>
+      <title>Palm universal keyboard y sus malos drivers</title>
+      <link>https://www.harecoded.com/palm-universal-keyboard-malos-drivers-96312/</link>
+      <pubDate>Thu, 16 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/palm-universal-keyboard-malos-drivers-96312/</guid>
+      <description>Ya ha pasado más un mes desde que destrocé la pantalla de mi Tungsten C en un muy desafortunado golpe que tuve contra una pilona anti-coches, en lo que estaba siendo un agradable paseo por la zona comercial de Dublín.  No me di cuenta de las consecuencias del golpe hasta que llegué al hotel, pero nada más encender la pda ví que la cosa no tenía solución. Consultando el servicio técnico de Palm a través de su web encontré que una sustitución de pantalla la cobran a unos 180 euros, prácticamente lo que cuesta otra TC en el mercado de ocasión (que de hecho es de donde la había adquirido).</description>
+    </item>
+    
+    <item>
+      <title>Obfuscate e-mails in PHP</title>
+      <link>https://www.harecoded.com/obfuscate-mails-in-php-96310/</link>
+      <pubDate>Mon, 09 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/obfuscate-mails-in-php-96310/</guid>
+      <description>Exactly one year ago, I was complaining to one of my clients ISP about the increasing volume of spam those people were receiving lately. The ISP answered me with some not particularly useful advices, except for one: they had inspected my client&#39;s website and had found that the contacts section had a list of clean e-mail addresses, happily standing there to the delight of some spammer&#39;s spider bot. I had put them there in the good-old format mailto:dontphunk@withmyheart.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu doesn&#39;t come with sshd by default</title>
+      <link>https://www.harecoded.com/ubuntu-doesnt-come-with-sshd-by-default-96309/</link>
+      <pubDate>Wed, 04 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/ubuntu-doesnt-come-with-sshd-by-default-96309/</guid>
+      <description>I&#39;ve been stuck to Mandriva (formerly Mandrake) as my preferred Linux distro for over 2 years with a positive experience while testing dozens of different distros all that time. Today is one of those days and I decided to switch to Ubuntu (just to see what&#39;s out of the Matrix)
+My first suprise with Ubuntu is that didn&#39;t come with the SSH server service installed, essential for me since I transfer files using SFTP.</description>
+    </item>
+    
+    <item>
+      <title>Going to the cinema is fustrating...</title>
+      <link>https://www.harecoded.com/going-to-the-cinema-is-fustrating-96308/</link>
+      <pubDate>Tue, 03 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/going-to-the-cinema-is-fustrating-96308/</guid>
+      <description>Audience in cinemas has fallen in the last year... myself included. The prices are too high, there is a lot of advertising before the film (as if it were public TV) and usually lacks of cleaness and silence.... A funny article to read by James R. Stoup</description>
+    </item>
+    
+    <item>
+      <title>Happy new year 2006!!!</title>
+      <link>https://www.harecoded.com/happy-new-year-2006-96307/</link>
+      <pubDate>Sat, 31 Dec 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/happy-new-year-2006-96307/</guid>
+      <description>All the harecoded team want you to have a happy new year 2006 full of peace, health, love, money and... more geekery :)</description>
+    </item>
+    
+    <item>
+      <title>Spirited Away</title>
+      <link>https://www.harecoded.com/spirited-away-96306/</link>
+      <pubDate>Thu, 29 Dec 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/spirited-away-96306/</guid>
+      <description>With Sprited Away [author, MacUpdate] you specify the maximum time of inactivity for your applications. When a program has been inactive for such a time it is automatically hidden by spirited away, so you don&#39;t have many annoying windows visible on the screen.
+If there is any application you don&#39;t want to behave like this you only have to exlcude it in the top bar menu (See right image)
+Spirited away doesn&#39;t have Dock icon nor interfere visually in any other place</description>
+    </item>
+    
+    <item>
+      <title>I&#39;ve lost my del.icio.us inbox entries</title>
+      <link>https://www.harecoded.com/ive-lost-my-delicious-inbox-entries-96305/</link>
+      <pubDate>Thu, 15 Dec 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/ive-lost-my-delicious-inbox-entries-96305/</guid>
+      <description>This morning del.icio.us was down for maintenance. Some hours after I went back to my inbox to read my daily colleagues entries... BUT NOTHING WAS THERE!! I had a lot of them...
+
+Are they going to appear again?
+Update (dec, 19): del.icio.us worked for a while but now there is an odd message:
+Due to the power outage earlier in the week, we appear a number of continued hiccups. We&#39;ve taken everything offline to properly rebuild and restore everything.</description>
+    </item>
+    
+    <item>
+      <title>Increase the ibook display resolution with a 2nd monitor</title>
+      <link>https://www.harecoded.com/increase-the-ibook-display-resolution-with-2nd-monitor-96304/</link>
+      <pubDate>Tue, 13 Dec 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/increase-the-ibook-display-resolution-with-2nd-monitor-96304/</guid>
+      <description>When you plug an iBook 12&#34; to an external monitor you get two duplicated screens. As they are duplicated, the maximum resolution is imposed by your iBook, this is 1024x768 pixels, no matter your second monitor can do 1600x1200.
+I bought an iBook 12&#34; because it&#39;s really portable and lightweight, but for intensive work, a 1024x768 pixels resolution is absolutely not healthy . We need a solution!
+That&#39;s how i&#39;d like to work:   &amp;nbsp; iBook LCD TFT Monitor Usable screens   Before solution 1024x768 1024x768 1   After solution 1024x768 1280x1024+ 2    In order to remove duplication to let your 2nd monitor work with freedom you have to make some changes in the System Preferences/Screens panel, under the tab Align.</description>
+    </item>
+    
+    <item>
+      <title>Desktop interface elements... unite!</title>
+      <link>https://www.harecoded.com/desktop-interface-elements-unite-96303/</link>
+      <pubDate>Mon, 12 Dec 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/desktop-interface-elements-unite-96303/</guid>
+      <description>I am one of those who prefer desktop interface consistency rather than having every couple of applications with different interface looks, depending on the gui framework they are built upon. Variety is the spice of life, but not on a computer desktop, please.
+Mac OS X has always &#39;suffered&#39; from this diversity of gui presentations, like the rest of Unix variants, and Tiger is even worse. We have some metal apps (Finder, Safari, .</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t play with your system fonts!</title>
+      <link>https://www.harecoded.com/dont-play-with-your-system-fonts-96301/</link>
+      <pubDate>Tue, 29 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/dont-play-with-your-system-fonts-96301/</guid>
+      <description>This is what might happen: Playing around with the system fonts can cause funny situations</description>
+    </item>
+    
+    <item>
+      <title>Mandrake: adding RPM repositories from your local disk</title>
+      <link>https://www.harecoded.com/mandrake-adding-rpm-repositories-from-your-local-disk-96299/</link>
+      <pubDate>Tue, 15 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/mandrake-adding-rpm-repositories-from-your-local-disk-96299/</guid>
+      <description>Adding a local folder to the urpmi database is easily done using the urpmi.addmedia command. If this folder is filled with RPMs that you got from somewhere when you attempt to run urpmi.addmedia, an hdlist.cz file will be searched. If you don&#39;t have this file the addmedia will fail.
+To solve this little problem, open a shell and generate the hdlist.cz:
+# su 
+# cd /path/to/RPMs 
+# genhdlist</description>
+    </item>
+    
+    <item>
+      <title>Installing and configuring PostgreSQL server on Mac</title>
+      <link>https://www.harecoded.com/installing-and-configuring-postgresql-server-on-mac-96298/</link>
+      <pubDate>Fri, 04 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/installing-and-configuring-postgresql-server-on-mac-96298/</guid>
+      <description>You can use the Fink package system to install postgresql if you are already using Fink (inside a terminal: sudo fink install postgresql and then configure the server).
+OR you can install postgresql, with the clean solution offered by Marc Liyanage.
+I prefer the 2nd option. If you also choose that, follow carefully the installation instructions and you&#39;ll have PgSQL working in minutes.
+If you&#39;d like to have 2 scripts for manually starting and stoping the database create the files:</description>
+    </item>
+    
+    <item>
+      <title>Installing PHP5 on Mac OS X [1 minute]</title>
+      <link>https://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</link>
+      <pubDate>Wed, 26 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</guid>
+      <description>Autumn is the worth conferences season for us. It seems that every autumn brings the interesting subjects and this November we (Manuel and myself, Albert) are attending at the PHP Conference 2005 held in Frankfurt, Germany. Last year was the Plone Conference 2004.
+Since we are a couple of sick men, when we assist to a software conference we need to take with us a laptop (mac os x) having pre-installed the matter.</description>
+    </item>
+    
+    <item>
+      <title>U*Blog: blog posting from the pda</title>
+      <link>https://www.harecoded.com/ublog-blog-posting-from-the-pda-96297/</link>
+      <pubDate>Mon, 24 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/ublog-blog-posting-from-the-pda-96297/</guid>
+      <description>U*Blog is a fantastic application for publishing content in blogs from your palm device. It quickly shows it is well thought out, with clear functionalities and uncluttered interface. And best of all, it is freeware. U*Blog supports MovableType, Metaweblog and Blogger API compliant bloggers, which covers pretty much all the systems out there. This is my configuration for posting to a wordpress blog:
+Name:	harecoded Type:	MovableType User:	myuser Pwd:	mypwd Host:	www.</description>
+    </item>
+    
+    <item>
+      <title>Real statistics on your site using AWStats</title>
+      <link>https://www.harecoded.com/real-statistics-on-your-site-using-awstats-96295/</link>
+      <pubDate>Mon, 17 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/real-statistics-on-your-site-using-awstats-96295/</guid>
+      <description>It is surprising how much information you can get from your readers activity. I like asking my server what country you come from, how much did you stay in the last visit, how did you arrive here, what is the most viewed page, how much bandwidth I am wasting, what spiders are coming in, what keysearches made you arrive here, why am I getting 404 errors.... and a long long etcetera.</description>
+    </item>
+    
+    <item>
+      <title>BloGTK :: Update your weblog from your desktop</title>
+      <link>https://www.harecoded.com/blogtk-update-your-weblog-from-your-desktop-96294/</link>
+      <pubDate>Sat, 15 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/blogtk-update-your-weblog-from-your-desktop-96294/</guid>
+      <description>BloGTK is a weblog client that allows you to post to your weblog from Linux without the need for a separate browser window. This means that you can forget the Wordpress administration area (just to give an example of weblog)
+BloGTK is compatible with many blogs using the XMLRPC. When configuring the application you only have to pass the absolute path where your xmlrpc file is and start writing. So now you can work offline and when you finish writing the post, simply click on the &#34;</description>
+    </item>
+    
+    <item>
+      <title>Configuració de Mac OS X per veure el programari en català</title>
+      <link>https://www.harecoded.com/configuracio-mac-os-x-per-veure-programari-catala-96293/</link>
+      <pubDate>Mon, 10 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/configuracio-mac-os-x-per-veure-programari-catala-96293/</guid>
+      <description>A la versi&amp;oacute; Tiger del sistema Mac OS X no es va incorporar finalment el sistema operatiu en catal&amp;agrave;. Tot i aix&amp;oacute;, hi ha programari de tercers que est&amp;agrave; localitzat al catal&amp;agrave;. Per veure&#39;l en el vostre idioma per&amp;oacute;, cal que feu una sola vegada les instruccions que a continuaci&amp;oacute; us proporcionem. Si ja us sentiu molt c&amp;oacute;modes amb el mac, i per no fer-vos esperar m&amp;eacute;s, cal que entreu a les prefer&amp;egrave;ncies del sistema / internacional i escolliu el catal&amp;agrave; com el primer idioma de la llista.</description>
+    </item>
+    
+    <item>
+      <title>&#39;show tables&#39; equivalent for PostgreSQL</title>
+      <link>https://www.harecoded.com/show-tables-equivalent-for-postgresql-96288/</link>
+      <pubDate>Tue, 20 Sep 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/show-tables-equivalent-for-postgresql-96288/</guid>
+      <description>Here is a tip for refreshing the memory:
+select relname from pg_stat_user_tables order by relname;</description>
+    </item>
+    
+    <item>
+      <title>Grouping folders on Finder</title>
+      <link>https://www.harecoded.com/grouping-folders-on-finder-96291/</link>
+      <pubDate>Tue, 20 Sep 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/grouping-folders-on-finder-96291/</guid>
+      <description>If you are using Finder it is possible to group all the folders instead of have them separated by the &#39;name sort&#39; effect by doing a little hack.
+Open finder and go (press Option+G to go directly) to
+/System/Library/Frameworks/ApplicationServices.framework/ Versions/A/Frameworks/LaunchServices.framework/Versions/ A/Resources/Spanish.lproj (text wrapped intentionally fo fit the page)  and change Spanish.lproj by your used language. Then drag and drop Localized.strings to your favorite text editor and add in the translation of &#34;</description>
+    </item>
+    
+    <item>
+      <title>How to disable annoying security warnings in Safari</title>
+      <link>https://www.harecoded.com/how-to-disable-annoying-security-warnings-in-safari-96290/</link>
+      <pubDate>Tue, 20 Sep 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-disable-annoying-security-warnings-in-safari-96290/</guid>
+      <description>In order to forget the annoying security warning in Safari after every application download, you should install Taboo and paste this in a terminal:
+defaults write com.ocdev.taboo ShouldDisplaySecurityWarnings -bool NO</description>
+    </item>
+    
+    <item>
+      <title>Installing X11 on Tiger</title>
+      <link>https://www.harecoded.com/installing-x11-on-tiger-96289/</link>
+      <pubDate>Tue, 20 Sep 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/installing-x11-on-tiger-96289/</guid>
+      <description>If you need X11 on Tiger for running applications like OpenOffice, WingIDE... you&#39;ll need the installation DVD or image. Mount it and install the package:
+System/Installation/Packages/X11User.pkg
+It&#39;s also available when you install Tiger under the advanced option, but hey,don&#39;t waste more time looking for a download on apple site, the Panther days are over.
+Stop surfing the net. There is nothing to download. Go look on your shelf for the installation DVD and there you&#39;ll find the X11User.</description>
+    </item>
+    
+    <item>
+      <title>Migrated to Wordpress</title>
+      <link>https://www.harecoded.com/migrated-to-wordpress-96287/</link>
+      <pubDate>Mon, 19 Sep 2005 23:19:09 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/migrated-to-wordpress-96287/</guid>
+      <description>This site has been moved from Textpattern to Wordpress, the templates system has been completely rewritten. The appearance of the site is nearly the same and minor changes have done.
+The blog has started!</description>
+    </item>
+    
+    <item>
+      <title>About us</title>
+      <link>https://www.harecoded.com/about-us-96286/</link>
+      <pubDate>Thu, 15 Sep 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/about-us-96286/</guid>
+      <description>Manel Aguilar and Albert Lombarte&amp;nbsp;met back in the studying days. Although they took different paths in life after computer studies they have found themselves sharing companies a couple of times. They work now as managers but despite not being very much in contact they keep sharing different web projects, and of course, same interest in gadgetry, apple stuff, spanglish perfectioning, beer consuming, just to mention some of them. They live in Barcelona, Spain where they enjoy an excellent climate with their wives and kids.</description>
+    </item>
+    
+    <item>
+      <title>Script for compressing files with gzip within the terminal with date</title>
+      <link>https://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</link>
+      <pubDate>Wed, 14 Sep 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</guid>
+      <description>This is a simple bash script to compress in tar.gz (gzip) format a file or folder appending date to file name.
+Save this file as gzip.sh and give it execution permissions. From terminal i could be: chmod 755 gzip.sh
+This script does the following:
+ Checks if you passed exactly 2 arguments Compresses your source Adds the date on the resulting filename Optionally changes permissions of your filename (uncomment line chown and put the desired user:group)  Script: #!</description>
+    </item>
+    
+  </channel>
+</rss>

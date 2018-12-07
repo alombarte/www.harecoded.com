@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Merging two, three or more git repositories keeping the log history &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Merging two, three or more git repositories keeping the log history</h1>
+  <time datetime=2014-10-01T20:59:00Z class="post-date">Wed, Oct 1, 2014</time>
+  <p>
+  <img style=  "display: block; margin-left: auto; margin-right: auto;" title=""  src="/img/posts/542c77217221ds38947.jpg"  alt=" TAGS:undefined">If you ask anyone, merging several git
+  repositories&nbsp;into a single one would usually be considered a
+  bad strategy: as a rule of thumb, your code base should&nbsp;have
+  several components isolated and then use a dependency manager
+  (e.g: <a href="https://getcomposer.org/">Composer</a>) to
+  bring&nbsp;them together.
+</p>
+<p>
+  Nevertheless, there are always many different scenarios and with
+  them come different use cases, weird situations or just plain
+  normal activities that would justify this procedure.&nbsp;In any
+  case if you ever need to merge several repos into one, and still
+  want to <strong>keep the git history</strong> this is an easy way
+  to do it.
+</p>
+<p>
+  The following technique is not rocket science and it's based in
+  the <strong>simple addition of remotes and branch
+  merging</strong>. If you expected something fancier I am sorry to
+  tell you you'll find this boring.
+</p>
+<h3>
+  Assumptions
+</h3>
+<ul>
+  <li>You have two, three (or N) repositories you want to merge
+  inside a single (new)&nbsp;one.
+  </li>
+  <li>All the commit history of the three will be kept and
+  browseable in the new one
+  </li>
+  <li>You want to merge everything in an empty repo named
+  <code>repository-all-merged</code>
+  </li>
+  <li>
+    <code>repository</code>,<code>repository2</code> and
+    <code>repository3</code> are the ones you want to glue together
+  </li>
+  <li>Every merged repo will end-up inside a new folder, wherever
+  it is. If you do not want this, just skip the early steps.
+  </li>
+  <li>The&nbsp;<code>master</code>&nbsp;branch or any
+  others&nbsp;will be present in the new repo as well.
+  </li>
+</ul>
+<h3>
+  Preparing the repositories
+</h3>
+<p>
+  As we said, we are going to put every repo in a different folder
+  inside the new one. This is what you need to do (you can copy
+  sequentially the commands writing the right paths):
+</p>
+<p>
+  Create a new directory and clone everything inside. The final
+  repo and the existing ones. E.g:
+</p>
+<pre>
+mkdir ~/all_repos_merged
+cd all_repos_merged
+git clone git@bitbucket.org:alombarte/repository-all-merged.git
+git clone git@bitbucket.org:alombarte/repository.git
+git clone git@bitbucket.org:alombarte/repository2.git
+git clone git@bitbucket.org:alombarte/repository3.git
+</pre>
+<p>
+  Now go to the first repository you want to import and create a
+  new folder, and git-move all the content inside. The folder
+  structure you create now is the folder you'll see in the merged
+  repo. In the following example this first repo would appear under
+  the <code>path/to/repository</code> folder.
+</p>
+<pre>
+cd repository/
+mkdir -p path/to/repository
+git mv -k * path/to/repository/
+git commit -m "Merging repositories like a boss"
+</pre>
+<p>
+  Note that the <code>-k</code> flag ignores errors such as moving
+  the newly created folder to itself. Before moving on with the
+  next operation you might want to check that you don't have in
+  each&nbsp;repos conflicting files, such as the
+  <code>.gitignore</code>. You can delete those files and restore
+  them later or you just fix the conflicts when they arise (edit
+  the file, <code>git add</code> and then <code>git commit</code>:
+  conflict solved).
+</p>
+<p>
+  Now we prepare the second, third, forth... repository. Repeat the
+  same N more times:
+</p>
+<pre>
+    cd ../repository2/
+    mkdir -p path/to/repository2
+    git mv -k * path/to/repository2/
+    git commit -m "Merging repositories like a boss"
+
+    cd ../repository3/
+    mkdir -p path/to/repository3
+    git mv -k * path/to/repository3/
+    git commit -m "Merging repositories like a boss"
+</pre>
+<p>
+  <strong>CAUTION: You should never PUSH this changes to
+  origin</strong>.
+</p>
+<p>
+  Commits are local in your computer and remember you want a new
+  repo, not mess around with the existing ones.
+</p>
+<p>
+  Now the three repos are "ready". Meaning they are all inside a
+  new folder and content is not mixed.
+</p>
+<h3>
+  Merging all the repos together in the new one
+</h3>
+<p>
+  Next steps are having the just prepared repositories available
+  for importing code in the final repository. With git you can
+  reference any other external repository with the "remotes".
+</p>
+<p>
+  Go to the final repo:
+</p>
+<pre>
+cd ../repository-all-merged/
+</pre>
+<p>
+  Add all the remotes for merging named <code>repository</code>,
+  <code>repository2</code>, <code>repository3</code>... Note that
+  although being a "remote" this repos are the ones you cloned in
+  your local computer:
+</p>
+<pre>
+    git remote add repository ~/all_repos_merged/repository
+    git remote add repository2 ~/all_repos_merged/repository2/
+    git remote add repository3 ~/all_repos_merged/repository3/
+
+</pre>
+<p>
+  And this is the moment when we actually bring the changes to the
+  final repo:
+</p>
+<pre>
+<code>    git checkout master
+    git pull repository master
+</code>
+</pre>
+<p>
+  Now we have in the <code>master</code> branch all the changes of
+  <code>repository/master</code> branch. Conflicts might arise at
+  this point (specially if you didn't do anything with the
+  <code>gitignore</code>), but fixing them is as easy as:
+</p>
+<pre>
+    vi .gitignore
+    git add .gitignore
+    git commit
+</pre>
+<p>
+  And repeat for every other repo:
+</p>
+<pre>
+    git pull repository2 master
+    git pull repository3 master
+    ...
+</pre>
+<p>
+  Check that everything is in place:
+</p>
+<pre>
+git log --oneline --graph --decorate --all
+</pre>
+<p>
+  The <code>repository-all-merged</code> contains now all the code
+  with all the history of the <code>master</code> branches. If you
+  for instance need to import more branches it would be as easy as:
+</p>
+<pre>
+git checkout another_branch
+git pull repositoryN another_branch
+</pre>
+<p>
+  If this merged repo has a remote, you can clean and push it now:
+</p>
+<pre>
+git remote rm repository
+git remote rm repository2
+git remote rm repository3
+git push
+</pre>
+<p>
+  The rest of the repositories can be deleted, so you don't push by
+  mistake later on.
+</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

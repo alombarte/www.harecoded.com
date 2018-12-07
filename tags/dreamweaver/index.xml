@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dreamweaver on Harecoded</title>
+    <link>https://www.harecoded.com/tags/dreamweaver/</link>
+    <description>Recent content in Dreamweaver on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Dec 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/dreamweaver/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Incluir programas externos en Eclipse, Dreamweaver, VIM o Notepad&#43;&#43;</title>
+      <link>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
+      <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
+      <description>Es muy &amp;uacute;til incluir otros programas o macros propias dentro de los editores que utilizamos cada d&amp;iacute;a para desarrollar. A veces necesitamos validar nuestro c&amp;oacute;digo con otro programa, ya sea lanz&amp;aacute;ndolo en un navegador determinado, pas&amp;aacute;ndolo por un script propio, etc...
+En mi caso particular tengo un conjunto de scripts que verifican que el c&amp;oacute;digo sigue unas determinadas reglas de formato, de este forma el c&amp;oacute;digo siempre sigue unos determinados patrones.</description>
+    </item>
+    
+  </channel>
+</rss>

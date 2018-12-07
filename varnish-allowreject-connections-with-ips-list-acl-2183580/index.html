@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Varnish allow/reject connections with IPs list (ACL) &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Varnish allow/reject connections with IPs list (ACL)</h1>
+  <time datetime=2012-11-06T12:29:00Z class="post-date">Tue, Nov 6, 2012</time>
+  <p>
+  <img title="" src=  "/img/posts/51361ddca7dcds10808.jpg"  alt=" TAGS:" align="right">In a web server you can use directives
+  to deny the unwanted eye to look at your content. This is an
+  example of how Apache would handle a <strong>virtual
+  host</strong> that only accepts connections from a series of IPs,
+  but in <strong>Varnish</strong> that won't work.
+</p>
+<pre>
+        Order Deny,Allow
+        Deny from all
+        # Barcelona IPs
+        Allow from 89.140.xxx.xxx/27
+        # Japan IP
+        Allow from 222.229.xxx.xxx/32
+
+</pre>
+<p>
+  The reason that this won't work in Varnish is because the IP
+  Apache is receiving is 127.0.0.1. (Varnish is the one connecting
+  to Apache, not the client). The real client IP comes in the
+  header <strong>X-HTTP-FORWARDED-FOR</strong>. If you want to fix
+  this situation with Varnish in the middle you have basically two
+  options:
+</p><ol>
+  <li>Fix Apache (or Nginx) to allow connections by looking into
+  this header (explained&nbsp;<a href=  "http://www.ultimatewebtips.com/how-to-blockallow-ip-addresses-behind-a-load-balancer-with-htaccess/">here</a>)
+  </li>
+  <li>
+    <strong>Handle the ACL by Varnish&nbsp;</strong>
+  </li>
+</ol>
+<p>
+  The following recipe handles this second scenario and helps you
+  create a <strong>whitelist</strong> with IPs that Varnish will
+  serve content to. Any other incoming source will be denied.
+</p>
+<h3>
+  Whitelist
+</h3>
+<p>
+  So, open your /etc/varnish/default.vcl and add:
+</p>
+<pre>
+acl offices {
+    "localhost";
+    "11.22.33.44"/32; # You can remove the mask /32 if you need one IP only
+    # Add as many IPs as you need here<br>}
+</pre>
+<p>
+  Then put in the beginning of your vcl_recv:
+</p>
+<pre>
+ sub vcl_recv {
+
+     # Ban all requests to domains like xx.myhost.com or xxx.myhost.com
+     if ( req.http.host ~ "([a-z]{2,3}\.myhost\.com)$" &amp;&amp; !(client.ip ~ offices) ) {
+         error 403 "Access denied";
+     }
+</pre>
+<h3>
+  Blacklist
+</h3>
+<p>
+  This will discard any request not coming from the list. If you
+  want to create a <strong>blacklist</strong> (e.g: undesired bots)
+  then you only have to remove the negation of the condition,
+  being:
+</p>
+<pre>
+acl suckers {
+    "11.22.33.44"/32; # You can remove the mask /32 if you need one IP only
+    # Add as many IPs as you need here
+}
+</pre>
+<p>
+  And in the vcl_recv:
+</p>
+<pre>
+ sub vcl_recv {
+
+     # Ban all requests to domains like xx.myhost.com or xxx.myhost.com
+     if ( req.http.host ~ "([a-z]{2,3}\.myhost\.com)$" &amp;&amp; client.ip ~ suckers ) {
+         error 403 "Access denied";
+     }
+</pre>
+<p>
+  I added a regular expression in the virtualhost to make an
+  example a little bit more useful, but you can just write the host
+  as is. Bad news is that the req.http.host does not accept a list
+  like you did with the IPs.
+</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

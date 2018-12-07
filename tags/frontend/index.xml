@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frontend on Harecoded</title>
+    <link>https://www.harecoded.com/tags/frontend/</link>
+    <description>Recent content in Frontend on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Mar 2013 16:33:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configure Compass,Sass,Less... in PHPStorm</title>
+      <link>https://www.harecoded.com/configure-compasssassless-in-phpstorm-2257005/</link>
+      <pubDate>Wed, 13 Mar 2013 16:33:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/configure-compasssassless-in-phpstorm-2257005/</guid>
+      <description>PHPStorm 6 bundles a new feature called &#34;File watchers&#34; which enables Sass, LESS, SCSS, CoffeeScript, TypeScript transpilation. This option will compile your compass/scss/whatever files when the source file is saved (this is when you lose the focus or manually save).  So, for the basic stuff you can stop using external programs and watchers likeCodeKit or LESS.app&amp;nbsp;now. But of course unexpensive software like CodeKit is a must have if you are a frontend developer.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storage on Harecoded</title>
+    <link>https://www.harecoded.com/tags/storage/</link>
+    <description>Recent content in Storage on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Apr 2012 14:13:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/storage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Drive ofrece hasta 16TB de espacio</title>
+      <link>https://www.harecoded.com/google-drive-ofrece-hasta-16tb-espacio-1876609/</link>
+      <pubDate>Wed, 25 Apr 2012 14:13:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/google-drive-ofrece-hasta-16tb-espacio-1876609/</guid>
+      <description>Desde hace unos días corría por la web un rumor que decía que, Drive, podría ofrecer hasta 100Gb (pagando por ello, claro está).  Justo veo que han actualizado su web de contratación de espacio.  Cómo podéis ver en la captura, Drive ofrece hasta 16TB de espacio por 800$ al mes.  Una verdadera animalada!. Dropbox ofrece hasta 1TB en su cuenta Teams por el mismo precio.  Considero los precios de google muy competitivos además, gracias a su funcionamiento, es una alternativa muy interesante para compartir archivos.</description>
+    </item>
+    
+  </channel>
+</rss>

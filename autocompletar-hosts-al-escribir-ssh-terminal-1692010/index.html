@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Autocompletar hosts al escribir ssh en la terminal &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Autocompletar hosts al escribir ssh en la terminal</h1>
+  <time datetime=2012-03-23T15:06:00Z class="post-date">Fri, Mar 23, 2012</time>
+  <p>
+  Esta mañana mi compañero Borja me ha enseñado un pequeño truquito
+  para olvidarse de los bookmarks en la terminal. Se trata de
+  <strong>autocompletar el comando <code>ssh</code> con los hosts
+  conocidos</strong>.
+</p>
+<p>
+  De este modo, cuando escribes ssh en la terminal puedes darle al
+  tabulador para que sugiera o escriba el resto de host por ti.
+  Ejemplo:
+</p>
+<p>
+  <a class="thickbox" href=  "/img/posts/4f6c6a77afcd8s23000.jpg"  alt=" - " align="center"></a>
+</p>
+<p>
+  Existen múltiples maneras de hacer esto, leyendo configs con
+  puertos y otras barbaridades, pero esta es realmente simple y
+  efectiva y sin duda la que más me gusta. Lo que hace es leer el
+  fichero de hosts conocidos (<code>~/.ssh/known_hosts</code>) y
+  sugerirlos en el autocomplete. Por si no recuerdas qué guarda ese
+  fichero son todos aquellos servidores que verificaste a la
+  pregunta tipo:
+</p>
+<pre>
+The authenticity of host 'manolete (172.22.195.142)' can't be established.<br>RSA key fingerprint is 7d:00:92:5f:c9:2b:c7:f2:37:fc:5e:40:ce:0e:4d:d1.<br>Are you sure you want to continue connecting (yes/no)?
+</pre>
+<p>
+  El comando, que deberías copiar y pegar en tu
+  <code>~/.bash_profile</code> es este:
+</p>
+<pre>
+complete -W "$(while read line; do echo ${line%%[, ]*}; done \<br>&lt; ~/.ssh/known_hosts)" ssh
+</pre>
+<p>
+  <strong>Ojo, esta es la versión de Mac.</strong>
+</p>
+<p>
+  A ahorrar tiempo!
+</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

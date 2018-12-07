@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cómo revertir los cambios de una revisión en SVN &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Cómo revertir los cambios de una revisión en SVN</h1>
+  <time datetime=2011-03-20T12:51:00Z class="post-date">Sun, Mar 20, 2011</time>
+  <p>Si eres usuario de subversion te habr&aacute; pasado alguna vez que despu&eacute;s de hacer commit y probar posteriormente el c&oacute;digo has visto que debes volver a una versi&oacute;n anterior y dejar el c&oacute;digo tal y como estaba en una versi&oacute;n anterior. No todos los clientes gr&aacute;ficos disponen de la opci&oacute;n de "<strong>reverse merge</strong>", pero en la terminal es muy sencillo de hacer...</p>
+<p></p>
+<p>Imaginemos que en la revisi&oacute;n <em>1190</em> sub&iacute; unos cambios que hicieron el c&oacute;digo inestable y deseo dejar el c&oacute;digo tal y como estaba en la revisi&oacute;n <em>914</em>, entonces har&iacute;a:</p>
+<pre>svn merge -r 1190:914 http://turepositorio/proyecto/trunk<br /><br />
+# o tambi&eacute;n:<br />
+cd ruta/a/miproyecto/<br />svn merge -r 1190:914 .</pre>
+<p>Si no tienes esto por la mano, o simplemente quieres asegurarte de lo que va a pasar antes de hacer nada es muy recomendable que antes de hacer esta operaci&oacute;n hagas una simlaci&oacute;n de lo que va a pasar, es decir un <strong>dry run</strong>.</p>
+<pre>svn merge --dry-run -r 1190:914 http://turepositorio/proyecto/trunk</pre>
+<p>La opci&oacute;n dry run lo que hace es mostrarte en la terminal el resultado del merge. Quiz&aacute; tengas conflictos que es mejor evitar antes de hacer el merge. Dependiendo de la operaci&oacute;n puede llevar un rato, no es un comando especialmente r&aacute;pido.</p>
+<p>Una vez hayas hecho el merge definitivo (sin el dry-run) ya estar&aacute; todo listo para que hagas el commit.</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Activar y cambiar los colores de la terminal &#43; Prompt &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Activar y cambiar los colores de la terminal &#43; Prompt</h1>
+  <time datetime=2011-12-05T07:22:00Z class="post-date">Mon, Dec 5, 2011</time>
+  <p>
+  Ya uses iTerm, Terminal o cualquier otra herramienta en Mac, para
+  ver y tunear los colores de tu terminal basta con editar el
+  fichero ~/.bash_profile e incluir lo siguiente:
+</p>
+<pre>
+export CLICOLOR='true'
+export LSCOLORS="gxfxcxdxbxegedabagacad"
+</pre>
+<p>
+  Y conseguirás algo parecido a esto:<img class="undefined" title=  "" src=  "/img/posts/4f44d1aac3aa2s63412.jpg" alt=  " TAGS:" align="center">
+</p>
+<p>
+  La primera línea activa los colores, la segunda dice qué colores
+  usar. Cuando guardes el fichero y abras de nuevo la terminal ya
+  verás los colores. Si no te gustan siempre puedes poner los tuyos
+  usando esta referencia:
+</p>
+<pre>
+a  black
+b  red
+c  green
+d  brown
+e  blue
+f  magenta
+g  cyan
+h  light grey
+A  block black (gris oscuro)
+B  bold red
+C  bold green
+D  bold brown (amarillo oiga)
+E  bold blue
+F  bold magenta
+G  bold cyan
+H  bold light grey
+x  color por defecto
+</pre>
+<p>
+  Además, puedes cambiar la apariencia y modificar tu prompt
+  añadiendo a continuación en tu .bash_profile alguna de estas
+  líneas de ejemplo:
+</p>
+<pre>
+# Referencia de variables Prompt:
+# \u Username, \h Host, \w Path, tput color definition
+
+# Ejemplo 1:
+# export PS1='\[$(tput setaf 3)\]\u@\h:\[$(tput sgr0)$(tput setaf 5)\]\w\[$(tput sgr0)$(tput setaf 2)\] \[$(tput sgr0)\]$ '
+
+#Ejemplo 2:
+# export PS1='\[$(tput setaf 7)\]\u@\[$(tput setaf 2)\]\h:\[$(tput sgr0)$(tput setaf 4)\]\w\[$(tput sgr0)\]$ '
+
+#Ejemplo 3, Minimalista (solo path en color):
+# export PS1='\[$(tput sgr0)$(tput setaf 4)\]\w\[$(tput sgr0)\]$ '
+</pre>
+<p>
+  Descomenta la línea con el export (quitar la almohadilla #) que
+  quieras probar y comenta el resto para ver los distintos ejemplos
+  de prompt. Recuerda que debes volver a abrir la terminal&nbsp;o
+  abrir una pestaña nueva&nbsp;para ver los cambios aplicados si es
+  que los has puesto en bash_profile. Para más comodidad siempre
+  puedes ejecutar los comandos en la terminal y luego al encontrar
+  el perfecto guardarlo en el fichero.
+</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

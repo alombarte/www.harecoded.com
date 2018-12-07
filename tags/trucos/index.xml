@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trucos on Harecoded</title>
+    <link>https://www.harecoded.com/tags/trucos/</link>
+    <description>Recent content in Trucos on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jun 2013 10:52:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/trucos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rellenar una columna con Hash aleatorio en MySQL</title>
+      <link>https://www.harecoded.com/rellenar-columna-hash-aleatorio-mysql-2274754/</link>
+      <pubDate>Mon, 03 Jun 2013 10:52:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/rellenar-columna-hash-aleatorio-mysql-2274754/</guid>
+      <description>Tenemos unos cuantos cientos de datos y queremos crear un hash para poder acceder a ellos de forma directa y cifrada.  Imagina, por ejemplo, la típica tabla de usuarios en la que un campo contiene un hash para guardar en cookies y hacer el autologin por cookie.  Al crear el nuevo atributo este queda vacío así que necesitarás esta pequeña consulta para generar códigos hash de forma aleatoria y muy rápida:  UPDATE `users` SET autologin_hash = MD5(RAND()) WHERE autologin_hash IS NULL;   Fácil eh?</description>
+    </item>
+    
+    <item>
+      <title>Mails perdidos en Gmail por redireccionamiento [Solucionado]</title>
+      <link>https://www.harecoded.com/mails-perdidos-gmail-redireccionamiento-solucionado-2253221/</link>
+      <pubDate>Mon, 25 Feb 2013 09:52:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/mails-perdidos-gmail-redireccionamiento-solucionado-2253221/</guid>
+      <description>El problema   Seguro que no soy el único que tiene más de una dirección de correo electrónico. En muchas ocasiones, por orden o por practicidad, configuramos nuestras múltiples direcciones de correo electrónico para que podamos recibirlo en un mismo buzón.  Cuando alguna de esas direcciones está configurada en Gmail, en ocasiones, podemos experimenter pérdida de mensajes.  El motivo   Gmail pasa todo el correo entrante por un motor de detección de correo sospechoso de ser no deseado.</description>
+    </item>
+    
+    <item>
+      <title>Convertir de ISO a UTF-8 por línea de comandos</title>
+      <link>https://www.harecoded.com/convertir-iso-utf-8-linea-comandos-2230931/</link>
+      <pubDate>Mon, 10 Dec 2012 11:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/convertir-iso-utf-8-linea-comandos-2230931/</guid>
+      <description>Esta mañana he tenido que utilizar un .CSV generado desde Excel.  Al acceder a él desde la línea de comandos me he encontrado que se perdían todos los acentos. Un problema ya clásico este de &#34;los carácteres especiales&#34;.  Gracias al comando &#39;file&#39; he podido descubrir la codificación que Excel le da a nuestro fichero en el momento de hacer la exportación.  &amp;gt;file nombre_fichero.csv
+nombre_fichero.csv: ISO-8859 text, with CRLF line terminators   Lo único que he tenido que hacer es convertirlo en la misma terminal a UTF-8.</description>
+    </item>
+    
+    <item>
+      <title>Evitar que Chrome lance a Google tu url como búsqueda</title>
+      <link>https://www.harecoded.com/evitar-chrome-lance-google-url-busqueda-2180657/</link>
+      <pubDate>Fri, 26 Oct 2012 20:09:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/evitar-chrome-lance-google-url-busqueda-2180657/</guid>
+      <description>El problema   Como desarrollador cada vez me siento más cómodo trabajando con Google Chrome pero hay una cosa que muchas veces me hace perder algo de tiempo:  En ocasiones, al intentar buscar una url poco &#34;normal&#34;, como puede ser en un dominio típico en un entorno de desarrollo, Chrome detecta que no es una url válida y la lanza contra Google en forma de búsqueda.  Un ejemplo   Queremos acceder a nuestra working copy con una url como ésta:&amp;nbsp;development_area/test_script.</description>
+    </item>
+    
+    <item>
+      <title>Mysql: Llenar tabla con datos aleatorios (de una lista)</title>
+      <link>https://www.harecoded.com/mysql-llenar-tabla-datos-aleatorios-lista-2057615/</link>
+      <pubDate>Fri, 20 Jul 2012 12:09:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/mysql-llenar-tabla-datos-aleatorios-lista-2057615/</guid>
+      <description> En alguna ocasión nos hemos encontrado con la necesidad de actualizar / insertar registors de una tabla con elementos aleatoris a partir de una lista.  Esta operación es especialmente útil cuando queremos crear datos &#34;dummy&#34; para entornos de desarrollo.  El ejemplo de este post es para MySql:  UPDATE files f SET license_type = (SELECT ELT(0.5 + RAND() * 2, &#39;Free&#39;, &#39;Try&#39; ) ) </description>
+    </item>
+    
+    <item>
+      <title>Cómo borrar tags de Github</title>
+      <link>https://www.harecoded.com/borrar-tags-github-1832646/</link>
+      <pubDate>Tue, 17 Apr 2012 08:53:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/borrar-tags-github-1832646/</guid>
+      <description> Si por ejemplo deseo borrar un tag llamado &#34;1.0-stable-php-5.2&#34;  Borro en local:  git tag -d 1.0-stable-php-5.2  Borro en el repositorio:  git push origin :1.0-stable-php-5.2  Atentos a los dos puntos delante del tag al hacer el push.  Actualización: He escrito el artículo dos veces, el original aquí:&amp;nbsp;http://www.harecoded.com/borrar-tag-github-u-remoto-1612712&amp;nbsp;:P </description>
+    </item>
+    
+    <item>
+      <title>Saltar a página siguiente en direcciones secuenciales</title>
+      <link>https://www.harecoded.com/saltar-pagina-siguiente-direcciones-secuenciales-1776183/</link>
+      <pubDate>Mon, 09 Apr 2012 10:49:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/saltar-pagina-siguiente-direcciones-secuenciales-1776183/</guid>
+      <description>En muchas ocasiones, en un sitio web nos encontramos una url del tipo:  http://url.ltd/path?id=XXXX   Donde XXXX es un identificador. En ocasiones este identificador es la página que estamos viendo y, en otras, el id del propio elemento.  Imagina, por ejemplo, una lista de perfiles de usuarios, donde el id fuera secuencial. Si quisieras verlos todos tendrías que ir cambiando este número o volviendo a la lista de usuarios y haciendo click en el siguiente.</description>
+    </item>
+    
+    <item>
+      <title>Autocompletar hosts al escribir ssh en la terminal</title>
+      <link>https://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</link>
+      <pubDate>Fri, 23 Mar 2012 15:06:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</guid>
+      <description>Esta mañana mi compañero Borja me ha enseñado un pequeño truquito para olvidarse de los bookmarks en la terminal. Se trata de autocompletar el comando ssh con los hosts conocidos.  De este modo, cuando escribes ssh en la terminal puedes darle al tabulador para que sugiera o escriba el resto de host por ti. Ejemplo:    Existen múltiples maneras de hacer esto, leyendo configs con puertos y otras barbaridades, pero esta es realmente simple y efectiva y sin duda la que más me gusta.</description>
+    </item>
+    
+    <item>
+      <title>Contar veces que se pide una URL (y las que no es esa URL)</title>
+      <link>https://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</link>
+      <pubDate>Tue, 14 Feb 2012 20:14:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</guid>
+      <description>Hay veces que queremos saber cuántas veces se ha pedido una URL en nuestro servidor y Google Analytics o otro servicio de monitorización basado en Javascript no está disponible. Entonces siempre podemos recurrir a la fuente original de datos, los logs de acceso (esos gran incomprendidos y frecuentemente abandonados) de Apache, Nginx o donde sea.  Si por ejemplo queremos saber cuántas veces se ha pedido la página /abc.html en el mes de febrero (2012_02) y tenemos los logs segmentados por día, será tan sencillo como lanzar un:  grep -c &#34;</description>
+    </item>
+    
+    <item>
+      <title>Activar y cambiar los colores de la terminal &#43; Prompt</title>
+      <link>https://www.harecoded.com/activar-cambiar-colores-terminal-prompt-1332387/</link>
+      <pubDate>Mon, 05 Dec 2011 07:22:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/activar-cambiar-colores-terminal-prompt-1332387/</guid>
+      <description>Ya uses iTerm, Terminal o cualquier otra herramienta en Mac, para ver y tunear los colores de tu terminal basta con editar el fichero ~/.bash_profile e incluir lo siguiente:  export CLICOLOR=&#39;true&#39; export LSCOLORS=&#34;gxfxcxdxbxegedabagacad&#34;   Y conseguirás algo parecido a esto: La primera línea activa los colores, la segunda dice qué colores usar. Cuando guardes el fichero y abras de nuevo la terminal ya verás los colores. Si no te gustan siempre puedes poner los tuyos usando esta referencia:  a black b red c green d brown e blue f magenta g cyan h light grey A block black (gris oscuro) B bold red C bold green D bold brown (amarillo oiga) E bold blue F bold magenta G bold cyan H bold light grey x color por defecto   Además, puedes cambiar la apariencia y modificar tu prompt añadiendo a continuación en tu .</description>
+    </item>
+    
+    <item>
+      <title>Conectar por SSH sin password (autenticación de clave pública)</title>
+      <link>https://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</link>
+      <pubDate>Mon, 29 Aug 2011 07:03:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</guid>
+      <description>Para conectar a un servidor remoto por SSH sin usuario ni contraseña todo lo que hace falta es compartir una clave entre cliente y servidor. Los pasos son muy sencillos:   Asegurarse que la carpeta .ssh existe en el servidor al que nos queremos conectar   Crear una clave RSA en la máquina cliente (la que se conecta):
+ ssh-keygen -t rsa Cuando se te pida por un password, dale al enter sin poner ninguno (este es el propósito del artículo, sin passwords)   Copiar la clave pública en el servidor:</description>
+    </item>
+    
+    <item>
+      <title>Comando `tree` para Mac</title>
+      <link>https://www.harecoded.com/comando-tree-mac-1265483/</link>
+      <pubDate>Sat, 27 Aug 2011 16:03:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/comando-tree-mac-1265483/</guid>
+      <description>Existe una utilidad llamada &#34;tree&#34; en Windows y Linux que sirve para ver un listado de directorio en un formato ASCII un poco más agradable a la vista. Si no quieres bajarte los MacPorts para esta pequeña utilidad lo más fácil es crear un script de una línea y enlazarlo en /bin para poder llamarlo directamente.  El comando en cuestión es este:  find . -print | sed -e &#39;s;[^/]*/;|--;g;s;--|; |;g&#39;   Ahora, para utilizarlo a troche y moche basta con pegar su contenido en un fichero en cualquier ubicación.</description>
+    </item>
+    
+    <item>
+      <title>No funciona el pulsómetro o GPS del Garmin Forerunner?</title>
+      <link>https://www.harecoded.com/no-funciona-pulsometro-o-gps-garmin-forerunnerr-1190538/</link>
+      <pubDate>Tue, 12 Apr 2011 21:50:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/no-funciona-pulsometro-o-gps-garmin-forerunnerr-1190538/</guid>
+      <description>Tengo un Garmin Forerunner 305 GPS que utilizo para salir a correr. Un día el pulsómetro dejó de funcionar correctamente, primero&amp;nbsp;empezó a espaciarse el ritmo de los latidos hasta que finalmente (en un par de días) el reloj no llegaba ni a sincronizarse, problema:&amp;nbsp;no detecta los latidos del corazón. Si que detectaba sin embargo los pulsómetros de mis amigos. para añadir más elementos a esta fiesta, uno de estos mismo amigos, tenía un problema con el GPS: &amp;nbsp;El dispositivo Garmin GPS no detecta los satélites.</description>
+    </item>
+    
+    <item>
+      <title>Ocultar los ficheros .svn de la web</title>
+      <link>https://www.harecoded.com/ocultar-ficheros-svn-web-1158447/</link>
+      <pubDate>Sun, 23 Jan 2011 22:44:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/ocultar-ficheros-svn-web-1158447/</guid>
+      <description>Si utilizas subversion para trabajar y tienes un checkout en tus carpetas p&amp;uacute;blicas de la web es peligroso que la gente pueda navegar a trav&amp;eacute;s de tu directorio oculto .svn, ya que puede contener informaci&amp;oacute;n que comprometer&amp;aacute; la seguridad de tu site. Prueba a acceder a http://tuservidor.com/.svn para ver si es tu caso.
+Para denegar la visita de los ojos curiosos (error 403) y que nadie pueda entrar, en el apartado virtualhost de tu Apache incluye esto:</description>
+    </item>
+    
+    <item>
+      <title>Exportar una consulta de Mysql en un fichero CSV</title>
+      <link>https://www.harecoded.com/exportar-consulta-mysql-fichero-csv-945014/</link>
+      <pubDate>Sun, 24 Oct 2010 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/exportar-consulta-mysql-fichero-csv-945014/</guid>
+      <description>Si tienes una tabla o consulta que quieres exportar a CSV tienes dos maneras muy fáciles de hacerlo. La primera es dentro de la consola mysql utilizando después del SELECT la opción INTO OUTFILE. Esto escribirá en el fichero externo que indiques el contenido de la consulta. La segunda opción es desde la propia línea de comandos utilizando la opción &#34;Batch&#34;.  Diferencias entre método 1 y 2: El primero permite especificar la terminación de las líneas en el csv así como si quieres comillas en cada campo.</description>
+    </item>
+    
+    <item>
+      <title>Evitar que se abra iTunes al conectar el iPhone o Ipod</title>
+      <link>https://www.harecoded.com/evitar-se-abra-itunes-al-conectar-iphone-o-ipod-270774/</link>
+      <pubDate>Wed, 03 Jun 2009 07:19:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/evitar-se-abra-itunes-al-conectar-iphone-o-ipod-270774/</guid>
+      <description>Esto es una chorrada, pero si sincronizas tu dispositivo con m&amp;aacute;s de un ordernador y te interesa que al enchufarlo no se abra el iTunes hay que seguir estos sencillos pasos (esto vale para Windows y Mac):
+ Enchufar el iPhone (o iPod) al ordenador En el iTunes, en el men&amp;uacute; de la derecha, hacer click en el dispositivo Quitar la marca de la casilla &#34;Sincronizar autom&amp;aacute;ticamente al conectar este iPhone&#34;</description>
+    </item>
+    
+    <item>
+      <title>&#34;ipconfig /flushdns&#34; para Mac OS X</title>
+      <link>https://www.harecoded.com/ipconfig-flushdns-mac-os-x-200405/</link>
+      <pubDate>Mon, 09 Feb 2009 20:58:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/ipconfig-flushdns-mac-os-x-200405/</guid>
+      <description>Desde el lanzamiento de Mac OS X Leopard (de esto ya hace unos cuantos d&amp;iacute;as) que ya no funciona el comando lookupd -flushcache que utiliz&amp;aacute;bamos para invalidar la cach&amp;eacute; de DNS de Mac.
+Este comando, que era el equivalente mac de ipconfig /flushdns de Windows ahora se ejecuta usando:
+dscacheutil -flushcache
+Lo dejo aqu&amp;iacute; anotado porqu&amp;eacute; soy flojo de memoria para este tipo de cosas :)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Automatically archive S3 backups to Amazon Glacier &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Automatically archive S3 backups to Amazon Glacier</h1>
+  <time datetime=2013-12-06T22:53:00Z class="post-date">Fri, Dec 6, 2013</time>
+  <p>
+  <strong><a class="thickbox" href=  "/img/posts/52a249a75d9b4s72243.jpg"><br></a><a href="http://aws.amazon.com/en/s3/">Amazon
+  S3</a></strong> is an on-cloud storage service used in a variety
+  of scenarios. On of these common scenarios is the one where you
+  upload your server backups to S3 using any of the multiple
+  convenient libraries and tools.&nbsp;
+</p>
+<p>
+  In the other hand, Amazon offers another service more oriented to
+  data archiving and backup named <a href=  "http://aws.amazon.com/es/glacier/"><strong>Amazon
+  Glacier</strong></a>. If you store a lot of data (and I am not
+  talking about &nbsp;a couple of GB) then you can save money using
+  Glacier instead of S3.&nbsp;Although the S3 service is sold as
+  "infinitely scalable and highly durable" the bills work the same
+  way and if you store TB than you might consider moving to
+  Glacier.
+</p>
+<p>
+  Now S3 offers an option to automatically move (or delete) data
+  from the S3 buckets to Glacier. It is called
+  "<strong>Lifecycle</strong>" an you'll find it when logging to
+  the AWS Console and showing the Properties tab.
+</p>
+<p>
+  <a class="thickbox" href=  "/img/posts/52a249a75d9b4s72243.jpg"  alt=" TAGS:"></a>
+</p>
+<p>
+  From there you can create a rule that <strong>when an object is
+  XX days old it will be moved from S3 to Glacier
+  automatically</strong> (<a href=  "http://aws.amazon.com/en/s3/faqs/#How_is_my_storage_charge_calculated_for_Amazon_S3_objects_archived_to_Amazon_Glacier">charges
+  apply</a>), or you can delete it as well.
+</p>
+<p>
+  Now it's time to make numbers, <strong>the difference in pricing
+  between S3 and Glacier is huge</strong>.
+</p>
+<ul>
+  <li>Save data in S3 (US Standard): $0.125 per GB up to 1TB. More
+  expensive beyond that space used.
+  </li>
+  <li>Save data in&nbsp;Glacier(US East Virginia): $0.01 per GB /
+  month
+  </li>
+</ul>
+<p>
+  <strong>Pricing</strong>:
+</p>
+<ul>
+  <li>
+    <a href=    "http://aws.amazon.com/s3/pricing/">http://aws.amazon.com/s3/pricing/</a>
+  </li>
+  <li>
+    <a href=    "http://aws.amazon.com/glacier/pricing/">http://aws.amazon.com/glacier/pricing/</a>
+  </li>
+</ul>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

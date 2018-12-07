@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on Harecoded</title>
+    <link>https://www.harecoded.com/tags/hardware/</link>
+    <description>Recent content in Hardware on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Feb 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Moving to a Macbook core 2 duo</title>
+      <link>https://www.harecoded.com/moving-to-macbook-core-2-duo-96364/</link>
+      <pubDate>Mon, 04 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/moving-to-macbook-core-2-duo-96364/</guid>
+      <description>I have owned 5 laptops for the last 6 years, which are a lot of laptops if you ask me... From a Toshiba Satellite with DSTN screen, going next to an IBM Thinkpad 600x and owning only macs since then: Powerbook G4 550 titanium, Powerbook G4 1Ghz 12&#34; and, since yesterday, a shinny (second handed) Macbook 2 Core Duo.
+All those machines were bought second handed and sold consequently. I have been lucky enough with all of them to never consider buying a new (from stores) laptop.</description>
+    </item>
+    
+    <item>
+      <title>Increase the ibook display resolution with a 2nd monitor</title>
+      <link>https://www.harecoded.com/increase-the-ibook-display-resolution-with-2nd-monitor-96304/</link>
+      <pubDate>Tue, 13 Dec 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/increase-the-ibook-display-resolution-with-2nd-monitor-96304/</guid>
+      <description>When you plug an iBook 12&#34; to an external monitor you get two duplicated screens. As they are duplicated, the maximum resolution is imposed by your iBook, this is 1024x768 pixels, no matter your second monitor can do 1600x1200.
+I bought an iBook 12&#34; because it&#39;s really portable and lightweight, but for intensive work, a 1024x768 pixels resolution is absolutely not healthy . We need a solution!
+That&#39;s how i&#39;d like to work:   &amp;nbsp; iBook LCD TFT Monitor Usable screens   Before solution 1024x768 1024x768 1   After solution 1024x768 1280x1024+ 2    In order to remove duplication to let your 2nd monitor work with freedom you have to make some changes in the System Preferences/Screens panel, under the tab Align.</description>
+    </item>
+    
+  </channel>
+</rss>

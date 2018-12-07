@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Textos grandes a partir de caracteres básicos en terminal &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Textos grandes a partir de caracteres básicos en terminal</h1>
+  <time datetime=2012-11-14T10:19:00Z class="post-date">Wed, Nov 14, 2012</time>
+  <p>
+  Estaba haciendo un script para automatizar el proceso de conexión
+  a una base de datos, en producción.
+</p>
+<p>
+  Uno de esos scripts que conviene usar con cuidad así que pensé en
+  poner un aviso que se mostrara al ejecutarlo:
+</p>
+<pre>
+[user~]$ cat prod_mysql.sh<br>echo "CUIDAOOOOOOOOO!!!!!" mysql -h localhost -u user_prod -plucksoytuhijo main_data
+</pre>
+<p>
+  Pero al ejecutarlo pensé que ese aviso no era tan visible com me
+  gustaría así que recordé una herramienta que usaba hace muchos
+  años. Su nombre es <strong>figlet</strong> y, casualidades de la
+  vida, todavía está disponible para correr en mi CentOS
+  6.3&nbsp;<a href=  "http://www.figlet.org/">http://www.figlet.org/</a>
+</p>
+<p>
+  La instalación de figlet en CentOS es muy sencilla:
+</p>
+<pre>
+cd /tmp<br> wget http://pkgs.repoforge.org/figlet/figlet-2.2.2-1.el6.rf.x86_64.rpm<br> sudo  rpm -U figlet-2.2.2-1.el6.rf.x86_64.rpm
+</pre>
+<p>
+  Y ahora sólo me queda adaptar mi script:
+</p>
+<pre>
+<span>[user~]$ cat prod_mysql.sh</span><br> <span>figlet "CUIDAOOO!"</span><br> <span>mysql -h localhost -u user_prod -plucksoytuhijo main_data</span>
+</pre>
+<p>
+  Mucho mejor:
+</p>
+<pre>
+[user~]$ ./prod_mysql.sh
+  ____ _   _ ___ ____    _    ___   ___   ___  _
+ / ___| | | |_ _|  _ \  / \  / _ \ / _ \ / _ \| |
+| |   | | | || || | | |/ _ \| | | | | | | | | | |
+| |___| |_| || || |_| / ___ \ |_| | |_| | |_| |_|
+ \____|\___/|___|____/_/   \_\___/ \___/ \___/(_)
+
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 18432
+Server version: 5.1.61 Source distribution
+
+Copyright (c) 2000, 2011, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql&gt;
+</pre>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

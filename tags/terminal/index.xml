@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on Harecoded</title>
+    <link>https://www.harecoded.com/tags/terminal/</link>
+    <description>Recent content in Terminal on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Oct 2014 23:07:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OS X renaming using parameter expansion</title>
+      <link>https://www.harecoded.com/os-x-renaming-using-parameter-expansion-2368474/</link>
+      <pubDate>Sat, 18 Oct 2014 23:07:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/os-x-renaming-using-parameter-expansion-2368474/</guid>
+      <description>When it comes to rename files via command line there is no rename utility under OS X without installing Homebrew. But I still never needed to install it since there is a lot you can do by just making use of the shell parameter expansion.  The parameter expansion allows you to manipulate variables in a very convenient way and when mixed with the mv command you have an unstoppable renaming tool.</description>
+    </item>
+    
+    <item>
+      <title>Terminal tuning for Git developers in Mac</title>
+      <link>https://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</link>
+      <pubDate>Fri, 19 Sep 2014 17:52:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</guid>
+      <description>If you work with Git in the terminal there are some tweaks you might want to apply to your prompt for safer and faster coding. The following lines are part of my ~/.bash_profile file. I use it on Mac although that might work in Linux as well.  You can copy and paste this code in your ~/.bash_profile (create it if it doesn&#39;t exist), save and open a new terminal to see the changes every time you save.</description>
+    </item>
+    
+    <item>
+      <title>Convertir de ISO a UTF-8 por línea de comandos</title>
+      <link>https://www.harecoded.com/convertir-iso-utf-8-linea-comandos-2230931/</link>
+      <pubDate>Mon, 10 Dec 2012 11:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/convertir-iso-utf-8-linea-comandos-2230931/</guid>
+      <description>Esta mañana he tenido que utilizar un .CSV generado desde Excel.  Al acceder a él desde la línea de comandos me he encontrado que se perdían todos los acentos. Un problema ya clásico este de &#34;los carácteres especiales&#34;.  Gracias al comando &#39;file&#39; he podido descubrir la codificación que Excel le da a nuestro fichero en el momento de hacer la exportación.  &amp;gt;file nombre_fichero.csv
+nombre_fichero.csv: ISO-8859 text, with CRLF line terminators   Lo único que he tenido que hacer es convertirlo en la misma terminal a UTF-8.</description>
+    </item>
+    
+    <item>
+      <title>Textos grandes a partir de caracteres básicos en terminal</title>
+      <link>https://www.harecoded.com/textos-grandes-partir-caracteres-basicos-terminal-2186683/</link>
+      <pubDate>Wed, 14 Nov 2012 10:19:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/textos-grandes-partir-caracteres-basicos-terminal-2186683/</guid>
+      <description>Estaba haciendo un script para automatizar el proceso de conexión a una base de datos, en producción.  Uno de esos scripts que conviene usar con cuidad así que pensé en poner un aviso que se mostrara al ejecutarlo:  [user~]$ cat prod_mysql.sh
+echo &#34;CUIDAOOOOOOOOO!!!!!&#34; mysql -h localhost -u user_prod -plucksoytuhijo main_data   Pero al ejecutarlo pensé que ese aviso no era tan visible com me gustaría así que recordé una herramienta que usaba hace muchos años.</description>
+    </item>
+    
+    <item>
+      <title>Mantener la sesión abierta en iTerm (keep-alive)</title>
+      <link>https://www.harecoded.com/mantener-sesion-abierta-iterm-keep-alive-2160763/</link>
+      <pubDate>Wed, 29 Aug 2012 10:12:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/mantener-sesion-abierta-iterm-keep-alive-2160763/</guid>
+      <description>Similarmente a como explicamos sobre cómo mantener la sesión activa en Putty, si queremos dejar la terminal abierta y que no se nos cierre con&amp;nbsp;iTerm cada vez que vamos a hacer un café, comer, o liberar la próstata, hay que seguir estos sencillos pasos:  Abrir Bookmarks&amp;nbsp;-&amp;gt;&amp;nbsp;Manage Profiles  Desplegar Terminal Profiles y seleccionar  Default  Marcar When idle, sends ASCII code    El valor de esta casilla por defecto es 0, pero lo podéis cambiar a cualquier otro código ASCII.</description>
+    </item>
+    
+    <item>
+      <title>Putty keep-alive session (mantener activa la sesión)</title>
+      <link>https://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</link>
+      <pubDate>Fri, 03 Aug 2012 10:11:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</guid>
+      <description>Cuando utilizamos putty como cliente ssh muchas veces nos encontramos que, tras un tiempo de inactividad, la sesión se cierra.  Putty cuenta con una opción que nos permite envíar paquestes nulos, de forma automática, cada periodo definido de tiempo. De esa manera, putty, mantendrá la sesión activa.  Antes de activar esta opción hay que tener en cuenta que, el sistema de cancelación automática de una conexión no es más que una medida de seguridad por lo que, en caso de conectarnos a sistemas &#34;</description>
+    </item>
+    
+    <item>
+      <title>Autocompletar hosts al escribir ssh en la terminal</title>
+      <link>https://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</link>
+      <pubDate>Fri, 23 Mar 2012 15:06:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</guid>
+      <description>Esta mañana mi compañero Borja me ha enseñado un pequeño truquito para olvidarse de los bookmarks en la terminal. Se trata de autocompletar el comando ssh con los hosts conocidos.  De este modo, cuando escribes ssh en la terminal puedes darle al tabulador para que sugiera o escriba el resto de host por ti. Ejemplo:    Existen múltiples maneras de hacer esto, leyendo configs con puertos y otras barbaridades, pero esta es realmente simple y efectiva y sin duda la que más me gusta.</description>
+    </item>
+    
+    <item>
+      <title>Conectar por SSH sin password (autenticación de clave pública)</title>
+      <link>https://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</link>
+      <pubDate>Mon, 29 Aug 2011 07:03:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</guid>
+      <description>Para conectar a un servidor remoto por SSH sin usuario ni contraseña todo lo que hace falta es compartir una clave entre cliente y servidor. Los pasos son muy sencillos:   Asegurarse que la carpeta .ssh existe en el servidor al que nos queremos conectar   Crear una clave RSA en la máquina cliente (la que se conecta):
+ ssh-keygen -t rsa Cuando se te pida por un password, dale al enter sin poner ninguno (este es el propósito del artículo, sin passwords)   Copiar la clave pública en el servidor:</description>
+    </item>
+    
+  </channel>
+</rss>

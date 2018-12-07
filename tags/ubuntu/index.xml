@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Harecoded</title>
+    <link>https://www.harecoded.com/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jun 2011 21:37:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo cambiar la extensión a múltiples ficheros desde terminal (unix shell)</title>
+      <link>https://www.harecoded.com/cambiar-extension-multiples-ficheros-terminal-unix-shell-1222900/</link>
+      <pubDate>Fri, 17 Jun 2011 21:37:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/cambiar-extension-multiples-ficheros-terminal-unix-shell-1222900/</guid>
+      <description>Para renombrar la extensi&amp;oacute;n de muchos ficheros a la vez en la terminal, se puede hacer con la siguiente l&amp;iacute;nea:
+for file in *.phtml ; do mv $file `echo $file | sed &#39;s/\(.*\.\)phtml/\1tpl/&#39;` ; done Esto cambiar&amp;iacute;a todas las extensiones phtml por tpl del directorio en que lo lanz&amp;eacute;is. Cambiando la parte en negrita por vuestra extensi&amp;oacute;n favorita ya funcionar&amp;iacute;a.
+Lo que hace la l&amp;iacute;nea es buscar todos los archivos que cumplen la condici&amp;oacute;n *.</description>
+    </item>
+    
+    <item>
+      <title>Restore broken hard disk creating an image with Ubuntu</title>
+      <link>https://www.harecoded.com/restore-broken-hard-disk-creating-an-image-with-ubuntu-526239/</link>
+      <pubDate>Mon, 01 Mar 2010 00:22:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/restore-broken-hard-disk-creating-an-image-with-ubuntu-526239/</guid>
+      <description>If your boot partition has been damaged and you cannot boot Ubuntu you still might be able to recover your hard disk and save your data by making an image. All you need is the Ubuntu LiveCD and Partimage, an excellent tool for making backups, or the SystemRescueCD.
+Here you&#39;ll find a detailed explanation on how to use partimage as well:
+http://www.psychocats.net/ubuntu/partimage</description>
+    </item>
+    
+    <item>
+      <title>TortoiseSVN for Ubuntu Linux: The real alternative</title>
+      <link>https://www.harecoded.com/tortoisesvn-for-ubuntu-linux-the-real-alternative-373573/</link>
+      <pubDate>Sun, 25 Oct 2009 12:03:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/tortoisesvn-for-ubuntu-linux-the-real-alternative-373573/</guid>
+      <description>I have posted several articles regarding subversion in this blog. If you ask me one thing I like in Windows, then I only have one answer: Tortoise SVN client. This small application is the only thing I love in Windows, for anything else, I&#39;d rather user Mac or Linux.
+But now, there is a Linux alternative to Tortoise SVN called RabbitVCS. I&#39;ve tried it and it works pretty well. This project, formerly NautilusSVN, looks really well and is inspired in the windows tool.</description>
+    </item>
+    
+    <item>
+      <title>Cómo reproducir ficheros .RMVB en Ubuntu</title>
+      <link>https://www.harecoded.com/reproducir-ficheros-rmvb-ubuntu-211216/</link>
+      <pubDate>Sat, 28 Feb 2009 13:57:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/reproducir-ficheros-rmvb-ubuntu-211216/</guid>
+      <description>Los ficheros .rmvb no se pueden reproducir por defecto en Ubuntu, esta extensi&amp;oacute;n es para los de tipo RealMedia Variable Bitrate, pero instalando los c&amp;oacute;decs de Mplayer los podr&amp;aacute;s abrir sin problemas.
+Lo primero que debes instalar, aunque no sea intuitivo es la librer&amp;iacute;a libstdc++5, para hacerlo o bien abre Synaptic ( Sistema -&amp;gt; Administraci&amp;oacute;n -&amp;gt; Gestor de Paquetes )&amp;nbsp; y haz doble click sobre libstdc++5 o ejecuta en la terminal:</description>
+    </item>
+    
+    <item>
+      <title>GnomeDo: Quicksilver/Launchy para Gnome (Linux)</title>
+      <link>https://www.harecoded.com/gnomedo-quicksilverlaunchy-gnome-linux-124196/</link>
+      <pubDate>Tue, 02 Sep 2008 12:08:17 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/gnomedo-quicksilverlaunchy-gnome-linux-124196/</guid>
+      <description>Si hace ya mucho tiempo hablamos de Katapult, un lanzador para KDE, ahora damos el turno a Gnome, con el GnomeDo.&amp;nbsp;
+Al igual que en Quicksilver, se pueden descargar varios plugins interesantes&amp;nbsp;que ampl&amp;iacute;an las funcionalidades b&amp;aacute;sicas del programa, que no son simplemente limitarse a abrir documentos y programas tecleando parte de su nombre.
+Lo que m&amp;aacute;s me gusta de estos programas (sin duda el mejor, la versi&amp;oacute;n original de Mac, Quicksilver) es como uno se olvida de navegar por los men&amp;uacute;s y los sistemas de ficheros.</description>
+    </item>
+    
+    <item>
+      <title>How to watch and record TV with a PC Ubuntu linux</title>
+      <link>https://www.harecoded.com/how-to-watch-and-record-tv-with-pc-ubuntu-linux-99682/</link>
+      <pubDate>Mon, 16 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-watch-and-record-tv-with-pc-ubuntu-linux-99682/</guid>
+      <description>Catalan speakers see: &#34;Com veure la TV amb Ubuntu&#34;
+There are many alternatives when we speak of media centers, but I can&#39;t figure out anything other than a computer. It offers all the functionallity you could want in a well-known interface. That&#39;s why I have a PC in the living room, I browse the Internet using my TV (using an HDMI cable) and now I record stuff when I am not at home.</description>
+    </item>
+    
+    <item>
+      <title>Automatix for Ubuntu 8 is dead</title>
+      <link>https://www.harecoded.com/automatix-for-ubuntu-8-is-dead-96369/</link>
+      <pubDate>Thu, 24 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/automatix-for-ubuntu-8-is-dead-96369/</guid>
+      <description>Today I read on the GetAutomatix Forum that Getautomatix for Ubuntu has been discontinued. That&#39;s sad news since we were all pretty used to it. Everything outside-the-box was installed with a single click and was a great improvement for the end-user experience. Now I can only hope that someone will resume the development with a new project. These guys are now working only for the distro Pioneer Warrior. The original message by the authors is:</description>
+    </item>
+    
+    <item>
+      <title>Installing Firefox 3 beta on Ubuntu Gutsy, with Firebug!</title>
+      <link>https://www.harecoded.com/installing-firefox-3-beta-on-ubuntu-gutsy-with-firebug-96361/</link>
+      <pubDate>Fri, 23 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/installing-firefox-3-beta-on-ubuntu-gutsy-with-firebug-96361/</guid>
+      <description>If you want to test the Firefox 3 new features on your Ubuntu Gutsy installation, but don&#39;t want to loose all the Firebug niceties for developing web apps, here are some quick and dirty steps:
+ $ sudo apt-get install Firefox-3.0 (upgrades/downgrades to kernel 2.6.20... weird!) &amp;nbsp;Go to the Fireclipse site and download Firebug-1.1.0b10.xpi. This is a modified version from the firebug original, compatible with Firefox 3.&amp;nbsp; Open Firefox 3, install the xpi by drag &amp;amp; drop to the firefox window.</description>
+    </item>
+    
+    <item>
+      <title>Linux web development. Test web sites in Internet Explorer inside Linux</title>
+      <link>https://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</link>
+      <pubDate>Mon, 19 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</guid>
+      <description>IE: We hate it, but our customers don&#39;t know anything else... So, we must test how Internet Explorer renders our websites. It&#39;s a bit unpractical to boot from another partition, or change your machine for testing. There are a couple of useful practices:
+ Install a Virtual Machine for Linux, such as Virtualbox with a windows XP in it Install IE5, IE5.5 or IE6 as a linux standalone application with IEs4Linux  I have a Windows XP with 128MB RAM for Internet Explorer 7 testing inside my VirtualBox for linux.</description>
+    </item>
+    
+    <item>
+      <title>Nautilus subversion integration tool. Execute SVN commands with Gnome scripts</title>
+      <link>https://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</link>
+      <pubDate>Thu, 25 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</guid>
+      <description>I have been using subversion (svn) for years from the command line... But some months ago I changed my job and I started using windows environments. And I must admit TortoiseSVN is the best GUI SVN client i&#39;ve seen ever before. While my needs are satisfied in Windows with TortoiseSVN and in Mac OS X with SCPlugin and SvnX, I was lacking a subversion tool to manage my files while exploring files in my Ubuntu (nautilus file explorer).</description>
+    </item>
+    
+    <item>
+      <title>Upgrade to Ubuntu Gutsy not so smooth and udevd 100% cpu usage</title>
+      <link>https://www.harecoded.com/upgrade-to-ubuntu-gutsy-not-so-smooth-and-udevd-100-cpu-usage-96354/</link>
+      <pubDate>Wed, 24 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/upgrade-to-ubuntu-gutsy-not-so-smooth-and-udevd-100-cpu-usage-96354/</guid>
+      <description>I upgraded my dell computer at work from Ubuntu Feisty to Ubuntu Gutsy, but I have to say that this time the upgrade went far less smoother than previous ones. The process halted the computer at some point in time, I had to start it up again, and in the end I lost all my compiz - beryl configurations (3d desktop, effects), which I have not been able to recover by now.</description>
+    </item>
+    
+    <item>
+      <title>Screencast: Cómo capturar tu escritorio Linux en una película</title>
+      <link>https://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</link>
+      <pubDate>Wed, 04 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</guid>
+      <description>Si quieres grabar una pel&amp;iacute;cula para ense&amp;ntilde;ar al mundo lo que est&amp;aacute;s haciendo en tu escritorio Linux, necesitas recordMyDesktop, una aplicaci&amp;oacute;n que te permite capturar la sesi&amp;oacute;n en formato video utilizando los formatos abiertos OGG Vorbis y theora. Aunque se puede utilizar desde la l&amp;iacute;nea de comandos tambi&amp;eacute;n est&amp;aacute;n disponibles dos versi&amp;oacute;nes gr&amp;aacute;ficas (GTK y PyQT).
+
+Si utilizas la versi&amp;oacute;n 7.04 de Ubuntu (Fesity) puedes instalarlo usando el comando:</description>
+    </item>
+    
+    <item>
+      <title>Basic and simple iptables configurations for home users</title>
+      <link>https://www.harecoded.com/basic-and-simple-iptables-configurations-for-home-users-96337/</link>
+      <pubDate>Tue, 12 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/basic-and-simple-iptables-configurations-for-home-users-96337/</guid>
+      <description>OpenBSD has been always my prefered distribution when I have to install a firewall based on a *NIX machine. The PF rules are what I am used to see. But last year I had to write several configurations for a debian machine using iptables which I am not really used to. Since I tend to forget these things, I paste here a basic configuration, if you want to use it, paste this in your desired starting script.</description>
+    </item>
+    
+    <item>
+      <title>Como conectarse a internet con un móvil symbian y Ubuntu</title>
+      <link>https://www.harecoded.com/conectarse-internet-movil-symbian-ubuntu-96326/</link>
+      <pubDate>Sat, 16 Dec 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/conectarse-internet-movil-symbian-ubuntu-96326/</guid>
+      <description>En un art&amp;iacute;culo anterior habl&amp;aacute;bamos sobre c&amp;oacute;mo conectarse a internet con un m&amp;oacute;bil nokia 3G y macintosh. Esta vez, nos conectaremos desde un linux (Ubuntu 6.10).
+Primero de todo el m&amp;oacute;bil tiene que estar bien configurado para hacer de m&amp;oacute;dem. Estos pasos son los mismos que ya hemos explicado anteriormente, en cuanto a Linux, para no andar instalando m&amp;aacute;s software del que viene por defecto usaremos el programa wvdial.
+Manos a la obra.</description>
+    </item>
+    
+    <item>
+      <title>Xubuntu: I&#39;ve lost the menu!!</title>
+      <link>https://www.harecoded.com/xubuntu-ive-lost-the-menu-96320/</link>
+      <pubDate>Tue, 13 Jun 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/xubuntu-ive-lost-the-menu-96320/</guid>
+      <description>Don&#39;t panic!
+It seems to be common to lose the right-button menu when you open the menu editor (I had a &#39;Segment violation&#39; error). To recover it, open a terminal, and type:
+ cp /etc/xdg/xfce4/desktop/menu.xml ~/.config/xfce4/desktop/menu.xml
+That&#39;s all. If you have problems because the directory doesn&#39;t exist, create it first:
+mkdir ~/.config/xfce4/desktop</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu: Play mp3, extract RAR files, install the java plugin... and much more</title>
+      <link>https://www.harecoded.com/ubuntu-play-mp3-extract-rar-files-install-the-java-plugin-and-much-more-96316/</link>
+      <pubDate>Sun, 02 Apr 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/ubuntu-play-mp3-extract-rar-files-install-the-java-plugin-and-much-more-96316/</guid>
+      <description>Recentlly I posted on How to play mp3 with ubuntu and now I am posting how to do it again but also:
+ How to install the Java Plugin How to install the Flash Plugin How to play windows videos RealPlayer Extract RAR files, ACE files and 7-Zip files Enable the Num Lock at system startup Install microsoft fonts and much much more...  The solution arrives by installing EasyUbuntu</description>
+    </item>
+    
+    <item>
+      <title>Quicksilver for Linux</title>
+      <link>https://www.harecoded.com/quicksilver-for-linux-96314/</link>
+      <pubDate>Tue, 21 Mar 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/quicksilver-for-linux-96314/</guid>
+      <description>Quicksilver is for me the most useful application in the OS X environment. Few days ago someone shown me the same concept ported to Linux: Katapult. It&#39;s a long way to walk for Katapult to become as much powerful as Quicksilver is, but it gives to Linux users a very useful functionallity. Despite Katapult is a KDE application I&#39;ve been running it in Ubuntu (Gnome) without trouble. If you want to install it (ubuntu): sudo apt-get install katapult In the picture you can see how I started typing &#34;</description>
+    </item>
+    
+    <item>
+      <title>How to play MP3 with Ubuntu</title>
+      <link>https://www.harecoded.com/how-to-play-mp3-with-ubuntu-96313/</link>
+      <pubDate>Fri, 17 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-play-mp3-with-ubuntu-96313/</guid>
+      <description>It&#39;s usual to find many distributions without MP3 support due to licensing issues. If you have MP3 files and don&#39;t know how to play them do the following:
+ Open the terminal Type sudo gedit /etc/apt/sources.list Remove comments to packages (This is erasing the # characters in lines starting with ##deb) Save changes and close gedit Update the packages sudo apt-get update Install the mulitmedia codecs:  sudo apt-get install gstreamer0.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu doesn&#39;t come with sshd by default</title>
+      <link>https://www.harecoded.com/ubuntu-doesnt-come-with-sshd-by-default-96309/</link>
+      <pubDate>Wed, 04 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/ubuntu-doesnt-come-with-sshd-by-default-96309/</guid>
+      <description>I&#39;ve been stuck to Mandriva (formerly Mandrake) as my preferred Linux distro for over 2 years with a positive experience while testing dozens of different distros all that time. Today is one of those days and I decided to switch to Ubuntu (just to see what&#39;s out of the Matrix)
+My first suprise with Ubuntu is that didn&#39;t come with the SSH server service installed, essential for me since I transfer files using SFTP.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Instalar PHP 5.3 en MAMP &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Instalar PHP 5.3 en MAMP</h1>
+  <time datetime=2010-04-14T21:41:00Z class="post-date">Wed, Apr 14, 2010</time>
+  <p class="msg_ok"><strong>Actualizaci&oacute;n</strong>: La nueva versi&oacute;n de MAMP ya trae PHP 5.3 por lo que ya no es necesario hacerlo a mano. B&aacute;jate la &uacute;ltima versi&oacute;n!</p>
+<p>Hola,</p>
+<p>A d&iacute;a de escribir este post MAMP viene con la versi&oacute;n 5.2.11 de PHP por lo que no se pueden utilizar muchas de las funciones interesantes que tiene la nueva versi&oacute;n, yo concretamente quer&iacute;a utilizar funciones de fecha como DateTime::createFromFormat() y los namespaces. Para solucionarlo he hecho lo siguiente</p>
+<p>A la conciencia vuestra ir&aacute; si se os rompe la configuraci&oacute;n (a mi me va):</p>
+<p><strong>Instrucciones para instalar PHP 5.3 en Mac con MAMP</strong></p>
+<p>1) Descargar la versi&oacute;n 5.3 de la p&aacute;gina de <a href="http://snaps.php.net/">Snapshots</a> a d&iacute;a de hoy <a href="http://snaps.php.net/php5.3-201004141830.tar.bz2">este es el fichero comprimido</a></p>
+<p>2) Descomprimir y navegar por terminal hasta el lugar donde se ha descomprimido</p>
+<p>3) En la terminal, dentro de la carpeta lanzar el configure con las opciones de vuestro Config:</p>
+<pre>./configure --with-mysql=/Applications/MAMP/Library --with-apxs2=/Applications/MAMP/Library/bin/apxs --with-gd --with-jpeg-dir=/Applications/MAMP/Library --with-png-dir=/Applications/MAMP/Library --with-zlib --with-freetype-dir=/Applications/MAMP/Library --prefix=/Applications/MAMP/bin/php5 --exec-prefix=/Applications/MAMP/bin/php5 --sysconfdir=/Applications/MAMP/conf/php5 --with-soap --with-config-file-path=/Applications/MAMP/conf/php5 --enable-track-vars --enable-bcmath --enable-ftp --enable-gd-native-ttf --with-bz2=/usr --with-ldap --with-mysqli=/Applications/MAMP/Library/bin/mysql_config --with-sqlite --with-ttf --with-t1lib=/Applications/MAMP/Library --enable-mbstring=all --with-curl=/Applications/MAMP/Library --enable-dbx --enable-sockets --enable-bcmath --with-imap=shared,/Applications/MAMP/Library/lib/imap-2006i --enable-soap --with-kerberos --enable-calendar --with-pgsql=shared,/Applications/MAMP/Library/pg --enable-dbase --enable-exif --with-libxml-dir=/Applications/MAMP/Library --with-gettext=shared,/Applications/MAMP/Library --with-xsl=/Applications/MAMP/Library --with-pdo-mysql=shared,/Applications/MAMP/Library --with-pdo-pgsql=/Applications/MAMP/Library/pg --with-mcrypt=shared,/Applications/MAMP/Library --with-openssl --with-apxs2=/usr/sbin/apxs --with-png-dir=/usr/X11 --with-freetype-dir=/usr/X11</pre>
+<p>4) Si todo va bien (el punto anterior es la madre del cordero):</p>
+<p>make<br />make install</p>
+<p>Si encontr&aacute;is errores pod&eacute;is desactivar las librer&iacute;as que os fallan (si no las necesit&aacute;is) y si no en el proyecto Fink pod&eacute;is descargar un mont&oacute;n de ellas y lanzar los -with-librerira-tal=/sw etc...</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

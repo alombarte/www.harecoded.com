@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fun on Harecoded</title>
+    <link>https://www.harecoded.com/tags/fun/</link>
+    <description>Recent content in Fun on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Feb 2013 15:47:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/fun/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A life explained in HTTP status codes</title>
+      <link>https://www.harecoded.com/life-explained-in-http-status-codes-2246877/</link>
+      <pubDate>Mon, 04 Feb 2013 15:47:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/life-explained-in-http-status-codes-2246877/</guid>
+      <description>This is a made-up story of a life explained with HTTP status code. It was written up to down at once without much thinking, feel free to improve it!    Status Code   Event   HTTP meaning       100   You are curious about her   Continue     101   First time sex   Switching Protocols     200   Love   OK     201   She&#39;s pregnant   Created     202   And you are the father   Accepted     203   Were you looking forward it?</description>
+    </item>
+    
+    <item>
+      <title>Borra 10 amigos de Facebook y llévate una Whopper gratis</title>
+      <link>https://www.harecoded.com/borra-10-amigos-facebook-llevate-whopper-gratis-184528/</link>
+      <pubDate>Fri, 09 Jan 2009 18:00:16 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/borra-10-amigos-facebook-llevate-whopper-gratis-184528/</guid>
+      <description>S&amp;iacute;, s&amp;iacute;, como los has le&amp;iacute;do. Sacrifica 10 de tus amigos en Facebook por una hamburguesa. As&amp;iacute; de absurdo.
+Hoy me encuentro en un art&amp;iacute;culo de CNET que los se&amp;ntilde;ores de Burger King han lanzado una campa&amp;ntilde;a de m&amp;aacute;rketing viral que consiste en instalarse una aplicaci&amp;oacute;n de Facebook y borrar 10 de tus amigos. La han bautizado Whopper Sacrifice, y seg&amp;uacute;n parece, al acabar el sacrificio te dan un cup&amp;oacute;n v&amp;aacute;lido para una Whopper gratis (un cup&amp;oacute;n por cuenta Facebook).</description>
+    </item>
+    
+    <item>
+      <title>Un slogan desacertado?</title>
+      <link>https://www.harecoded.com/slogan-desacertador-96336/</link>
+      <pubDate>Tue, 12 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/slogan-desacertador-96336/</guid>
+      <description>Hoy he entrado en la web de apple para consultar precio del dock del iPod y me he econtrado con esto:
+&amp;nbsp;Aunque en el site de apple debajo del slogan hay una im&amp;aacute;gen clarificadora con dos portatiles a diferente resoluci&amp;oacute;n de pantalla es inevitable que a todos nos venga a la cabeza la competencia. O es que soy yo que tengo una mente sucia? A ver lo que dura :)</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t play with your system fonts!</title>
+      <link>https://www.harecoded.com/dont-play-with-your-system-fonts-96301/</link>
+      <pubDate>Tue, 29 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/dont-play-with-your-system-fonts-96301/</guid>
+      <description>This is what might happen: Playing around with the system fonts can cause funny situations</description>
+    </item>
+    
+  </channel>
+</rss>

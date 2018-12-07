@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>How to setup a remote development environment over SFTP (working copy) &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>How to setup a remote development environment over SFTP (working copy)</h1>
+  <time datetime=2012-08-09T00:10:00Z class="post-date">Thu, Aug 9, 2012</time>
+  <p>
+  This article explains how to setup the server and client to work
+  with a remote working copy.
+</p>
+<p>
+  To properly understand this post you should have read the
+  previous post, <a href=  "http://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816">
+  When to setup a remote development environment over SFTP (working
+  copy)</a>.
+</p>
+<p>
+  To have the enviroment up and running you must setup once the
+  server, and then apply the configuration of the client in every
+  developer machine. But the client side is very simple and
+  requires no installation at all.
+</p>
+<p>
+  Here's how:
+</p><h3>
+  Server Side
+</h3>
+<p>
+  These are the basic steps you need to do to get the server ready
+  to create the remote working copy:
+</p>
+<p>
+  <strong>Create a catch-all DNS</strong>
+</p>
+<p>
+  You should point a domain to the development machine. It is
+  recommended to use a different one than the live DNS, or you can
+  use a fake entry in the hosts file of the clients, but it's not
+  very convenient. In this new domain you should configure a
+  cath-all behavior (wildcard).
+</p>
+<p>
+  As example, if your domain is awesomedevelopers.com than you
+  should create a wildcard *.awesomedevelopers.com in your DNS
+  panel so any request goes there.
+</p>
+<p>
+  <strong>Limit the access to the server</strong>
+</p>
+<p>
+  The idea is to disallow any possible indexation to Google and do
+  not let others see your page while you are working on it. Some
+  methods you can use:
+</p>
+<ul>
+  <li>Simple IP control through iptables or similar
+  </li>
+  <li>.htacces file or apache control
+  </li>
+  <li>&nbsp;header with www-authenticate
+  </li>
+</ul>
+<p>
+  <strong>Install all the services you are going to need in this
+  machine.</strong>
+</p>
+<p>
+  PHP, Mysql, Apache, Redis... anything that you might need must be
+  installed in the server. A clone of the production machine is
+  recommended. Avoids hearing in the future sentences like <em>"In
+  my working copy worked like a charm"</em>.
+</p>
+<p>
+  <strong>Configure the working copies</strong>
+</p>
+<p>
+  Create the folders where the working copies go, for instance,
+  this creates the working copies &nbsp;structure for the users
+  named jta, api and alo.:
+</p>
+<pre>
+mkdir -p /var/www/wc/{jta,api,alo}
+</pre>
+<p>
+  Then create a user and password for each. Set desired permissions
+  and clone the code at this stage if necessary (can be uploaded
+  later):
+</p>
+<pre>
+adduser jta<br>adduser api<br>adduser alo
+</pre>
+<pre>
+passwd jta<br>passwd api<br>passwd alo
+</pre>
+<p>
+  <strong>Modify the Virtual Hosts</strong>
+</p>
+<p>
+  To make every working copy subdomain point to this folder.
+  Example:
+</p>
+<pre>
+<br>   ServerName <strong>alo</strong>.awesomedevelopers.com<br>   DocumentRoot "/var/www/wc/alo/htdocs"
+<br>    ServerName <strong>api</strong>.awesomedevelopers.com<br>    DocumentRoot "/var/www/wc/api/htdocs"
+<br>    ServerName <strong>jta</strong>.awesomedevelopers.com
+    DocumentRoot "/var/www/wc/jta/htdocs"<br>
+</pre>
+<h3>
+  Client Side
+</h3>
+<p>
+  Then in the client, based on the cross-platform&nbsp;<a href=  "http://www.jetbrains.com/phpstorm/">PHPStorm</a> IDE the
+  followint steps is all you have to do to start working with the
+  working copy. It is pretty fast and does not involve working
+  copies or service maintenance.
+</p>
+<p>
+  All you have to do is create a new project, or reuse an existing
+  one and then configure the editor to upload files automatically
+  to the server.
+</p>
+<p>
+  In detail...
+</p>
+<p>
+  <strong>Configure the deployment settings</strong>
+</p>
+<p>
+  The first thing to do is to configure the deployment server.
+  PHPStorm needs to know where the machine is. To do so, go to:
+</p>
+<pre>
+Tools &gt; Deployment &gt; Configuration
+</pre>
+<p>
+  <a class="thickbox" href=  "/img/posts/5023cb0061f4bs85951.jpg"  alt=" TAGS:"></a>
+</p>
+<p>
+  Nothing special to say here, except that make sure to set
+  correctly the root path which is the real path in the server. The
+  user should have enough permissions to write in the server.
+</p>
+<p>
+  Then go to the&nbsp;"Mappings" tab and add a couple of slashes if
+  your web has no additional path needed in the URL:
+</p>
+<p>
+  <a class="thickbox" href=  "/img/posts/5023cb092797as65900.jpg"  alt=" TAGS:"></a>
+</p>
+<p>
+  <strong>Configure the deployment behaviour</strong>
+</p>
+<pre>
+Tools &gt; Deployment &gt; Options
+</pre>
+<p>
+  <a class="thickbox" href=  "/img/posts/5023cb0367504s66967.jpg"  alt=" TAGS:"></a>
+</p>
+<p>
+  Things you should take care of here are:
+</p>
+<ul>
+  <li>Items you don't want to upload, such as the .git repo.
+  </li>
+  <li>The level of logging. I always set it to Details so I can see
+  what the IDE is doing anytime in the File transfer window
+  </li>
+  <li>Overwrite files
+  </li>
+  <li>Create empty directories (if you usually work with git, this
+  is something you already know how to handle)
+  </li>
+  <li>Automatic upload and external changes, are the 2 most
+  important checkboxes. They make the IDE puts everything in the
+  remote server as you work.
+  </li>
+  <li>Notify remote changes. This option will show a yellow bar
+  asking you what to do if the file has changed in the remote
+  server. Very convenient.
+  </li>
+</ul>
+<p>
+  <a class="thickbox" href=  "/img/posts/5023cb06436b0s60359.jpg"><br></a>
+</p>
+<p>
+  <strong>Upload &nbsp;the code to the server</strong>
+</p>
+<p>
+  For the first time. If the code is already in the server and you
+  start fresh then do it the other way around, download it from the
+  server. To upload:
+</p>
+<p>
+  <a class="thickbox" href=  "/img/posts/5023cafcbc093s78988.jpg"  alt=" TAGS:"></a>
+</p>
+<p>
+  If the Menu "Deployment does not show up" then you need to go
+  back to the deployment configuration and set the remote server as
+  default (a small green tickbox in top of the server name)
+</p>
+<p>
+  <strong>Tick automatic upload</strong>
+</p>
+<p>
+  <img style=  "display: block; margin-left: auto; margin-right: auto;" title=""  src="/img/posts/5023cb06436b0s60359.jpg"  alt=" TAGS:">
+</p>
+<p>
+  And now, PHPStorm will upload everything to the server. You don't
+  need to save because PHPStorm does it automatically when the tab
+  lose the focus (while you switch to the browser)
+</p>
+<p>
+  Hope this seres of articles help :)
+</p>
+<p>
+  &nbsp;
+</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

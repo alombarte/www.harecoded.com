@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trick on Harecoded</title>
+    <link>https://www.harecoded.com/tags/trick/</link>
+    <description>Recent content in Trick on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Dec 2012 11:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/trick/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Convertir de ISO a UTF-8 por línea de comandos</title>
+      <link>https://www.harecoded.com/convertir-iso-utf-8-linea-comandos-2230931/</link>
+      <pubDate>Mon, 10 Dec 2012 11:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/convertir-iso-utf-8-linea-comandos-2230931/</guid>
+      <description>Esta mañana he tenido que utilizar un .CSV generado desde Excel.  Al acceder a él desde la línea de comandos me he encontrado que se perdían todos los acentos. Un problema ya clásico este de &#34;los carácteres especiales&#34;.  Gracias al comando &#39;file&#39; he podido descubrir la codificación que Excel le da a nuestro fichero en el momento de hacer la exportación.  &amp;gt;file nombre_fichero.csv
+nombre_fichero.csv: ISO-8859 text, with CRLF line terminators   Lo único que he tenido que hacer es convertirlo en la misma terminal a UTF-8.</description>
+    </item>
+    
+    <item>
+      <title>Textos grandes a partir de caracteres básicos en terminal</title>
+      <link>https://www.harecoded.com/textos-grandes-partir-caracteres-basicos-terminal-2186683/</link>
+      <pubDate>Wed, 14 Nov 2012 10:19:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/textos-grandes-partir-caracteres-basicos-terminal-2186683/</guid>
+      <description>Estaba haciendo un script para automatizar el proceso de conexión a una base de datos, en producción.  Uno de esos scripts que conviene usar con cuidad así que pensé en poner un aviso que se mostrara al ejecutarlo:  [user~]$ cat prod_mysql.sh
+echo &#34;CUIDAOOOOOOOOO!!!!!&#34; mysql -h localhost -u user_prod -plucksoytuhijo main_data   Pero al ejecutarlo pensé que ese aviso no era tan visible com me gustaría así que recordé una herramienta que usaba hace muchos años.</description>
+    </item>
+    
+  </channel>
+</rss>

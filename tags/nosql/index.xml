@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nosql on Harecoded</title>
+    <link>https://www.harecoded.com/tags/nosql/</link>
+    <description>Recent content in Nosql on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Aug 2011 07:10:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/nosql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Delete keys by pattern using REDIS-cli</title>
+      <link>https://www.harecoded.com/delete-keys-by-pattern-using-redis-cli-1261064/</link>
+      <pubDate>Thu, 18 Aug 2011 07:10:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/delete-keys-by-pattern-using-redis-cli-1261064/</guid>
+      <description>I do store a lot of statistical data in Redis, storing information on what users do and behave every day, week, month and so on... But storing a huge amount of data in memory has a little drawback: memory is cheap and fast, but is finite.  From time to time (e.g: cron job) I need to clean up the house because there is too much memory filled that is no longer interesting to keep it.</description>
+    </item>
+    
+    <item>
+      <title>non-RDBM distributed databases, map/reduce, key/value and cloud computing</title>
+      <link>https://www.harecoded.com/non-rdbm-distributed-databases-mapreduce-keyvalue-and-cloud-computing-227117/</link>
+      <pubDate>Mon, 30 Mar 2009 21:50:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/non-rdbm-distributed-databases-mapreduce-keyvalue-and-cloud-computing-227117/</guid>
+      <description>I&#39;ve been playing recently with several distributed databases with the aim of choosing the best solution for my needs. Since there isn&#39;t much documentation on the web with a general overview on the subject, I write here some comments, thoughts and my humble experience. Hope it&#39;s usefull for you, this document is not a comparison of performance, or a &#34;mine is bigger than yours&#34;,&amp;nbsp; just some ideas ;)
+My background</description>
+    </item>
+    
+  </channel>
+</rss>

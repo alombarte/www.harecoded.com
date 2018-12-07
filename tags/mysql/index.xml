@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on Harecoded</title>
+    <link>https://www.harecoded.com/tags/mysql/</link>
+    <description>Recent content in Mysql on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jun 2013 10:52:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rellenar una columna con Hash aleatorio en MySQL</title>
+      <link>https://www.harecoded.com/rellenar-columna-hash-aleatorio-mysql-2274754/</link>
+      <pubDate>Mon, 03 Jun 2013 10:52:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/rellenar-columna-hash-aleatorio-mysql-2274754/</guid>
+      <description>Tenemos unos cuantos cientos de datos y queremos crear un hash para poder acceder a ellos de forma directa y cifrada.  Imagina, por ejemplo, la típica tabla de usuarios en la que un campo contiene un hash para guardar en cookies y hacer el autologin por cookie.  Al crear el nuevo atributo este queda vacío así que necesitarás esta pequeña consulta para generar códigos hash de forma aleatoria y muy rápida:  UPDATE `users` SET autologin_hash = MD5(RAND()) WHERE autologin_hash IS NULL;   Fácil eh?</description>
+    </item>
+    
+    <item>
+      <title>Copy/clone/duplicate a mysql database script</title>
+      <link>https://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</link>
+      <pubDate>Thu, 08 Nov 2012 12:25:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</guid>
+      <description>This is a simple script that duplicates your entire database. There are many ways in which you can take advantage of having an exact replica of your production database.  In short, the behaviour of the script is the following (in this order, all piped):  Delete the COPY database if possible to start with a fresh one  Create the COPY database  Dump the PRODUCTION database  Inject the output of the dump into the COPY database   Any errors during the process will be logged to the file defined as $ERROR.</description>
+    </item>
+    
+    <item>
+      <title>Mysql: Llenar tabla con datos aleatorios (de una lista)</title>
+      <link>https://www.harecoded.com/mysql-llenar-tabla-datos-aleatorios-lista-2057615/</link>
+      <pubDate>Fri, 20 Jul 2012 12:09:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/mysql-llenar-tabla-datos-aleatorios-lista-2057615/</guid>
+      <description> En alguna ocasión nos hemos encontrado con la necesidad de actualizar / insertar registors de una tabla con elementos aleatoris a partir de una lista.  Esta operación es especialmente útil cuando queremos crear datos &#34;dummy&#34; para entornos de desarrollo.  El ejemplo de este post es para MySql:  UPDATE files f SET license_type = (SELECT ELT(0.5 + RAND() * 2, &#39;Free&#39;, &#39;Try&#39; ) ) </description>
+    </item>
+    
+    <item>
+      <title>Volcado Mysql de municipios y provincias españolas y territorios UE</title>
+      <link>https://www.harecoded.com/volcado-mysql-municipios-provincias-espanolas-territorios-ue-1963492/</link>
+      <pubDate>Sat, 09 Jun 2012 12:41:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/volcado-mysql-municipios-provincias-espanolas-territorios-ue-1963492/</guid>
+      <description>Son muchos los proyectos de Internet que necesitan una base de datos donde se muestra a los usuarios listados de provincias y municipios (caso España) o de regiones, departamentos, länder... (caso Europa).  Esta información no suele estar disponible para su consumo rápido ya que hay que ir a las webs de los organismos oficiales, buscar los CSV (cuando funciona) y crear la base de datos.  Así que hoy me he decidido a agrupar estas organizaciones territoriales cogiendo las fuentes de los organismos oficiales&amp;nbsp;para que cualquier persona pueda descargar un volcado sql de muncipios, provincias y comunidades autónomas de España (formato Mysql) y otro volcado mysql de los países de la Unión Europea con sus regiones, departamentos, länder, estados federados o cualesquiera que sea su organización territorial.</description>
+    </item>
+    
+    <item>
+      <title>Exportar una consulta de Mysql en un fichero CSV</title>
+      <link>https://www.harecoded.com/exportar-consulta-mysql-fichero-csv-945014/</link>
+      <pubDate>Sun, 24 Oct 2010 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/exportar-consulta-mysql-fichero-csv-945014/</guid>
+      <description>Si tienes una tabla o consulta que quieres exportar a CSV tienes dos maneras muy fáciles de hacerlo. La primera es dentro de la consola mysql utilizando después del SELECT la opción INTO OUTFILE. Esto escribirá en el fichero externo que indiques el contenido de la consulta. La segunda opción es desde la propia línea de comandos utilizando la opción &#34;Batch&#34;.  Diferencias entre método 1 y 2: El primero permite especificar la terminación de las líneas en el csv así como si quieres comillas en cada campo.</description>
+    </item>
+    
+    <item>
+      <title>All ISO-639 language codes for MySQL</title>
+      <link>https://www.harecoded.com/all-iso-639-language-codes-for-mysql-329937/</link>
+      <pubDate>Sat, 05 Sep 2009 18:18:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/all-iso-639-language-codes-for-mysql-329937/</guid>
+      <description>If you ever needed a mysql table with all the languages detailed in the ISO-639 language codes, here it is. I took the list from the registration authority and created the table in Mysql.  There are 21 languages that have alternative codes for bibliographic or terminology purposes. In those cases I took the bibliographic ones. The script contains the 2 and 3 letter ISO-639 language codes, as well as the English and French names of the languages.</description>
+    </item>
+    
+    <item>
+      <title>Browsing MySQL databases inside Eclipse without having a local mysql server or client</title>
+      <link>https://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</link>
+      <pubDate>Mon, 11 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</guid>
+      <description>EclipseSQL is an aid to people programming with databases. Allows to make queries, browse tables, change structures and all the common operations performed in databases. This is how it looks like:
+
+The application can be downloaded as a standalone (screenshot) although since I am using eclipse to develop PHP (PDT plugin) and Java code, what I find more interesting is the plugin version. By installing the plugin another &#34;View&#34; called SQL is available, where you can browse the databases.</description>
+    </item>
+    
+  </channel>
+</rss>

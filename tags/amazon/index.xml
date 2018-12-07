@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amazon on Harecoded</title>
+    <link>https://www.harecoded.com/tags/amazon/</link>
+    <description>Recent content in Amazon on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Dec 2013 22:53:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/amazon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automatically archive S3 backups to Amazon Glacier</title>
+      <link>https://www.harecoded.com/automatically-archive-s3-backups-to-amazon-glacier-2310752/</link>
+      <pubDate>Fri, 06 Dec 2013 22:53:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/automatically-archive-s3-backups-to-amazon-glacier-2310752/</guid>
+      <description>Amazon S3 is an on-cloud storage service used in a variety of scenarios. On of these common scenarios is the one where you upload your server backups to S3 using any of the multiple convenient libraries and tools.&amp;nbsp;  In the other hand, Amazon offers another service more oriented to data archiving and backup named Amazon Glacier. If you store a lot of data (and I am not talking about &amp;nbsp;a couple of GB) then you can save money using Glacier instead of S3.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Installing PHP5 on Mac OS X [1 minute] &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Installing PHP5 on Mac OS X [1 minute]</h1>
+  <time datetime=2005-10-26T00:00:00Z class="post-date">Wed, Oct 26, 2005</time>
+  <p>Autumn is the worth conferences season for us. It seems that every autumn brings the interesting subjects and this November we (Manuel and myself, Albert) are attending at the <a href="http://www.phpconference.com/">PHP Conference 2005</a> held in Frankfurt, Germany. Last year was the <a href="http://plone.org/events/conferences/2/">Plone Conference 2004</a>.</p>
+<p>Since we are a couple of sick men, when we assist to a software conference we need to take with us a laptop (mac os x) having pre-installed the matter. The "problem" was that PHP on Mac OS X is not as trivial to install and since we haven't much free time for installing PHP5 and resolving all the dependencies I looked around for a quick solution, and I found it on <a href="http://www.entropy.ch">Marc Liyanage</a> page. Marc offers a self-contained package which installs php and many additional modules with the well-known install package wizard.</p>
+<h4>Hands on [1 minute]...</h4>
+<p>The aforementioned product can be found at <a href="http://www.entropy.ch/software/macosx/php/">http://www.entropy.ch/software/macosx/php/</a>. Take a look for specific information like modules, PHP4 or different Apache versions. Amongst others I found interesting the MySQL,PostgreSQL, XML-RPC, GNU gettext, GD and PEAR modules (let's check what happens with <a href="hpt://adodb.sf.net">ADOdb</a>)</p>
+<p>As I have the default mac install <strong>what I did</strong> was:</p>
+<ul>
+<li><a href="http://www2.entropy.ch/download/Entropy-PHP-5.0.4-1.dmg">downloading the file for Apache 1.3 and Mac OS 10.3/10.4</a></li>
+<li>Installing the package</li>
+<li>Restarting apache (from terminal: <tt>sudo apachectl restart</tt>)</li>
+<li>Creating a test file in your webroot (defaults to <tt>~/Sites</tt>)</li>
+<li>Checking it in the browser <tt>http://localhost/~youruser/testing-php5.php</tt></li>
+</ul>
+<div style="align:center"><img src="http://www.harecoded.com/images/php-5.0.4.jpg" alt="It works!" /></div><p>A self contained package that installs PHP5 and other modules automatically.</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

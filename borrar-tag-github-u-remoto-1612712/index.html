@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cómo borrar un tag de GitHub u otro remoto &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Cómo borrar un tag de GitHub u otro remoto</h1>
+  <time datetime=2012-03-08T13:30:00Z class="post-date">Thu, Mar 8, 2012</time>
+  <p>
+  No resulta muy obvio cómo se pueden eliminar los tags de Github.
+  Incluso hay algunos tutoriales por ahí que no funcionan. Estos
+  son los dos comandos que utilizo yo únicamente para borrar los
+  tags que pongo y quito en el proyecto de&nbsp;<a title=  "Framework PHP" href=  "http://sifo.me">SIFO</a>&nbsp;en&nbsp;<a title="Tags de Sifo"  href="https://github.com/alombarte/SIFO/tags">Github</a>.
+</p>
+<p>
+  El listado de tags del repositorio local se puede sacar
+  fácilmente usando el comando <code>git tag</code>, por ejemplo:
+</p>
+<pre>
+artomb@petekaner:~/htdocs/sifo$ git tag
+sifo-1.9
+sifo-2.1
+sifo-2.2
+stable-php-5.2
+stable-php-5.2-last-commit
+</pre>
+<p>
+  Esto es una lista de todos los tags disponibles en mi repositorio
+  local. Si ahora decidimos que queremos borrar el
+  tag"stable-php-5.2" de local y de remoto entonces haremos:
+</p>
+<pre>
+git tag -d stable-php-5.2
+git push origin :stable-php-5.2
+</pre>
+<p>
+  <strong>Atentos a los dos puntos delante del tag!</strong> El
+  primer comando lo borra del repositorio local, y el segundo del
+  remoto. Y listos!
+</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

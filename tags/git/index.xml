@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Harecoded</title>
+    <link>https://www.harecoded.com/tags/git/</link>
+    <description>Recent content in Git on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Oct 2014 20:59:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Merging two, three or more git repositories keeping the log history</title>
+      <link>https://www.harecoded.com/merging-two-three-or-more-git-repositories-keeping-the-log-history-2366393/</link>
+      <pubDate>Wed, 01 Oct 2014 20:59:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/merging-two-three-or-more-git-repositories-keeping-the-log-history-2366393/</guid>
+      <description>If you ask anyone, merging several git repositories&amp;nbsp;into a single one would usually be considered a bad strategy: as a rule of thumb, your code base should&amp;nbsp;have several components isolated and then use a dependency manager (e.g: Composer) to bring&amp;nbsp;them together.  Nevertheless, there are always many different scenarios and with them come different use cases, weird situations or just plain normal activities that would justify this procedure.&amp;nbsp;In any case if you ever need to merge several repos into one, and still want to keep the git history this is an easy way to do it.</description>
+    </item>
+    
+    <item>
+      <title>Terminal tuning for Git developers in Mac</title>
+      <link>https://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</link>
+      <pubDate>Fri, 19 Sep 2014 17:52:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</guid>
+      <description>If you work with Git in the terminal there are some tweaks you might want to apply to your prompt for safer and faster coding. The following lines are part of my ~/.bash_profile file. I use it on Mac although that might work in Linux as well.  You can copy and paste this code in your ~/.bash_profile (create it if it doesn&#39;t exist), save and open a new terminal to see the changes every time you save.</description>
+    </item>
+    
+    <item>
+      <title>Organizing git branches in logical folders </title>
+      <link>https://www.harecoded.com/organizing-git-branches-in-logical-folders-2317600/</link>
+      <pubDate>Tue, 10 Dec 2013 22:19:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/organizing-git-branches-in-logical-folders-2317600/</guid>
+      <description>It is easier to find things when they are well organized. If you are a git user a good practice to name the branches would be to use descriptive names including slashes &#34;/&#34; (as in paths) where everything before the slash is the folder you want to use and then the logical name after it.  If you use the fantastic git graphical interface SourceTree (free for Windows and Mac) then you will be able to navigate these branches using folders.</description>
+    </item>
+    
+    <item>
+      <title>Migrating a Github repo to Bitbucket (or similar services)</title>
+      <link>https://www.harecoded.com/migrating-github-repo-to-bitbucket-or-similar-services-2275467/</link>
+      <pubDate>Thu, 06 Jun 2013 21:17:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/migrating-github-repo-to-bitbucket-or-similar-services-2275467/</guid>
+      <description>Github is awesome. Bitbucket is awesome too. They are both excellent services, but Bitbucket has a plus:&amp;nbsp;it&#39;s free for private repos.  That&#39;s one of the reasons on why we decided to stop paying our $25/mo Github account for small projects and moved to Bitbucket. Although the Bitbucket guys have now a one-click &#34;import from Github tool&#34;, the solution is so simple that I don&#39;t even think it is worth using it.</description>
+    </item>
+    
+    <item>
+      <title>Git log mejorado. Color y ramas dibujadas</title>
+      <link>https://www.harecoded.com/git-log-mejorado-color-ramas-dibujadas-2081319/</link>
+      <pubDate>Thu, 26 Jul 2012 10:53:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/git-log-mejorado-color-ramas-dibujadas-2081319/</guid>
+      <description>Hace unos días me llegó un tweet de Dani&amp;nbsp;con uno de esos regalos que hace de tanto en cuanto, que se acuerda de los amigos y te manda algo interesante. En este caso era un artículo en inglés de Filipe Kiss donde nos enseñaba como convertir el git log de terminal en algo con cara y ojos (hacer clic en imágen).  He modificado &amp;nbsp;el comando original para que muestre el email en vez de los nombres, que tiene problemas en algunas terminales con los acentos.</description>
+    </item>
+    
+    <item>
+      <title>Cómo borrar tags de Github</title>
+      <link>https://www.harecoded.com/borrar-tags-github-1832646/</link>
+      <pubDate>Tue, 17 Apr 2012 08:53:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/borrar-tags-github-1832646/</guid>
+      <description> Si por ejemplo deseo borrar un tag llamado &#34;1.0-stable-php-5.2&#34;  Borro en local:  git tag -d 1.0-stable-php-5.2  Borro en el repositorio:  git push origin :1.0-stable-php-5.2  Atentos a los dos puntos delante del tag al hacer el push.  Actualización: He escrito el artículo dos veces, el original aquí:&amp;nbsp;http://www.harecoded.com/borrar-tag-github-u-remoto-1612712&amp;nbsp;:P </description>
+    </item>
+    
+    <item>
+      <title>Cómo borrar un tag de GitHub u otro remoto</title>
+      <link>https://www.harecoded.com/borrar-tag-github-u-remoto-1612712/</link>
+      <pubDate>Thu, 08 Mar 2012 13:30:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/borrar-tag-github-u-remoto-1612712/</guid>
+      <description>No resulta muy obvio cómo se pueden eliminar los tags de Github. Incluso hay algunos tutoriales por ahí que no funcionan. Estos son los dos comandos que utilizo yo únicamente para borrar los tags que pongo y quito en el proyecto de&amp;nbsp;SIFO&amp;nbsp;en&amp;nbsp;Github.  El listado de tags del repositorio local se puede sacar fácilmente usando el comando git tag, por ejemplo:  artomb@petekaner:~/htdocs/sifo$ git tag sifo-1.9 sifo-2.1 sifo-2.2 stable-php-5.2 stable-php-5.</description>
+    </item>
+    
+    <item>
+      <title>Cómo hacer un sparse checkout en Git</title>
+      <link>https://www.harecoded.com/sparse-checkout-git-1329553/</link>
+      <pubDate>Thu, 01 Dec 2011 22:23:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/sparse-checkout-git-1329553/</guid>
+      <description>Si quieres hacer clone de un proyecto parcialmente y no llevarte todo el árbol es muy sencillo. Si todavía no tienes los ficheros es tan sencillo como:  Crear una carpeta e inicializar Git  Activar sparse checkout  Decirle qué carpetas queremos  Añadir el repo remoto  Traer los ficheros con pull    Traducido en un ejemplo y sus comandos, pongamos que queremos descargar el fantástico PHP framework SIFO.</description>
+    </item>
+    
+    <item>
+      <title>Move a SVN repository to Git with the whole commit history</title>
+      <link>https://www.harecoded.com/move-svn-repository-to-git-with-the-whole-commit-history-1314733/</link>
+      <pubDate>Fri, 11 Nov 2011 18:37:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/move-svn-repository-to-git-with-the-whole-commit-history-1314733/</guid>
+      <description>It is in your mind, like a worm that eats away the apple, &#34;I have to switch to Git&#34;. And one day it happens and you realize that it was not that diffcult.  I started using Git as my local repository, but still using SVN as the central repository with git itself thanks to the git svn&amp;nbsp;set of commands. After some time I decided to entirely move the vast majority of projects from SVN to Git but of course not by creating a new fresh and empty repository but importing the whole&amp;nbsp;svn commit history, as if the commits were made using Git itself ten years ago.</description>
+    </item>
+    
+    <item>
+      <title>Upload an existing Git repository to a remote GitHub, Bitbucket, Beanstalk...</title>
+      <link>https://www.harecoded.com/upload-an-existing-git-repository-to-remote-github-bitbucket-beanstalk-1314699/</link>
+      <pubDate>Fri, 11 Nov 2011 18:26:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/upload-an-existing-git-repository-to-remote-github-bitbucket-beanstalk-1314699/</guid>
+      <description>These are the steps I followed to upload my existing local git repository to a new Bitbucket repository while keeping the whole commit history. You can use this simple steps to move your source code to&amp;nbsp;GitHub, Beanstalk or any other repository you like, commands are just the same. I put as example Bitbucket because you can have unlimited&amp;nbsp;private repositories for free.  How to do it...  Register to bitbucket for free, add your&amp;nbsp;SSH key, and create an empty repo.</description>
+    </item>
+    
+  </channel>
+</rss>

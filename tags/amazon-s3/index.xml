@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amazon S3 on Harecoded</title>
+    <link>https://www.harecoded.com/tags/amazon-s3/</link>
+    <description>Recent content in Amazon S3 on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 May 2016 18:18:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/amazon-s3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to backup Flickr into Amazon S3/Dropbox/Google Cloud/Drive...</title>
+      <link>https://www.harecoded.com/how-to-backup-flickr-into-amazon-s3dropboxgoogle-clouddrive-2418512/</link>
+      <pubDate>Sat, 07 May 2016 18:18:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-backup-flickr-into-amazon-s3dropboxgoogle-clouddrive-2418512/</guid>
+      <description>The following recipe is an&amp;nbsp;easy&amp;nbsp;way to get your full Flickr account backed up in Amazon S3 or similar cloud storage.  Unless you have a really good Internet connection at home or you are doing a backup of a small library the first thing to do would be to create&amp;nbsp;a machine in the cloud, such as Digital Ocean or Amazon EC2 so you can have a high throughput. Once the process is finished you can destroy the machine and the whole operation will cost you a few cents.</description>
+    </item>
+    
+    <item>
+      <title>Amazon S3: un servicio bueno, bonito y barato pero nada práctico.</title>
+      <link>https://www.harecoded.com/amazon-s3-servicio-bueno-bonito-barato-nada-practico-96347/</link>
+      <pubDate>Thu, 12 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/amazon-s3-servicio-bueno-bonito-barato-nada-practico-96347/</guid>
+      <description>Recientemente compr&amp;eacute; (y luego cancel&amp;eacute;) una cuenta de Amazon Simple Storage Service (Amazon S3). Un espacio de almacenamiento virtual, dig&amp;aacute;mosle un disco duro, a un precio muy competitivo.
+Con S3, pagas tan s&amp;oacute;lo lo que usas. En dos conceptos diferentes: por espacio que consumes al mes, y por peticiones que recibe el servidor.
+Para hacernos una r&amp;aacute;pida idea de los precios, si tenemos que almacenar unos 10GB nos costar&amp;iacute;an 1,5$ al mes.</description>
+    </item>
+    
+  </channel>
+</rss>

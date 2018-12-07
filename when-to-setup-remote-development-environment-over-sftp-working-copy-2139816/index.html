@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>When to setup a remote development environment over SFTP (working copy) &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>When to setup a remote development environment over SFTP (working copy)</h1>
+  <time datetime=2012-08-08T17:49:00Z class="post-date">Wed, Aug 8, 2012</time>
+  <p>
+  When a programmer has a local copy of the code and an environment
+  fully functional where the web can be tested before going live,
+  we usually call it a&nbsp;<strong>working copy</strong>.
+</p>
+<p>
+  The action of moving/copying/putting this work in the final live
+  server (a.k.a <em>production server/environment</em>) is called
+  the&nbsp;<strong>deploy</strong>&nbsp;action.
+</p>
+<p>
+  There are many ways of having a working copy up and running. We,
+  the key stroker maniacs, use to work more or less with one of the
+  following <strong>working copy configurations</strong>:
+</p>
+<ul>
+  <li>
+    <strong>No working copy</strong>. The one who enters via SSH
+    and uses the editor <a href=    "http://www.vim.org"><strong>vi</strong></a>. Yeah!
+  </li>
+  <li>
+    <strong>Edit via FTP/SFTP</strong> with an editor installed in
+    the local machine.&nbsp;No working copy,&nbsp;<em>the
+    return</em>.
+  </li>
+  <li>
+    <strong>Local web server</strong>. Usually a
+    pre-built&nbsp;<abbr title=    "Linux Apache Mysql PHP">LAMP</abbr>&nbsp;solution, such
+    as&nbsp;<a href=    "http://www.mamp.info/en/index.html">MAMP</a>&nbsp;or&nbsp;<a href="http://www.apachefriends.org/en/xampp.html">XAMPP</a>.
+    Valid until you need to add 2 or 3 more services like
+    Memcached, Sphinx, Solr, MongoDB, Redis or anything like that,
+    or the Virtual host configuration starts to change over and
+    over.
+  </li>
+  <li>
+    <strong>A web server in your LAN.</strong> Several users using
+    a machine with all the services configured, having their own
+    running copy. Different DocumentRoot per user.
+  </li>
+  <li>The <strong>Virtual machine</strong> lover, who runs a
+  <a href="https://www.virtualbox.org/">VirtualBox</a>&nbsp;or
+  <a href="http://www.vmware.com">VMWare</a> with a full linux
+  installed and exports and shares the appliance with colleagues if
+  necessary.
+  </li>
+  <li>The <a href=  "http://vagrantup.com">Vagrant</a>&nbsp;<em>chef</em>, who has an
+  automated system to deliver pre-configured environments to any
+  number of developers using VirtualBoxes underneath.
+  </li>
+</ul>
+<p>
+  In this post, I am proposing something different, it has the
+  smell and <em>aroma</em> of&nbsp;the early 90's development, but
+  still, a good solution when you have a middle team (2-20) where
+  people don't want to be bothered with constant database changes
+  and service tunning. It is the private&nbsp;<strong>remote
+  working copy over SFTP</strong>. Keep reading...
+</p><h3>
+  The concept of private remote working copy
+</h3>
+<p>
+  The <strong>remote working copy,</strong> or the <strong>remote
+  development environment</strong> is what I call a development
+  server <strong>available on the Internet</strong>. It is very
+  useful if <strong>you have no offices</strong> and people from
+  different places in the world need to access and work against a
+  running server, meaning that no local configuration or
+  installation is needed by end developers.
+</p>
+<p>
+  Of course there are other ways to address this problem, but this
+  is one I like pretty much without involving Vagrant, Virtual
+  Machines and other similar solutions (I have a 4 year-old machine
+  that works like a charm, but is not very good at RAM, and VMs eat
+  that for breakfast).
+</p>
+<p>
+  I call it <strong>private</strong> not because has sensitive data
+  but because it should be invisible to Google (mainly) so it's not
+  indexed in order to avoid any duplication/competence with your
+  real live web app. You can accomplish this via a simple firewall
+  configuration allowing only certain IPs, for instance:
+</p>
+<pre>
+# Accepts connections only from 80.24.22.70 to 80.24.22.80
+iptables -A INPUT -i eth1 -m iprange --src-range 80.24.22.70-80 -j ACCEPT
+</pre>
+<div>
+  More simple, a basic HTTP password challenge implementation in
+  your PHP code, request with this line:
+</div>
+<pre>
+header( 'WWW-Authenticate: Basic realm="Protected page"' );
+</pre>
+<p>
+  And for people on <strong>shared hostings, the easier would be to
+  place an .htaccess file</strong>.
+</p>
+<p>
+  This server is ment to be hacked, destroyed and broken several
+  times a day if necessary. Yes, because is a working copy for
+  development purposes only, and that's what we programmers do with
+  the webs, destroy them all the time. And we like it.
+</p>
+<h3>
+  Developer Workflow
+</h3>
+<p>
+  The workflow is quite simple, but don't judge it too fast:
+</p>
+<ul>
+  <li>You have a copy of the code in your local machine (git, svn,
+  hg, whatever you use). That's it, no web services or related are
+  installed.
+  </li>
+  <li>You work with a capable editor which will send all your
+  changes to the remote server over SFTP (I strongly recommend
+  <a href=  "http://www.jetbrains.com/phpstorm/download">PHPStorm</a>, it's
+  worth every penny )
+  </li>
+  <li>You test your work in a real URL, which should be unrelated
+  to the real project. Buying a dummy domain might be a very good
+  option.
+  </li>
+</ul>
+<h3>
+  Ingredients
+</h3>
+<p>
+  You'll need:
+</p>
+<ul>
+  <li>A dedicated server
+  </li>
+  <li>A different domain, but public
+  </li>
+  <li>
+    <a href=    "http://www.jetbrains.com/phpstorm/download">PHPStorm</a>. I
+    don't recommend other solutions, they fail to work.&nbsp;
+  </li>
+  <li>Clone the production server in the development machine. All
+  services.
+  </li>
+  <li>A folder structure that holds every developer.
+  </li>
+  <li>Virtualhosts for every user
+  </li>
+  <li>Subdomains (a catch-all should be configured) for every
+  developer
+  </li>
+</ul>
+<div>
+  An example: If your team has 4 developers, with the initials
+  <em>alo</em>, <em>sam</em>, <em>api</em>, <em>aga</em> then you
+  should create domains like:
+</div>
+<div>
+  <ul>
+    <li>alo.my-devel-project.com
+    </li>
+    <li>sam.my-devel-project.com
+    </li>
+    <li>api.my-devel-project.com
+    </li>
+    <li>aga.my-devel-project.com
+    </li>
+  </ul>
+  <div>
+    And folders with full working projects like:
+  </div>
+  <div>
+    <ul>
+      <li>/var/www/wc/alo/htdocs
+      </li>
+      <li>/var/www/wc/sam/htdocs
+      </li>
+      <li>/var/www/wc/api/htdocs
+      </li>
+      <li>/var/www/wc/aga/htdocs
+      </li>
+    </ul>
+  </div>
+</div>
+<h3>
+  Pros
+</h3>
+<div>
+  This system is lovely if:
+</div>
+<div>
+  <ul>
+    <li>You work with more people
+    </li>
+    <li>You want to keep all the colleagues with the architecture
+    in-sync. You like to do alter tables, apply changes to services
+    constantly and don't want to tell the others <em>"hey! do this
+    ALTER in your environment"</em> or, "<em>I just changed the
+    search index configuration, here's new"</em>.
+    </li>
+    <li>There is people in the team who is skilled in everything
+    else but in systems engineering or&nbsp;<a href=    "http://en.wikipedia.org/wiki/DevOps">DevOps</a>
+    </li>
+    <li>You use different machines or you set-up the environments a
+    lot.
+    </li>
+  </ul>
+</div>
+<h3>
+  Cons
+</h3>
+<div>
+  <ul>
+    <li>
+      <strong>It might be slow</strong>&nbsp;if you have a rural
+      Internet connection under 512kbps. But connections nowadays
+      are very fast. Uploading 100Kb files (a lot of code there) is
+      done while you switch from the editor to the browser.
+    </li>
+    <li>
+      <strong>One-way by default.</strong> Although clients like
+      PHPStorm will warn you if a file is has changed in the remote
+      server with a link to download or merge, this system is not
+      very good if you need to generate a lot of files in the
+      webserver, because you would need &nbsp;to remember to
+      trigger a synchronization action to download them to your
+      machine and then add them to version control system.
+    </li>
+  </ul>
+</div>
+<h3>
+  Hands-on
+</h3>
+<p>
+  In the next post I explain <a href=  "http://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989">
+  how to do it step by step</a>.
+</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

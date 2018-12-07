@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Determining the real client IP with Varnish (w/ X-Forwarded-For) &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Determining the real client IP with Varnish (w/ X-Forwarded-For)</h1>
+  <time datetime=2012-10-15T11:03:00Z class="post-date">Mon, Oct 15, 2012</time>
+  <p>
+  If you implement Varnish in your application one of the early
+  things that you discover is that &nbsp;any IP functionalities you
+  had are now gone. Some examples are:
+</p>
+<ul>
+  <li>GEOIP does not resolve the country
+  </li>
+  <li>Apache logs write 127.0.0.1 as request client IP (or another
+  IP of your LAN)
+  </li>
+  <li>My own PHP logic cannot longer apply filters by IP
+  </li>
+</ul>
+<p>
+  Why? Well, it's easy to answer. That's because your
+  <strong>Apache or Ngnix will receive the request from Varnish,
+  not from the real client</strong> as it used to be.
+</p>
+<p>
+  But that has an easy fix. All you need to do is to tell Varnish
+  to send the client IP to the backend. This can be easily
+  accomplished by setting in your VLC
+  (<code>/etc/varnish/default.vcl</code>) the following:
+</p>
+<pre>
+sub vcl_recv {
+
+# IP forwarding.
+if (req.restarts == 0) {
+        if (req.http.x-forwarded-for) {
+                set req.http.X-Forwarded-For = req.http.X-Forwarded-For + ", " + client.ip;
+        } else {
+                set req.http.X-Forwarded-For = client.ip;
+        }
+}
+...
+</pre>
+<div class="msg-info">
+  <strong>UPDATE:</strong> IP forwarding code updated to make it
+  work with people behind proxies, as noted by Albert and Zillur in
+  the comments.
+</div>
+<p>
+  With this change your &nbsp;application will be able to get the
+  client IP and resolve correctly the country using GeoIP. When
+  your application needs the client IP you only have to access to
+  the header&nbsp;<strong>X-Forwareded-For.</strong>
+</p>
+<p>
+  But caution! If you ALWAYS want that header set in every request,
+  you need to add this:
+</p>
+<pre>
+ sub vcl_pipe {
+     # Note that only the first request to the backend will have
+     # X-Forwarded-For set.  If you use X-Forwarded-For and want to
+     # have it set for all requests, make sure to have:
+     # set bereq.http.connection = "close";
+     # here.  It is not set by default as it might break some broken web
+     # applications, like IIS with NTLM authentication.
+
+     set bereq.http.connection = "close";
+     return (pipe);
+ }
+</pre>
+<p>
+  Now, &nbsp;you might want to see the original IP in the apache
+  logs too. To do that you have to use a custom log that prints the
+  <strong>X-Forwareded-For</strong> header. Just add inside your
+  Virtualhost declaration:
+</p>
+<pre>
+LogFormat "%{X-Forwarded-For}i %l %u %t \"%r\" %&gt;s %b \"%{Referer}i\" \"%{User-Agent}i\"" varnish
+CustomLog /var/log/httpd/access_combined_SOMEDOMAIN.log varnish
+</pre>
+<p>
+  You should also have in mind that this configuration is appended,
+  so it might happen that you vcl has already a line like this, so
+  you are doing it twice. See the commented code in the default.vcl
+  file.
+</p>
+<p>
+  The latest VCL file includes already the client.ip, just that it
+  might appear twice! Copy all the file and tune the lines you like
+</p>
+<p>
+  Mine looks more or less like this
+</p>
+<pre>
+sub vcl_recv {
+
+    # IP forwarding.
+    if (req.restarts == 0) {
+        if (req.http.x-forwarded-for) {
+            set req.http.X-Forwarded-For = req.http.X-Forwarded-For + ", " + client.ip;
+        } else {
+            set req.http.X-Forwarded-For = client.ip;
+        }
+    }
+
+     # Ignore all requests from Working Copies
+     if ( req.http.host ~ "([a-z]{2,3}\.development\.lan)$" )
+     {
+        return(pipe);
+     }
+
+     unset req.http.Cookie;
+
+#Copy paste...
+
+     if (req.request != "GET" &amp;&amp;
+       req.request != "HEAD" &amp;&amp;
+       req.request != "PUT" &amp;&amp;
+       req.request != "POST" &amp;&amp;
+       req.request != "TRACE" &amp;&amp;
+       req.request != "OPTIONS" &amp;&amp;
+       req.request != "DELETE") {
+         /* Non-RFC2616 or CONNECT which is weird. */
+         return (pipe);
+     }
+     if (req.request != "GET" &amp;&amp; req.request != "HEAD") {
+         /* We only deal with GET and HEAD by default */
+         return (pass);
+     }
+     if (req.http.Authorization || req.http.Cookie) {
+         /* Not cacheable by default */
+         return (pass);
+     }
+     return (lookup);
+
+ }
+ sub vcl_pipe {
+     # Note that only the first request to the backend will have
+     # X-Forwarded-For set.  If you use X-Forwarded-For and want to
+     # have it set for all requests, make sure to have:
+     # set bereq.http.connection = "close";
+     # here.  It is not set by default as it might break some broken web
+     # applications, like IIS with NTLM authentication.
+
+     set bereq.http.connection = "close";
+     return (pipe);
+ }
+</pre>
+<p>
+  After that Varnish will shine again.
+</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

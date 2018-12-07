@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Svn on Harecoded</title>
+    <link>https://www.harecoded.com/tags/svn/</link>
+    <description>Recent content in Svn on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Nov 2011 18:37:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/svn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Move a SVN repository to Git with the whole commit history</title>
+      <link>https://www.harecoded.com/move-svn-repository-to-git-with-the-whole-commit-history-1314733/</link>
+      <pubDate>Fri, 11 Nov 2011 18:37:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/move-svn-repository-to-git-with-the-whole-commit-history-1314733/</guid>
+      <description>It is in your mind, like a worm that eats away the apple, &#34;I have to switch to Git&#34;. And one day it happens and you realize that it was not that diffcult.  I started using Git as my local repository, but still using SVN as the central repository with git itself thanks to the git svn&amp;nbsp;set of commands. After some time I decided to entirely move the vast majority of projects from SVN to Git but of course not by creating a new fresh and empty repository but importing the whole&amp;nbsp;svn commit history, as if the commits were made using Git itself ten years ago.</description>
+    </item>
+    
+    <item>
+      <title>Cómo revertir los cambios de una revisión en SVN</title>
+      <link>https://www.harecoded.com/revertir-cambios-revision-svn-1181187/</link>
+      <pubDate>Sun, 20 Mar 2011 12:51:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/revertir-cambios-revision-svn-1181187/</guid>
+      <description>Si eres usuario de subversion te habr&amp;aacute; pasado alguna vez que despu&amp;eacute;s de hacer commit y probar posteriormente el c&amp;oacute;digo has visto que debes volver a una versi&amp;oacute;n anterior y dejar el c&amp;oacute;digo tal y como estaba en una versi&amp;oacute;n anterior. No todos los clientes gr&amp;aacute;ficos disponen de la opci&amp;oacute;n de &#34;reverse merge&#34;, pero en la terminal es muy sencillo de hacer...
+
+Imaginemos que en la revisi&amp;oacute;n 1190 sub&amp;iacute; unos cambios que hicieron el c&amp;oacute;digo inestable y deseo dejar el c&amp;oacute;digo tal y como estaba en la revisi&amp;oacute;n 914, entonces har&amp;iacute;a:</description>
+    </item>
+    
+    <item>
+      <title>How to create a patch and apply it with subversion</title>
+      <link>https://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</link>
+      <pubDate>Tue, 15 Feb 2011 21:16:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</guid>
+      <description>If you want to create a patch with svn you only have to type in the terminal something like:  svn diff yourproject &amp;gt; yourproject.patch   Where yourproject is the folder containing the modified source code.  Then, to restore the patch (apply the changes stored in patch in a new working copy), copy the patch file yourproject.patch in the machine where you want apply the patch and &#34;</description>
+    </item>
+    
+    <item>
+      <title>Subversion (svn) 1.5 para Mac OS X</title>
+      <link>https://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</link>
+      <pubDate>Wed, 12 Nov 2008 20:54:35 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</guid>
+      <description>Si utilizas distintos sistemas operativos y en ellos utilizas versiones distintas de subversion te habr&amp;aacute;s encontrado alguna vez con el mensaje de error:
+svn: This client is too old to work with working copy &#39;.&#39;; please get a newer Subversion client
+Si eres usuario de Mac y te ha pasado esto, o simplemente necesitas un cliente svn 1.5 para mac puedes descargarte la &amp;uacute;ltima versi&amp;oacute;n de SCPlugin que ya incluye soporte para la 1.</description>
+    </item>
+    
+    <item>
+      <title>Nautilus subversion integration tool. Execute SVN commands with Gnome scripts</title>
+      <link>https://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</link>
+      <pubDate>Thu, 25 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</guid>
+      <description>I have been using subversion (svn) for years from the command line... But some months ago I changed my job and I started using windows environments. And I must admit TortoiseSVN is the best GUI SVN client i&#39;ve seen ever before. While my needs are satisfied in Windows with TortoiseSVN and in Mac OS X with SCPlugin and SvnX, I was lacking a subversion tool to manage my files while exploring files in my Ubuntu (nautilus file explorer).</description>
+    </item>
+    
+  </channel>
+</rss>

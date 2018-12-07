@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image on Harecoded</title>
+    <link>https://www.harecoded.com/tags/image/</link>
+    <description>Recent content in Image on Harecoded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Mar 2010 00:22:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.harecoded.com/tags/image/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Restore broken hard disk creating an image with Ubuntu</title>
+      <link>https://www.harecoded.com/restore-broken-hard-disk-creating-an-image-with-ubuntu-526239/</link>
+      <pubDate>Mon, 01 Mar 2010 00:22:00 +0000</pubDate>
+      
+      <guid>https://www.harecoded.com/restore-broken-hard-disk-creating-an-image-with-ubuntu-526239/</guid>
+      <description>If your boot partition has been damaged and you cannot boot Ubuntu you still might be able to recover your hard disk and save your data by making an image. All you need is the Ubuntu LiveCD and Partimage, an excellent tool for making backups, or the SystemRescueCD.
+Here you&#39;ll find a detailed explanation on how to use partimage as well:
+http://www.psychocats.net/ubuntu/partimage</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Obfuscate e-mails in PHP &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Obfuscate e-mails in PHP</h1>
+  <time datetime=2006-01-09T00:00:00Z class="post-date">Mon, Jan 9, 2006</time>
+  <p>Exactly one year ago, I was complaining to one of my clients ISP about the increasing volume of spam those people were receiving lately. The ISP answered me with some not particularly useful advices, except for one: they had inspected my client's website and had found that the contacts section had a list of clean e-mail addresses, happily standing there to the delight of some spammer's spider bot. I had put them there in the good-old format <em>mailto:dontphunk@withmyheart.com</em>, and the ISP adviced me to substitute the text with images, which I found weird, even more considering that all those e-mail addresses were generated dynamically.</p>
+<p>So I didn't consider the advice then (shame on me), but as I was yesterday making some changes to the website after a long time I stepped again with the e-mail, and decided to finally take some actions. Enter Aidan's <a href="http://aidanlister.com/repos/v/function.mail_obfuscate.php">mail_obfuscate</a> PHP function, an easy way to convert typical mailto:been@there.com addresses into something ehmm... more obscure:</p>
+<pre>&lt;script language="javascript"&gt;eval(unescape('%64%6f%63%75%6d%65%6e%
+74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22
+%6d%61%69%6c%74%6f%3a%6d%61%67%75%69%6c%61%72%40%6e%6f
+%76%61%62%61%64%69%61%2e%6e%65%74%22%3e%6d%61%67%75%69
+%6c%61%72%40%6e%6f%76%61%62%61%64%69%61%2e%6e%65%74%3c
+%2f%61%3e%27%29%3b'))&lt;/script&gt;</pre>
+<p>Via this simple invocation:</p>
+<pre>&lt;? echo mail_obfuscate($email);?&gt;
+</pre>
+<p>Not exactly a new trick, but very useful indeed!</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>

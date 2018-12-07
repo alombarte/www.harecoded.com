@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Basic and simple iptables configurations for home users &middot; Harecoded</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://www.harecoded.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Harecoded" />
+
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.harecoded.com/"><h1>Harecoded</h1></a>
+      <p class="lead">
+       Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+   
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://www.harecoded.com/">Home</a> </li>
+        <li><a href="/about-us-96286/"> About us </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Basic and simple iptables configurations for home users</h1>
+  <time datetime=2007-06-12T00:00:00Z class="post-date">Tue, Jun 12, 2007</time>
+  <p>OpenBSD has been always my prefered distribution when I have to install a firewall based on a *NIX machine. The PF rules are what I am used to see. But last year I had to write several configurations for a debian machine using iptables which I am not really used to. Since I tend to forget these things, I paste here a basic configuration, if you want to use it, paste this in your desired starting script.</p>
+<p>Please notice that these iptables scripts are intended to <strong>setup a FIREWALL that is in the middle of the traffic</strong>. If you want to use this rules for the machines that give the services change the <strong>FORWARD</strong> rules by <strong>INPUT</strong></p>
+<h2>Configuration #1: Basic firewall accepting web, ssh and ftp</h2>
+<p>This configuration should be put in a machine between the machines that provide those services (WEB, SSH, FTP) and the Internet</p>
+<pre># DELETE tables
+iptables -F
+iptables -X
+
+# default policies (Deny by default)
+iptables -P INPUT DROP
+iptables -P OUTPUT ACCEPT
+iptables -P FORWARD DROP
+
+# Accept loopback
+iptables -A INPUT -i lo -j ACCEPT
+
+# Keep State for already stablished traffic
+iptables -A FORWARD -m state --state ESTABLISHED,RELATED -j ACCEPT<br />
+# Allowed services (web,ssh,ftp,icmp).
+# Note that we FORWARD paquets, this means that the services are not in the current machine.
+iptables -A FORWARD -p tcp --dport 80 -j ACCEPT
+iptables -A FORWARD -p tcp --dport 22 -j ACCEPT
+iptables -A FORWARD -p tcp --dport 21 -j ACCEPT
+iptables -A FORWARD -p icmp -j ACCEPT
+<br />#Pings to firewall:
+iptables -A INPUT -p icmp -j ACCEPT
+</pre>
+<h2>Configuration 2: Only pings to firewall</h2>
+<pre>#delete tables
+iptables -F
+iptables -X
+
+#default policies
+iptables -P INPUT DROP
+iptables -P OUTPUT ACCEPT
+iptables -P FORWARD DROP
+
+#Keep State for already stablished traffic
+iptables -A FORWARD -m state --state ESTABLISHED,RELATED -j ACCEPT
+
+#Pings to firewall:
+iptables -A INPUT -p icmp -j ACCEPT
+</pre>
+<h2>Configuration 3: Scripts for the machine that runs the services</h2>
+<p>This script is for the machines that run the services, not for a firewall in between. Note that the services have an INPUT instead of a FORWARD</p>
+<pre># delete tables
+iptables -F
+iptables -X
+
+# default policies
+iptables -P INPUT DROP
+iptables -P FORWARD DROP
+iptables -P OUTPUT ACCEPT
+
+# Accept loopback
+iptables -A INPUT -i lo -j ACCEPT
+
+# Keep State for already stablished traffic
+iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+
+# Allowed services (ssh,web):
+iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+
+#Pings to machine:
+iptables -A INPUT -p icmp -j ACCEPT
+</pre>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>
