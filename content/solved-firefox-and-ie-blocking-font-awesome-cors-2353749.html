@@ -1,0 +1,39 @@
++++
+date = "2014-07-02 22:54:00"
+author = "alombarte"
+title = "Solved: Firefox and IE blocking font awesome (CORS)"
+slug = "solved-firefox-and-ie-blocking-font-awesome-cors-2353749"
+tags = [ "web apps" ]
++++
+<p>
+  <img title="" src=  "/img/posts/53b4750d7c6bbs21304.jpg"  alt=" TAGS:undefined" align="left">It seemed today that Firefox
+  was blocking the font files when using font-awesome and the web
+  didn't work properly. But our friend <a href=  "http://www.sphinxdev.com/">Jorge from the
+  Sphinxdev</a>&nbsp;blog explained us a solution..
+</p>
+<p>
+  In order to enable automatically <a href=  "http://en.wikipedia.org/wiki/Cross-origin_resource_sharing">CORS</a>&nbsp;when
+  a TTF, OTF, EOT or WOFF file is detected&nbsp;you only have to
+  create a <code>.conf</code> file
+  insde&nbsp;<code>/etc/httpd/conf.d</code> with any name and paste
+  inside:
+</p>
+<pre>
+AddType application/font-woff woff
+AddType application/vnd.ms-fontobject eot
+
+AddType application/x-font-ttf ttc ttf
+AddType font/opentype otf
+
+AddType image/svg+xml svg svgz
+AddEncoding gzip svgz
+
+&lt;FilesMatch ".(ttf|otf|eot|woff)$"&gt;
+  &lt;IfModule mod_headers.c&gt;
+    Header set Access-Control-Allow-Origin "*"
+  &lt;/IfModule&gt;
+&lt;/FilesMatch&gt;
+</pre>
+<p>
+  Then restart apache and that's all. Thank you Jorge!
+</p>

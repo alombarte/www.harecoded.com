@@ -1,0 +1,71 @@
++++
+date = "2011-12-05 07:22:00"
+author = "alombarte"
+title = "Activar y cambiar los colores de la terminal + Prompt"
+slug = "activar-cambiar-colores-terminal-prompt-1332387"
+tags = [ "iterm","mac","trucos" ]
++++
+<p>
+  Ya uses iTerm, Terminal o cualquier otra herramienta en Mac, para
+  ver y tunear los colores de tu terminal basta con editar el
+  fichero ~/.bash_profile e incluir lo siguiente:
+</p>
+<pre>
+export CLICOLOR='true'
+export LSCOLORS="gxfxcxdxbxegedabagacad"
+</pre>
+<p>
+  Y conseguirás algo parecido a esto:<img class="undefined" title=  "" src=  "/img/posts/4f44d1aac3aa2s63412.jpg" alt=  " TAGS:" align="center">
+</p>
+<p>
+  La primera línea activa los colores, la segunda dice qué colores
+  usar. Cuando guardes el fichero y abras de nuevo la terminal ya
+  verás los colores. Si no te gustan siempre puedes poner los tuyos
+  usando esta referencia:
+</p>
+<pre>
+a  black
+b  red
+c  green
+d  brown
+e  blue
+f  magenta
+g  cyan
+h  light grey
+A  block black (gris oscuro)
+B  bold red
+C  bold green
+D  bold brown (amarillo oiga)
+E  bold blue
+F  bold magenta
+G  bold cyan
+H  bold light grey
+x  color por defecto
+</pre>
+<p>
+  Además, puedes cambiar la apariencia y modificar tu prompt
+  añadiendo a continuación en tu .bash_profile alguna de estas
+  líneas de ejemplo:
+</p>
+<pre>
+# Referencia de variables Prompt:
+# \u Username, \h Host, \w Path, tput color definition
+
+# Ejemplo 1:
+# export PS1='\[$(tput setaf 3)\]\u@\h:\[$(tput sgr0)$(tput setaf 5)\]\w\[$(tput sgr0)$(tput setaf 2)\] \[$(tput sgr0)\]$ '
+
+#Ejemplo 2:
+# export PS1='\[$(tput setaf 7)\]\u@\[$(tput setaf 2)\]\h:\[$(tput sgr0)$(tput setaf 4)\]\w\[$(tput sgr0)\]$ '
+
+#Ejemplo 3, Minimalista (solo path en color):
+# export PS1='\[$(tput sgr0)$(tput setaf 4)\]\w\[$(tput sgr0)\]$ '
+</pre>
+<p>
+  Descomenta la línea con el export (quitar la almohadilla #) que
+  quieras probar y comenta el resto para ver los distintos ejemplos
+  de prompt. Recuerda que debes volver a abrir la terminal&nbsp;o
+  abrir una pestaña nueva&nbsp;para ver los cambios aplicados si es
+  que los has puesto en bash_profile. Para más comodidad siempre
+  puedes ejecutar los comandos en la terminal y luego al encontrar
+  el perfecto guardarlo en el fichero.
+</p>

@@ -1,0 +1,15 @@
++++
+date = "2010-10-16 22:00:00"
+author = "alombarte"
+title = "Get the absolute path in a bash script. Linux and BSD/Mac"
+slug = "get-the-absolute-path-in-bash-script-linux-and-bsdmac-933017"
+tags = [ "bash","scripts","tricks" ]
++++
+<p>&iquest;Have you ever needed to get the absolute path to a script in a bash script? Here I explain how to set in a variable the current absolute path to the executed script and to its folder as well.</p><p>When it comes to development I work under Mac, but when I publish my work I do it usually under Linux. It happens sometimes to me that I create bash scripts that don't work in one or the other system. If you want to get the current script path one could think that the <strong>pwd</strong> command is enough, but that's not true if you launch your script from anywhere else but the location folder.</p>
+<p>In Linux environments you can use the <strong>readlink</strong> command. The problem is that in BSD systems and in Linux the implementation of this function is quite different. If you don't mind backwards compatibility with Mac you can get the <strong>current script path</strong> with the command:</p>
+<p><code>SCRIPT_PATH=$(readlink -f "$0")</code></p>
+<p>But if you need a workaround to <strong>get the absolute path both in Linux and Mac</strong> then you can actually do this:</p>
+<pre>PATH_TO_SCRIPT=$(cd ${0%/*} &amp;&amp; echo $PWD/${0##*/})
+PATH_TO_FOLDER=`dirname "$abspath"`
+TWO_LEVELS_UP=`cd "${PATH_TO_FOLDER}/../.." &amp;&amp; pwd -P`
+</pre>

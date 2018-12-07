@@ -1,0 +1,21 @@
++++
+date = "2006-12-16 00:00:00"
+author = "alombarte"
+title = "Como conectarse a internet con un móvil symbian y Ubuntu"
+slug = "conectarse-internet-movil-symbian-ubuntu-96326"
+tags = [ "gadgets","scripts","symbian","tricks","ubuntu" ]
++++
+<p>En un <a href="http://www.harecoded.com/2006/10/19/como-conectarse-a-internet-con-un-movil-symbian-vodafone-y-os-x">art&iacute;culo anterior</a> habl&aacute;bamos sobre c&oacute;mo conectarse a internet con un m&oacute;bil nokia 3G y macintosh. Esta vez, nos conectaremos desde un linux (Ubuntu 6.10).</p>
+<p>Primero de todo el m&oacute;bil tiene que estar bien configurado para hacer de m&oacute;dem. Estos pasos son <a href="http://www.harecoded.com/2006/10/19/como-conectarse-a-internet-con-un-movil-symbian-vodafone-y-os-x">los mismos</a> que ya hemos explicado anteriormente, en cuanto  a Linux, para no andar instalando m&aacute;s software del que viene por defecto usaremos el programa <strong>wvdial</strong>.</p>
+<p><strong>Manos a la obra</strong>.  Lo primero que necesitamos es conectar mediante el cable USB el tel&eacute;fono al ordenador y a continuaci&oacute;n detectar como se llama el dispositivo que hace de m&oacute;dem en nuestro sistema. Para eso una consulta r&aacute;pida al comando dmesg:</p>
+<pre>dmesg | tail</pre>
+<p>Eso nos devolver&aacute; en las &uacute;ltimas l&iacute;neas algo similar a:</p>
+<p><code> [17185105.844000] PPP BSD Compression module registered [17185105.880000] PPP Deflate Compression module registered [17185457.612000] usb 4-1: USB disconnect, address 2 [17185578.008000] usb 4-1: new full speed USB device using uhci_hcd and address 3 [17185578.184000] usb 4-1: configuration #1 chosen from 1 choice [17185578.196000] cdc_acm 4-1:1.8: ttyACM0: USB ACM device </code></p>
+<p><code></code><code> </code>Aqui podemos identificar la palabra <tt>ttyACM0</tt> que es nuestro m&oacute;dem. A continuaci&oacute;n ejecutaremos desde una terminal o desde la ventana ejecutar (ALT+F2) la l&iacute;nea:</p>
+<pre>gedit ~/.wvdialrc &amp;</pre>
+<p>Y dentro del fichero pegaremos:  <code> [Dialer Defaults] Modem = /dev/ttyACM0 Phone = *99***1# Username = vodafone Password = vodafone </code>Ojo al poner <code>/dev/ttyACM0</code>, deb&eacute;is poner VUESTRO dispositivo (tambi&eacute;n pod&eacute;is hacer un <tt>ls /dev/tty*</tt> para ver si aparece en la lista). Casi estamos! Ahora por &uacute;ltimo abrir una terminal y escribid:</p>
+<pre>wvdial</pre>
+<p>Empieza la secuencia y ya est&aacute; conectado (no?). A navegar!</p>
+<p><em>Posibles errores</em>: Si ten&eacute;is mensajes de <tt>Permission denied</tt> probad a invocar el comando a&ntilde;adiendo delante <tt>sudo</tt>. Si en alg&uacute;n momento el m&oacute;dem se cuelga:  <code> pppd 2.4.4 started by root, uid 0 Using interface ppp0 Connect: ppp0 &lt; --&gt; /dev/ttyACM0 PAP authentication succeeded LCP terminated by peer Connection terminated. Modem hangup Exit. </code>es que el tel&eacute;fono no esta bien configurado para hacer de m&oacute;dem 3G</p>
+<p>Muy &uacute;tiles son los manuales: <tt>man wvdial</tt> y <tt>man wvdial.conf</tt> (sintaxis fichero configuraci&oacute;n)  <small>.</small></p>
+<p><small>Este post ha sido escrito a trav&eacute;s de la conexi&oacute;n con el m&oacute;bil :)</small></p>

@@ -1,0 +1,103 @@
++++
+date = "2013-06-07 11:55:00"
+author = "alombarte"
+title = "Converting a CSV to SQL using 1 line in bash"
+slug = "converting-csv-to-sql-using-1-line-in-bash-2275563"
+tags = [ "bash","linux","shell","tricks" ]
++++
+<p>
+  <img class="fotobonita" style=  "display: block; margin-left: auto; margin-right: auto;" title=""  src="/img/posts/51b1ba7fd6776s10093.jpg"  alt=" - ">The <strong>command line</strong> is very powerful and
+  can do amazing stuff in one single line by pipelining a series of
+  commands. This post is inspired after creating a line that mixed
+  sed and awk, but with just only awk I'll show you an example on
+  how to <strong>convert a CSV file to an SQL insert</strong>
+</p>
+<p>
+  Let's take an <strong>input CSV</strong> named
+  <code>events-2013-06-06.csv</code> with 16 columns per line. It
+  looks like this:
+</p>
+<pre>
+k51b04876036e2,192.168.54.67,3a8d6196,2013-06-06,03:29:42,started,,,,no active campaign,Spain,ca-es,,v1.0,1370482182
+k51b04876036e2,192.168.54.67,3a8d6196,2013-06-06,03:29:43,first-run,,,,no active campaign,Spain,ca-es,,v1.0,1370482183
+k51b04876036e2,192.168.54.67,3a8d6196,2013-06-06,03:30:17,close,34,,,no active campaign,Spain,ca-es,34,v1.0,1370482217
+k51b0494a76071,192.168.54.67,febd870c,2013-06-06,03:33:14,started,,,,no active campaign,Spain,ca-es,,v1.0,1370482394
+...
+</pre>
+<p>
+  I took 16 because is more or less a real-life example. I added
+  some empty columns too to make it more real.
+</p>
+<p>
+  And this is the <strong>SQL output</strong> we want:
+</p>
+<pre>
+INSERT INTO tracking VALUES ('k51b04876036e2',INET_ATON('192.168.54.67'),'3a8d6196','2013-06-06','03:29:42','started','','','','no active campaign','Spain','ca-es','','v1.0','1370482182','');
+INSERT INTO tracking VALUES ('k51b04876036e2',INET_ATON('192.168.54.67'),'3a8d6196','2013-06-06','03:29:43','first-run','','','','no active campaign','Spain','ca-es','','v1.0','1370482183','');
+INSERT INTO tracking VALUES ('k51b04876036e2',INET_ATON('192.168.54.67'),'3a8d6196','2013-06-06','03:30:17','close','34','','','no active campaign','Spain','ca-es','34','v1.0','1370482217','');
+INSERT INTO tracking VALUES ('k51b0494a76071',INET_ATON('192.168.54.67'),'febd870c','2013-06-06','03:33:14','started','','','','no active campaign','Spain','ca-es','','v1.0','1370482394','');
+...
+</pre>
+<p>
+  The one-liner that produced the output above was:
+</p>
+<pre>
+cat events-2013-06-06.csv | awk -F',' '{ printf "INSERT INTO tracking VALUES (\x27%s\x27,INET_ATON(\x27%s\x27),\x27%s\x27,\x27%s\x27,\x27%s\x27,\x27%s\x27,\x27%s\x27,\x27%s\x27,\x27%s\x27,\x27%s\x27,\x27%s\x27,\x27%s\x27,\x27%s\x27,\x27%s\x27,\x27%s\x27,\x27%s\x27);",$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16;print ""}'
+</pre>
+<p>
+  Don't get scared yet... more generically:
+</p>
+<pre>
+cat your_file.csv | awk -F',' '{ printf "INSERT INTO table VALUES (\x27%s\x27,\x27%s\x27);",$1,$2;print ""}'
+</pre>
+<p>
+  The big line decomposed:
+</p>
+<ul>
+  <li>The <strong>awk</strong> command will scan your buffer/file
+  looking for commas, then splits every line into several fields.
+  The comma was passed as parameter to awk as column separator:
+  This was:
+    <pre>
+awk -F','
+</pre>
+  </li>
+  <li>Then <strong>awk</strong> will assign a numeric variable for
+  every column found, allowing you to write any text using as
+  placeholders these variables. If you want to ignore any of the
+  columns, just don't use them when printing.
+    <pre>
+'{ printf "...YOUR TEXT AND PLACEHOLDERS %s HERE...",$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16;print ""}'
+</pre>
+  </li>
+  <li>Then there is plenty of this strange <code>\x27</code>. Well,
+  it is pretty messy in the reading but this is just an encoded way
+  of writing single quotes so they are not interpreted as the
+  command itself.
+  </li>
+</ul>
+<p>
+  As a final note, do notice that I used <code>printf</code> in the
+  command instead of <code>print</code>. The only difference is
+  that using printf you put the %s placeholder in the text, while
+  if you use print you write the number right away. So, if your CSV
+  has a few fields maybe is more visual for you the print command,
+  like this:
+</p>
+<pre>
+cat yourfile | awk -F',' '{ print "INSERT INTO tracking values(" $1 ")" }'
+</pre>
+<p>
+  The only precaution here is that the $1 must be out of the
+  quotes.
+</p>
+<p>
+  Let me know if any of these worked for you! Works like a charm!
+</p>
+<p>
+  And if you want to know more, there is a very cheap reference
+  book for awk and sed:
+</p>
+<p>
+  <iframe style="width: 120px; height: 240px;" src=  "http://rcm-uk.amazon.co.uk/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=486D84&amp;t=beb0f-21&amp;o=2&amp;p=8&amp;l=as1&amp;m=amazon&amp;f=ifr&amp;ref=qf_sp_asin_til&amp;asins=B0043EWV10"  frameborder="0" marginwidth="0" marginheight="0" scrolling=  "no"></iframe>
+</p>

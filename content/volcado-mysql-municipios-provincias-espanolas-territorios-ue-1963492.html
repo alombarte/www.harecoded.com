@@ -1,0 +1,109 @@
++++
+date = "2012-06-09 12:41:00"
+author = "alombarte"
+title = "Volcado Mysql de municipios y provincias españolas y territorios UE"
+slug = "volcado-mysql-municipios-provincias-espanolas-territorios-ue-1963492"
+tags = [ "databases","dump","mysql" ]
++++
+<p>
+  Son muchos los proyectos de Internet que necesitan una base de
+  datos donde se muestra a los usuarios listados de provincias y
+  municipios (caso España) o de regiones, departamentos, länder...
+  (caso Europa).
+</p>
+<p>
+  Esta información no suele estar disponible para su consumo rápido
+  ya que hay que ir a las webs de los organismos oficiales, buscar
+  los CSV (cuando funciona) y crear la base de datos.
+</p>
+<p>
+  Así que hoy me he decidido a agrupar estas organizaciones
+  territoriales <strong>cogiendo las fuentes de los organismos
+  oficiales</strong>&nbsp;para que cualquier persona pueda
+  descargar un <strong>volcado sql de muncipios, provincias y
+  comunidades autónomas de España</strong> (formato
+  <strong>Mysql</strong>) y otro <strong>volcado mysql de los
+  países de la Unión Europea con sus regiones</strong>,
+  departamentos, länder, estados federados o cualesquiera que sea
+  su organización territorial.
+</p>
+<p>
+  Para ello he creado un repositorio en GitHub donde además de los
+  muncipios y provincias hay <a href=  "https://github.com/alombarte/utilities/tree/master/sql">más SQL
+  y CSV</a> y así se puede ir actualizando cuando las fuentes hagan
+  actualizaciones.
+</p>
+<h3>
+  Mysql con municipios y provincias de España
+</h3>
+<p>
+  <img class="fotobonita" title="" src=  "/img/posts/4fd39a41c81b7s4395.jpg" alt=  " - " align="right">
+</p>
+<p>
+  Los&nbsp;datos han sido tomados de la fuente de datos que provee
+  el <strong>INE (Insituto Nacional de Estadística)</strong> y se
+  ha creado una estructura mysql para su reciclaje en los
+  proyectos.
+</p>
+<p>
+  Los datos son del 2012.
+</p>
+<p>
+  Puedes <strong>descargar la base de datos</strong> por tablas
+  aquí:
+</p>
+<ul>
+  <li>
+    <a href=    "https://github.com/alombarte/utilities/blob/master/sql/spain_comunidades_autonomas.sql">
+    Tabla mysql con <strong>Comunidades Autónomas</strong> de
+    España</a> (19 registros)
+  </li>
+  <li>
+    <a href=    "https://github.com/alombarte/utilities/blob/master/sql/spain_provincias.sql">
+    Tabla mysql con <strong>provincias</strong> de
+    España</a>&nbsp;(52 registros)
+  </li>
+  <li>
+    <a href=    "https://github.com/alombarte/utilities/blob/master/sql/spain_municipios_INE.sql">
+    Tabla mysql con <strong>municipios</strong> de
+    España</a>&nbsp;(8.116 registros)
+  </li>
+</ul>
+<h3>
+  Mysql con organización territorial de la UE
+</h3>
+<p>
+  <a class="thickbox" href=  "/img/posts/4fd39a0d7f4ads93558.jpg"  alt=" TAGS:" align="right"></a>En el repositorio encontrarás
+  también el <a href=  "http://epp.eurostat.ec.europa.eu/portal/page/portal/nuts_nomenclature/introduction">
+  sistema de clasificación NUTS</a> que viene a ser lo mismo que en
+  el caso español pero a <strong>nivel europeo</strong>. Los datos
+  se han sacado de EUROSTAT, herramienta que pone a disposición de
+  los usuarios la Comisión Europea.
+</p>
+<p>
+  Algunos ejemplos de los datos que encontrarás en esta tabla son:
+</p>
+<ul>
+  <li>Estados federados (länder) y regiones administrativas de
+  Alemania
+  </li>
+  <li>Regiones y departamentos Franceses
+  </li>
+  <li>Regiones y provincias italianas
+  </li>
+  <li>Administraciones y periferias griegas
+  </li>
+  <li>Y así sucesivamente con <strong>81 paises (incluido
+  España)</strong>.
+  </li>
+</ul>
+<p>
+  Puedes descargar <strong>NUTS en formato Mysql</strong> aquí:
+</p>
+<ul>
+  <li>
+    <a href=    "https://github.com/alombarte/utilities/blob/master/sql/NUTS.sql">
+    Tabla mysql con&nbsp;<strong>territorios de la
+    UE</strong></a>&nbsp;(1.826 registros)
+  </li>
+</ul>

@@ -1,0 +1,53 @@
++++
+date = "2012-02-01 10:22:00"
+author = "sergiambel"
+title = "Merge Json files"
+slug = "merge-json-files-1407663"
+tags = [ "development","php","tricks" ]
++++
+<p>
+  With this small script you could merge some json files in a new
+  one in json validated format. &nbsp;The script uses each file
+  name like array key.
+</p>
+<p>
+  Look the example:
+</p>
+<p>
+  file1.json:
+</p>
+<pre>
+{"array1":["elem1","elem2","elem3"],"array2":["elem1","elem2","elem3"]}
+</pre>
+<p>
+  file2.json
+</p>
+<pre>
+{"array3":["elem1","elem2","elem3"]}
+</pre>
+<p>
+  &nbsp;
+</p>
+<p>
+  Whit our script you could run:
+</p>
+<ul>
+  <li>php merge_jsons.php file1.json file2.json &gt;
+  merged_jsons.json
+  </li>
+</ul>
+<p>
+  &nbsp;
+</p>
+<p>
+  Now you can open merged_jsons.json and look this:
+</p>
+<pre>
+{"file1":["array1":["elem1","elem2","elem3"],"array2":["elem1","elem2","elem3"]],<br>"file2":["array3":["elem1","elem2","elem3"]]}
+</pre>
+<p>
+  The script:
+</p>
+<pre>
+for ( $i=1; $i{<br>        $file_name = basename($argv[$i]);<br>        $key_name = strstr($file_name,'.',true);<br>        $data = file_get_contents( $argv[$i] );<br>        $result[$key_name]=json_decode( $data );}echo json_encode( $result );<br>}
+</pre>

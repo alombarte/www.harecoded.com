@@ -1,0 +1,17 @@
++++
+date = "2006-10-19 00:00:00"
+author = "alombarte"
+title = "Cómo conectarse a Internet con un móvil symbian vodafone y OS X"
+slug = "conectarse-internet-movil-symbian-vodafone-os-x-96323"
+tags = [ "mac","phones","symbian","tricks" ]
++++
+<p>Si te quieres conectar a internet utilizando tu m&oacute;vil Vodafone via blueetooth (tambi&eacute;n es posible hacerlo v&iacute;a infrarrojos, aunque es m&aacute;s lento que el caballo del malo) aqu&iacute; van algunas observaciones antes de que te empiezes a tirar de los pelos:</p>
+<ol>
+<li>Asegurate que tu m&oacute;vil tiene acceso a Internet</li>
+<li>En el menu del m&oacute;vil dirigete a: <strong>Herramientas &raquo; Ajustes &raquo; Conexi&oacute;n &raquo; Paquetes de datos &raquo; Punto de acceso</strong>. Aqu&iacute; debes tener <strong>airtelnet.es</strong>. Sin esta l&iacute;nea no conectar&aacute;s.</li>
+<li>Ahora en tu mac, abre las <strong>Preferencias del sistema &raquo; Blueetoth</strong>. Selecciona tu m&oacute;vil y pincha el bot&oacute;n <strong>Configurar</strong> (o pulsa sobre configurar nuevo dispositivo si todav&iacute;a no lo tienes vinculado)</li>
+<li>Elige <strong>Acceder a internet mediante la conexi&oacute;n de datos del tel&eacute;fono &raquo; </strong>Opci&oacute;n 2: <strong>Utilizar una conexi&oacute;n directa (GPRS, 1xRTT)</strong> tal y como se muestra en la im&aacute;gen:<br /><img src="http://www.harecoded.com/images/vodafone-modem1.jpg" alt="detalle conexi&oacute;n" width="384" height="132" /></li>
+<li>Proporciona estos datos de conexi&oacute;n: <code> Nombre de usuario: vodafone Contrase&ntilde;a: vodafone Cadena CID GPRS: *99***1# </code> En el desplegable de script de m&oacute;dem, si tienes un tel&eacute;fono nokia, lo m&aacute;s probable es que sea <strong>Nokia infrarred</strong>. Si tienes un modelo no soportado o un tel&eacute;fono de otra marca que tampoco tiene un script de m&oacute;dem que funcione puedes mirar de descargar m&aacute;s scripts de <a href="http://www.taniwha.org.uk/">http://www.taniwha.org.uk/</a> y copiar los ficheros en <tt>/Library/Modem Scripts</tt> <br /><img src="http://www.harecoded.com/images/vodafone-modem2.jpg" alt="detalle conexi&oacute;n" /></li>
+<li>Con esto ya tendr&iacute;as que poder conectarte (a un precio de esc&aacute;ndalo), para hacerlo, vete a <strong>Aplicaciones &raquo; Conexi&oacute;n a Intenet<br /><img src="http://www.harecoded.com/images/conexion-internet.jpg" alt="detalle conexi&oacute;n" /><img src="http://www.harecoded.com/images/vodafone-modem3.jpg" alt="detalle conexi&oacute;n" /></strong></li>
+</ol>
+<p>Este procedimiento ha funcionado para un Nokia E61 y un 6630</p>

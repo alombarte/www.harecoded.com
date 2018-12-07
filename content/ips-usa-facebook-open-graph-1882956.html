@@ -1,0 +1,45 @@
++++
+date = "2012-04-30 10:33:00"
+author = "sergiambel"
+title = "IP's que usa Facebook Open Graph"
+slug = "ips-usa-facebook-open-graph-1882956"
+tags = [ "development","facebook","linux","opengraph" ]
++++
+<p>
+  Queremos desarrollar una funcionalidad en nuestro proyecto web
+  que intereactua con Facebook mediante el protocolo <a href=  "http://developers.facebook.com/docs/opengraph/">Open Graph</a>.
+</p>
+<p>
+  Facebook nos ofrece una <a href=  "http://developers.facebook.com/tools/debug">herramienta de
+  Debug</a> para validar que, las entradas OG de nuestro site son
+  las esperadas. Con añadir nuestra url en esa herramiento podemos
+  ver un interesante informe.
+</p>
+<p>
+  Cuando lanzamos cualquier tipo de acción desde nuestro site,
+  desde el clásico "me gusta" a las más elaboradas "Custom
+  Actions", Facebook envía su bot a la url que le enviamos y
+  captura los datos de nuestros registros Open Graph. Dicen que,
+  cada hora, lo revisan para mantenerse actualizados.
+</p>
+<p>
+  El problema surge cuando estamos desarrollando una nueva
+  funcionalidad y, todavía, no está accesible en producción. En ese
+  caso habrá que abrir el acceso a nuestro entorno de desarrollo
+  para Facebook.
+</p>
+<p>
+  Estás son las ip's que, hasta la fecha, hemos podido identificar
+  como las usadas por los crawlers de Facebook.
+</p>
+<pre class="code-java">
+66.220.144.0/20
+69.63.176.0/20
+69.171.224.0/19
+74.119.76.0/22
+103.4.96.0/22
+173.252.64.0/18
+204.15.20.0/22
+31.13.24.0/21
+31.13.64.0/18
+</pre>

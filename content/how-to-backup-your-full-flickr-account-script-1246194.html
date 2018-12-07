@@ -1,0 +1,16 @@
++++
+date = "2011-07-24 11:29:00"
+author = "alombarte"
+title = "How to backup your full Flickr account (script)"
+slug = "how-to-backup-your-full-flickr-account-script-1246194"
+tags = [ "how-to","linux","mac","tricks" ]
++++
+<p>Why you would like to copy all your images stored at Flickr to your computer? Well, maybe you want to browse them later offline, maybe you want to stop paying your PRO account, or to keep them just in case...</p>
+<p>In any case, <a href="http://github.com/dan/hivelogic-flickrtouchr">Flickrtouchr</a> is a <strong>simple command-line script to backup Flickr</strong>. You don't need to know python or programming at all. A couple of lines in the Terminal and that's it.</p>
+<p>After downloading and uncompressing the .py script all you need is to:</p>
+<p>Create a directory, e.g: A folder called "Flickr" in your Home dir:</p>
+<pre>mkdir ~/Flickr</pre>
+<p>And then call the script:</p>
+<pre>python flickrtouchr.py ~/Flickr</pre>
+<p>After this a browser will be opened and Flickr will ask you to authorize Flickrtouchr, and that's it!</p>
+<p>Now maybe you want to add this line to your crontab so you can run it periodically. The script will check if the files exists to prevent continuous download.</p>

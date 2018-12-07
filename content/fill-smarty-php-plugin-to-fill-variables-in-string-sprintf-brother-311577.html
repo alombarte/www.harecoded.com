@@ -1,0 +1,133 @@
++++
+date = "2009-08-06 23:48:00"
+author = "alombarte"
+title = "Fill: Smarty PHP plugin to fill variables in string (sprintf brother)"
+slug = "fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577"
+tags = [ "development","php","plugins","smarty" ]
++++
+<p>
+  Today I quickly created a plugin for Smarty to fill variables
+  inside a string (subject) using the passed parameters as variable
+  names.&nbsp;I use this specially while constructing URLs because
+  my addresses are translated and they "subjects" are always
+  variables. This plugin does nearly the same you could do with the
+  sprintf modifier, but I placed this behaviour inside a function.
+</p>
+<p>
+  The "subject" defines the string containing the pattern to be
+  filled and containing the vars to be filled, and the variables
+  are any string surrounded by your preferred delimiter (defaults
+  to %). Let's see an example on how it works on these small Smarty
+  snippets:
+</p>
+<pre>
+{fill <strong>subject</strong>="Hello %user%, welcome aboard!" <strong>user</strong>=Fred}<br><em>Outputs: Hello Fred, welcome aboard </em>
+</pre>
+<p>
+  You can use variables instead of static content as well (the
+  normal usage):
+</p>
+<pre>
+{assign var=user value='Fred'}
+{assign var=subject value='http://domain.com/profile/%user%/options'}
+<strong><br>{fill subject=$subject user=$user }<br></strong>
+<em>Outputs: http://domain.com/profile/Fred/options </em>
+</pre>
+<p>
+  If you don't like the delimiter used by default (%) you can
+  declare others in the call, and you can declare as many variables
+  as you want:
+</p>
+<pre>
+{fill subject="Welcome __user__, make yourself confortable with the __plugin__ plugin."
+        user=Fred
+        plugin=fill
+        delimiter='__'}
+<em>Outputs: Welcome Fred, make yourself confortable with the fill plugin. </em>
+{fill subject="http://||subdomain||.domain.com/||page||/||action||"
+        subdomain='www'
+        page='my-first-post'
+        action='vote'
+        delimiter='||'}
+<em>Outputs: http://www.domain.com/my-first-post/vote</em>
+</pre>
+<p>
+  To&nbsp;<strong>download this plugin</strong>&nbsp;see the
+  <a href=  "https://github.com/alombarte/utilities/blob/master/harecoded/smarty/function.fill.php">
+  Github link</a>&nbsp;OR you can copy paste the source code in the
+  new file:
+</p>
+<pre>
+/**
+ * Smarty plugin
+ * @package Smarty
+ * @subpackage plugins
+ */
+
+
+/**
+ * Smarty {fill} function plugin
+ *
+ * Type:     function<br> * Name:     fill<br> * Input:<br> *           - [any]      (required) - string
+ *           - subject       (required) - string
+ *           - delimiter  (optional, defaults to '%' ) - string
+ * Purpose:  Fills the variables found in 'subject' with the paramaters passed. The variables are any word surrounded by two delimiters.
+ *
+ *           Examples of usage:
+ *
+ *           {fill subject="http://domain.com/profile/%username%" username='fred'}
+ *           Output: http://domain.com/profile/fred
+ *
+ *           {fill subject="Hello %user%, welcome aboard!" user=Fred}
+ *           Outputs: Hello Fred, welcome aboard
+ *
+ *           {fill subject="http://||subdomain||.domain.com/||page||/||action||" subdomain='www' page='my-first-post' action='vote' delimiter='||'}
+ *           Outputs: http://www.domain.com/my-first-post/vote
+ *
+ * @link    http://www.harecoded.com/fill-smarty-php-plugin-311577
+ * @author Albert Lombarte
+ * @param array
+ * @param Smarty
+ * @return string
+ */
+function smarty_function_fill($params, &amp;$smarty)
+{
+
+    if ( isset($params['delimiter']) )
+    {
+        $_delimiter = $params['delimiter'];
+        unset($params['delimiter']);
+    } else {
+        $_delimiter = '%';
+    }
+
+    if ( false !== strpos($_delimiter, '$' ) )
+    {
+         $smarty-&gt;trigger_error("fill: The delimiter '$' is banned in function {url}", E_USER_NOTICE);
+    }
+
+    if (!isset($params['subject']) || count($params)trigger_error("fill: The attribute 'subject' and at least one parameter is needed in function {url}", E_USER_NOTICE);
+    }
+
+
+        $_html_result = $params['subject'];
+
+    unset( $params['subject'] );
+        foreach($params as $_key =&gt; $_val) {
+        $_html_result = str_replace( $_delimiter . $_key . $_delimiter, (string)$_val, $_html_result);
+    }
+
+    if ( false !== strpos($_html_result, $_delimiter) )
+    {
+        $smarty-&gt;trigger_error("fill: There are still parameters to replace, because the '$_delimiter' delimiter was found in $_html_result");
+    }
+
+    return $_html_result;
+
+}
+
+/* vim: set expandtab: */
+
+?&gt;
+
+</pre>

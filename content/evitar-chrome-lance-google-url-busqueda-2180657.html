@@ -1,0 +1,114 @@
++++
+date = "2012-10-26 20:09:00"
+author = "sergiambel"
+title = "Evitar que Chrome lance a Google tu url como búsqueda"
+slug = "evitar-chrome-lance-google-url-busqueda-2180657"
+tags = [ "development","software","trucos" ]
++++
+<h3>
+  El problema
+</h3>
+<p>
+  Como desarrollador cada vez me siento más cómodo trabajando con
+  Google Chrome pero hay una cosa que muchas veces me hace perder
+  algo de tiempo:
+</p>
+<p>
+  En ocasiones, al intentar buscar una url poco "normal", como
+  puede ser en un dominio típico en un entorno de desarrollo,
+  Chrome detecta que no es una url válida y la lanza contra Google
+  en forma de búsqueda.
+</p>
+<h3>
+  Un ejemplo
+</h3>
+<p>
+  Queremos acceder a nuestra working copy con una url como
+  ésta:&nbsp;development_area/test_script.php
+</p>
+<p>
+  <img title="" src=  "/img/posts/508ad3eb3ec92s13163.jpg" alt=  " TAGS:" align="left">
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  Cuando pulsamos Enter, Chrome nos lleva a esta pantalla por
+  tratarse de un dominio que, bajo su opinión, es inválido:
+</p>
+<p>
+  <img title="" src=  "/img/posts/508ad3ea290dfs21009.jpg" alt=  " TAGS:" align="left">
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  &nbsp;
+</p>
+<h3>
+  La solución
+</h3>
+<p>
+  La solución pasa por cambiar el buscador por defecto de Chrome.
+</p>
+<p>
+  Vayamos a&nbsp;<a href="chrome://chrome/settings/" target=  "_blank">chrome://chrome/settings/</a> y pulsemos en "Administrar
+  motores de búsqueda..."
+</p>
+<p>
+  <img title="" src=  "/img/posts/508ad3e8ad5fas29149.jpg" alt=  " TAGS:" align="left">
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  &nbsp;Ahora, elige cualquiera de los que hay y lo modificamos
+  escribiendo 'null' en el campo del medio y http://%s en el de la
+  derecha. Para poder editarlo sólo hay que pulsar sobre lo que ya
+  hay escrito.
+</p>
+<p>
+  Ahora pulsa en "Establecer como predeterminado".&nbsp;
+</p>
+<p>
+  <a class="thickbox" href=  "/img/posts/508ad3ec45de0s35513.jpg"  alt=" TAGS:"></a>
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  Lo sé!, es una de esas pequeñas cosas que mejorán tu vida ;).
+</p>
+<p>
+  &nbsp;
+</p>
+<p>
+  Fuente:&nbsp;<a href=  "http://superuser.com/questions/354338/force-chrome-to-open-urls-as-urls-instead-of-searching">http://superuser.com/questions/354338/force-chrome-to-open-urls-as-urls-instead-of-searching</a>
+</p>

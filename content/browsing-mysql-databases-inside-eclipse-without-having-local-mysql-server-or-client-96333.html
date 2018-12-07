@@ -1,0 +1,17 @@
++++
+date = "2007-06-11 00:00:00"
+author = "alombarte"
+title = "Browsing MySQL databases inside Eclipse without having a local mysql server or client"
+slug = "browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333"
+tags = [ "apps","development","eclipse","mysql" ]
++++
+<p><a href="http://sourceforge.net/projects/eclipsesql/ title=">EclipseSQL</a> is an aid to people programming with databases. Allows to make queries, browse tables, change structures and all the common operations performed in databases. This is how it looks like:</p>
+<p style="text-align: center;"><a class="thickbox" href="/img/posts/96333-83190.jpg" alt="96333-83190.jpg" /></a></p>
+<p>The application can be downloaded as a standalone (screenshot) although since I am using eclipse to develop PHP (<a href="http://www.eclipse.org/pdt/index.php">PDT plugin</a>) and Java code, what I find more interesting is the plugin version. By installing the plugin another "View" called SQL is available, where you can browse the databases.</p>
+<p>Recently I've been working mainly with MySQL, but since I work with remote sites and I don't have a mysql client neither a mysql server in my development machine, I found a strange error when connecting to the databases:</p>
+<p><code><strong>Error: com.mysql.jdbc.Driver</strong></code> That happens when you don't have the <a href="http://dev.mysql.com/downloads/connector/j/5.0.html">Connector/J 5.0</a> provided by mysql. To solve this go download the connector, place it under the eclipse's "plugins" folder and go to the SQLEditor preferences dialog. Then just click on <strong>Add External class</strong> and select the connector file. After clicking OK you'll see the mysql tick enabled.</p>
+<p>Just to mention it, I tried to install the plugin from the update site direclty from eclipse but it failed.</p>
+<ul>
+<li>Project site: <a href="http://sourceforge.net/projects/eclipsesql/">http://sourceforge.net/projects/eclipsesql/</a></li>
+<li>Java connector: <a href="http://dev.mysql.com/downloads/connector/j/5.0.html">http://dev.mysql.com/downloads/connector/j/5.0.html</a></li>
+</ul>

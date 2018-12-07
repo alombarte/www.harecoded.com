@@ -1,0 +1,17 @@
++++
+date = "2011-10-12 10:00:00"
+author = "alombarte"
+title = "GMAIL: Bulk deleted emails based on date"
+slug = "gmail-bulk-deleted-emails-based-on-date-1293021"
+tags = [ "tricks","web apps" ]
++++
+<p>When I created my gmail account, there was a counter giving you everyday more space. They "sold us" the product as if you never had to delete email again. By looking at that counter it seemed that by now I should have more than a Terabyte of data, truth is that after many years I have less than 8GB. Although it's a lot of space for the email, if you have automatic notifications, reports, and so on... it's easy to see how you are fastly approaching to the limit.</p>
+<p>So, from time to time, it is needed to clean up a little bit your GMAIL account. At least for old reports and automatic emails which may not have sense anymore.</p>
+<p>I usually delete some of this nonsense emails by typing in the search box:</p>
+<pre>label:Label_to_delete before:2011/1/31</pre>
+<p>Instead of "Label_to_delete" write a "secure" label you want to clean. I say secure because if you label your email with vague rules it is possible that you delete something you shouldn't.</p>
+<p>When the search results appear, select the checkbox to check them all, and then click on the link that selects all the items matching that search. With this you will be able to delete thousands of undesired emails in a couple of clicks.&nbsp;</p>
+<p>The search box of Gmail is very powerful. If you are used to code, you'll find how easy is to add conditions. A very simple example of that would be:</p>
+<pre>label:CRONS after:2011/01/01 AND before:2011/02/01 AND from:root AND !has:attachment</pre>
+<p>Translation: Delete emails coming from CRONS in January coming from root user and without any attachment.</p>
+<p>Give it a try!</p>

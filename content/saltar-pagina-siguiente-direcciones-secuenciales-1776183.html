@@ -1,0 +1,46 @@
++++
+date = "2012-04-09 10:49:00"
+author = "sergiambel"
+title = "Saltar a página siguiente en direcciones secuenciales"
+slug = "saltar-pagina-siguiente-direcciones-secuenciales-1776183"
+tags = [ "tricks","trucos","webmarklet" ]
++++
+<p>
+  En muchas ocasiones, en un sitio web nos encontramos una url del
+  tipo:
+</p>
+<pre>
+http://url.ltd/path?id=XXXX
+</pre>
+<p>
+  Donde XXXX es un identificador. En ocasiones este identificador
+  es la página que estamos viendo y, en otras, el id del propio
+  elemento.
+</p>
+<p>
+  Imagina, por ejemplo, una lista de perfiles de usuarios, donde el
+  id fuera secuencial. Si quisieras verlos todos tendrías que ir
+  cambiando este número o volviendo a la lista de usuarios y
+  haciendo click en el siguiente.
+</p>
+<p>
+  He hecho un pequeño bookmarklet que permite ir saltando al
+  siguiente elemento de forma automática.
+</p>
+<p>
+  Símplemente, arrastra este link a tu barra de bookmarks y ya
+  tendrás la opción:
+</p>
+<p>
+  <a href=  "javascript:(function(){aUrl%20=%20window.location.href.split(%20'/'%20);aUrl[aUrl.length-1]++;window.location%20=%20aUrl.join(%20'/'%20);})()">
+  Siguiente</a>
+</p>
+<p>
+  Por ejemplo, lo puedes probar con esta página web:
+</p>
+<pre>
+<a title="Trucos de alto nivel" href="http://www.harecoded.com/page/1">http://www.harecoded.com/page/1<br></a><a title="Reforma de pisos en Barcelona"href="http://blog.reformapisos.es/page/1">http://blog.reformapisos.es/page/1</a>
+</pre>
+<p>
+  &nbsp;
+</p>

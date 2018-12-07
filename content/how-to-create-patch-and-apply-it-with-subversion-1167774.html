@@ -1,0 +1,52 @@
++++
+date = "2011-02-15 21:16:00"
+author = "alombarte"
+title = "How to create a patch and apply it with subversion"
+slug = "how-to-create-patch-and-apply-it-with-subversion-1167774"
+tags = [ "development","linux","mac","subversion","svn" ]
++++
+<p>
+  If you want to <strong>create a patch with svn</strong> you only
+  have to type in the terminal something like:
+</p>
+<pre>
+svn diff yourproject &gt; yourproject.patch
+</pre>
+<p>
+  Where <em>yourproject</em> is the folder containing the modified
+  source code.
+</p>
+<p>
+  Then, <strong>to restore the patch (apply the changes stored in
+  patch in a new working copy)</strong>, copy the patch file
+  <em>yourproject.patch</em> in the machine where you want apply
+  the patch and "<strong>cd</strong>&nbsp;"to the parent folder
+  containing the <em>yourproject</em> folder (not inside
+  <em>yourproject</em>). Then type:
+</p>
+<pre>
+patch -p0 -i /path/to/yourproject.patch
+</pre>
+<p>
+  If you do not respect the same hierarchy when creating and
+  applying the patch then you'll have to play around with the "p0"
+  parameter (gives the entire file name unmodified). Of course the
+  patch command is not related to SVN and you can use it in many
+  other environments.
+</p>
+<p>
+  Without subversion
+</p>
+<p>
+  If you are not a subversion user this is how general patchind is
+  done:
+</p>
+<pre>
+diff -Nur old_file new_file &gt; patchfile
+</pre>
+<p>
+  And then&nbsp;apply:
+</p>
+<pre>
+patch old_file patchfile
+</pre>

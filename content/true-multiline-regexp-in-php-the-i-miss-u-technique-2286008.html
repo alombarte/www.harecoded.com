@@ -1,0 +1,64 @@
++++
+date = "2013-08-08 16:44:00"
+author = "alombarte"
+title = "A true multiline regexp in PHP. The \"I miss U\" technique"
+slug = "true-multiline-regexp-in-php-the-i-miss-u-technique-2286008"
+tags = [ "development","php","regular expressions" ]
++++
+<p>
+  <img title="" src=  "/img/posts/52892359d7b82s112807.jpg"  alt=" - " width="110" height="110" align="left">The following
+  regular expression <strong>matches tags that are opened and close
+  in different lines</strong>, albeit can be used for any other
+  purpose. It is also&nbsp;<strong>ungreedy</strong>, meaning that
+  when the first closing tag is found the rest of equal tags will
+  be ignored.
+</p>
+<p>
+  It is very easy to remember and to apply, I call it the
+  <strong>"I MISS YOU" technique</strong>, see the why in the
+  <strong>regexp modifiers</strong>:
+  <em><strong>misU</strong></em>&nbsp;
+</p>
+<pre>
+$html =&lt;&lt;&lt;MULTILINE
+&lt;p class="interesting"&gt;I am the &lt;strong&gt;interesting&lt;/strong&gt; text&lt;/p&gt;
+&lt;p&gt;But this should be ignored&lt;/p&gt;
+MULTILINE;
+
+$open = preg_quote( '&lt;p class="interesting"&gt;' );
+$close = preg_quote( '&lt;/p&gt;' );
+
+$pattern =  "~$open(.+)$close~misU";
+preg_match_all( $pattern, $html, $matches);
+var_dump( $matches[1] );
+die;
+// Displays array(1) { [0]=&gt; string(42) "I am the &lt;strong&gt;interesting&lt;/strong&gt; text" }
+</pre>
+<p>
+  And the <strong>"I miss you" technique</strong> is because
+  <strong>misU</strong> means:
+</p>
+<ul>
+  <li>
+    <strong>m</strong>: Multiline modifer (even the "s" modifier
+    actually does that)
+  </li>
+  <li>
+    <strong>i</strong>: Case insensitive&nbsp;
+  </li>
+  <li>
+    <strong>s</strong>: That's the important one, matches all
+    characters including newlines
+  </li>
+  <li>
+    <strong>U</strong>: the ungreedy (must be uppercase, lower case
+    is for utf-8)
+  </li>
+</ul>
+<p>
+  Note: The "Us" modifier would be enough for this specific
+  example, but less prosaic.
+</p>
+<p>
+  Easy to remember both the "Us" or the "misU", happy scrapping!
+</p>

@@ -1,0 +1,58 @@
++++
+date = "2005-09-14 00:00:00"
+author = "maguilar"
+title = "Script for compressing files with gzip within the terminal with date"
+slug = "script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285"
+tags = [ "bash","linux","scripts" ]
++++
+<p>This is a <strong>simple bash script</strong> to compress in tar.gz (gzip) format a file or folder appending date to file name.</p>
+<p>Save this file as <tt>gzip.sh</tt> and give it execution permissions. From terminal i could be: <code>chmod 755 gzip.sh</code><br /> This script does the following:</p>
+<ul>
+<li>Checks if you passed exactly 2 arguments</li>
+<li>Compresses your source</li>
+<li>Adds the date on the resulting filename</li>
+<li>Optionally changes permissions of your filename (uncomment line chown and put the desired user:group)</li>
+</ul>
+<h4>Script:</h4>
+<pre>#!/bin/bash
+# Albert Lombarte
+#
+if [ $# != 2 ]
+# There must be two arguments
+then
+    echo "--USAGE: $0 source target"
+    exit 1
+fi
+
+FILENAME=`date "+%Y-%b-%d_$2"`
+WHAT=$1
+
+#======================================
+echo "-- STARTED compression of $WHAT into $FILENAME"
+
+#Use 'sudo' command before commands if needed
+
+tar -c --gzip -f $FILENAME $WHAT
+#chown alombarte:bckgroup $FILENAME
+
+echo "-- FINISHED $WHAT"
+echo ""
+exit 1
+</pre>
+<h4>or the same with less stuff...</h4>
+<pre>#!/bin/bash
+# Albert Lombarte
+
+if [ $# != 2 ]
+then
+    echo "--USAGE: $0 source target"
+    exit 1
+fi
+
+tar -c --gzip -f $1 $2
+
+</pre>
+<p>This example ...will result in 03-Aug-2005_alombarte.tar.gz</p>
+<pre>./gzip.sh /home/alombarte alombarte.tar.gz
+
+</pre>

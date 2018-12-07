@@ -1,0 +1,35 @@
++++
+date = "2007-11-16 00:00:00"
+author = "maguilar"
+title = "Recovering space on an iphone or ipod touch"
+slug = "recovering-space-on-an-iphone-or-ipod-touch-96358"
+tags = [ "apple","iphone","ipod","tricks" ]
++++
+<p>When you decide that it is worth to risk your ipod touch's warranty in order to install a vast number of third party apps, you are sure to end filling up all the space dedicated to the ipod operative system. This ain't good for a lot of reasons: you won't be able to install new software and some will fail (as of YouTube not being able to create its cache files).</p>
+<div style="text-align: center;"><img title="96358-83166.jpg" src="/img/posts/96358-83166.jpg" alt="96358-83166.jpg" /></div>
+<p>The Apple new toys come initially with two disk partitions:</p>
+<ul>
+<li>/dev/disk0s1		/var/root		[300Mb]<br /></li>
+<li>/dev/disk0s2 		/private/var		[7,3Gb]<br /></li>
+</ul>
+<p>The former partition (300Mb) holds the ipod's operative system and applications. The latter partition stores all the media files: music and videos.  If you install the iphone applications (Mail, Google Maps, Notes, etc.) and some third party apps and games (ssh, Finder, Books, etc.) you will probably have less than 1Mb space left pretty quickly.</p>
+<p><strong>Here it is a quick and dirty trick to free some space by moving applications from the root partition to the media one</strong>. Courtesy from the fellows at <a href="http://www.tuaw.com/2007/10/29/iphone-hacks-running-out-of-application-space-on-your-iphone-or/">tuaw</a>.  First of all, you need access to the itouch's shell, as you will need to execute some unix commands there. You can gain access to the shell by installing TermVT-100 (appinstaller sources) or by ssh login.</p>
+<p style="text-align: center;"><span style="color: #0000ee;"><img title="96358-83165.jpg" src="/img/posts/96358-83165.jpg" alt="96358-83165.jpg" /></span></p>
+<p>Once being at the shell prompt, you will have to follow these instructions carefuly.  READ THIS ALL BEFORE YOU DO ANYTHING!</p>
+<ul>
+<li><strong>mkdir ~/Applications</strong><br /></li>
+</ul>
+<p>You are creating the Applications folder in the media partition, because there are usually lots more of space there.</p>
+<ul>
+<li><strong>mv -iv /Applications/AppNameZHere.app ~/Applications/</strong><br /></li>
+</ul>
+<p>WHERE "AppNameZHere" DOES NOT INCLUDE ANY OF THE DEFAULT APPS (MobileSafari.app, MobileMusicPlayer.app, MobileCal.app, etc.).</p>
+<p>We are moving the applications from the root partition to the media one. By doing so we are freeing space on the root partition!</p>
+<ul>
+<li><strong>ln -s ~/Applications/* /Applications/</strong></li>
+</ul>
+<p>This makes a link between the files in ~/Applications/ (which has a lot of space) and /Applications (which does not). It fools the iphone or itouch into thinking that nothing has happened.  Now that we are done, let's see how much space have we freed by typing:</p>
+<ul>
+<li><strong>df -h</strong><br /></li>
+</ul>
+<p>We probably will have 4-5Mb of free space, which is good enough to keep installing new things, at least until february (when third party apps will be finally welcomed by Apple).  Hope that it helps! Of course, everything you do is under your responsibility!</p>

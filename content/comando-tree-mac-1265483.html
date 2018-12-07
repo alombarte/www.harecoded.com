@@ -1,0 +1,54 @@
++++
+date = "2011-08-27 16:03:00"
+author = "alombarte"
+title = "Comando `tree` para Mac"
+slug = "comando-tree-mac-1265483"
+tags = [ "bash","mac","scripts","trucos" ]
++++
+<p>
+  Existe una utilidad llamada "tree" en Windows y Linux que sirve
+  para ver un listado de directorio en un formato ASCII un poco más
+  agradable a la vista. Si no quieres bajarte los MacPorts para
+  esta pequeña utilidad lo más fácil es crear un script de una
+  línea y enlazarlo en /bin para poder llamarlo directamente.
+</p>
+<p>
+  El comando en cuestión es este:
+</p>
+<pre>
+find . -print | sed -e 's;[^/]*/;|--;g;s;--|; |;g'
+</pre>
+<p>
+  Ahora, para utilizarlo a troche y moche basta con pegar su
+  contenido en un fichero en cualquier ubicación. Por ejemplo, en
+  mi carpeta de usuario de scripts
+  (/Users/alombarte/scripts/tree.sh):
+</p>
+<pre>
+#!/bin/bash
+find . -print | sed -e 's;[^/]*/;|--;g;s;--|; |;g'
+</pre>
+<p>
+  Y entonces, para poder escribir allí donde queramos el comando
+  tree hacemos un enlace simbólico:
+</p>
+<pre>
+sudo ln -s /Users/alombarte/scripts/tree.sh /bin/tree
+</pre>
+<p>
+  Un ejemplo de la salida es este:
+</p>
+<p>
+  &nbsp;
+</p>
+<pre>
+|--a1
+| |--a11
+| | |--fichero_en_a11.txt
+| |--fichero_en_a1.txt
+|--a2
+| |--a21
+</pre>
+<p>
+  Así de simple :)
+</p>

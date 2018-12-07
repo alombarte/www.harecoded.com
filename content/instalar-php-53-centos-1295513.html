@@ -1,0 +1,44 @@
++++
+date = "2011-10-13 23:45:00"
+author = "alombarte"
+title = "Instalar PHP 5.3 en CentOS"
+slug = "instalar-php-53-centos-1295513"
+tags = [ "development","linux","php" ]
++++
+<p>
+  Me tienen contento!
+</p>
+<p>
+  Hace muchísimo que deberían haber incluído la versión de PHP 5.3
+  en los paquetes php por defecto de CentOS, pero parece que se van
+  a quedar con la 5.2 hasta el fin de los tiempos. Ofrecen la
+  versión 5.3 como un paquete separado (php53), lo que implica
+  desinstalar PHP y librerías asociadas para reinstalar la 5.3 con
+  este paquete distinto (incompatible con el anterior claro).
+</p>
+<p>
+  Así que, no pudiéndome aguantar más y con mono de namespaces,
+  funciones lambda y toda la pesca, he migrado mi CentOS 5.5 a la
+  5.7 (esto no viene al caso ahora ni es necesario, via <code>yum
+  update</code>.) y luego PHP a la 5.3 utilizando un repo externo.
+  Para ello me he servido del repositorio <a href=  "http://rpms.famillecollet.com/">REMI</a>. Si no lo tienes para
+  instalarlo sólo hay que hacer:
+</p>
+<pre>
+cd /etc/yum.repos.d/
+rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-5.rpm
+</pre>
+<p class="p1">
+  <span class="s1"><span class="s2">Y para disfrutar de la
+  5.3:</span></span>
+</p>
+<p>
+  <code>yum --enablerepo=remi update php</code>
+</p>
+<p>
+  Si no tienes aún PHP instalado entonces usa "install" en vez de
+  "update".
+</p>
+<p>
+  Ale! Todo listo.
+</p>

@@ -1,0 +1,83 @@
++++
+date = "2010-10-24 07:00:00"
+author = "alombarte"
+title = "Exportar una consulta de Mysql en un fichero CSV"
+slug = "exportar-consulta-mysql-fichero-csv-945014"
+tags = [ "development","mysql","trucos" ]
++++
+<p>
+  Si tienes una tabla o consulta que quieres exportar a CSV tienes
+  dos maneras muy fáciles de hacerlo. La primera es dentro de la
+  consola mysql utilizando después del SELECT la opción
+  <strong>INTO OUTFILE</strong>. Esto escribirá en el fichero
+  externo que indiques el contenido de la consulta. La segunda
+  opción es desde la propia línea de comandos utilizando la opción
+  "Batch".
+</p>
+<p>
+  Diferencias entre método 1 y 2: El primero permite especificar la
+  terminación de las líneas en el csv así como si quieres comillas
+  en cada campo. El segundo escribe en el CSV los campos
+  delimitados por tabulación sin más. <strong>La segunda es la
+  opción más senclla y rápida para la mayoría de casos.</strong>
+</p>
+<h3>
+  Opción 1: Exportar una consulta SQL a CSV desde la consola Mysql
+</h3>
+<p>
+  Si por ejemplo quieres que cada campo de tu consulta se separe
+  con <strong>punto y coma</strong> y cada registro por un salto de
+  línea windows (\r\n) o Unix (\n), lo que vendría a ser un CSV
+  vaya!, solo tienes que hacer algo como:
+</p>
+<pre>
+SELECT
+        *
+FROM
+        tu_tabla
+WHERE
+        condicion
+-- Aqui viene la exportación
+INTO OUTFILE
+        '/tmp/fichero_salida.csv'
+        FIELDS TERMINATED BY ';'
+        OPTIONALLY ENCLOSED BY '\"'
+        LINES TERMINATED BY '\r\n';
+</pre>
+<p>
+  Puedes cambiar el formato fácilmente cambiando los caracteres. En
+  este caso el fichero final estaría en la carpeta /tmp, un lugar
+  fácil para evitar problemas de permisos
+</p>
+<h3>
+  Opción 2: Exportar una consulta SQL a CSV desde terminal
+</h3>
+<p>
+  Este método es todavía más simple, pero asume que quieres los
+  <strong>campos separados por tabulación</strong>, cosa que si vas
+  a usar un Excel o similar quizá sea lo más práctico y rápido.
+</p>
+<p>
+  Para ello basta con pasar dos parámetros básicos:
+</p>
+<ul>
+  <li>-e: Indicando la consulta que quieres hacer entre comillas
+  </li>
+  <li>-B: para indicar que quieres recibir la consulta en modo
+  "batch" (campos separados por tabs)
+  </li>
+</ul>
+<p>
+  Supongamos que nos conectamos a mysql, con el contenido de la
+  primera línea...
+</p>
+<pre>
+mysql -u root --password=elquesea mibasededatos \
+-e "SELECT * FROM tabla where ...." -B &gt; fichero_salida.csv
+</pre>
+<p>
+  ... en la segunda tienes la parte que hace la exportación. Ahora
+  tendrás en el <em>fichero_salida.csv</em> el resultado de la
+  consulta delimitado por tabulaciones y si hay cualquier error lo
+  verás por pantalla.
+</p>

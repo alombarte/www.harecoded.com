@@ -1,0 +1,45 @@
++++
+date = "2009-09-05 18:18:00"
+author = "alombarte"
+title = "All ISO-639 language codes for MySQL"
+slug = "all-iso-639-language-codes-for-mysql-329937"
+tags = [ "databases","development","dump","mysql" ]
++++
+<p>
+  If you ever needed a mysql table with all the languages detailed
+  in the ISO-639 language codes, here it is. I took the list from
+  the <a href=  "http://www.loc.gov/standards/iso639-2/php/code_list.php">registration
+  authority</a> and created the table in Mysql.
+</p>
+<p>
+  There are 21 languages that have alternative codes for
+  bibliographic or terminology purposes. In those cases I took the
+  bibliographic ones. The script contains the <strong>2 and 3
+  letter ISO-639 language codes</strong>, as well as the English
+  and French names of the languages.
+</p>
+<p>
+  This is a preview:
+</p>
+<pre>
+CREATE TABLE `i18n_language_codes` (
+  `3letter` char(3) NOT NULL COMMENT 'ISO 639-2 Code',
+  `2letter` varchar(2) default NULL COMMENT 'ISO 639-1 Code',
+  `english_name` varchar(255) default NULL,
+  `french_name` varchar(255) default NULL,
+  PRIMARY KEY  (`3letter`),
+  KEY `2letter` (`2letter`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO i18n_language_codes (3letter,2letter,english_name,french_name) VALUES
+('aar','aa','Afar','afar'),
+...
+</pre>
+<p>
+  <strong>Download Mysql languages dump (structure and
+  data):</strong>
+</p>
+<p>
+  <strong><a href=  "https://github.com/alombarte/utilities/blob/master/sql/language_codes_in_the_world.sql">
+  download the ISO-639 MySQL script</a></strong> from GitHub
+</p>

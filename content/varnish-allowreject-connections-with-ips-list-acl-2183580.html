@@ -1,0 +1,98 @@
++++
+date = "2012-11-06 12:29:00"
+author = "alombarte"
+title = "Varnish allow/reject connections with IPs list (ACL)"
+slug = "varnish-allowreject-connections-with-ips-list-acl-2183580"
+tags = [ "development","varnish","vcl" ]
++++
+<p>
+  <img title="" src=  "/img/posts/51361ddca7dcds10808.jpg"  alt=" TAGS:" align="right">In a web server you can use directives
+  to deny the unwanted eye to look at your content. This is an
+  example of how Apache would handle a <strong>virtual
+  host</strong> that only accepts connections from a series of IPs,
+  but in <strong>Varnish</strong> that won't work.
+</p>
+<pre>
+        Order Deny,Allow
+        Deny from all
+        # Barcelona IPs
+        Allow from 89.140.xxx.xxx/27
+        # Japan IP
+        Allow from 222.229.xxx.xxx/32
+
+</pre>
+<p>
+  The reason that this won't work in Varnish is because the IP
+  Apache is receiving is 127.0.0.1. (Varnish is the one connecting
+  to Apache, not the client). The real client IP comes in the
+  header <strong>X-HTTP-FORWARDED-FOR</strong>. If you want to fix
+  this situation with Varnish in the middle you have basically two
+  options:
+</p><ol>
+  <li>Fix Apache (or Nginx) to allow connections by looking into
+  this header (explained&nbsp;<a href=  "http://www.ultimatewebtips.com/how-to-blockallow-ip-addresses-behind-a-load-balancer-with-htaccess/">here</a>)
+  </li>
+  <li>
+    <strong>Handle the ACL by Varnish&nbsp;</strong>
+  </li>
+</ol>
+<p>
+  The following recipe handles this second scenario and helps you
+  create a <strong>whitelist</strong> with IPs that Varnish will
+  serve content to. Any other incoming source will be denied.
+</p>
+<h3>
+  Whitelist
+</h3>
+<p>
+  So, open your /etc/varnish/default.vcl and add:
+</p>
+<pre>
+acl offices {
+    "localhost";
+    "11.22.33.44"/32; # You can remove the mask /32 if you need one IP only
+    # Add as many IPs as you need here<br>}
+</pre>
+<p>
+  Then put in the beginning of your vcl_recv:
+</p>
+<pre>
+ sub vcl_recv {
+
+     # Ban all requests to domains like xx.myhost.com or xxx.myhost.com
+     if ( req.http.host ~ "([a-z]{2,3}\.myhost\.com)$" &amp;&amp; !(client.ip ~ offices) ) {
+         error 403 "Access denied";
+     }
+</pre>
+<h3>
+  Blacklist
+</h3>
+<p>
+  This will discard any request not coming from the list. If you
+  want to create a <strong>blacklist</strong> (e.g: undesired bots)
+  then you only have to remove the negation of the condition,
+  being:
+</p>
+<pre>
+acl suckers {
+    "11.22.33.44"/32; # You can remove the mask /32 if you need one IP only
+    # Add as many IPs as you need here
+}
+</pre>
+<p>
+  And in the vcl_recv:
+</p>
+<pre>
+ sub vcl_recv {
+
+     # Ban all requests to domains like xx.myhost.com or xxx.myhost.com
+     if ( req.http.host ~ "([a-z]{2,3}\.myhost\.com)$" &amp;&amp; client.ip ~ suckers ) {
+         error 403 "Access denied";
+     }
+</pre>
+<p>
+  I added a regular expression in the virtualhost to make an
+  example a little bit more useful, but you can just write the host
+  as is. Bad news is that the req.http.host does not accept a list
+  like you did with the IPs.
+</p>

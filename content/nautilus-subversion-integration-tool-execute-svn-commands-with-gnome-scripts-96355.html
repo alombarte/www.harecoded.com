@@ -1,0 +1,140 @@
++++
+date = "2007-10-25 00:00:00"
+author = "alombarte"
+title = "Nautilus subversion integration tool. Execute SVN commands with Gnome scripts"
+slug = "nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355"
+tags = [ "downloads","gnome","nautilus","subversion","svn","tortoise","ubuntu" ]
++++
+<p>
+  I have been using subversion (svn) for years from the command
+  line... But some months ago I changed my job and I started using
+  windows environments. And I must admit TortoiseSVN is the best
+  GUI SVN client i've seen ever before. While my needs are
+  satisfied in Windows with <a href=  "http://tortoisesvn.tigris.org/">TortoiseSVN</a> and in Mac OS X
+  with <a href="http://scplugin.tigris.org/">SCPlugin</a> and
+  <a href=  "http://www.lachoseinteractive.net/en/community/subversion/svnx/features/">
+  SvnX</a>, I was lacking a subversion tool to manage my files
+  while exploring files in my Ubuntu (nautilus file explorer).
+  That's why i decided to create my own set of scripts to integrate
+  them on Nautilus contextual menu for a quick access without
+  opening SVN programs or shell. I took the icons from the <a href=  "http://pysvn.tigris.org/">SVN Workbench</a> since that is the
+  client that I mostly use in Ubuntu and my eye finds the actions
+  faster.
+</p>
+<p style="padding: 15px 20px 20px; border-top: 1px solid #d7d7d7; margin: 0 0 1.5em; background: #cccc99;">
+I created these scripts&nbsp; in 2007. You'd rather&nbsp; <strong>
+  <a title="TortoiseSVN for Linux" href=  "http://www.harecoded.com/tortoisesvn-for-ubuntu-linux-the-real-alternative-373573">
+  read this article about TortoiseSVN for Linux</a></strong> before
+  setting any of the following scripts if you want a poslished
+  package without manual tuning.
+</p>
+<p>
+  &nbsp;
+</p>
+<h2>
+  This is how it looks like
+</h2>
+<p style="text-align: center;">
+  <img title="96355-83174.jpg" src=  "/img/posts/96355-83174.jpg"  alt="96355-83174.jpg">
+</p>
+<p style="text-align: center;">
+  <img title="96355-124410.jpg" src=  "/img/posts/96355-124410.jpg"  alt="96355-124410.jpg" width="245" height="300">
+</p>
+<p style="text-align: center;">
+  <img title="96355-124414.jpg" src=  "/img/posts/96355-124414.jpg"  alt="96355-124414.jpg">
+</p>
+<p style="text-align: center;">
+  <img title="96355-83173.jpg" src=  "/img/posts/96355-83173.jpg"  alt="96355-83173.jpg">
+</p>
+<p>
+  The following actions are supported by now:
+</p>
+<ul>
+  <li>svn status
+  </li>
+  <li>svn update
+  </li>
+  <li>svn add
+  </li>
+  <li>svn commit
+  </li>
+</ul>
+<p>
+  It takes no more than 5 minutes to implement, for example, the
+  svn checkout. I leave it to you. I post this quickly because
+  there is people around willing to test it. This is not tested
+  anywhere other than in my own machine, but these are easy
+  scripts, I don't think you cope any problems with them.
+</p>
+<h2>
+  Installation
+</h2>
+<p>
+  Requeriments, not much, really:
+</p>
+<ul>
+  <li>nautilus-actions <code>sudo apt-get install
+  nautilus-actions</code>
+  </li>
+  <li>Zenity (already shipped with your Ubuntu)
+  </li>
+  <li>Subversion of course, <code>sudo apt-get install
+  subversion</code>
+  </li>
+</ul>
+<p>
+  Steps:
+</p>
+<ul>
+  <li>Uncompress the TarGz in your home folder
+  </li>
+  <li>Execute nautilus-actions-config (or go to <strong>System
+  -&gt; Preferences -&gt; Nautilus Actions Configuration</strong>
+  )<br>
+    <img title="96355-124413.jpg" src=    "/img/posts/96355-124413.jpg"    alt="96355-124413.jpg" width="200" height="114">
+  </li>
+  <li>
+    <span style="text-decoration: line-through;">Import every file
+    inside the <em>schemas</em> directory.</span> I deleted the
+    Schemas, since users were having trouble.
+  </li>
+  <li>Press "Add" in the Nautilus Actions, and fill the information
+  as follows:<br>
+    Label: <em><strong>Commit</strong></em> (Name you'll see in the
+    menu)<em><br></em>Icon:
+    <em>~/nautilus-actions/blah/blah/commit.png</em> (Select the
+    ICON you want to show in the menu)<br>
+    Path: <em>~/nautilus-actions/blah/blah/commit.sh</em> (Path to
+    the commits.sh script)<br>
+    Parameters: <em><strong>%M</strong></em><br>
+    <img title="96355-124411.jpg" src=    "/img/posts/96355-124411.jpg"    alt="96355-124411.jpg">
+  </li>
+  <li>Go to <strong>Conditions</strong> tab and select <em><strong>
+    Both</strong></em> in the "Appears if selection contains"
+    section.<br>
+    <img title="96355-124412.jpg" src=    "/img/posts/96355-124412.jpg"    alt="96355-124412.jpg">
+  </li>
+  <li>Press OK and repeat for the rest of scripts.
+  </li>
+  <li>Logout your gnome session and log in again.
+  </li>
+</ul>
+<h2>
+  Download nautilus subversion integration tool (free)
+</h2>
+<p>
+  <strong>UPDATE, 02 March 2009</strong>: Scripts and instructions
+  modified for <strong>Ubuntu 8.10 Intrepid Ibex</strong>
+</p>
+<p>
+  <a href=  "https://github.com/alombarte/utilities/tree/master/harecoded/nautilus-svn-scripts">
+  Get the files in Github</a>
+</p>
+<h2>
+  Possible problems and solutions
+</h2>
+<ul>
+  <li>The script doesn't launch: Check the scripts are executable
+  (chmod 755), and launch them from the terminal to see errors.
+  </li>
+</ul>

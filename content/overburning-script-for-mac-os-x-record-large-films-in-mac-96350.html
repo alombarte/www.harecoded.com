@@ -1,0 +1,24 @@
++++
+date = "2007-09-08 00:00:00"
+author = "alombarte"
+title = "Overburning script for Mac OS X, Record large films in Mac"
+slug = "overburning-script-for-mac-os-x-record-large-films-in-mac-96350"
+tags = [ "mac","overburn","scripts","tricks" ]
++++
+<p>If you use the Finder burning tool to create your CDs, or an application that doesn't support overburning (surpass a little bit the CD or DVD maximum size) I am sure that some time you got anrgy.</p>
+<p>Sometimes are films, sometimes it's just one more song in the CD library you are creating... The thing is that you have 703MB and you cannot burn a 700MB CD. <strong>It won't happen again!</strong></p>
+<p>Because I did a script to overburn CDs and DVDs, and it's quite simple if you want to try it:</p>
+<ul>
+<li>Save the following script inside a <tt>overburn.sh</tt> file with your prefered text editor or from the shell</li>
+<li>Give it execution permissions</li>
+<li>Create a folder named <tt>contents_to_overburn</tt> that will contain your overburned CD/DVD stuff</li>
+<li><em>Copy</em> anything you want to burn inside the folder</li>
+<li>Execute the script from the terminal, so you can see what's happening, with: <tt>./overburn.sh</tt> </li>
+</ul>
+<pre>hdiutil makehybrid -o tempfile contents_to_overburn/
+hdiutil burn tempfile.iso
+rm tempfile.iso
+rm contents_to_overburn/*
+</pre>
+<p>At this point you have the CD burned and the folder <strong>emptied</strong> for a next use. Hope that works for you, enjoy. This script can be improved or  even integrated with the OS X environment easily.  If you feel like doing it,  please  share :)</p>
+<p>See the <a title="hdiutil developer" href="http://developer.apple.com/documentation/Darwin/Reference/ManPages/man1/hdiutil.1.html">Apple developer page for hdiutil</a> for more information.</p>

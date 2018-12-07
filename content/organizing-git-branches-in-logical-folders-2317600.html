@@ -1,0 +1,41 @@
++++
+date = "2013-12-10 22:19:00"
+author = "alombarte"
+title = "Organizing git branches in logical folders "
+slug = "organizing-git-branches-in-logical-folders-2317600"
+tags = [ "development","git","tricks" ]
++++
+<p>
+  <img title="SourceTree" src=  "/img/posts/52a7869131cd8s135443.jpg"  alt=" TAGS:" align="left">
+</p>
+<p>
+  It is easier to find things when they are well organized. If you
+  are a git user a good practice to name the branches would be to
+  use descriptive names including slashes "/" (as in paths) where
+  everything before the slash is the folder you want to use and
+  then the logical name after it.
+</p>
+<p>
+  If you use the fantastic git graphical interface SourceTree (free
+  for Windows and Mac) then you will be able to navigate these
+  branches using folders.
+</p>
+<p>
+  Of course if you use advanced tools like the git-flow extensions
+  (strongly recommended in large environments) this kind of
+  behaviour is automatically managed.
+</p>
+<p>
+  <strong>An example:</strong>
+</p>
+<p>
+  Let's say we usually work in branches when we want to release new
+  features. This is a screenshot on how it would look like creating
+  the following branches in SourceTree:
+</p>
+<pre>
+git checkout -b feature/editor<br>git checkout -b feature/reset-email<br>git checkout -b devel
+</pre>
+<p>
+  <img style=  "display: block; margin-left: auto; margin-right: auto;" title=""  src="/img/posts/52a789883b835s12091.jpg"  alt=" TAGS:">
+</p>

@@ -1,0 +1,28 @@
++++
+date = "2008-06-16 00:00:00"
+author = "alombarte"
+title = "How to watch and record TV with a PC Ubuntu linux"
+slug = "how-to-watch-and-record-tv-with-pc-ubuntu-linux-99682"
+tags = [ "how-to","linux","mediacenter","ubuntu" ]
++++
+<p><small><strong>Catalan speakers</strong> see: <a hreflang="ca" href="http://www.lombarte.org/com-veure-tv-amb-pc-ubuntu-linux-97393">"Com veure la TV amb Ubuntu"</a></small></p>
+<p>There are many alternatives when we speak of media centers, but I can't figure out anything other than a computer. It offers all the functionallity you could want in a well-known interface. That's why I have a PC in the living room, I browse the Internet using my TV (using an HDMI cable) and now I record stuff when I am not at home. This is how I did it</p>
+<p>If you want to have a complete media center solution with Ubuntu, you should take a deep look at <a href="http://www.mythtv.org/">MythTV</a>. A true PVR with a lot of features, but it's not easy to have it up and running. You need to spend a little bit of time with the configuration, so if you want to watch digital television (DVB) in a few minutes I propose installing <a href="https://launchpad.net/me-tv">Me TV</a>. At least to see if your TV card is working ;)</p>
+<p>Me TV it's available via apt-get if you add the launchpad repository. To do so:</p>
+<ul>
+<li>Execute (ALT+F2):<code>sudo gedit /etc/apt/sources.list</code></li>
+<li>Then add this two lines and save:<br /><code>deb http://ppa.launchpad.net/michael-lamothe/ubuntu gutsy main</code><br /><code>deb-src http://ppa.launchpad.net/michael-lamothe/ubuntu gutsy main</code></li>
+</ul>
+<p>After that, you only need to update the sources and install the program:</p>
+<ul>
+<li><code>sudo apt-get update</code></li>
+<li><code>sudo apt-get install me-tv</code></li>
+</ul>
+<p>Now, you have Me TV under the menu Applications -&gt; Image and Sound -&gt; Me TV</p>
+<p style="text-align: center;"><a class="thickbox" href="/img/posts/99682-83155.jpg" alt="99682-83155.jpg" /></a></p>
+<p>Requirements:</p>
+<ul>
+<li>If you want your tv card working on a Linux box, ensure you are using the latest kernel. Ubuntu 8 is a good choice, or you can try also Linux MCE.</li>
+<li>Not all the hardware is supported. <a href="http://www.linuxtv.org/wiki/index.php/DVB-T_Devices">Check yours</a>. I bought a Pinnacle PC DVB-T that I had to refund back because didn't work. Now I have a Hauppauge WinTV NOVA-T that works like a charm</li>
+<li>Install <strong>lirc</strong> (<code>sudo apt-get install lirc</code>) for remote control support</li>
+</ul>

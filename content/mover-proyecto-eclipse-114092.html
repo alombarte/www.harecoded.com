@@ -1,0 +1,26 @@
++++
+date = "2008-07-30 10:53:03"
+author = "alombarte"
+title = "Cómo mover un proyecto en Eclipse"
+slug = "mover-proyecto-eclipse-114092"
+tags = [ "eclipse","programación" ]
++++
+<p>A veces necesitamos mover un proyecto de una unidad a otra, o de un&nbsp;volumen&nbsp;a otro, ya sea que estamos en Windows, Linux o Mac. Tenemos configuradas&nbsp;much&iacute;simas opciones, como los workspaces, las carpetas ignoradas, librer&iacute;as externas, codificaci&oacute;n, etc, etc... y no queremos pasar 2 horas m&aacute;s redefiniendo. As&iacute; que deja de hacer la danza del fuego y bailar descalzo sobre las brasas, no es dif&iacute;cil si tienes unas pocas cosas en cuenta.</p>
+<p>Ves haciendo backup mientras lees esto.</p>
+<h4>Opci&oacute;n A, <em>the Eclipse way</em></h4>
+<p><strong></strong>La opci&oacute;n que nos da Eclipse desde el propio editor es que mientras tenemos el<span style="text-decoration: underline;"> proyecto abierto</span>&nbsp;en la vieja ubicaci&oacute;n, vayamos al navegador de proyectos eclipse, hagamos bot&oacute;n derecho (o equivalente) y <strong>Mover proyecto.</strong>&nbsp;&nbsp;Esta opci&oacute;n empieza un proceso de cortar/pegar interno que no me gusta un pelo :)</p>
+<p>Quiz&aacute; sea tu &uacute;nica opci&oacute;n si est&aacute;s guardando los settings en la ubicaci&oacute;n por defecto y tienes el proyecto en una ubicaci&oacute;n por defecto.</p>
+<h4>Opci&oacute;n B, <em>hago lo que quiero con mi pelo</em></h4>
+<p>Ah, &iquest;que ya has movido la carpeta&nbsp;f&iacute;sicamente?... bueno, no pasa nada. Si has movido los ficheros entonces Eclipse no puede abrir el proyecto. Entonces si has querido importarlo otra vez ver&aacute;s que no te aparece en la lista (porque ya tiene uno con el mismo nombre). As&iacute; que:</p>
+<ul>
+<li>Bot&oacute;n derecho -&gt; Close Project (si est&aacute;s a tiempo)<br /></li>
+<li>Cierra Eclipse y mueve la carpeta del proyecto d&oacute;nde quieras si no lo has hecho ya.<br /></li>
+<li>Bot&oacute;n derecho -&gt; Delete Project (Marca la opci&oacute;n <strong>Do not delete contents</strong>&nbsp;)<br /></li>
+<li>Bot&oacute;n derecho -&gt; Import Project<br /></li>
+<li>Busca la opci&oacute;n <em>Import Existing Project into Workspace</em><br /></li>
+<li>Selecciona la ra&iacute;z donde has movido el proyecto y pulsa OK<br /></li>
+<li>A continuaci&oacute;n te aparece seleccionado el proyecto<br /></li>
+<li>Dale a finalizar y listo<br /></li>
+</ul>
+<ol> </ol>
+<p>Ya me ha pasado 2 o 3 veces que no veo la manera de moverlo sin tener que hacer un esfuerzo mental para recordar esto, as&iacute; que anotado queda, espero que os sirva :)</p>

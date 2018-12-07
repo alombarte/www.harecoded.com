@@ -1,0 +1,11 @@
++++
+date = "2006-07-04 00:00:00"
+author = "maguilar"
+title = "How to disable the opening of XTerm when you start X11 on OS X"
+slug = "how-to-disable-the-opening-xterm-when-you-start-x11-on-os-x-96321"
+tags = [ "mac","openoffice","x11" ]
++++
+<p>Some applications like OpenOffice II, in OS X, run under X11 platform. Due to this, when you open this type of applications the X11 environment starts, opening by default XTerm terminal. To avoid this behaviour you have to edit, by hand, the init file of X11. This file is placed under</p>
+<pre>/etc/X11/xinit/xinitrc</pre>
+<p>and the only thing you have to do is to comment the line where it starts XTerm, that is#xterm</p>
+<p>(Article written by Fran Horrillo)</p>

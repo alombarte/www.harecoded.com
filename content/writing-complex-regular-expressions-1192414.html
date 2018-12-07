@@ -1,0 +1,60 @@
++++
+date = "2011-04-15 20:48:00"
+author = "alombarte"
+title = "Writing complex regular expressions"
+slug = "writing-complex-regular-expressions-1192414"
+tags = [ "development","php","regular expressions" ]
++++
+<p>
+  Regular expressions are usually hard to read and understand. Even
+  if you have a lot of experience in the subject chances are that
+  when you revisit one of these that you wrote some time ago, it is
+  very difficult to catch up.
+</p>
+<p>
+  Several days ago, a very smart guy at work named Zoltán,
+  recommended us to <strong>write complex regular expressions
+  sepparating each logical part in a different
+  line</strong>&nbsp;and also <strong>comment</strong> every single
+  line.
+</p>
+<p>
+  I did not know that this was possible at all, but he shown us how
+  the modifier <strong>"x"</strong> (see it at the end of the
+  following example) <strong>makes the compiler to ignore any
+  whitespaces</strong> (spaces, tabs, line breaks) and even
+  comments!!
+</p>
+<p>
+  So, with this, you can write crazy regular expressions easy to
+  parse and understand. Here there is a silly example, imagine it
+  in a single line!:
+</p>
+<p>
+  <em>(you better copy and paste this in your editor for
+  readability)</em>
+</p>
+<pre>
+if ( preg_match('/
+    ^                  # Match the beginning
+    (Can|May)\x20      # May is more formal but Can is also OK.
+    [yY]ou\s           # Match space with "\ " or "\s"
+    (please)?\x20      # "Please" is optional ;)
+    (comment|doc)\x20  # Commenting = documenting
+    this\ regexp\x20   # If UNICODE mode is on then
+                       # you can match space with \x20
+                       # (this is the modifier "u")
+    to\s(know|see)\x20
+    (what|WTF)\x20     # WTF = World Taekwondo Federation
+    it\ does\?         # Note the "x" modificator below
+    $                  # END of string
+    /x',
+    "Can you please comment this regexp to know what it does?" ) )
+{
+    echo "Thank you!";
+}
+
+</pre>
+<p>
+  Thank you Zoly!
+</p>

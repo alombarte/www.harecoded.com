@@ -1,0 +1,11 @@
++++
+date = "2011-06-17 21:37:00"
+author = "alombarte"
+title = "Cómo cambiar la extensión a múltiples ficheros desde terminal (unix shell)"
+slug = "cambiar-extension-multiples-ficheros-terminal-unix-shell-1222900"
+tags = [ "development","linux","ubuntu" ]
++++
+<p>Para <strong>renombrar la extensi&oacute;n</strong> de muchos ficheros a la vez en la terminal, se puede hacer con la siguiente l&iacute;nea:</p>
+<pre>for file in *.<strong>phtml</strong> ; do mv $file `echo $file | sed 's/\(.*\.\)phtml/\1<strong>tpl</strong>/'` ; done</pre>
+<p>Esto cambiar&iacute;a todas las extensiones phtml por tpl del directorio en que lo lanz&eacute;is. Cambiando la parte en negrita por vuestra extensi&oacute;n favorita ya funcionar&iacute;a.</p>
+<p>Lo que hace la l&iacute;nea es buscar todos los archivos que cumplen la condici&oacute;n *.phtml e iterarlos en un bucle. Para cada uno de ellos hace un mv del or&iacute;gen al destino. El destino es una expresi&oacute;n regular que substitye el patr&oacute;n .phtml por el .tpl (gracias al comando sed)</p>

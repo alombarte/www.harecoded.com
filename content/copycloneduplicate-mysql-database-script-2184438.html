@@ -1,0 +1,79 @@
++++
+date = "2012-11-08 12:25:00"
+author = "alombarte"
+title = "Copy/clone/duplicate a mysql database script"
+slug = "copycloneduplicate-mysql-database-script-2184438"
+tags = [ "crons","databases","development","dump","mysql" ]
++++
+<p>
+  <img title="" src=  "/img/posts/51361d7c353c9s4182.jpg" alt=  " TAGS:" align="left">This is a simple script that
+  <strong>duplicates your entire database</strong>. There are many
+  ways in which you can take advantage of having an exact replica
+  of your production database.
+</p>
+<p>
+  In short, the behaviour of the script is the following (in this
+  order, all piped):
+</p>
+<ol>
+  <li>Delete the COPY database if possible to start with a fresh
+  one
+  </li>
+  <li>Create the COPY database
+  </li>
+  <li>Dump the PRODUCTION database
+  </li>
+  <li>Inject the output of the dump into the COPY database
+  </li>
+</ol><p>
+  Any errors during the process will be logged to the file defined
+  as $ERROR. Be aware that the user you you choose to connect to
+  mysql needs CREATE and DROP database permissions. Note that there
+  are some --force parameters. That will make the script continue
+  even if something fails. The first time you launch the script
+  you'll see that cannot drop the copy database.&nbsp;
+</p>
+<p>
+  Copy &amp; paste the following into a new file
+  ~/duplicate_database.sh, and modify the credentials:
+</p>
+<pre>
+#!/bin/bash
+# Albert Lombarte
+# Docs: http://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438
+
+PRODUCTION_DB=myapp
+# The following database will be DELETED first:
+COPY_DB=myapp_copy
+USER=root
+PASS="yourP4ssw0rd"
+ERROR=/tmp/duplicate_mysql_error.log
+echo "Droping '$COPY_DB' and generating it from '$PRODUCTION_DB' dump"
+mysql -u$USER -p$PASS -e "drop database $COPY_DB;" --force &amp;&amp; mysql -u$USER -p$PASS -e "create database $COPY_DB;" &amp;&amp; mysqldump --force --log-error=$ERROR -u$USER -p$PASS $PRODUCTION_DB | mysql -u$USER -p$PASS $COPY_DB
+</pre>
+<p>
+  And launch it:
+</p>
+<pre>
+bash ~/duplicate_database.sh
+</pre>
+<p>
+  If you want to do it on a daily basis, you can add it in your
+  crontab. Type <code>crontab -e</code> and write something like
+  this:
+</p>
+<pre>
+# At 7am clone the production database
+7 0 * * * bash /home/myusername/duplicate_database.sh
+</pre>
+<p>
+  If you want to make this copy in another host you have to add the
+  SSH connection with <code>ssh -C "command"</code> in the first
+  and last <code>mysql</code>commands
+</p>
+<p>
+  Like:
+</p>
+<pre>
+ssh -C user@remotehost "mysql -u root -p -e 'create database ...... | ssh -C user@remotehost "mysql -u"
+</pre>

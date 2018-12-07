@@ -1,0 +1,9 @@
+baseURL = "https://www.harecoded.com/"
+languageCode = "en-us"
+title = "Harecoded"
+theme = "hyde"
+
+[params]
+  description ="""Harecoded WAS a software development blog with generalistic recipes, some tricks and a little bit of advice.
+    Officialy discontinued in the year 2014.
+  """

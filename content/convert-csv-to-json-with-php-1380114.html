@@ -1,0 +1,33 @@
++++
+date = "2012-01-24 23:12:00"
+author = "sergiambel"
+title = "Convert a CSV to JSON with PHP"
+slug = "convert-csv-to-json-with-php-1380114"
+tags = [ "php","scripts","tricks" ]
++++
+<p>
+  Imagine a data list dumped in a plain text file (e.g: CSV) and
+  you need to convert it to JSON format. You could use this simple
+  php script to do such task.
+</p>
+<p>
+  It's the simplest version but from here you can customize it to
+  fit your requeriments.
+</p>
+<p>
+  Usage:
+</p>
+<pre>
+php script_name.php file_to_convert.csv &gt; result.json
+</pre>
+<p>
+  The script:
+</p>
+<pre>
+$csv = file_get_contents( $argv[1] );<br> $csv = explode("\n", trim($csv) );<br> <br> foreach ( $csv as &amp;$line )<br> {<br>     $line = trim( $line );<br> }<br> <br> print json_encode($csv);
+</pre>
+<p>
+  This example covers a "single column" CSV file. If you want to
+  add several columns you only need to add an <code>explode</code>
+  with the separator character, be comma, somicolon or tab.
+</p>

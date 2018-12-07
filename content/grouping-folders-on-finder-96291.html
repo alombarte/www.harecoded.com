@@ -1,0 +1,19 @@
++++
+date = "2005-09-20 00:00:00"
+author = "alombarte"
+title = "Grouping folders on Finder"
+slug = "grouping-folders-on-finder-96291"
+tags = [ "mac. tricks" ]
++++
+<p>If you are using Finder it is possible to group all the folders instead of have them separated by the 'name sort' effect by doing a little hack.<br />Open finder and go (press Option+G to go directly) to</p>
+<pre>/System/Library/Frameworks/ApplicationServices.framework/
+Versions/A/Frameworks/LaunchServices.framework/Versions/
+A/Resources/Spanish.lproj
+
+(text wrapped intentionally fo fit the page)
+</pre>
+<p>and change Spanish.lproj by your used language. Then drag and drop Localized.strings to your favorite text editor and add in the translation of "Folder" a leading space. e.g:</p>
+<pre>Folder = 'Carpeta'   -- after
+Folder = ' Carpeta'  -- before (note the space added in the beginning)
+</pre>
+<p>Then restart your computer or your session. Now you'll be able to sort by 'Kind' and all your apps will be grouped.</p>
