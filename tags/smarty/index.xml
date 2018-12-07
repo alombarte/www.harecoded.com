@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Smarty on Harecoded</title>
-    <link>https://www.harecoded.com/tags/smarty/</link>
+    <link>http://www.harecoded.com/tags/smarty/</link>
     <description>Recent content in Smarty on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Sep 2012 11:37:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/smarty/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/smarty/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Smarty: Concatenation of variables inside block parameters</title>
-      <link>https://www.harecoded.com/smarty-concatenation-variables-inside-block-parameters-2162707/</link>
+      <link>http://www.harecoded.com/smarty-concatenation-variables-inside-block-parameters-2162707/</link>
       <pubDate>Tue, 04 Sep 2012 11:37:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/smarty-concatenation-variables-inside-block-parameters-2162707/</guid>
+      <guid>http://www.harecoded.com/smarty-concatenation-variables-inside-block-parameters-2162707/</guid>
       <description>In Smarty sometimes you need to concatenate 2 variables and pass it as a single variable inside a&amp;nbsp;block. But the placeholder won&#39;t allow any expected PHP syntax  You want to accomplish something like:  {assign var=&#34;MYVAR&#34; value=$variable1.$variable2}   But, the dot in smarty is for array access, so, what about...  {assign var=&#34;MYVAR&#34; value=$variable1+$variable2}   No. It does not work either. Ah! Let&#39;s try a modifier:  {assign var=&#34;</description>
     </item>
     
     <item>
       <title>Fill: Smarty PHP plugin to fill variables in string (sprintf brother)</title>
-      <link>https://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</link>
+      <link>http://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</link>
       <pubDate>Thu, 06 Aug 2009 23:48:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</guid>
+      <guid>http://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</guid>
       <description>Today I quickly created a plugin for Smarty to fill variables inside a string (subject) using the passed parameters as variable names.&amp;nbsp;I use this specially while constructing URLs because my addresses are translated and they &#34;subjects&#34; are always variables. This plugin does nearly the same you could do with the sprintf modifier, but I placed this behaviour inside a function.  The &#34;subject&#34; defines the string containing the pattern to be filled and containing the vars to be filled, and the variables are any string surrounded by your preferred delimiter (defaults to %).</description>
     </item>
     

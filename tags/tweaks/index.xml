@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tweaks on Harecoded</title>
-    <link>https://www.harecoded.com/tags/tweaks/</link>
+    <link>http://www.harecoded.com/tags/tweaks/</link>
     <description>Recent content in Tweaks on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Dec 2005 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/tweaks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/tweaks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Desktop interface elements... unite!</title>
-      <link>https://www.harecoded.com/desktop-interface-elements-unite-96303/</link>
+      <link>http://www.harecoded.com/desktop-interface-elements-unite-96303/</link>
       <pubDate>Mon, 12 Dec 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/desktop-interface-elements-unite-96303/</guid>
+      <guid>http://www.harecoded.com/desktop-interface-elements-unite-96303/</guid>
       <description>I am one of those who prefer desktop interface consistency rather than having every couple of applications with different interface looks, depending on the gui framework they are built upon. Variety is the spice of life, but not on a computer desktop, please.
 Mac OS X has always &#39;suffered&#39; from this diversity of gui presentations, like the rest of Unix variants, and Tiger is even worse. We have some metal apps (Finder, Safari, .</description>
     </item>

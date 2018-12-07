@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gmail on Harecoded</title>
-    <link>https://www.harecoded.com/tags/gmail/</link>
+    <link>http://www.harecoded.com/tags/gmail/</link>
     <description>Recent content in Gmail on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Feb 2013 09:52:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mails perdidos en Gmail por redireccionamiento [Solucionado]</title>
-      <link>https://www.harecoded.com/mails-perdidos-gmail-redireccionamiento-solucionado-2253221/</link>
+      <link>http://www.harecoded.com/mails-perdidos-gmail-redireccionamiento-solucionado-2253221/</link>
       <pubDate>Mon, 25 Feb 2013 09:52:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/mails-perdidos-gmail-redireccionamiento-solucionado-2253221/</guid>
+      <guid>http://www.harecoded.com/mails-perdidos-gmail-redireccionamiento-solucionado-2253221/</guid>
       <description>El problema   Seguro que no soy el único que tiene más de una dirección de correo electrónico. En muchas ocasiones, por orden o por practicidad, configuramos nuestras múltiples direcciones de correo electrónico para que podamos recibirlo en un mismo buzón.  Cuando alguna de esas direcciones está configurada en Gmail, en ocasiones, podemos experimenter pérdida de mensajes.  El motivo   Gmail pasa todo el correo entrante por un motor de detección de correo sospechoso de ser no deseado.</description>
     </item>
     

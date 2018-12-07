@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Console on Harecoded</title>
-    <link>https://www.harecoded.com/tags/console/</link>
+    <link>http://www.harecoded.com/tags/console/</link>
     <description>Recent content in Console on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Sep 2013 17:07:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/console/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/console/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Force kill of processes in Windows</title>
-      <link>https://www.harecoded.com/force-kill-processes-in-windows-2291505/</link>
+      <link>http://www.harecoded.com/force-kill-processes-in-windows-2291505/</link>
       <pubDate>Mon, 16 Sep 2013 17:07:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/force-kill-processes-in-windows-2291505/</guid>
+      <guid>http://www.harecoded.com/force-kill-processes-in-windows-2291505/</guid>
       <description>  Sometimes Windows Tasks Manager is not able to kill an in-memory process. We try to close it several times with no luck :(  For these frustration moments we can make use of a console command named&amp;nbsp;TaskKill  With TaskKill the pain ends simply with:   taskkill /IM filename.exe /F    More info about taskkill:&amp;nbsp;http://technet.microsoft.com/en-us/library/cc725602.aspx </description>
     </item>
     

@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Iterm on Harecoded</title>
-    <link>https://www.harecoded.com/tags/iterm/</link>
+    <link>http://www.harecoded.com/tags/iterm/</link>
     <description>Recent content in Iterm on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Aug 2012 10:12:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/iterm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/iterm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mantener la sesión abierta en iTerm (keep-alive)</title>
-      <link>https://www.harecoded.com/mantener-sesion-abierta-iterm-keep-alive-2160763/</link>
+      <link>http://www.harecoded.com/mantener-sesion-abierta-iterm-keep-alive-2160763/</link>
       <pubDate>Wed, 29 Aug 2012 10:12:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/mantener-sesion-abierta-iterm-keep-alive-2160763/</guid>
+      <guid>http://www.harecoded.com/mantener-sesion-abierta-iterm-keep-alive-2160763/</guid>
       <description>Similarmente a como explicamos sobre cómo mantener la sesión activa en Putty, si queremos dejar la terminal abierta y que no se nos cierre con&amp;nbsp;iTerm cada vez que vamos a hacer un café, comer, o liberar la próstata, hay que seguir estos sencillos pasos:  Abrir Bookmarks&amp;nbsp;-&amp;gt;&amp;nbsp;Manage Profiles  Desplegar Terminal Profiles y seleccionar  Default  Marcar When idle, sends ASCII code    El valor de esta casilla por defecto es 0, pero lo podéis cambiar a cualquier otro código ASCII.</description>
     </item>
     
     <item>
       <title>Activar y cambiar los colores de la terminal &#43; Prompt</title>
-      <link>https://www.harecoded.com/activar-cambiar-colores-terminal-prompt-1332387/</link>
+      <link>http://www.harecoded.com/activar-cambiar-colores-terminal-prompt-1332387/</link>
       <pubDate>Mon, 05 Dec 2011 07:22:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/activar-cambiar-colores-terminal-prompt-1332387/</guid>
+      <guid>http://www.harecoded.com/activar-cambiar-colores-terminal-prompt-1332387/</guid>
       <description>Ya uses iTerm, Terminal o cualquier otra herramienta en Mac, para ver y tunear los colores de tu terminal basta con editar el fichero ~/.bash_profile e incluir lo siguiente:  export CLICOLOR=&#39;true&#39; export LSCOLORS=&#34;gxfxcxdxbxegedabagacad&#34;   Y conseguirás algo parecido a esto: La primera línea activa los colores, la segunda dice qué colores usar. Cuando guardes el fichero y abras de nuevo la terminal ya verás los colores. Si no te gustan siempre puedes poner los tuyos usando esta referencia:  a black b red c green d brown e blue f magenta g cyan h light grey A block black (gris oscuro) B bold red C bold green D bold brown (amarillo oiga) E bold blue F bold magenta G bold cyan H bold light grey x color por defecto   Además, puedes cambiar la apariencia y modificar tu prompt añadiendo a continuación en tu .</description>
     </item>
     
     <item>
       <title>Reset iTerm preferences to default</title>
-      <link>https://www.harecoded.com/reset-iterm-preferences-to-default-529907/</link>
+      <link>http://www.harecoded.com/reset-iterm-preferences-to-default-529907/</link>
       <pubDate>Sun, 07 Mar 2010 20:09:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/reset-iterm-preferences-to-default-529907/</guid>
+      <guid>http://www.harecoded.com/reset-iterm-preferences-to-default-529907/</guid>
       <description>If you have messed up your iTerm application preferences you can aways return to the factory settings by deleting your iTerm preferences file. Just delete the following file:
 rm ~/Library/Preferences/net.sourceforge.iTerm.plist This will delete your profiles, very useful when you have remapped keys and you can&#39;t remember how to go back.</description>
     </item>

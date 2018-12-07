@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Links on Harecoded</title>
-    <link>https://www.harecoded.com/tags/links/</link>
+    <link>http://www.harecoded.com/tags/links/</link>
     <description>Recent content in Links on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 Jun 2007 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/links/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/links/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Servicios web basados en REST</title>
-      <link>https://www.harecoded.com/servicios-web-basados-rest-96340/</link>
+      <link>http://www.harecoded.com/servicios-web-basados-rest-96340/</link>
       <pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/servicios-web-basados-rest-96340/</guid>
+      <guid>http://www.harecoded.com/servicios-web-basados-rest-96340/</guid>
       <description>Os dejo un enlace a un fant&amp;aacute;stico art&amp;iacute;culo de mi compa&amp;ntilde;ero Oriol Jim&amp;eacute;nez sobre servicios web basados en REST. Desde luego, c&amp;oacute;mo se agradece cuando la gente no se limita a postear sobre un tema a la ligera, sino que en cambio se moja y dedica unas horillas de su vida a explicar con todo lujo de detalles lo que considera de inter&amp;eacute;s para los dem&amp;aacute;s.</description>
     </item>
     

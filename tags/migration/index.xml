@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Migration on Harecoded</title>
-    <link>https://www.harecoded.com/tags/migration/</link>
+    <link>http://www.harecoded.com/tags/migration/</link>
     <description>Recent content in Migration on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Apr 2013 20:54:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/migration/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/migration/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Migrate Posterous without losing the images</title>
-      <link>https://www.harecoded.com/migrate-posterous-without-losing-the-images-2264987/</link>
+      <link>http://www.harecoded.com/migrate-posterous-without-losing-the-images-2264987/</link>
       <pubDate>Mon, 15 Apr 2013 20:54:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/migrate-posterous-without-losing-the-images-2264987/</guid>
+      <guid>http://www.harecoded.com/migrate-posterous-without-losing-the-images-2264987/</guid>
       <description>It might seem very obvious to you that if you migrate from Posterous&amp;nbsp;blogs to another service your images should be transitioned as well.  If you want a free service (as Posterous was) there are only two options where you can migrate your Posterous to without writing all your posts one by one&amp;nbsp;again:  1)&amp;nbsp;Wordpress.com (but losing all the images)
 2)&amp;nbsp;Obolog.com (and keeping all the images)  So, if you want your blog back including images the only option you have is Obolog.</description>
     </item>

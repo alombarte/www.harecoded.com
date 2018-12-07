@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Downloads on Harecoded</title>
-    <link>https://www.harecoded.com/tags/downloads/</link>
+    <link>http://www.harecoded.com/tags/downloads/</link>
     <description>Recent content in Downloads on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Oct 2007 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/downloads/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/downloads/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nautilus subversion integration tool. Execute SVN commands with Gnome scripts</title>
-      <link>https://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</link>
+      <link>http://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</link>
       <pubDate>Thu, 25 Oct 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</guid>
+      <guid>http://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</guid>
       <description>I have been using subversion (svn) for years from the command line... But some months ago I changed my job and I started using windows environments. And I must admit TortoiseSVN is the best GUI SVN client i&#39;ve seen ever before. While my needs are satisfied in Windows with TortoiseSVN and in Mac OS X with SCPlugin and SvnX, I was lacking a subversion tool to manage my files while exploring files in my Ubuntu (nautilus file explorer).</description>
     </item>
     

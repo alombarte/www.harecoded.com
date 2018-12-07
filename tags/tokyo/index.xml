@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tokyo on Harecoded</title>
-    <link>https://www.harecoded.com/tags/tokyo/</link>
+    <link>http://www.harecoded.com/tags/tokyo/</link>
     <description>Recent content in Tokyo on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Mar 2009 21:50:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/tokyo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/tokyo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>non-RDBM distributed databases, map/reduce, key/value and cloud computing</title>
-      <link>https://www.harecoded.com/non-rdbm-distributed-databases-mapreduce-keyvalue-and-cloud-computing-227117/</link>
+      <link>http://www.harecoded.com/non-rdbm-distributed-databases-mapreduce-keyvalue-and-cloud-computing-227117/</link>
       <pubDate>Mon, 30 Mar 2009 21:50:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/non-rdbm-distributed-databases-mapreduce-keyvalue-and-cloud-computing-227117/</guid>
+      <guid>http://www.harecoded.com/non-rdbm-distributed-databases-mapreduce-keyvalue-and-cloud-computing-227117/</guid>
       <description>I&#39;ve been playing recently with several distributed databases with the aim of choosing the best solution for my needs. Since there isn&#39;t much documentation on the web with a general overview on the subject, I write here some comments, thoughts and my humble experience. Hope it&#39;s usefull for you, this document is not a comparison of performance, or a &#34;mine is bigger than yours&#34;,&amp;nbsp; just some ideas ;)
 My background</description>
     </item>

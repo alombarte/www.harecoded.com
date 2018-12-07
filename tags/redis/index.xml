@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Redis on Harecoded</title>
-    <link>https://www.harecoded.com/tags/redis/</link>
+    <link>http://www.harecoded.com/tags/redis/</link>
     <description>Recent content in Redis on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Aug 2011 07:10:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/redis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/redis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Delete keys by pattern using REDIS-cli</title>
-      <link>https://www.harecoded.com/delete-keys-by-pattern-using-redis-cli-1261064/</link>
+      <link>http://www.harecoded.com/delete-keys-by-pattern-using-redis-cli-1261064/</link>
       <pubDate>Thu, 18 Aug 2011 07:10:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/delete-keys-by-pattern-using-redis-cli-1261064/</guid>
+      <guid>http://www.harecoded.com/delete-keys-by-pattern-using-redis-cli-1261064/</guid>
       <description>I do store a lot of statistical data in Redis, storing information on what users do and behave every day, week, month and so on... But storing a huge amount of data in memory has a little drawback: memory is cheap and fast, but is finite.  From time to time (e.g: cron job) I need to clean up the house because there is too much memory filled that is no longer interesting to keep it.</description>
     </item>
     

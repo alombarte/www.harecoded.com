@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversion on Harecoded</title>
-    <link>https://www.harecoded.com/tags/subversion/</link>
+    <link>http://www.harecoded.com/tags/subversion/</link>
     <description>Recent content in Subversion on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 20 Mar 2011 12:51:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/subversion/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/subversion/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cómo revertir los cambios de una revisión en SVN</title>
-      <link>https://www.harecoded.com/revertir-cambios-revision-svn-1181187/</link>
+      <link>http://www.harecoded.com/revertir-cambios-revision-svn-1181187/</link>
       <pubDate>Sun, 20 Mar 2011 12:51:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/revertir-cambios-revision-svn-1181187/</guid>
+      <guid>http://www.harecoded.com/revertir-cambios-revision-svn-1181187/</guid>
       <description>Si eres usuario de subversion te habr&amp;aacute; pasado alguna vez que despu&amp;eacute;s de hacer commit y probar posteriormente el c&amp;oacute;digo has visto que debes volver a una versi&amp;oacute;n anterior y dejar el c&amp;oacute;digo tal y como estaba en una versi&amp;oacute;n anterior. No todos los clientes gr&amp;aacute;ficos disponen de la opci&amp;oacute;n de &#34;reverse merge&#34;, pero en la terminal es muy sencillo de hacer...
 
 Imaginemos que en la revisi&amp;oacute;n 1190 sub&amp;iacute; unos cambios que hicieron el c&amp;oacute;digo inestable y deseo dejar el c&amp;oacute;digo tal y como estaba en la revisi&amp;oacute;n 914, entonces har&amp;iacute;a:</description>
@@ -24,39 +24,39 @@ Imaginemos que en la revisi&amp;oacute;n 1190 sub&amp;iacute; unos cambios que h
     
     <item>
       <title>How to create a patch and apply it with subversion</title>
-      <link>https://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</link>
+      <link>http://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</link>
       <pubDate>Tue, 15 Feb 2011 21:16:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</guid>
+      <guid>http://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</guid>
       <description>If you want to create a patch with svn you only have to type in the terminal something like:  svn diff yourproject &amp;gt; yourproject.patch   Where yourproject is the folder containing the modified source code.  Then, to restore the patch (apply the changes stored in patch in a new working copy), copy the patch file yourproject.patch in the machine where you want apply the patch and &#34;</description>
     </item>
     
     <item>
       <title>TortoiseSVN for Ubuntu Linux: The real alternative</title>
-      <link>https://www.harecoded.com/tortoisesvn-for-ubuntu-linux-the-real-alternative-373573/</link>
+      <link>http://www.harecoded.com/tortoisesvn-for-ubuntu-linux-the-real-alternative-373573/</link>
       <pubDate>Sun, 25 Oct 2009 12:03:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/tortoisesvn-for-ubuntu-linux-the-real-alternative-373573/</guid>
+      <guid>http://www.harecoded.com/tortoisesvn-for-ubuntu-linux-the-real-alternative-373573/</guid>
       <description>I have posted several articles regarding subversion in this blog. If you ask me one thing I like in Windows, then I only have one answer: Tortoise SVN client. This small application is the only thing I love in Windows, for anything else, I&#39;d rather user Mac or Linux.
 But now, there is a Linux alternative to Tortoise SVN called RabbitVCS. I&#39;ve tried it and it works pretty well. This project, formerly NautilusSVN, looks really well and is inspired in the windows tool.</description>
     </item>
     
     <item>
       <title>SVN merge for Mac OS X</title>
-      <link>https://www.harecoded.com/svn-merge-for-mac-os-x-157489/</link>
+      <link>http://www.harecoded.com/svn-merge-for-mac-os-x-157489/</link>
       <pubDate>Wed, 11 Feb 2009 06:30:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/svn-merge-for-mac-os-x-157489/</guid>
+      <guid>http://www.harecoded.com/svn-merge-for-mac-os-x-157489/</guid>
       <description>If you want to merge branches in your projects using a Mac OS X, you&#39;ll probably miss how straightforward is to do that with the TortoiseSVN client.
 Mac has many SVN-fashioned clients where you can fall in love when you see the GUI, but when it comes to do a merge it seems that all they have forgotten to include support for it. I haven&#39;t seen any free or comercial application for Mac that integrates all the subversion commands in the same tool without pain.</description>
     </item>
     
     <item>
       <title>Subversion (svn) 1.5 para Mac OS X</title>
-      <link>https://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</link>
+      <link>http://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</link>
       <pubDate>Wed, 12 Nov 2008 20:54:35 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</guid>
+      <guid>http://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</guid>
       <description>Si utilizas distintos sistemas operativos y en ellos utilizas versiones distintas de subversion te habr&amp;aacute;s encontrado alguna vez con el mensaje de error:
 svn: This client is too old to work with working copy &#39;.&#39;; please get a newer Subversion client
 Si eres usuario de Mac y te ha pasado esto, o simplemente necesitas un cliente svn 1.5 para mac puedes descargarte la &amp;uacute;ltima versi&amp;oacute;n de SCPlugin que ya incluye soporte para la 1.</description>
@@ -64,10 +64,10 @@ Si eres usuario de Mac y te ha pasado esto, o simplemente necesitas un cliente s
     
     <item>
       <title>Nautilus subversion integration tool. Execute SVN commands with Gnome scripts</title>
-      <link>https://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</link>
+      <link>http://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</link>
       <pubDate>Thu, 25 Oct 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</guid>
+      <guid>http://www.harecoded.com/nautilus-subversion-integration-tool-execute-svn-commands-with-gnome-scripts-96355/</guid>
       <description>I have been using subversion (svn) for years from the command line... But some months ago I changed my job and I started using windows environments. And I must admit TortoiseSVN is the best GUI SVN client i&#39;ve seen ever before. While my needs are satisfied in Windows with TortoiseSVN and in Mac OS X with SCPlugin and SvnX, I was lacking a subversion tool to manage my files while exploring files in my Ubuntu (nautilus file explorer).</description>
     </item>
     

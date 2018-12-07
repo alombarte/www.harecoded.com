@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Overburn on Harecoded</title>
-    <link>https://www.harecoded.com/tags/overburn/</link>
+    <link>http://www.harecoded.com/tags/overburn/</link>
     <description>Recent content in Overburn on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Sep 2007 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/overburn/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/overburn/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Overburning script for Mac OS X, Record large films in Mac</title>
-      <link>https://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</link>
+      <link>http://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</link>
       <pubDate>Sat, 08 Sep 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</guid>
+      <guid>http://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</guid>
       <description>If you use the Finder burning tool to create your CDs, or an application that doesn&#39;t support overburning (surpass a little bit the CD or DVD maximum size) I am sure that some time you got anrgy.
 Sometimes are films, sometimes it&#39;s just one more song in the CD library you are creating... The thing is that you have 703MB and you cannot burn a 700MB CD. It won&#39;t happen again!</description>
     </item>

@@ -2,312 +2,312 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on Harecoded</title>
-    <link>https://www.harecoded.com/tags/development/</link>
+    <link>http://www.harecoded.com/tags/development/</link>
     <description>Recent content in Development on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Oct 2014 20:59:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Merging two, three or more git repositories keeping the log history</title>
-      <link>https://www.harecoded.com/merging-two-three-or-more-git-repositories-keeping-the-log-history-2366393/</link>
+      <link>http://www.harecoded.com/merging-two-three-or-more-git-repositories-keeping-the-log-history-2366393/</link>
       <pubDate>Wed, 01 Oct 2014 20:59:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/merging-two-three-or-more-git-repositories-keeping-the-log-history-2366393/</guid>
+      <guid>http://www.harecoded.com/merging-two-three-or-more-git-repositories-keeping-the-log-history-2366393/</guid>
       <description>If you ask anyone, merging several git repositories&amp;nbsp;into a single one would usually be considered a bad strategy: as a rule of thumb, your code base should&amp;nbsp;have several components isolated and then use a dependency manager (e.g: Composer) to bring&amp;nbsp;them together.  Nevertheless, there are always many different scenarios and with them come different use cases, weird situations or just plain normal activities that would justify this procedure.&amp;nbsp;In any case if you ever need to merge several repos into one, and still want to keep the git history this is an easy way to do it.</description>
     </item>
     
     <item>
       <title>Terminal tuning for Git developers in Mac</title>
-      <link>https://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</link>
+      <link>http://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</link>
       <pubDate>Fri, 19 Sep 2014 17:52:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</guid>
+      <guid>http://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</guid>
       <description>If you work with Git in the terminal there are some tweaks you might want to apply to your prompt for safer and faster coding. The following lines are part of my ~/.bash_profile file. I use it on Mac although that might work in Linux as well.  You can copy and paste this code in your ~/.bash_profile (create it if it doesn&#39;t exist), save and open a new terminal to see the changes every time you save.</description>
     </item>
     
     <item>
       <title>Organizing git branches in logical folders </title>
-      <link>https://www.harecoded.com/organizing-git-branches-in-logical-folders-2317600/</link>
+      <link>http://www.harecoded.com/organizing-git-branches-in-logical-folders-2317600/</link>
       <pubDate>Tue, 10 Dec 2013 22:19:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/organizing-git-branches-in-logical-folders-2317600/</guid>
+      <guid>http://www.harecoded.com/organizing-git-branches-in-logical-folders-2317600/</guid>
       <description>It is easier to find things when they are well organized. If you are a git user a good practice to name the branches would be to use descriptive names including slashes &#34;/&#34; (as in paths) where everything before the slash is the folder you want to use and then the logical name after it.  If you use the fantastic git graphical interface SourceTree (free for Windows and Mac) then you will be able to navigate these branches using folders.</description>
     </item>
     
     <item>
       <title>Automatically archive S3 backups to Amazon Glacier</title>
-      <link>https://www.harecoded.com/automatically-archive-s3-backups-to-amazon-glacier-2310752/</link>
+      <link>http://www.harecoded.com/automatically-archive-s3-backups-to-amazon-glacier-2310752/</link>
       <pubDate>Fri, 06 Dec 2013 22:53:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/automatically-archive-s3-backups-to-amazon-glacier-2310752/</guid>
+      <guid>http://www.harecoded.com/automatically-archive-s3-backups-to-amazon-glacier-2310752/</guid>
       <description>Amazon S3 is an on-cloud storage service used in a variety of scenarios. On of these common scenarios is the one where you upload your server backups to S3 using any of the multiple convenient libraries and tools.&amp;nbsp;  In the other hand, Amazon offers another service more oriented to data archiving and backup named Amazon Glacier. If you store a lot of data (and I am not talking about &amp;nbsp;a couple of GB) then you can save money using Glacier instead of S3.</description>
     </item>
     
     <item>
       <title>Kill processes using string search</title>
-      <link>https://www.harecoded.com/kill-processes-using-string-search-2303030/</link>
+      <link>http://www.harecoded.com/kill-processes-using-string-search-2303030/</link>
       <pubDate>Sat, 23 Nov 2013 23:28:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/kill-processes-using-string-search-2303030/</guid>
+      <guid>http://www.harecoded.com/kill-processes-using-string-search-2303030/</guid>
       <description>A lot of Linux distributions (and Mac) come with a handy command named&amp;nbsp;pkill installed by default. This command is very useful to kill processes in a more natural way.  Instead of doing a kill/killall based on the ID of the process or the binary name, you can just pass a string that appears in any part of the process list, including the parameters you used to start a service.</description>
     </item>
     
     <item>
       <title>A true multiline regexp in PHP. The &#34;I miss U&#34; technique</title>
-      <link>https://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</link>
+      <link>http://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</link>
       <pubDate>Thu, 08 Aug 2013 16:44:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</guid>
+      <guid>http://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</guid>
       <description>The following regular expression matches tags that are opened and close in different lines, albeit can be used for any other purpose. It is also&amp;nbsp;ungreedy, meaning that when the first closing tag is found the rest of equal tags will be ignored.  It is very easy to remember and to apply, I call it the &#34;I MISS YOU&#34; technique, see the why in the regexp modifiers: misU&amp;nbsp;  $html =&amp;lt;&amp;lt;&amp;lt;MULTILINE &amp;lt;p class=&#34;</description>
     </item>
     
     <item>
       <title>Migrating a Github repo to Bitbucket (or similar services)</title>
-      <link>https://www.harecoded.com/migrating-github-repo-to-bitbucket-or-similar-services-2275467/</link>
+      <link>http://www.harecoded.com/migrating-github-repo-to-bitbucket-or-similar-services-2275467/</link>
       <pubDate>Thu, 06 Jun 2013 21:17:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/migrating-github-repo-to-bitbucket-or-similar-services-2275467/</guid>
+      <guid>http://www.harecoded.com/migrating-github-repo-to-bitbucket-or-similar-services-2275467/</guid>
       <description>Github is awesome. Bitbucket is awesome too. They are both excellent services, but Bitbucket has a plus:&amp;nbsp;it&#39;s free for private repos.  That&#39;s one of the reasons on why we decided to stop paying our $25/mo Github account for small projects and moved to Bitbucket. Although the Bitbucket guys have now a one-click &#34;import from Github tool&#34;, the solution is so simple that I don&#39;t even think it is worth using it.</description>
     </item>
     
     <item>
       <title>Configure Compass,Sass,Less... in PHPStorm</title>
-      <link>https://www.harecoded.com/configure-compasssassless-in-phpstorm-2257005/</link>
+      <link>http://www.harecoded.com/configure-compasssassless-in-phpstorm-2257005/</link>
       <pubDate>Wed, 13 Mar 2013 16:33:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/configure-compasssassless-in-phpstorm-2257005/</guid>
+      <guid>http://www.harecoded.com/configure-compasssassless-in-phpstorm-2257005/</guid>
       <description>PHPStorm 6 bundles a new feature called &#34;File watchers&#34; which enables Sass, LESS, SCSS, CoffeeScript, TypeScript transpilation. This option will compile your compass/scss/whatever files when the source file is saved (this is when you lose the focus or manually save).  So, for the basic stuff you can stop using external programs and watchers likeCodeKit or LESS.app&amp;nbsp;now. But of course unexpensive software like CodeKit is a must have if you are a frontend developer.</description>
     </item>
     
     <item>
       <title>Features in PHP 5.4</title>
-      <link>https://www.harecoded.com/features-in-php-54-2255484/</link>
+      <link>http://www.harecoded.com/features-in-php-54-2255484/</link>
       <pubDate>Thu, 07 Mar 2013 12:19:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/features-in-php-54-2255484/</guid>
+      <guid>http://www.harecoded.com/features-in-php-54-2255484/</guid>
       <description>We had to create a file upload form that allows a user to upload big files. In order to keep a good experience for the user we decided to show the progress bars.  There are several ways of doing that but it came to my mind that PHP 5.4 had an improvement on file upload, making it easier now and wondered if I had the last excuse to upgrade the servers from 5.</description>
     </item>
     
     <item>
       <title>A life explained in HTTP status codes</title>
-      <link>https://www.harecoded.com/life-explained-in-http-status-codes-2246877/</link>
+      <link>http://www.harecoded.com/life-explained-in-http-status-codes-2246877/</link>
       <pubDate>Mon, 04 Feb 2013 15:47:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/life-explained-in-http-status-codes-2246877/</guid>
+      <guid>http://www.harecoded.com/life-explained-in-http-status-codes-2246877/</guid>
       <description>This is a made-up story of a life explained with HTTP status code. It was written up to down at once without much thinking, feel free to improve it!    Status Code   Event   HTTP meaning       100   You are curious about her   Continue     101   First time sex   Switching Protocols     200   Love   OK     201   She&#39;s pregnant   Created     202   And you are the father   Accepted     203   Were you looking forward it?</description>
     </item>
     
     <item>
       <title>Llamadas cURL a través de distintas interfaces</title>
-      <link>https://www.harecoded.com/llamadas-curl-traves-distintas-interfaces-2183696/</link>
+      <link>http://www.harecoded.com/llamadas-curl-traves-distintas-interfaces-2183696/</link>
       <pubDate>Tue, 13 Nov 2012 07:50:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/llamadas-curl-traves-distintas-interfaces-2183696/</guid>
+      <guid>http://www.harecoded.com/llamadas-curl-traves-distintas-interfaces-2183696/</guid>
       <description>Si tu servidor web dispone de varias interfaces de red y quieres que ciertas peticiones que haces con cURL salgan a través de una IP específica puedes modificar el flag CURLOPT_INTERFACE de cURL pásandole la IP.  Un ejemplo tonto podría ser:  ... // Todas mis interfaces de red: $interfaces = array( &#39;91.121.157.41&#39;, &#39;178.33.161.225&#39;, &#39;188.165.128.67&#39;, &#39;178.33.166.125&#39;, &#39;178.33.163.125&#39;, ); // Salir aleatoriamente por una de ellas: $rand_interface = $interfaces[rand(0,count($interfaces)-1)]; curl_setopt($curl_handle, CURLOPT_INTERFACE, $rand_interface ); .</description>
     </item>
     
     <item>
       <title>Copy/clone/duplicate a mysql database script</title>
-      <link>https://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</link>
+      <link>http://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</link>
       <pubDate>Thu, 08 Nov 2012 12:25:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</guid>
+      <guid>http://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</guid>
       <description>This is a simple script that duplicates your entire database. There are many ways in which you can take advantage of having an exact replica of your production database.  In short, the behaviour of the script is the following (in this order, all piped):  Delete the COPY database if possible to start with a fresh one  Create the COPY database  Dump the PRODUCTION database  Inject the output of the dump into the COPY database   Any errors during the process will be logged to the file defined as $ERROR.</description>
     </item>
     
     <item>
       <title>Varnish allow/reject connections with IPs list (ACL)</title>
-      <link>https://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</link>
+      <link>http://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</link>
       <pubDate>Tue, 06 Nov 2012 12:29:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</guid>
+      <guid>http://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</guid>
       <description>In a web server you can use directives to deny the unwanted eye to look at your content. This is an example of how Apache would handle a virtual host that only accepts connections from a series of IPs, but in Varnish that won&#39;t work.  Order Deny,Allow Deny from all # Barcelona IPs Allow from 89.140.xxx.xxx/27 # Japan IP Allow from 222.229.xxx.xxx/32   The reason that this won&#39;t work in Varnish is because the IP Apache is receiving is 127.</description>
     </item>
     
     <item>
       <title>Evitar que Chrome lance a Google tu url como búsqueda</title>
-      <link>https://www.harecoded.com/evitar-chrome-lance-google-url-busqueda-2180657/</link>
+      <link>http://www.harecoded.com/evitar-chrome-lance-google-url-busqueda-2180657/</link>
       <pubDate>Fri, 26 Oct 2012 20:09:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/evitar-chrome-lance-google-url-busqueda-2180657/</guid>
+      <guid>http://www.harecoded.com/evitar-chrome-lance-google-url-busqueda-2180657/</guid>
       <description>El problema   Como desarrollador cada vez me siento más cómodo trabajando con Google Chrome pero hay una cosa que muchas veces me hace perder algo de tiempo:  En ocasiones, al intentar buscar una url poco &#34;normal&#34;, como puede ser en un dominio típico en un entorno de desarrollo, Chrome detecta que no es una url válida y la lanza contra Google en forma de búsqueda.  Un ejemplo   Queremos acceder a nuestra working copy con una url como ésta:&amp;nbsp;development_area/test_script.</description>
     </item>
     
     <item>
       <title>Puppet Syntax highlighting under Textmate</title>
-      <link>https://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</link>
+      <link>http://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</link>
       <pubDate>Thu, 11 Oct 2012 16:55:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</guid>
+      <guid>http://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</guid>
       <description> Add some color to your puppet scripts opened in TextMate! Fire this in a terminal:  mkdir -p ~/Application\ Support/TextMate/Bundles git clone https://github.com/masterzen/puppet-textmate-bundle.git Puppet.tmbundle mv Puppet.tmbundle/ ~/Library/Application\ Support/TextMate/Bundles/ rm -fr Puppet.tmbundle   And voilà!   </description>
     </item>
     
     <item>
       <title>Varnish VCL: Delete ALL cookies and other magic</title>
-      <link>https://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</link>
+      <link>http://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</link>
       <pubDate>Tue, 09 Oct 2012 14:48:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</guid>
+      <guid>http://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</guid>
       <description>This morning Javi Callón&amp;nbsp;gave me a great introduction in few minutes to the Varnish in steroids world, I really appreciate it. &amp;nbsp;I&#39;d like to share this snippet which might be very interesting for you if you are new to the Varnish magic too.  This has been my first contact with Varnish ever, and I have to say I am quite amazed on how the application is responding now in terms of performance.</description>
     </item>
     
     <item>
       <title>Simple Varnish Installation</title>
-      <link>https://www.harecoded.com/simple-varnish-installation-2175362/</link>
+      <link>http://www.harecoded.com/simple-varnish-installation-2175362/</link>
       <pubDate>Mon, 08 Oct 2012 19:18:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/simple-varnish-installation-2175362/</guid>
+      <guid>http://www.harecoded.com/simple-varnish-installation-2175362/</guid>
       <description>The first thing to do is to make sure your application is passing the headers properly. At least you&#39;ll need this (in PHP):  // Let&#39;s say Varnish caches for 12 hours: $cache_max_age = 60*60*12; header( &#34;Cache-Control: public, must-revalidate, max-age=0, s-maxage=$cache_max_age&#34; );   Varnish installation (CentOS/Redhat):
 RPM taken from https://www.varnish-cache.org/installation/redhat  rpm --nosignature -i https://repo.varnish-cache.org/redhat/varnish-3.0.el5.rpm   After adding the package:  yum install varnish   If you have another Linux see in the link, is more or less the same.</description>
     </item>
     
     <item>
       <title>How to setup a remote development environment over SFTP (working copy)</title>
-      <link>https://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</link>
+      <link>http://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</link>
       <pubDate>Thu, 09 Aug 2012 00:10:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</guid>
+      <guid>http://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</guid>
       <description>This article explains how to setup the server and client to work with a remote working copy.  To properly understand this post you should have read the previous post, When to setup a remote development environment over SFTP (working copy).  To have the enviroment up and running you must setup once the server, and then apply the configuration of the client in every developer machine. But the client side is very simple and requires no installation at all.</description>
     </item>
     
     <item>
       <title>When to setup a remote development environment over SFTP (working copy)</title>
-      <link>https://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</link>
+      <link>http://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</link>
       <pubDate>Wed, 08 Aug 2012 17:49:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</guid>
+      <guid>http://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</guid>
       <description>When a programmer has a local copy of the code and an environment fully functional where the web can be tested before going live, we usually call it a&amp;nbsp;working copy.  The action of moving/copying/putting this work in the final live server (a.k.a production server/environment) is called the&amp;nbsp;deploy&amp;nbsp;action.  There are many ways of having a working copy up and running. We, the key stroker maniacs, use to work more or less with one of the following working copy configurations:   No working copy.</description>
     </item>
     
     <item>
       <title>Git log mejorado. Color y ramas dibujadas</title>
-      <link>https://www.harecoded.com/git-log-mejorado-color-ramas-dibujadas-2081319/</link>
+      <link>http://www.harecoded.com/git-log-mejorado-color-ramas-dibujadas-2081319/</link>
       <pubDate>Thu, 26 Jul 2012 10:53:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/git-log-mejorado-color-ramas-dibujadas-2081319/</guid>
+      <guid>http://www.harecoded.com/git-log-mejorado-color-ramas-dibujadas-2081319/</guid>
       <description>Hace unos días me llegó un tweet de Dani&amp;nbsp;con uno de esos regalos que hace de tanto en cuanto, que se acuerda de los amigos y te manda algo interesante. En este caso era un artículo en inglés de Filipe Kiss donde nos enseñaba como convertir el git log de terminal en algo con cara y ojos (hacer clic en imágen).  He modificado &amp;nbsp;el comando original para que muestre el email en vez de los nombres, que tiene problemas en algunas terminales con los acentos.</description>
     </item>
     
     <item>
       <title>Mysql: Llenar tabla con datos aleatorios (de una lista)</title>
-      <link>https://www.harecoded.com/mysql-llenar-tabla-datos-aleatorios-lista-2057615/</link>
+      <link>http://www.harecoded.com/mysql-llenar-tabla-datos-aleatorios-lista-2057615/</link>
       <pubDate>Fri, 20 Jul 2012 12:09:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/mysql-llenar-tabla-datos-aleatorios-lista-2057615/</guid>
+      <guid>http://www.harecoded.com/mysql-llenar-tabla-datos-aleatorios-lista-2057615/</guid>
       <description> En alguna ocasión nos hemos encontrado con la necesidad de actualizar / insertar registors de una tabla con elementos aleatoris a partir de una lista.  Esta operación es especialmente útil cuando queremos crear datos &#34;dummy&#34; para entornos de desarrollo.  El ejemplo de este post es para MySql:  UPDATE files f SET license_type = (SELECT ELT(0.5 + RAND() * 2, &#39;Free&#39;, &#39;Try&#39; ) ) </description>
     </item>
     
     <item>
       <title>IP&#39;s que usa Facebook Open Graph</title>
-      <link>https://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</link>
+      <link>http://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</link>
       <pubDate>Mon, 30 Apr 2012 10:33:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</guid>
+      <guid>http://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</guid>
       <description>Queremos desarrollar una funcionalidad en nuestro proyecto web que intereactua con Facebook mediante el protocolo Open Graph.  Facebook nos ofrece una herramienta de Debug para validar que, las entradas OG de nuestro site son las esperadas. Con añadir nuestra url en esa herramiento podemos ver un interesante informe.  Cuando lanzamos cualquier tipo de acción desde nuestro site, desde el clásico &#34;me gusta&#34; a las más elaboradas &#34;Custom Actions&#34;</description>
     </item>
     
     <item>
       <title>Cómo borrar tags de Github</title>
-      <link>https://www.harecoded.com/borrar-tags-github-1832646/</link>
+      <link>http://www.harecoded.com/borrar-tags-github-1832646/</link>
       <pubDate>Tue, 17 Apr 2012 08:53:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/borrar-tags-github-1832646/</guid>
+      <guid>http://www.harecoded.com/borrar-tags-github-1832646/</guid>
       <description> Si por ejemplo deseo borrar un tag llamado &#34;1.0-stable-php-5.2&#34;  Borro en local:  git tag -d 1.0-stable-php-5.2  Borro en el repositorio:  git push origin :1.0-stable-php-5.2  Atentos a los dos puntos delante del tag al hacer el push.  Actualización: He escrito el artículo dos veces, el original aquí:&amp;nbsp;http://www.harecoded.com/borrar-tag-github-u-remoto-1612712&amp;nbsp;:P </description>
     </item>
     
     <item>
       <title>Cómo borrar un tag de GitHub u otro remoto</title>
-      <link>https://www.harecoded.com/borrar-tag-github-u-remoto-1612712/</link>
+      <link>http://www.harecoded.com/borrar-tag-github-u-remoto-1612712/</link>
       <pubDate>Thu, 08 Mar 2012 13:30:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/borrar-tag-github-u-remoto-1612712/</guid>
+      <guid>http://www.harecoded.com/borrar-tag-github-u-remoto-1612712/</guid>
       <description>No resulta muy obvio cómo se pueden eliminar los tags de Github. Incluso hay algunos tutoriales por ahí que no funcionan. Estos son los dos comandos que utilizo yo únicamente para borrar los tags que pongo y quito en el proyecto de&amp;nbsp;SIFO&amp;nbsp;en&amp;nbsp;Github.  El listado de tags del repositorio local se puede sacar fácilmente usando el comando git tag, por ejemplo:  artomb@petekaner:~/htdocs/sifo$ git tag sifo-1.9 sifo-2.1 sifo-2.2 stable-php-5.2 stable-php-5.</description>
     </item>
     
     <item>
       <title>Merge Json files</title>
-      <link>https://www.harecoded.com/merge-json-files-1407663/</link>
+      <link>http://www.harecoded.com/merge-json-files-1407663/</link>
       <pubDate>Wed, 01 Feb 2012 10:22:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/merge-json-files-1407663/</guid>
+      <guid>http://www.harecoded.com/merge-json-files-1407663/</guid>
       <description>With this small script you could merge some json files in a new one in json validated format. &amp;nbsp;The script uses each file name like array key.  Look the example:  file1.json:  {&#34;array1&#34;:[&#34;elem1&#34;,&#34;elem2&#34;,&#34;elem3&#34;],&#34;array2&#34;:[&#34;elem1&#34;,&#34;elem2&#34;,&#34;elem3&#34;]}   file2.json  {&#34;array3&#34;:[&#34;elem1&#34;,&#34;elem2&#34;,&#34;elem3&#34;]}   &amp;nbsp;  Whit our script you could run:  php merge_jsons.php file1.json file2.json &amp;gt; merged_jsons.json    &amp;nbsp;  Now you can open merged_jsons.json and look this:  {&#34;</description>
     </item>
     
     <item>
       <title>Cómo hacer un sparse checkout en Git</title>
-      <link>https://www.harecoded.com/sparse-checkout-git-1329553/</link>
+      <link>http://www.harecoded.com/sparse-checkout-git-1329553/</link>
       <pubDate>Thu, 01 Dec 2011 22:23:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/sparse-checkout-git-1329553/</guid>
+      <guid>http://www.harecoded.com/sparse-checkout-git-1329553/</guid>
       <description>Si quieres hacer clone de un proyecto parcialmente y no llevarte todo el árbol es muy sencillo. Si todavía no tienes los ficheros es tan sencillo como:  Crear una carpeta e inicializar Git  Activar sparse checkout  Decirle qué carpetas queremos  Añadir el repo remoto  Traer los ficheros con pull    Traducido en un ejemplo y sus comandos, pongamos que queremos descargar el fantástico PHP framework SIFO.</description>
     </item>
     
     <item>
       <title>Move a SVN repository to Git with the whole commit history</title>
-      <link>https://www.harecoded.com/move-svn-repository-to-git-with-the-whole-commit-history-1314733/</link>
+      <link>http://www.harecoded.com/move-svn-repository-to-git-with-the-whole-commit-history-1314733/</link>
       <pubDate>Fri, 11 Nov 2011 18:37:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/move-svn-repository-to-git-with-the-whole-commit-history-1314733/</guid>
+      <guid>http://www.harecoded.com/move-svn-repository-to-git-with-the-whole-commit-history-1314733/</guid>
       <description>It is in your mind, like a worm that eats away the apple, &#34;I have to switch to Git&#34;. And one day it happens and you realize that it was not that diffcult.  I started using Git as my local repository, but still using SVN as the central repository with git itself thanks to the git svn&amp;nbsp;set of commands. After some time I decided to entirely move the vast majority of projects from SVN to Git but of course not by creating a new fresh and empty repository but importing the whole&amp;nbsp;svn commit history, as if the commits were made using Git itself ten years ago.</description>
     </item>
     
     <item>
       <title>Upload an existing Git repository to a remote GitHub, Bitbucket, Beanstalk...</title>
-      <link>https://www.harecoded.com/upload-an-existing-git-repository-to-remote-github-bitbucket-beanstalk-1314699/</link>
+      <link>http://www.harecoded.com/upload-an-existing-git-repository-to-remote-github-bitbucket-beanstalk-1314699/</link>
       <pubDate>Fri, 11 Nov 2011 18:26:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/upload-an-existing-git-repository-to-remote-github-bitbucket-beanstalk-1314699/</guid>
+      <guid>http://www.harecoded.com/upload-an-existing-git-repository-to-remote-github-bitbucket-beanstalk-1314699/</guid>
       <description>These are the steps I followed to upload my existing local git repository to a new Bitbucket repository while keeping the whole commit history. You can use this simple steps to move your source code to&amp;nbsp;GitHub, Beanstalk or any other repository you like, commands are just the same. I put as example Bitbucket because you can have unlimited&amp;nbsp;private repositories for free.  How to do it...  Register to bitbucket for free, add your&amp;nbsp;SSH key, and create an empty repo.</description>
     </item>
     
     <item>
       <title>Instalar PHP 5.3 en CentOS</title>
-      <link>https://www.harecoded.com/instalar-php-53-centos-1295513/</link>
+      <link>http://www.harecoded.com/instalar-php-53-centos-1295513/</link>
       <pubDate>Thu, 13 Oct 2011 23:45:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/instalar-php-53-centos-1295513/</guid>
+      <guid>http://www.harecoded.com/instalar-php-53-centos-1295513/</guid>
       <description>Me tienen contento!  Hace muchísimo que deberían haber incluído la versión de PHP 5.3 en los paquetes php por defecto de CentOS, pero parece que se van a quedar con la 5.2 hasta el fin de los tiempos. Ofrecen la versión 5.3 como un paquete separado (php53), lo que implica desinstalar PHP y librerías asociadas para reinstalar la 5.3 con este paquete distinto (incompatible con el anterior claro).  Así que, no pudiéndome aguantar más y con mono de namespaces, funciones lambda y toda la pesca, he migrado mi CentOS 5.</description>
     </item>
     
     <item>
       <title>Synchronize your VIM configuration across different machines</title>
-      <link>https://www.harecoded.com/synchronize-your-vim-configuration-across-different-machines-1295014/</link>
+      <link>http://www.harecoded.com/synchronize-your-vim-configuration-across-different-machines-1295014/</link>
       <pubDate>Thu, 13 Oct 2011 07:33:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/synchronize-your-vim-configuration-across-different-machines-1295014/</guid>
+      <guid>http://www.harecoded.com/synchronize-your-vim-configuration-across-different-machines-1295014/</guid>
       <description>If you are a Vim user, chances are that you also work with several machines, and you spread the same configuration over them.
 I do share my vim configurations between Windows, Mac and Linux and store the same configuration for all the environments in my Dropbox folder. The idea is to have a central place where I can manage all my Vim installations, and then link it. Easy as that.</description>
     </item>
     
     <item>
       <title>Conectar por SSH sin password (autenticación de clave pública)</title>
-      <link>https://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</link>
+      <link>http://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</link>
       <pubDate>Mon, 29 Aug 2011 07:03:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</guid>
+      <guid>http://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</guid>
       <description>Para conectar a un servidor remoto por SSH sin usuario ni contraseña todo lo que hace falta es compartir una clave entre cliente y servidor. Los pasos son muy sencillos:   Asegurarse que la carpeta .ssh existe en el servidor al que nos queremos conectar   Crear una clave RSA en la máquina cliente (la que se conecta):
  ssh-keygen -t rsa Cuando se te pida por un password, dale al enter sin poner ninguno (este es el propósito del artículo, sin passwords)   Copiar la clave pública en el servidor:</description>
     </item>
     
     <item>
       <title>Delete keys by pattern using REDIS-cli</title>
-      <link>https://www.harecoded.com/delete-keys-by-pattern-using-redis-cli-1261064/</link>
+      <link>http://www.harecoded.com/delete-keys-by-pattern-using-redis-cli-1261064/</link>
       <pubDate>Thu, 18 Aug 2011 07:10:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/delete-keys-by-pattern-using-redis-cli-1261064/</guid>
+      <guid>http://www.harecoded.com/delete-keys-by-pattern-using-redis-cli-1261064/</guid>
       <description>I do store a lot of statistical data in Redis, storing information on what users do and behave every day, week, month and so on... But storing a huge amount of data in memory has a little drawback: memory is cheap and fast, but is finite.  From time to time (e.g: cron job) I need to clean up the house because there is too much memory filled that is no longer interesting to keep it.</description>
     </item>
     
     <item>
       <title>Cómo cambiar la extensión a múltiples ficheros desde terminal (unix shell)</title>
-      <link>https://www.harecoded.com/cambiar-extension-multiples-ficheros-terminal-unix-shell-1222900/</link>
+      <link>http://www.harecoded.com/cambiar-extension-multiples-ficheros-terminal-unix-shell-1222900/</link>
       <pubDate>Fri, 17 Jun 2011 21:37:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/cambiar-extension-multiples-ficheros-terminal-unix-shell-1222900/</guid>
+      <guid>http://www.harecoded.com/cambiar-extension-multiples-ficheros-terminal-unix-shell-1222900/</guid>
       <description>Para renombrar la extensi&amp;oacute;n de muchos ficheros a la vez en la terminal, se puede hacer con la siguiente l&amp;iacute;nea:
 for file in *.phtml ; do mv $file `echo $file | sed &#39;s/\(.*\.\)phtml/\1tpl/&#39;` ; done Esto cambiar&amp;iacute;a todas las extensiones phtml por tpl del directorio en que lo lanz&amp;eacute;is. Cambiando la parte en negrita por vuestra extensi&amp;oacute;n favorita ya funcionar&amp;iacute;a.
 Lo que hace la l&amp;iacute;nea es buscar todos los archivos que cumplen la condici&amp;oacute;n *.</description>
@@ -315,19 +315,19 @@ Lo que hace la l&amp;iacute;nea es buscar todos los archivos que cumplen la cond
     
     <item>
       <title>Writing complex regular expressions</title>
-      <link>https://www.harecoded.com/writing-complex-regular-expressions-1192414/</link>
+      <link>http://www.harecoded.com/writing-complex-regular-expressions-1192414/</link>
       <pubDate>Fri, 15 Apr 2011 20:48:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/writing-complex-regular-expressions-1192414/</guid>
+      <guid>http://www.harecoded.com/writing-complex-regular-expressions-1192414/</guid>
       <description>Regular expressions are usually hard to read and understand. Even if you have a lot of experience in the subject chances are that when you revisit one of these that you wrote some time ago, it is very difficult to catch up.  Several days ago, a very smart guy at work named Zoltán, recommended us to write complex regular expressions sepparating each logical part in a different line&amp;nbsp;and also comment every single line.</description>
     </item>
     
     <item>
       <title>Cómo revertir los cambios de una revisión en SVN</title>
-      <link>https://www.harecoded.com/revertir-cambios-revision-svn-1181187/</link>
+      <link>http://www.harecoded.com/revertir-cambios-revision-svn-1181187/</link>
       <pubDate>Sun, 20 Mar 2011 12:51:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/revertir-cambios-revision-svn-1181187/</guid>
+      <guid>http://www.harecoded.com/revertir-cambios-revision-svn-1181187/</guid>
       <description>Si eres usuario de subversion te habr&amp;aacute; pasado alguna vez que despu&amp;eacute;s de hacer commit y probar posteriormente el c&amp;oacute;digo has visto que debes volver a una versi&amp;oacute;n anterior y dejar el c&amp;oacute;digo tal y como estaba en una versi&amp;oacute;n anterior. No todos los clientes gr&amp;aacute;ficos disponen de la opci&amp;oacute;n de &#34;reverse merge&#34;, pero en la terminal es muy sencillo de hacer...
 
 Imaginemos que en la revisi&amp;oacute;n 1190 sub&amp;iacute; unos cambios que hicieron el c&amp;oacute;digo inestable y deseo dejar el c&amp;oacute;digo tal y como estaba en la revisi&amp;oacute;n 914, entonces har&amp;iacute;a:</description>
@@ -335,28 +335,28 @@ Imaginemos que en la revisi&amp;oacute;n 1190 sub&amp;iacute; unos cambios que h
     
     <item>
       <title>How to create a patch and apply it with subversion</title>
-      <link>https://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</link>
+      <link>http://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</link>
       <pubDate>Tue, 15 Feb 2011 21:16:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</guid>
+      <guid>http://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</guid>
       <description>If you want to create a patch with svn you only have to type in the terminal something like:  svn diff yourproject &amp;gt; yourproject.patch   Where yourproject is the folder containing the modified source code.  Then, to restore the patch (apply the changes stored in patch in a new working copy), copy the patch file yourproject.patch in the machine where you want apply the patch and &#34;</description>
     </item>
     
     <item>
       <title>Exportar una consulta de Mysql en un fichero CSV</title>
-      <link>https://www.harecoded.com/exportar-consulta-mysql-fichero-csv-945014/</link>
+      <link>http://www.harecoded.com/exportar-consulta-mysql-fichero-csv-945014/</link>
       <pubDate>Sun, 24 Oct 2010 07:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/exportar-consulta-mysql-fichero-csv-945014/</guid>
+      <guid>http://www.harecoded.com/exportar-consulta-mysql-fichero-csv-945014/</guid>
       <description>Si tienes una tabla o consulta que quieres exportar a CSV tienes dos maneras muy fáciles de hacerlo. La primera es dentro de la consola mysql utilizando después del SELECT la opción INTO OUTFILE. Esto escribirá en el fichero externo que indiques el contenido de la consulta. La segunda opción es desde la propia línea de comandos utilizando la opción &#34;Batch&#34;.  Diferencias entre método 1 y 2: El primero permite especificar la terminación de las líneas en el csv así como si quieres comillas en cada campo.</description>
     </item>
     
     <item>
       <title>Instalar Memcache en Mac</title>
-      <link>https://www.harecoded.com/instalar-memcache-mac-517262/</link>
+      <link>http://www.harecoded.com/instalar-memcache-mac-517262/</link>
       <pubDate>Fri, 12 Feb 2010 20:23:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/instalar-memcache-mac-517262/</guid>
+      <guid>http://www.harecoded.com/instalar-memcache-mac-517262/</guid>
       <description>Instalar el demonio de memcached en Mac no es tan complicado como parece siguiendo estos sencillos pasos.
 Primero de todo aseg&amp;uacute;rate que tienes todos los requisitos
 Requisitos para instalar Memcached  Un compilador GCC. No te asustes! Viene instalando las XTools de Mac si es que ya no las tienes Descargarte el script de instalaci&amp;oacute;n desde topfunky  Instalaci&amp;oacute;n del servidor Memcached Abre una terminal i navega hasta la ruta donde te has descargado el script.</description>
@@ -364,38 +364,38 @@ Requisitos para instalar Memcached  Un compilador GCC. No te asustes! Viene inst
     
     <item>
       <title>All ISO-639 language codes for MySQL</title>
-      <link>https://www.harecoded.com/all-iso-639-language-codes-for-mysql-329937/</link>
+      <link>http://www.harecoded.com/all-iso-639-language-codes-for-mysql-329937/</link>
       <pubDate>Sat, 05 Sep 2009 18:18:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/all-iso-639-language-codes-for-mysql-329937/</guid>
+      <guid>http://www.harecoded.com/all-iso-639-language-codes-for-mysql-329937/</guid>
       <description>If you ever needed a mysql table with all the languages detailed in the ISO-639 language codes, here it is. I took the list from the registration authority and created the table in Mysql.  There are 21 languages that have alternative codes for bibliographic or terminology purposes. In those cases I took the bibliographic ones. The script contains the 2 and 3 letter ISO-639 language codes, as well as the English and French names of the languages.</description>
     </item>
     
     <item>
       <title>Fill: Smarty PHP plugin to fill variables in string (sprintf brother)</title>
-      <link>https://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</link>
+      <link>http://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</link>
       <pubDate>Thu, 06 Aug 2009 23:48:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</guid>
+      <guid>http://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</guid>
       <description>Today I quickly created a plugin for Smarty to fill variables inside a string (subject) using the passed parameters as variable names.&amp;nbsp;I use this specially while constructing URLs because my addresses are translated and they &#34;subjects&#34; are always variables. This plugin does nearly the same you could do with the sprintf modifier, but I placed this behaviour inside a function.  The &#34;subject&#34; defines the string containing the pattern to be filled and containing the vars to be filled, and the variables are any string surrounded by your preferred delimiter (defaults to %).</description>
     </item>
     
     <item>
       <title>Incluir programas externos en Eclipse, Dreamweaver, VIM o Notepad&#43;&#43;</title>
-      <link>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
+      <link>http://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
       <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
+      <guid>http://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
       <description>Es muy &amp;uacute;til incluir otros programas o macros propias dentro de los editores que utilizamos cada d&amp;iacute;a para desarrollar. A veces necesitamos validar nuestro c&amp;oacute;digo con otro programa, ya sea lanz&amp;aacute;ndolo en un navegador determinado, pas&amp;aacute;ndolo por un script propio, etc...
 En mi caso particular tengo un conjunto de scripts que verifican que el c&amp;oacute;digo sigue unas determinadas reglas de formato, de este forma el c&amp;oacute;digo siempre sigue unos determinados patrones.</description>
     </item>
     
     <item>
       <title>Más herramientas para Textmate</title>
-      <link>https://www.harecoded.com/mas-herramientas-textmate-166469/</link>
+      <link>http://www.harecoded.com/mas-herramientas-textmate-166469/</link>
       <pubDate>Mon, 01 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/mas-herramientas-textmate-166469/</guid>
+      <guid>http://www.harecoded.com/mas-herramientas-textmate-166469/</guid>
       <description>Siguiendo la l&amp;iacute;nea lanzada por Albert, vamos a ver un par de nuevas herramientas que nos facilitar&amp;aacute;n todav&amp;iacute;a m&amp;aacute;s el uso de Textmate.
 &#34;Open in Textmate&#34;, abrir en Textmate desde el Finder
 Se trata de un icono/lanzador muy &amp;uacute;til para colocar en el omnipresente Finder, mediante el cu&amp;aacute;l podemos abrir cualquier fichero/directorio en Textmate. S&amp;oacute;lo hay que arrastrar el fichero (o grupo de ficheros) o directorio/s encima de este nuevo icono, y autom&amp;aacute;ticamente se nos iniciar&amp;aacute; Textmate usando la selecci&amp;oacute;n que le hemos pedido.</description>
@@ -403,20 +403,20 @@ Se trata de un icono/lanzador muy &amp;uacute;til para colocar en el omnipresent
     
     <item>
       <title>Textmate: Plugins de PHP, Smarty y Subversion</title>
-      <link>https://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</link>
+      <link>http://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</link>
       <pubDate>Fri, 28 Nov 2008 16:47:55 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</guid>
+      <guid>http://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</guid>
       <description>Textmate es sin duda uno de aquellos editores para Mac OS X de los que hacen quitarse el sombrero. Como muchos otros editores, Textmate tambi&amp;eacute;n soporta plugins (Bundles les llaman) y se pueden instalar un mont&amp;oacute;n de ellos.
 Para los programadores y webmasters que trabajan con PHP hay dos Bundles de especial utilidad: los que permiten Autocompletion para Smarty y Autocompletion para PHP. Para instalarlos simplemente hay que ejectuar en una terminal:</description>
     </item>
     
     <item>
       <title>Subversion (svn) 1.5 para Mac OS X</title>
-      <link>https://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</link>
+      <link>http://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</link>
       <pubDate>Wed, 12 Nov 2008 20:54:35 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</guid>
+      <guid>http://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</guid>
       <description>Si utilizas distintos sistemas operativos y en ellos utilizas versiones distintas de subversion te habr&amp;aacute;s encontrado alguna vez con el mensaje de error:
 svn: This client is too old to work with working copy &#39;.&#39;; please get a newer Subversion client
 Si eres usuario de Mac y te ha pasado esto, o simplemente necesitas un cliente svn 1.5 para mac puedes descargarte la &amp;uacute;ltima versi&amp;oacute;n de SCPlugin que ya incluye soporte para la 1.</description>
@@ -424,10 +424,10 @@ Si eres usuario de Mac y te ha pasado esto, o simplemente necesitas un cliente s
     
     <item>
       <title>Grabar y ejecutar macros en Vim</title>
-      <link>https://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</link>
+      <link>http://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</link>
       <pubDate>Tue, 09 Sep 2008 12:08:17 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</guid>
+      <guid>http://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</guid>
       <description>Quiz&amp;aacute; VIM sea un editor para freaks, no lo vamos a discutir, pero la verdad es que bien conocido nos puede ahorrar mucho tiempo en hacer las tareas diarias. En este post, explicamos r&amp;aacute;pidamente como grabar una macro y reproducirla N veces.
 Si por ejemplo queremos eliminar de un listado de ficheros de un proyecto las im&amp;aacute;genes, podemos hacer algo como:
  q (Con esto entramos en modo de grabar)</description>
@@ -435,20 +435,20 @@ Si por ejemplo queremos eliminar de un listado de ficheros de un proyecto las im
     
     <item>
       <title>XRAY: Bookmarklet para desarrolladores web</title>
-      <link>https://www.harecoded.com/xray-bookmarklet-desarrolladores-web-96349/</link>
+      <link>http://www.harecoded.com/xray-bookmarklet-desarrolladores-web-96349/</link>
       <pubDate>Tue, 07 Aug 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/xray-bookmarklet-desarrolladores-web-96349/</guid>
+      <guid>http://www.harecoded.com/xray-bookmarklet-desarrolladores-web-96349/</guid>
       <description>Hoy he descubierto XRAY, un bookmarklet que funciona para Firefox, Safari, Camino o Mozilla y que permite ver las propiedades de un elemento de la pantalla haciendo click sobre &amp;eacute;l.
 No es para nada comparable a FireBug o el Safari WebKit pero puede resultar igualmente interesante. Por su naturaleza de bookmarklet, no es necesaria ninguna instalaci&amp;oacute;n, s&amp;oacute;lo hace falta arrastar el v&amp;iacute;nculo que ofrecen desde la web a la barra de herramientas del navegador.</description>
     </item>
     
     <item>
       <title>Browsing MySQL databases inside Eclipse without having a local mysql server or client</title>
-      <link>https://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</link>
+      <link>http://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</link>
       <pubDate>Mon, 11 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</guid>
+      <guid>http://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</guid>
       <description>EclipseSQL is an aid to people programming with databases. Allows to make queries, browse tables, change structures and all the common operations performed in databases. This is how it looks like:
 
 The application can be downloaded as a standalone (screenshot) although since I am using eclipse to develop PHP (PDT plugin) and Java code, what I find more interesting is the plugin version. By installing the plugin another &#34;View&#34; called SQL is available, where you can browse the databases.</description>
@@ -456,67 +456,67 @@ The application can be downloaded as a standalone (screenshot) although since I 
     
     <item>
       <title>Automatic code formatting for PHP in your editor or CVS/SVN</title>
-      <link>https://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</link>
+      <link>http://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</link>
       <pubDate>Mon, 28 May 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</guid>
+      <guid>http://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</guid>
       <description>PhpCodeBeautififier is a free tool for PHP programmers that formats PHP files to get a nice presentation and keeps the programmer sanity. We all programmers have our own way of representing code lines, but when the code is shared amongst many programmers it has to be formatted following some conventions.
 PhpCodeBeautifier allows you to specify those patterns you&#39;d like to follow and it will format every file for you. The idea is simple, you continue on being that little unchangeable typer and delegate the &#34;</description>
     </item>
     
     <item>
       <title>A free good cross-platform CSS editor</title>
-      <link>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</link>
+      <link>http://www.harecoded.com/free-good-cross-platform-css-editor-96327/</link>
       <pubDate>Fri, 02 Feb 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</guid>
+      <guid>http://www.harecoded.com/free-good-cross-platform-css-editor-96327/</guid>
       <description>There are many applications where you can edit your Cascading Style Sheets (CSS) in Linux, Windows or Mac, but specifically in my Ubuntu I haven&#39;t found an application like CSSED (GTK). It supports auto-completion, really useful wizards, color pickers, preview and a long etcetera. You can go directly to the download page and see specific instructions for Gentoo, BSD, Mac OS X (via Fink), Windows ... or if you are an ubuntu or debian user just type in a terminal (or through the synaptic manager):</description>
     </item>
     
     <item>
       <title>Passion &amp; progression</title>
-      <link>https://www.harecoded.com/passion-progression-96322/</link>
+      <link>http://www.harecoded.com/passion-progression-96322/</link>
       <pubDate>Sat, 23 Sep 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/passion-progression-96322/</guid>
+      <guid>http://www.harecoded.com/passion-progression-96322/</guid>
       <description>Please, let me allow myself to take this graph out of context and publish it here with a slightly different meaning: Without passion, there is no way to excel on anything in this life. </description>
     </item>
     
     <item>
       <title>A little Ajax library that makes a difference</title>
-      <link>https://www.harecoded.com/little-ajax-library-that-makes-difference-96315/</link>
+      <link>http://www.harecoded.com/little-ajax-library-that-makes-difference-96315/</link>
       <pubDate>Tue, 28 Mar 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/little-ajax-library-that-makes-difference-96315/</guid>
+      <guid>http://www.harecoded.com/little-ajax-library-that-makes-difference-96315/</guid>
       <description>It is a typical situation in the web developing arena that when a new technology emerges so strongly as Ajax or the so called Web 2.0 have done, programmers tend to use it to their last consequences. So we may go from a nearly 100% server side-processing-with-pages-refresh paradigm to establish multiple HTTPRequest petitions on every little interaction between the visitors and our application, to better serve their user experience.
 But as some people have warned us before (on uk.</description>
     </item>
     
     <item>
       <title>Obfuscate e-mails in PHP</title>
-      <link>https://www.harecoded.com/obfuscate-mails-in-php-96310/</link>
+      <link>http://www.harecoded.com/obfuscate-mails-in-php-96310/</link>
       <pubDate>Mon, 09 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/obfuscate-mails-in-php-96310/</guid>
+      <guid>http://www.harecoded.com/obfuscate-mails-in-php-96310/</guid>
       <description>Exactly one year ago, I was complaining to one of my clients ISP about the increasing volume of spam those people were receiving lately. The ISP answered me with some not particularly useful advices, except for one: they had inspected my client&#39;s website and had found that the contacts section had a list of clean e-mail addresses, happily standing there to the delight of some spammer&#39;s spider bot. I had put them there in the good-old format mailto:dontphunk@withmyheart.</description>
     </item>
     
     <item>
       <title>Installing PHP5 on Mac OS X [1 minute]</title>
-      <link>https://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</link>
+      <link>http://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</link>
       <pubDate>Wed, 26 Oct 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</guid>
+      <guid>http://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</guid>
       <description>Autumn is the worth conferences season for us. It seems that every autumn brings the interesting subjects and this November we (Manuel and myself, Albert) are attending at the PHP Conference 2005 held in Frankfurt, Germany. Last year was the Plone Conference 2004.
 Since we are a couple of sick men, when we assist to a software conference we need to take with us a laptop (mac os x) having pre-installed the matter.</description>
     </item>
     
     <item>
       <title>Real statistics on your site using AWStats</title>
-      <link>https://www.harecoded.com/real-statistics-on-your-site-using-awstats-96295/</link>
+      <link>http://www.harecoded.com/real-statistics-on-your-site-using-awstats-96295/</link>
       <pubDate>Mon, 17 Oct 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/real-statistics-on-your-site-using-awstats-96295/</guid>
+      <guid>http://www.harecoded.com/real-statistics-on-your-site-using-awstats-96295/</guid>
       <description>It is surprising how much information you can get from your readers activity. I like asking my server what country you come from, how much did you stay in the last visit, how did you arrive here, what is the most viewed page, how much bandwidth I am wasting, what spiders are coming in, what keysearches made you arrive here, why am I getting 404 errors.... and a long long etcetera.</description>
     </item>
     

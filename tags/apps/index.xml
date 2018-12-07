@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apps on Harecoded</title>
-    <link>https://www.harecoded.com/tags/apps/</link>
+    <link>http://www.harecoded.com/tags/apps/</link>
     <description>Recent content in Apps on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Jan 2009 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/apps/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>El fin de las fotos movidas en el iPhone, con Darkroom</title>
-      <link>https://www.harecoded.com/fotos-movidas-iphone-darkroom-183552/</link>
+      <link>http://www.harecoded.com/fotos-movidas-iphone-darkroom-183552/</link>
       <pubDate>Fri, 09 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/fotos-movidas-iphone-darkroom-183552/</guid>
+      <guid>http://www.harecoded.com/fotos-movidas-iphone-darkroom-183552/</guid>
       <description>Se acab&amp;oacute; que las fotos del iphone salgan movidas!
 Si tienes un pulso tan bueno como el m&amp;iacute;o te habr&amp;aacute;s encontrado m&amp;aacute;s de una vez que haces varias tomas de fotograf&amp;iacute;as y siempre te sale la foto desenfocada o movida. Pero tu tienes paciencia y tiras la misma foto 40 veces hasta que sale bien. El simple hecho de pulsar el bot&amp;oacute;n de fotografiar hace que esa m&amp;iacute;nima presi&amp;oacute;n nos mueva el objetivo y adi&amp;oacute;s foto.</description>
     </item>
     
     <item>
       <title>GnomeDo: Quicksilver/Launchy para Gnome (Linux)</title>
-      <link>https://www.harecoded.com/gnomedo-quicksilverlaunchy-gnome-linux-124196/</link>
+      <link>http://www.harecoded.com/gnomedo-quicksilverlaunchy-gnome-linux-124196/</link>
       <pubDate>Tue, 02 Sep 2008 12:08:17 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/gnomedo-quicksilverlaunchy-gnome-linux-124196/</guid>
+      <guid>http://www.harecoded.com/gnomedo-quicksilverlaunchy-gnome-linux-124196/</guid>
       <description>Si hace ya mucho tiempo hablamos de Katapult, un lanzador para KDE, ahora damos el turno a Gnome, con el GnomeDo.&amp;nbsp;
 Al igual que en Quicksilver, se pueden descargar varios plugins interesantes&amp;nbsp;que ampl&amp;iacute;an las funcionalidades b&amp;aacute;sicas del programa, que no son simplemente limitarse a abrir documentos y programas tecleando parte de su nombre.
 Lo que m&amp;aacute;s me gusta de estos programas (sin duda el mejor, la versi&amp;oacute;n original de Mac, Quicksilver) es como uno se olvida de navegar por los men&amp;uacute;s y los sistemas de ficheros.</description>
@@ -34,10 +34,10 @@ Lo que m&amp;aacute;s me gusta de estos programas (sin duda el mejor, la versi&a
     
     <item>
       <title>Browsing MySQL databases inside Eclipse without having a local mysql server or client</title>
-      <link>https://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</link>
+      <link>http://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</link>
       <pubDate>Mon, 11 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</guid>
+      <guid>http://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</guid>
       <description>EclipseSQL is an aid to people programming with databases. Allows to make queries, browse tables, change structures and all the common operations performed in databases. This is how it looks like:
 
 The application can be downloaded as a standalone (screenshot) although since I am using eclipse to develop PHP (PDT plugin) and Java code, what I find more interesting is the plugin version. By installing the plugin another &#34;View&#34; called SQL is available, where you can browse the databases.</description>

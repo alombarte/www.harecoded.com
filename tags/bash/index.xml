@@ -2,103 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bash on Harecoded</title>
-    <link>https://www.harecoded.com/tags/bash/</link>
+    <link>http://www.harecoded.com/tags/bash/</link>
     <description>Recent content in Bash on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Oct 2014 23:07:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>OS X renaming using parameter expansion</title>
-      <link>https://www.harecoded.com/os-x-renaming-using-parameter-expansion-2368474/</link>
+      <link>http://www.harecoded.com/os-x-renaming-using-parameter-expansion-2368474/</link>
       <pubDate>Sat, 18 Oct 2014 23:07:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/os-x-renaming-using-parameter-expansion-2368474/</guid>
+      <guid>http://www.harecoded.com/os-x-renaming-using-parameter-expansion-2368474/</guid>
       <description>When it comes to rename files via command line there is no rename utility under OS X without installing Homebrew. But I still never needed to install it since there is a lot you can do by just making use of the shell parameter expansion.  The parameter expansion allows you to manipulate variables in a very convenient way and when mixed with the mv command you have an unstoppable renaming tool.</description>
     </item>
     
     <item>
       <title>Terminal tuning for Git developers in Mac</title>
-      <link>https://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</link>
+      <link>http://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</link>
       <pubDate>Fri, 19 Sep 2014 17:52:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</guid>
+      <guid>http://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</guid>
       <description>If you work with Git in the terminal there are some tweaks you might want to apply to your prompt for safer and faster coding. The following lines are part of my ~/.bash_profile file. I use it on Mac although that might work in Linux as well.  You can copy and paste this code in your ~/.bash_profile (create it if it doesn&#39;t exist), save and open a new terminal to see the changes every time you save.</description>
     </item>
     
     <item>
       <title>Kill processes using string search</title>
-      <link>https://www.harecoded.com/kill-processes-using-string-search-2303030/</link>
+      <link>http://www.harecoded.com/kill-processes-using-string-search-2303030/</link>
       <pubDate>Sat, 23 Nov 2013 23:28:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/kill-processes-using-string-search-2303030/</guid>
+      <guid>http://www.harecoded.com/kill-processes-using-string-search-2303030/</guid>
       <description>A lot of Linux distributions (and Mac) come with a handy command named&amp;nbsp;pkill installed by default. This command is very useful to kill processes in a more natural way.  Instead of doing a kill/killall based on the ID of the process or the binary name, you can just pass a string that appears in any part of the process list, including the parameters you used to start a service.</description>
     </item>
     
     <item>
       <title>Finding abusers. List of most frequent IPs in Apache log</title>
-      <link>https://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</link>
+      <link>http://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</link>
       <pubDate>Tue, 25 Jun 2013 07:53:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</guid>
+      <guid>http://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</guid>
       <description>Internet is full of malware and people with leisure time who will hammer your server with no good intentions, most of them will try to access well-known URLs looking for exploits of software like Wordpress (/wp-admin.php, /edit, etc...).  If you monitor for a while your access_log it&#39;s easy to find out unwanted behaviour. If you want to get a list of the most frequent IPs in your Apache log&amp;nbsp;the following command will get a list of those IPs sorted by number of requests:  [root@www3 ~]# cat /var/log/httpd/access_log_20130620 | awk &#39;{print $1}&#39; | sort | uniq -c | sort -rn | head 912545 95.</description>
     </item>
     
     <item>
       <title>Converting a CSV to SQL using 1 line in bash</title>
-      <link>https://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</link>
+      <link>http://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</link>
       <pubDate>Fri, 07 Jun 2013 11:55:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</guid>
+      <guid>http://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</guid>
       <description>The command line is very powerful and can do amazing stuff in one single line by pipelining a series of commands. This post is inspired after creating a line that mixed sed and awk, but with just only awk I&#39;ll show you an example on how to convert a CSV file to an SQL insert  Let&#39;s take an input CSV named events-2013-06-06.csv with 16 columns per line. It looks like this:  k51b04876036e2,192.</description>
     </item>
     
     <item>
       <title>Autocompletar hosts al escribir ssh en la terminal</title>
-      <link>https://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</link>
+      <link>http://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</link>
       <pubDate>Fri, 23 Mar 2012 15:06:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</guid>
+      <guid>http://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</guid>
       <description>Esta mañana mi compañero Borja me ha enseñado un pequeño truquito para olvidarse de los bookmarks en la terminal. Se trata de autocompletar el comando ssh con los hosts conocidos.  De este modo, cuando escribes ssh en la terminal puedes darle al tabulador para que sugiera o escriba el resto de host por ti. Ejemplo:    Existen múltiples maneras de hacer esto, leyendo configs con puertos y otras barbaridades, pero esta es realmente simple y efectiva y sin duda la que más me gusta.</description>
     </item>
     
     <item>
       <title>Contar veces que se pide una URL (y las que no es esa URL)</title>
-      <link>https://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</link>
+      <link>http://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</link>
       <pubDate>Tue, 14 Feb 2012 20:14:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</guid>
+      <guid>http://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</guid>
       <description>Hay veces que queremos saber cuántas veces se ha pedido una URL en nuestro servidor y Google Analytics o otro servicio de monitorización basado en Javascript no está disponible. Entonces siempre podemos recurrir a la fuente original de datos, los logs de acceso (esos gran incomprendidos y frecuentemente abandonados) de Apache, Nginx o donde sea.  Si por ejemplo queremos saber cuántas veces se ha pedido la página /abc.html en el mes de febrero (2012_02) y tenemos los logs segmentados por día, será tan sencillo como lanzar un:  grep -c &#34;</description>
     </item>
     
     <item>
       <title>Comando `tree` para Mac</title>
-      <link>https://www.harecoded.com/comando-tree-mac-1265483/</link>
+      <link>http://www.harecoded.com/comando-tree-mac-1265483/</link>
       <pubDate>Sat, 27 Aug 2011 16:03:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/comando-tree-mac-1265483/</guid>
+      <guid>http://www.harecoded.com/comando-tree-mac-1265483/</guid>
       <description>Existe una utilidad llamada &#34;tree&#34; en Windows y Linux que sirve para ver un listado de directorio en un formato ASCII un poco más agradable a la vista. Si no quieres bajarte los MacPorts para esta pequeña utilidad lo más fácil es crear un script de una línea y enlazarlo en /bin para poder llamarlo directamente.  El comando en cuestión es este:  find . -print | sed -e &#39;s;[^/]*/;|--;g;s;--|; |;g&#39;   Ahora, para utilizarlo a troche y moche basta con pegar su contenido en un fichero en cualquier ubicación.</description>
     </item>
     
     <item>
       <title>Get the absolute path in a bash script. Linux and BSD/Mac</title>
-      <link>https://www.harecoded.com/get-the-absolute-path-in-bash-script-linux-and-bsdmac-933017/</link>
+      <link>http://www.harecoded.com/get-the-absolute-path-in-bash-script-linux-and-bsdmac-933017/</link>
       <pubDate>Sat, 16 Oct 2010 22:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/get-the-absolute-path-in-bash-script-linux-and-bsdmac-933017/</guid>
+      <guid>http://www.harecoded.com/get-the-absolute-path-in-bash-script-linux-and-bsdmac-933017/</guid>
       <description>&amp;iquest;Have you ever needed to get the absolute path to a script in a bash script? Here I explain how to set in a variable the current absolute path to the executed script and to its folder as well.
 When it comes to development I work under Mac, but when I publish my work I do it usually under Linux. It happens sometimes to me that I create bash scripts that don&#39;t work in one or the other system.</description>
     </item>
     
     <item>
       <title>Script for compressing files with gzip within the terminal with date</title>
-      <link>https://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</link>
+      <link>http://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</link>
       <pubDate>Wed, 14 Sep 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</guid>
+      <guid>http://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</guid>
       <description>This is a simple bash script to compress in tar.gz (gzip) format a file or folder appending date to file name.
 Save this file as gzip.sh and give it execution permissions. From terminal i could be: chmod 755 gzip.sh
 This script does the following:

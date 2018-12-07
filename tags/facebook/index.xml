@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Facebook on Harecoded</title>
-    <link>https://www.harecoded.com/tags/facebook/</link>
+    <link>http://www.harecoded.com/tags/facebook/</link>
     <description>Recent content in Facebook on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Apr 2012 10:33:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IP&#39;s que usa Facebook Open Graph</title>
-      <link>https://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</link>
+      <link>http://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</link>
       <pubDate>Mon, 30 Apr 2012 10:33:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</guid>
+      <guid>http://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</guid>
       <description>Queremos desarrollar una funcionalidad en nuestro proyecto web que intereactua con Facebook mediante el protocolo Open Graph.  Facebook nos ofrece una herramienta de Debug para validar que, las entradas OG de nuestro site son las esperadas. Con añadir nuestra url en esa herramiento podemos ver un interesante informe.  Cuando lanzamos cualquier tipo de acción desde nuestro site, desde el clásico &#34;me gusta&#34; a las más elaboradas &#34;Custom Actions&#34;</description>
     </item>
     

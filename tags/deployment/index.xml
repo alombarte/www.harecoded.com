@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deployment on Harecoded</title>
-    <link>https://www.harecoded.com/tags/deployment/</link>
+    <link>http://www.harecoded.com/tags/deployment/</link>
     <description>Recent content in Deployment on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Aug 2012 17:49:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>When to setup a remote development environment over SFTP (working copy)</title>
-      <link>https://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</link>
+      <link>http://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</link>
       <pubDate>Wed, 08 Aug 2012 17:49:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</guid>
+      <guid>http://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</guid>
       <description>When a programmer has a local copy of the code and an environment fully functional where the web can be tested before going live, we usually call it a&amp;nbsp;working copy.  The action of moving/copying/putting this work in the final live server (a.k.a production server/environment) is called the&amp;nbsp;deploy&amp;nbsp;action.  There are many ways of having a working copy up and running. We, the key stroker maniacs, use to work more or less with one of the following working copy configurations:   No working copy.</description>
     </item>
     

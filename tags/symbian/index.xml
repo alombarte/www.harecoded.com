@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Symbian on Harecoded</title>
-    <link>https://www.harecoded.com/tags/symbian/</link>
+    <link>http://www.harecoded.com/tags/symbian/</link>
     <description>Recent content in Symbian on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Jan 2009 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/symbian/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/symbian/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>El todo o nada para Palm: presentación de Nova en el CES de 2009</title>
-      <link>https://www.harecoded.com/o-nada-palm-presentacion-nova-ces-2009-183065/</link>
+      <link>http://www.harecoded.com/o-nada-palm-presentacion-nova-ces-2009-183065/</link>
       <pubDate>Wed, 07 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/o-nada-palm-presentacion-nova-ces-2009-183065/</guid>
+      <guid>http://www.harecoded.com/o-nada-palm-presentacion-nova-ces-2009-183065/</guid>
       <description>De todos es conocido que Palm, la inventora del concepto pda que por tanto tiempo domin&amp;oacute; el nuevo mercado que tan bien supo crear, atraviesa por una situaci&amp;oacute;n muy, muy dif&amp;iacute;cil despu&amp;eacute;s de varios a&amp;ntilde;os de ir a la deriva. Tras un sistema operativo excelente pero inestable y vetusto (PalmOS) que no ha sabido renovar en 5 a&amp;ntilde;os, una l&amp;iacute;nea de smartphones Treo legendaria pero que ya no puede con la competencia y fiascos como el Foleo, Palm lleva dos temporadas sobreviviendo a base de sacar el en&amp;eacute;simo smartphone Treo con Windows Mobile, inferior a los dem&amp;aacute;s en dise&amp;ntilde;o, tama&amp;ntilde;o y prestaciones.</description>
     </item>
     
     <item>
       <title>Como conectarse a internet con un móvil symbian y Ubuntu</title>
-      <link>https://www.harecoded.com/conectarse-internet-movil-symbian-ubuntu-96326/</link>
+      <link>http://www.harecoded.com/conectarse-internet-movil-symbian-ubuntu-96326/</link>
       <pubDate>Sat, 16 Dec 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/conectarse-internet-movil-symbian-ubuntu-96326/</guid>
+      <guid>http://www.harecoded.com/conectarse-internet-movil-symbian-ubuntu-96326/</guid>
       <description>En un art&amp;iacute;culo anterior habl&amp;aacute;bamos sobre c&amp;oacute;mo conectarse a internet con un m&amp;oacute;bil nokia 3G y macintosh. Esta vez, nos conectaremos desde un linux (Ubuntu 6.10).
 Primero de todo el m&amp;oacute;bil tiene que estar bien configurado para hacer de m&amp;oacute;dem. Estos pasos son los mismos que ya hemos explicado anteriormente, en cuanto a Linux, para no andar instalando m&amp;aacute;s software del que viene por defecto usaremos el programa wvdial.
 Manos a la obra.</description>
@@ -33,10 +33,10 @@ Manos a la obra.</description>
     
     <item>
       <title>Cómo conectarse a Internet con un móvil symbian vodafone y OS X</title>
-      <link>https://www.harecoded.com/conectarse-internet-movil-symbian-vodafone-os-x-96323/</link>
+      <link>http://www.harecoded.com/conectarse-internet-movil-symbian-vodafone-os-x-96323/</link>
       <pubDate>Thu, 19 Oct 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/conectarse-internet-movil-symbian-vodafone-os-x-96323/</guid>
+      <guid>http://www.harecoded.com/conectarse-internet-movil-symbian-vodafone-os-x-96323/</guid>
       <description>Si te quieres conectar a internet utilizando tu m&amp;oacute;vil Vodafone via blueetooth (tambi&amp;eacute;n es posible hacerlo v&amp;iacute;a infrarrojos, aunque es m&amp;aacute;s lento que el caballo del malo) aqu&amp;iacute; van algunas observaciones antes de que te empiezes a tirar de los pelos:
  Asegurate que tu m&amp;oacute;vil tiene acceso a Internet En el menu del m&amp;oacute;vil dirigete a: Herramientas &amp;raquo; Ajustes &amp;raquo; Conexi&amp;oacute;n &amp;raquo; Paquetes de datos &amp;raquo; Punto de acceso. Aqu&amp;iacute; debes tener airtelnet.</description>
     </item>

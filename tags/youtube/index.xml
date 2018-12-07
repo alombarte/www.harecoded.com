@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Youtube on Harecoded</title>
-    <link>https://www.harecoded.com/tags/youtube/</link>
+    <link>http://www.harecoded.com/tags/youtube/</link>
     <description>Recent content in Youtube on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Mar 2010 21:04:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pasar enlaces Youtube a un punto de tiempo específico</title>
-      <link>https://www.harecoded.com/pasar-enlaces-youtube-punto-tiempo-especifico-540779/</link>
+      <link>http://www.harecoded.com/pasar-enlaces-youtube-punto-tiempo-especifico-540779/</link>
       <pubDate>Wed, 24 Mar 2010 21:04:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/pasar-enlaces-youtube-punto-tiempo-especifico-540779/</guid>
+      <guid>http://www.harecoded.com/pasar-enlaces-youtube-punto-tiempo-especifico-540779/</guid>
       <description>Muchas veces pasamos enlaces de Youtube donde la parte interesante no llega hasta cierto punto. Puedes pasar a tus colegas el enlace para que salte directamente a un minuto y segundo que tu quieras.
 Si por ejemplo quieres que un video empieze en el minuto 1 y el segundo 2 tan s&amp;oacute;lo tienes que a&amp;ntilde;adir al final:
 #t=1m02s

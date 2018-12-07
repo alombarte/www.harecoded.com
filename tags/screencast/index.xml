@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Screencast on Harecoded</title>
-    <link>https://www.harecoded.com/tags/screencast/</link>
+    <link>http://www.harecoded.com/tags/screencast/</link>
     <description>Recent content in Screencast on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Jul 2007 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/screencast/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/screencast/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Screencast: Cómo capturar tu escritorio Linux en una película</title>
-      <link>https://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</link>
+      <link>http://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</link>
       <pubDate>Wed, 04 Jul 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</guid>
+      <guid>http://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</guid>
       <description>Si quieres grabar una pel&amp;iacute;cula para ense&amp;ntilde;ar al mundo lo que est&amp;aacute;s haciendo en tu escritorio Linux, necesitas recordMyDesktop, una aplicaci&amp;oacute;n que te permite capturar la sesi&amp;oacute;n en formato video utilizando los formatos abiertos OGG Vorbis y theora. Aunque se puede utilizar desde la l&amp;iacute;nea de comandos tambi&amp;eacute;n est&amp;aacute;n disponibles dos versi&amp;oacute;nes gr&amp;aacute;ficas (GTK y PyQT).
 
 Si utilizas la versi&amp;oacute;n 7.04 de Ubuntu (Fesity) puedes instalarlo usando el comando:</description>

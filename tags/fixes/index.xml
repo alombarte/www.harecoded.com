@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fixes on Harecoded</title>
-    <link>https://www.harecoded.com/tags/fixes/</link>
+    <link>http://www.harecoded.com/tags/fixes/</link>
     <description>Recent content in Fixes on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Oct 2007 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/fixes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/fixes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Upgrade to Ubuntu Gutsy not so smooth and udevd 100% cpu usage</title>
-      <link>https://www.harecoded.com/upgrade-to-ubuntu-gutsy-not-so-smooth-and-udevd-100-cpu-usage-96354/</link>
+      <link>http://www.harecoded.com/upgrade-to-ubuntu-gutsy-not-so-smooth-and-udevd-100-cpu-usage-96354/</link>
       <pubDate>Wed, 24 Oct 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/upgrade-to-ubuntu-gutsy-not-so-smooth-and-udevd-100-cpu-usage-96354/</guid>
+      <guid>http://www.harecoded.com/upgrade-to-ubuntu-gutsy-not-so-smooth-and-udevd-100-cpu-usage-96354/</guid>
       <description>I upgraded my dell computer at work from Ubuntu Feisty to Ubuntu Gutsy, but I have to say that this time the upgrade went far less smoother than previous ones. The process halted the computer at some point in time, I had to start it up again, and in the end I lost all my compiz - beryl configurations (3d desktop, effects), which I have not been able to recover by now.</description>
     </item>
     

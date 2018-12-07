@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scripts on Harecoded</title>
-    <link>https://www.harecoded.com/tags/scripts/</link>
+    <link>http://www.harecoded.com/tags/scripts/</link>
     <description>Recent content in Scripts on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Jan 2012 23:12:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/scripts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/scripts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Convert a CSV to JSON with PHP</title>
-      <link>https://www.harecoded.com/convert-csv-to-json-with-php-1380114/</link>
+      <link>http://www.harecoded.com/convert-csv-to-json-with-php-1380114/</link>
       <pubDate>Tue, 24 Jan 2012 23:12:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/convert-csv-to-json-with-php-1380114/</guid>
+      <guid>http://www.harecoded.com/convert-csv-to-json-with-php-1380114/</guid>
       <description>Imagine a data list dumped in a plain text file (e.g: CSV) and you need to convert it to JSON format. You could use this simple php script to do such task.  It&#39;s the simplest version but from here you can customize it to fit your requeriments.  Usage:  php script_name.php file_to_convert.csv &amp;gt; result.json   The script:  $csv = file_get_contents( $argv[1] );
 $csv = explode(&#34;\n&#34;, trim($csv) );</description>
     </item>
     
     <item>
       <title>Comando `tree` para Mac</title>
-      <link>https://www.harecoded.com/comando-tree-mac-1265483/</link>
+      <link>http://www.harecoded.com/comando-tree-mac-1265483/</link>
       <pubDate>Sat, 27 Aug 2011 16:03:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/comando-tree-mac-1265483/</guid>
+      <guid>http://www.harecoded.com/comando-tree-mac-1265483/</guid>
       <description>Existe una utilidad llamada &#34;tree&#34; en Windows y Linux que sirve para ver un listado de directorio en un formato ASCII un poco más agradable a la vista. Si no quieres bajarte los MacPorts para esta pequeña utilidad lo más fácil es crear un script de una línea y enlazarlo en /bin para poder llamarlo directamente.  El comando en cuestión es este:  find . -print | sed -e &#39;s;[^/]*/;|--;g;s;--|; |;g&#39;   Ahora, para utilizarlo a troche y moche basta con pegar su contenido en un fichero en cualquier ubicación.</description>
     </item>
     
     <item>
       <title>Get the absolute path in a bash script. Linux and BSD/Mac</title>
-      <link>https://www.harecoded.com/get-the-absolute-path-in-bash-script-linux-and-bsdmac-933017/</link>
+      <link>http://www.harecoded.com/get-the-absolute-path-in-bash-script-linux-and-bsdmac-933017/</link>
       <pubDate>Sat, 16 Oct 2010 22:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/get-the-absolute-path-in-bash-script-linux-and-bsdmac-933017/</guid>
+      <guid>http://www.harecoded.com/get-the-absolute-path-in-bash-script-linux-and-bsdmac-933017/</guid>
       <description>&amp;iquest;Have you ever needed to get the absolute path to a script in a bash script? Here I explain how to set in a variable the current absolute path to the executed script and to its folder as well.
 When it comes to development I work under Mac, but when I publish my work I do it usually under Linux. It happens sometimes to me that I create bash scripts that don&#39;t work in one or the other system.</description>
     </item>
     
     <item>
       <title>Overburning script for Mac OS X, Record large films in Mac</title>
-      <link>https://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</link>
+      <link>http://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</link>
       <pubDate>Sat, 08 Sep 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</guid>
+      <guid>http://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</guid>
       <description>If you use the Finder burning tool to create your CDs, or an application that doesn&#39;t support overburning (surpass a little bit the CD or DVD maximum size) I am sure that some time you got anrgy.
 Sometimes are films, sometimes it&#39;s just one more song in the CD library you are creating... The thing is that you have 703MB and you cannot burn a 700MB CD. It won&#39;t happen again!</description>
     </item>
     
     <item>
       <title>Basic and simple iptables configurations for home users</title>
-      <link>https://www.harecoded.com/basic-and-simple-iptables-configurations-for-home-users-96337/</link>
+      <link>http://www.harecoded.com/basic-and-simple-iptables-configurations-for-home-users-96337/</link>
       <pubDate>Tue, 12 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/basic-and-simple-iptables-configurations-for-home-users-96337/</guid>
+      <guid>http://www.harecoded.com/basic-and-simple-iptables-configurations-for-home-users-96337/</guid>
       <description>OpenBSD has been always my prefered distribution when I have to install a firewall based on a *NIX machine. The PF rules are what I am used to see. But last year I had to write several configurations for a debian machine using iptables which I am not really used to. Since I tend to forget these things, I paste here a basic configuration, if you want to use it, paste this in your desired starting script.</description>
     </item>
     
     <item>
       <title>Como conectarse a internet con un móvil symbian y Ubuntu</title>
-      <link>https://www.harecoded.com/conectarse-internet-movil-symbian-ubuntu-96326/</link>
+      <link>http://www.harecoded.com/conectarse-internet-movil-symbian-ubuntu-96326/</link>
       <pubDate>Sat, 16 Dec 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/conectarse-internet-movil-symbian-ubuntu-96326/</guid>
+      <guid>http://www.harecoded.com/conectarse-internet-movil-symbian-ubuntu-96326/</guid>
       <description>En un art&amp;iacute;culo anterior habl&amp;aacute;bamos sobre c&amp;oacute;mo conectarse a internet con un m&amp;oacute;bil nokia 3G y macintosh. Esta vez, nos conectaremos desde un linux (Ubuntu 6.10).
 Primero de todo el m&amp;oacute;bil tiene que estar bien configurado para hacer de m&amp;oacute;dem. Estos pasos son los mismos que ya hemos explicado anteriormente, en cuanto a Linux, para no andar instalando m&amp;aacute;s software del que viene por defecto usaremos el programa wvdial.
 Manos a la obra.</description>
@@ -72,10 +72,10 @@ Manos a la obra.</description>
     
     <item>
       <title>Script for compressing files with gzip within the terminal with date</title>
-      <link>https://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</link>
+      <link>http://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</link>
       <pubDate>Wed, 14 Sep 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</guid>
+      <guid>http://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</guid>
       <description>This is a simple bash script to compress in tar.gz (gzip) format a file or folder appending date to file name.
 Save this file as gzip.sh and give it execution permissions. From terminal i could be: chmod 755 gzip.sh
 This script does the following:

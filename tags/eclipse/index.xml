@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eclipse on Harecoded</title>
-    <link>https://www.harecoded.com/tags/eclipse/</link>
+    <link>http://www.harecoded.com/tags/eclipse/</link>
     <description>Recent content in Eclipse on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Dec 2008 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.harecoded.com/tags/eclipse/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.harecoded.com/tags/eclipse/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Incluir programas externos en Eclipse, Dreamweaver, VIM o Notepad&#43;&#43;</title>
-      <link>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
+      <link>http://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
       <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
+      <guid>http://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
       <description>Es muy &amp;uacute;til incluir otros programas o macros propias dentro de los editores que utilizamos cada d&amp;iacute;a para desarrollar. A veces necesitamos validar nuestro c&amp;oacute;digo con otro programa, ya sea lanz&amp;aacute;ndolo en un navegador determinado, pas&amp;aacute;ndolo por un script propio, etc...
 En mi caso particular tengo un conjunto de scripts que verifican que el c&amp;oacute;digo sigue unas determinadas reglas de formato, de este forma el c&amp;oacute;digo siempre sigue unos determinados patrones.</description>
     </item>
     
     <item>
       <title>Cómo mover un proyecto en Eclipse</title>
-      <link>https://www.harecoded.com/mover-proyecto-eclipse-114092/</link>
+      <link>http://www.harecoded.com/mover-proyecto-eclipse-114092/</link>
       <pubDate>Wed, 30 Jul 2008 10:53:03 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/mover-proyecto-eclipse-114092/</guid>
+      <guid>http://www.harecoded.com/mover-proyecto-eclipse-114092/</guid>
       <description>A veces necesitamos mover un proyecto de una unidad a otra, o de un&amp;nbsp;volumen&amp;nbsp;a otro, ya sea que estamos en Windows, Linux o Mac. Tenemos configuradas&amp;nbsp;much&amp;iacute;simas opciones, como los workspaces, las carpetas ignoradas, librer&amp;iacute;as externas, codificaci&amp;oacute;n, etc, etc... y no queremos pasar 2 horas m&amp;aacute;s redefiniendo. As&amp;iacute; que deja de hacer la danza del fuego y bailar descalzo sobre las brasas, no es dif&amp;iacute;cil si tienes unas pocas cosas en cuenta.</description>
     </item>
     
     <item>
       <title>Browsing MySQL databases inside Eclipse without having a local mysql server or client</title>
-      <link>https://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</link>
+      <link>http://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</link>
       <pubDate>Mon, 11 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</guid>
+      <guid>http://www.harecoded.com/browsing-mysql-databases-inside-eclipse-without-having-local-mysql-server-or-client-96333/</guid>
       <description>EclipseSQL is an aid to people programming with databases. Allows to make queries, browse tables, change structures and all the common operations performed in databases. This is how it looks like:
 
 The application can be downloaded as a standalone (screenshot) although since I am using eclipse to develop PHP (PDT plugin) and Java code, what I find more interesting is the plugin version. By installing the plugin another &#34;View&#34; called SQL is available, where you can browse the databases.</description>
