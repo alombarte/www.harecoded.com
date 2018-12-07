@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Openoffice on Harecoded</title>
-    <link>http://www.harecoded.com/tags/openoffice/</link>
+    <link>https://www.harecoded.com/tags/openoffice/</link>
     <description>Recent content in Openoffice on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Jul 2006 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/openoffice/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/openoffice/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to disable the opening of XTerm when you start X11 on OS X</title>
-      <link>http://www.harecoded.com/how-to-disable-the-opening-xterm-when-you-start-x11-on-os-x-96321/</link>
+      <link>https://www.harecoded.com/how-to-disable-the-opening-xterm-when-you-start-x11-on-os-x-96321/</link>
       <pubDate>Tue, 04 Jul 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-disable-the-opening-xterm-when-you-start-x11-on-os-x-96321/</guid>
+      <guid>https://www.harecoded.com/how-to-disable-the-opening-xterm-when-you-start-x11-on-os-x-96321/</guid>
       <description>Some applications like OpenOffice II, in OS X, run under X11 platform. Due to this, when you open this type of applications the X11 environment starts, opening by default XTerm terminal. To avoid this behaviour you have to edit, by hand, the init file of X11. This file is placed under
 /etc/X11/xinit/xinitrc and the only thing you have to do is to comment the line where it starts XTerm, that is#xterm</description>
     </item>

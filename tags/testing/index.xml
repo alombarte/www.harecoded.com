@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testing on Harecoded</title>
-    <link>http://www.harecoded.com/tags/testing/</link>
+    <link>https://www.harecoded.com/tags/testing/</link>
     <description>Recent content in Testing on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Nov 2007 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Linux web development. Test web sites in Internet Explorer inside Linux</title>
-      <link>http://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</link>
+      <link>https://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</link>
       <pubDate>Mon, 19 Nov 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</guid>
+      <guid>https://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</guid>
       <description>IE: We hate it, but our customers don&#39;t know anything else... So, we must test how Internet Explorer renders our websites. It&#39;s a bit unpractical to boot from another partition, or change your machine for testing. There are a couple of useful practices:
  Install a Virtual Machine for Linux, such as Virtualbox with a windows XP in it Install IE5, IE5.5 or IE6 as a linux standalone application with IEs4Linux  I have a Windows XP with 128MB RAM for Internet Explorer 7 testing inside my VirtualBox for linux.</description>
     </item>

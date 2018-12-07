@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Harecoded</title>
-    <link>http://www.harecoded.com/tags/windows/</link>
+    <link>https://www.harecoded.com/tags/windows/</link>
     <description>Recent content in Windows on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Sep 2013 17:07:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Force kill of processes in Windows</title>
-      <link>http://www.harecoded.com/force-kill-processes-in-windows-2291505/</link>
+      <link>https://www.harecoded.com/force-kill-processes-in-windows-2291505/</link>
       <pubDate>Mon, 16 Sep 2013 17:07:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/force-kill-processes-in-windows-2291505/</guid>
+      <guid>https://www.harecoded.com/force-kill-processes-in-windows-2291505/</guid>
       <description>  Sometimes Windows Tasks Manager is not able to kill an in-memory process. We try to close it several times with no luck :(  For these frustration moments we can make use of a console command named&amp;nbsp;TaskKill  With TaskKill the pain ends simply with:   taskkill /IM filename.exe /F    More info about taskkill:&amp;nbsp;http://technet.microsoft.com/en-us/library/cc725602.aspx </description>
     </item>
     
     <item>
       <title>Putty keep-alive session (mantener activa la sesión)</title>
-      <link>http://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</link>
+      <link>https://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</link>
       <pubDate>Fri, 03 Aug 2012 10:11:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</guid>
+      <guid>https://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</guid>
       <description>Cuando utilizamos putty como cliente ssh muchas veces nos encontramos que, tras un tiempo de inactividad, la sesión se cierra.  Putty cuenta con una opción que nos permite envíar paquestes nulos, de forma automática, cada periodo definido de tiempo. De esa manera, putty, mantendrá la sesión activa.  Antes de activar esta opción hay que tener en cuenta que, el sistema de cancelación automática de una conexión no es más que una medida de seguridad por lo que, en caso de conectarnos a sistemas &#34;</description>
     </item>
     
     <item>
       <title>¿Funciona el Office en Mac?</title>
-      <link>http://www.harecoded.com/funciona-office-macr-1890097/</link>
+      <link>https://www.harecoded.com/funciona-office-macr-1890097/</link>
       <pubDate>Mon, 07 May 2012 16:05:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/funciona-office-macr-1890097/</guid>
+      <guid>https://www.harecoded.com/funciona-office-macr-1890097/</guid>
       <description>Esa pregunta me resulta, realmente, odiosa. Es una de las típicas preguntas del usuario de PC que piensa migrar a Mac pero está preocupado por las compatibilidades.  Si la pregunta fuera acerca de cualquier otro software no me molestaría tanto pero... precisamente ese... permite&amp;nbsp; que me justifique:  Estaremos de acuerdo en que, Microsoft Office, es uno de los mejores productos de los que haya lanzado Microsoft. Su calidad se ha ido manteniendo actualización tras actualización desde 1989.</description>
     </item>
     
     <item>
       <title>Best distraction-free writing programs</title>
-      <link>http://www.harecoded.com/best-distraction-free-writing-programs-943854/</link>
+      <link>https://www.harecoded.com/best-distraction-free-writing-programs-943854/</link>
       <pubDate>Wed, 20 Oct 2010 20:16:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/best-distraction-free-writing-programs-943854/</guid>
+      <guid>https://www.harecoded.com/best-distraction-free-writing-programs-943854/</guid>
       <description>I am not a writer, but as many other mortals a lot of times I need to write long documents or put my ideas alltogether. For anyone who works with a computer and needs to write text in a non-distracting environment these tools will be very useful.
 These programs usually are full-screen and only let you see the text you are typing, and usually plain text (without any formats). It might sound simple or even ridiculous, but I am more productive when I stop receiving notifications and being tempted of clicking on that little red number showing unread email or any other procastinators.</description>
     </item>
     
     <item>
       <title>Evitar que se abra iTunes al conectar el iPhone o Ipod</title>
-      <link>http://www.harecoded.com/evitar-se-abra-itunes-al-conectar-iphone-o-ipod-270774/</link>
+      <link>https://www.harecoded.com/evitar-se-abra-itunes-al-conectar-iphone-o-ipod-270774/</link>
       <pubDate>Wed, 03 Jun 2009 07:19:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/evitar-se-abra-itunes-al-conectar-iphone-o-ipod-270774/</guid>
+      <guid>https://www.harecoded.com/evitar-se-abra-itunes-al-conectar-iphone-o-ipod-270774/</guid>
       <description>Esto es una chorrada, pero si sincronizas tu dispositivo con m&amp;aacute;s de un ordernador y te interesa que al enchufarlo no se abra el iTunes hay que seguir estos sencillos pasos (esto vale para Windows y Mac):
  Enchufar el iPhone (o iPod) al ordenador En el iTunes, en el men&amp;uacute; de la derecha, hacer click en el dispositivo Quitar la marca de la casilla &#34;Sincronizar autom&amp;aacute;ticamente al conectar este iPhone&#34;</description>
     </item>
     
     <item>
       <title>Spotify, escuchar música online. Competencia de Last.fm</title>
-      <link>http://www.harecoded.com/spotify-escuchar-musica-online-competencia-lastfm-193785/</link>
+      <link>https://www.harecoded.com/spotify-escuchar-musica-online-competencia-lastfm-193785/</link>
       <pubDate>Tue, 27 Jan 2009 15:13:48 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/spotify-escuchar-musica-online-competencia-lastfm-193785/</guid>
+      <guid>https://www.harecoded.com/spotify-escuchar-musica-online-competencia-lastfm-193785/</guid>
       <description>Llevo unos d&amp;iacute;as probando Spotify, gracias a una cuenta beta gratuita que me di&amp;oacute; mi compa&amp;ntilde;ero de trabajo Rufino . Para quienes no hayan o&amp;iacute;do hablar de Spotify es un reproductor de m&amp;uacute;sica en streaming (es decir, la m&amp;uacute;sica no est&amp;aacute; en tu ordenador, sino en sus servidores). Hay que bajarse el programa, que de momento est&amp;aacute; disponible s&amp;oacute;lo para Mac y Windows (Linux a trav&amp;eacute;s de Wine).
 La aplicaci&amp;oacute;n promete mucho (no he probado la de pago), pero lo que se se puede hacer con la versi&amp;oacute;n gratuita incita a usar el programa en su forma completa.</description>
     </item>
     
     <item>
       <title>Incluir programas externos en Eclipse, Dreamweaver, VIM o Notepad&#43;&#43;</title>
-      <link>http://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
+      <link>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
       <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
+      <guid>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
       <description>Es muy &amp;uacute;til incluir otros programas o macros propias dentro de los editores que utilizamos cada d&amp;iacute;a para desarrollar. A veces necesitamos validar nuestro c&amp;oacute;digo con otro programa, ya sea lanz&amp;aacute;ndolo en un navegador determinado, pas&amp;aacute;ndolo por un script propio, etc...
 En mi caso particular tengo un conjunto de scripts que verifican que el c&amp;oacute;digo sigue unas determinadas reglas de formato, de este forma el c&amp;oacute;digo siempre sigue unos determinados patrones.</description>
     </item>
     
     <item>
       <title>How to convert MP3 to AAC, or how to set MP3 as ringtone in your mobile phone</title>
-      <link>http://www.harecoded.com/how-to-convert-mp3-to-aac-or-how-to-set-mp3-as-ringtone-in-your-mobile-phone-96342/</link>
+      <link>https://www.harecoded.com/how-to-convert-mp3-to-aac-or-how-to-set-mp3-as-ringtone-in-your-mobile-phone-96342/</link>
       <pubDate>Mon, 25 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-convert-mp3-to-aac-or-how-to-set-mp3-as-ringtone-in-your-mobile-phone-96342/</guid>
+      <guid>https://www.harecoded.com/how-to-convert-mp3-to-aac-or-how-to-set-mp3-as-ringtone-in-your-mobile-phone-96342/</guid>
       <description>As if I were a teenager, yesterday I found an mp3 song that I hadn&#39;t heard in maybe ten years and a smile came to my face when I imagined that it could be played in my mobile when I need a loud tone (I am on of those who preffer having it silent all the time)
 So I passed the MP3 directly to the mobile but it failed, the mobile can play it but can&#39;t be set as ringtone.</description>
     </item>
     
     <item>
       <title>Subtle differences between Safari for Windows and Mac?</title>
-      <link>http://www.harecoded.com/subtle-differences-between-safari-for-windows-and-macr-96343/</link>
+      <link>https://www.harecoded.com/subtle-differences-between-safari-for-windows-and-macr-96343/</link>
       <pubDate>Mon, 25 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/subtle-differences-between-safari-for-windows-and-macr-96343/</guid>
+      <guid>https://www.harecoded.com/subtle-differences-between-safari-for-windows-and-macr-96343/</guid>
       <description>I have tested Safari for Windows during ONE minute, but I think I have seen it all....
 While I was testing a layout in progress for a new site (appareantly was working in all browsers) I found a subtle difference.... Nothing to worry about, though (sorry for the small image):
 
@@ -102,19 +102,19 @@ Shame on you Apple!</description>
     
     <item>
       <title>Quicksilver substitute for windows</title>
-      <link>http://www.harecoded.com/quicksilver-substitute-for-windows-96329/</link>
+      <link>https://www.harecoded.com/quicksilver-substitute-for-windows-96329/</link>
       <pubDate>Fri, 27 Apr 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/quicksilver-substitute-for-windows-96329/</guid>
+      <guid>https://www.harecoded.com/quicksilver-substitute-for-windows-96329/</guid>
       <description>Some time ago I published an article about an application similar to quicksilver in Linux. Now, after changing my job to another company and being forced to use Windows, the first thing I did was looking for a launcher to quickly open documents and applications. The result was a skinnable program with a simple interface called Launchy . It&#39;s free. With that app, I open a new category in this blog called Windows: I would never believed that i were going to do this :| Enjoy Launchy.</description>
     </item>
     
     <item>
       <title>A free good cross-platform CSS editor</title>
-      <link>http://www.harecoded.com/free-good-cross-platform-css-editor-96327/</link>
+      <link>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</link>
       <pubDate>Fri, 02 Feb 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/free-good-cross-platform-css-editor-96327/</guid>
+      <guid>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</guid>
       <description>There are many applications where you can edit your Cascading Style Sheets (CSS) in Linux, Windows or Mac, but specifically in my Ubuntu I haven&#39;t found an application like CSSED (GTK). It supports auto-completion, really useful wizards, color pickers, preview and a long etcetera. You can go directly to the download page and see specific instructions for Gentoo, BSD, Mac OS X (via Fink), Windows ... or if you are an ubuntu or debian user just type in a terminal (or through the synaptic manager):</description>
     </item>
     

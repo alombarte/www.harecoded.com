@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apache on Harecoded</title>
-    <link>http://www.harecoded.com/tags/apache/</link>
+    <link>https://www.harecoded.com/tags/apache/</link>
     <description>Recent content in Apache on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Jun 2013 07:53:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/apache/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/apache/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Finding abusers. List of most frequent IPs in Apache log</title>
-      <link>http://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</link>
+      <link>https://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</link>
       <pubDate>Tue, 25 Jun 2013 07:53:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</guid>
+      <guid>https://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</guid>
       <description>Internet is full of malware and people with leisure time who will hammer your server with no good intentions, most of them will try to access well-known URLs looking for exploits of software like Wordpress (/wp-admin.php, /edit, etc...).  If you monitor for a while your access_log it&#39;s easy to find out unwanted behaviour. If you want to get a list of the most frequent IPs in your Apache log&amp;nbsp;the following command will get a list of those IPs sorted by number of requests:  [root@www3 ~]# cat /var/log/httpd/access_log_20130620 | awk &#39;{print $1}&#39; | sort | uniq -c | sort -rn | head 912545 95.</description>
     </item>
     
     <item>
       <title>Apache RewriteCond -f check file exists solution</title>
-      <link>http://www.harecoded.com/apache-rewritecond-f-check-file-exists-solution-2246468/</link>
+      <link>https://www.harecoded.com/apache-rewritecond-f-check-file-exists-solution-2246468/</link>
       <pubDate>Sat, 02 Feb 2013 19:44:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/apache-rewritecond-f-check-file-exists-solution-2246468/</guid>
+      <guid>https://www.harecoded.com/apache-rewritecond-f-check-file-exists-solution-2246468/</guid>
       <description>If your Apache virtualhost or htaccess configuration uses a rewrite condition (RewriteCond) in order to allow nice URLs, you should be aware that since Apache 2.2 the &#34;check if file or exists&#34; works a little bit different. Any of the following examples might have stopped working for you:  RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILENAME} !-s   The solution to correct it is very simple, but I couldn&#39;t see it documented.</description>
     </item>
     
     <item>
       <title>Contar veces que se pide una URL (y las que no es esa URL)</title>
-      <link>http://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</link>
+      <link>https://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</link>
       <pubDate>Tue, 14 Feb 2012 20:14:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</guid>
+      <guid>https://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</guid>
       <description>Hay veces que queremos saber cuántas veces se ha pedido una URL en nuestro servidor y Google Analytics o otro servicio de monitorización basado en Javascript no está disponible. Entonces siempre podemos recurrir a la fuente original de datos, los logs de acceso (esos gran incomprendidos y frecuentemente abandonados) de Apache, Nginx o donde sea.  Si por ejemplo queremos saber cuántas veces se ha pedido la página /abc.html en el mes de febrero (2012_02) y tenemos los logs segmentados por día, será tan sencillo como lanzar un:  grep -c &#34;</description>
     </item>
     
     <item>
       <title>Ocultar los ficheros .svn de la web</title>
-      <link>http://www.harecoded.com/ocultar-ficheros-svn-web-1158447/</link>
+      <link>https://www.harecoded.com/ocultar-ficheros-svn-web-1158447/</link>
       <pubDate>Sun, 23 Jan 2011 22:44:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/ocultar-ficheros-svn-web-1158447/</guid>
+      <guid>https://www.harecoded.com/ocultar-ficheros-svn-web-1158447/</guid>
       <description>Si utilizas subversion para trabajar y tienes un checkout en tus carpetas p&amp;uacute;blicas de la web es peligroso que la gente pueda navegar a trav&amp;eacute;s de tu directorio oculto .svn, ya que puede contener informaci&amp;oacute;n que comprometer&amp;aacute; la seguridad de tu site. Prueba a acceder a http://tuservidor.com/.svn para ver si es tu caso.
 Para denegar la visita de los ojos curiosos (error 403) y que nadie pueda entrar, en el apartado virtualhost de tu Apache incluye esto:</description>
     </item>

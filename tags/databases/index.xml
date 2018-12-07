@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Databases on Harecoded</title>
-    <link>http://www.harecoded.com/tags/databases/</link>
+    <link>https://www.harecoded.com/tags/databases/</link>
     <description>Recent content in Databases on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Nov 2012 12:25:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/databases/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/databases/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Copy/clone/duplicate a mysql database script</title>
-      <link>http://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</link>
+      <link>https://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</link>
       <pubDate>Thu, 08 Nov 2012 12:25:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</guid>
+      <guid>https://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</guid>
       <description>This is a simple script that duplicates your entire database. There are many ways in which you can take advantage of having an exact replica of your production database.  In short, the behaviour of the script is the following (in this order, all piped):  Delete the COPY database if possible to start with a fresh one  Create the COPY database  Dump the PRODUCTION database  Inject the output of the dump into the COPY database   Any errors during the process will be logged to the file defined as $ERROR.</description>
     </item>
     
     <item>
       <title>Volcado Mysql de municipios y provincias españolas y territorios UE</title>
-      <link>http://www.harecoded.com/volcado-mysql-municipios-provincias-espanolas-territorios-ue-1963492/</link>
+      <link>https://www.harecoded.com/volcado-mysql-municipios-provincias-espanolas-territorios-ue-1963492/</link>
       <pubDate>Sat, 09 Jun 2012 12:41:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/volcado-mysql-municipios-provincias-espanolas-territorios-ue-1963492/</guid>
+      <guid>https://www.harecoded.com/volcado-mysql-municipios-provincias-espanolas-territorios-ue-1963492/</guid>
       <description>Son muchos los proyectos de Internet que necesitan una base de datos donde se muestra a los usuarios listados de provincias y municipios (caso España) o de regiones, departamentos, länder... (caso Europa).  Esta información no suele estar disponible para su consumo rápido ya que hay que ir a las webs de los organismos oficiales, buscar los CSV (cuando funciona) y crear la base de datos.  Así que hoy me he decidido a agrupar estas organizaciones territoriales cogiendo las fuentes de los organismos oficiales&amp;nbsp;para que cualquier persona pueda descargar un volcado sql de muncipios, provincias y comunidades autónomas de España (formato Mysql) y otro volcado mysql de los países de la Unión Europea con sus regiones, departamentos, länder, estados federados o cualesquiera que sea su organización territorial.</description>
     </item>
     
     <item>
       <title>All ISO-639 language codes for MySQL</title>
-      <link>http://www.harecoded.com/all-iso-639-language-codes-for-mysql-329937/</link>
+      <link>https://www.harecoded.com/all-iso-639-language-codes-for-mysql-329937/</link>
       <pubDate>Sat, 05 Sep 2009 18:18:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/all-iso-639-language-codes-for-mysql-329937/</guid>
+      <guid>https://www.harecoded.com/all-iso-639-language-codes-for-mysql-329937/</guid>
       <description>If you ever needed a mysql table with all the languages detailed in the ISO-639 language codes, here it is. I took the list from the registration authority and created the table in Mysql.  There are 21 languages that have alternative codes for bibliographic or terminology purposes. In those cases I took the bibliographic ones. The script contains the 2 and 3 letter ISO-639 language codes, as well as the English and French names of the languages.</description>
     </item>
     
     <item>
       <title>non-RDBM distributed databases, map/reduce, key/value and cloud computing</title>
-      <link>http://www.harecoded.com/non-rdbm-distributed-databases-mapreduce-keyvalue-and-cloud-computing-227117/</link>
+      <link>https://www.harecoded.com/non-rdbm-distributed-databases-mapreduce-keyvalue-and-cloud-computing-227117/</link>
       <pubDate>Mon, 30 Mar 2009 21:50:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/non-rdbm-distributed-databases-mapreduce-keyvalue-and-cloud-computing-227117/</guid>
+      <guid>https://www.harecoded.com/non-rdbm-distributed-databases-mapreduce-keyvalue-and-cloud-computing-227117/</guid>
       <description>I&#39;ve been playing recently with several distributed databases with the aim of choosing the best solution for my needs. Since there isn&#39;t much documentation on the web with a general overview on the subject, I write here some comments, thoughts and my humble experience. Hope it&#39;s usefull for you, this document is not a comparison of performance, or a &#34;mine is bigger than yours&#34;,&amp;nbsp; just some ideas ;)
 My background</description>
     </item>

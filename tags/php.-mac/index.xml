@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Php. Mac on Harecoded</title>
-    <link>http://www.harecoded.com/tags/php.-mac/</link>
+    <link>https://www.harecoded.com/tags/php.-mac/</link>
     <description>Recent content in Php. Mac on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Oct 2005 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/php.-mac/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/php.-mac/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installing PHP5 on Mac OS X [1 minute]</title>
-      <link>http://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</link>
+      <link>https://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</link>
       <pubDate>Wed, 26 Oct 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</guid>
+      <guid>https://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</guid>
       <description>Autumn is the worth conferences season for us. It seems that every autumn brings the interesting subjects and this November we (Manuel and myself, Albert) are attending at the PHP Conference 2005 held in Frankfurt, Germany. Last year was the Plone Conference 2004.
 Since we are a couple of sick men, when we assist to a software conference we need to take with us a laptop (mac os x) having pre-installed the matter.</description>
     </item>

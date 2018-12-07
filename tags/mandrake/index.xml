@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mandrake on Harecoded</title>
-    <link>http://www.harecoded.com/tags/mandrake/</link>
+    <link>https://www.harecoded.com/tags/mandrake/</link>
     <description>Recent content in Mandrake on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Nov 2005 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/mandrake/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/mandrake/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mandrake: adding RPM repositories from your local disk</title>
-      <link>http://www.harecoded.com/mandrake-adding-rpm-repositories-from-your-local-disk-96299/</link>
+      <link>https://www.harecoded.com/mandrake-adding-rpm-repositories-from-your-local-disk-96299/</link>
       <pubDate>Tue, 15 Nov 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/mandrake-adding-rpm-repositories-from-your-local-disk-96299/</guid>
+      <guid>https://www.harecoded.com/mandrake-adding-rpm-repositories-from-your-local-disk-96299/</guid>
       <description>Adding a local folder to the urpmi database is easily done using the urpmi.addmedia command. If this folder is filled with RPMs that you got from somewhere when you attempt to run urpmi.addmedia, an hdlist.cz file will be searched. If you don&#39;t have this file the addmedia will fail.
 To solve this little problem, open a shell and generate the hdlist.cz:
 # su 

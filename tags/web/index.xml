@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web on Harecoded</title>
-    <link>http://www.harecoded.com/tags/web/</link>
+    <link>https://www.harecoded.com/tags/web/</link>
     <description>Recent content in Web on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Aug 2012 00:10:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to setup a remote development environment over SFTP (working copy)</title>
-      <link>http://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</link>
+      <link>https://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</link>
       <pubDate>Thu, 09 Aug 2012 00:10:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</guid>
+      <guid>https://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</guid>
       <description>This article explains how to setup the server and client to work with a remote working copy.  To properly understand this post you should have read the previous post, When to setup a remote development environment over SFTP (working copy).  To have the enviroment up and running you must setup once the server, and then apply the configuration of the client in every developer machine. But the client side is very simple and requires no installation at all.</description>
     </item>
     
     <item>
       <title>When to setup a remote development environment over SFTP (working copy)</title>
-      <link>http://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</link>
+      <link>https://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</link>
       <pubDate>Wed, 08 Aug 2012 17:49:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</guid>
+      <guid>https://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</guid>
       <description>When a programmer has a local copy of the code and an environment fully functional where the web can be tested before going live, we usually call it a&amp;nbsp;working copy.  The action of moving/copying/putting this work in the final live server (a.k.a production server/environment) is called the&amp;nbsp;deploy&amp;nbsp;action.  There are many ways of having a working copy up and running. We, the key stroker maniacs, use to work more or less with one of the following working copy configurations:   No working copy.</description>
     </item>
     
     <item>
       <title>Musica online gratis y sin anuncios</title>
-      <link>http://www.harecoded.com/musica-online-gratis-anuncios-915374/</link>
+      <link>https://www.harecoded.com/musica-online-gratis-anuncios-915374/</link>
       <pubDate>Sat, 09 Oct 2010 20:39:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/musica-online-gratis-anuncios-915374/</guid>
+      <guid>https://www.harecoded.com/musica-online-gratis-anuncios-915374/</guid>
       <description>Desde hace ya bastantes meses vengo usando Grooveshark. Un servicio de streaming que te permite escuchar la m&amp;uacute;sica que quieras de forma gratuita, que a diferencia de Spotify en su versi&amp;oacute;n gratuita no ponen cortes publicitarios, cosa que se agradece enormemente. Grooveshark solo muestra un banner en un lado del reproductor web, por lo que se puede dejar abierto en segundo plano y seguir con otras cosas.
 
 Hoy he descubierto adem&amp;aacute;s PlayListNow, un servicio que ofrece m&amp;uacute;sica en funci&amp;oacute;n de lo que est&amp;eacute;s haciendo en ese momento.</description>
@@ -42,30 +42,30 @@ Hoy he descubierto adem&amp;aacute;s PlayListNow, un servicio que ofrece m&amp;u
     
     <item>
       <title>Linux web development. Test web sites in Internet Explorer inside Linux</title>
-      <link>http://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</link>
+      <link>https://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</link>
       <pubDate>Mon, 19 Nov 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</guid>
+      <guid>https://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</guid>
       <description>IE: We hate it, but our customers don&#39;t know anything else... So, we must test how Internet Explorer renders our websites. It&#39;s a bit unpractical to boot from another partition, or change your machine for testing. There are a couple of useful practices:
  Install a Virtual Machine for Linux, such as Virtualbox with a windows XP in it Install IE5, IE5.5 or IE6 as a linux standalone application with IEs4Linux  I have a Windows XP with 128MB RAM for Internet Explorer 7 testing inside my VirtualBox for linux.</description>
     </item>
     
     <item>
       <title>XRAY: Bookmarklet para desarrolladores web</title>
-      <link>http://www.harecoded.com/xray-bookmarklet-desarrolladores-web-96349/</link>
+      <link>https://www.harecoded.com/xray-bookmarklet-desarrolladores-web-96349/</link>
       <pubDate>Tue, 07 Aug 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/xray-bookmarklet-desarrolladores-web-96349/</guid>
+      <guid>https://www.harecoded.com/xray-bookmarklet-desarrolladores-web-96349/</guid>
       <description>Hoy he descubierto XRAY, un bookmarklet que funciona para Firefox, Safari, Camino o Mozilla y que permite ver las propiedades de un elemento de la pantalla haciendo click sobre &amp;eacute;l.
 No es para nada comparable a FireBug o el Safari WebKit pero puede resultar igualmente interesante. Por su naturaleza de bookmarklet, no es necesaria ninguna instalaci&amp;oacute;n, s&amp;oacute;lo hace falta arrastar el v&amp;iacute;nculo que ofrecen desde la web a la barra de herramientas del navegador.</description>
     </item>
     
     <item>
       <title>Amazon S3: un servicio bueno, bonito y barato pero nada práctico.</title>
-      <link>http://www.harecoded.com/amazon-s3-servicio-bueno-bonito-barato-nada-practico-96347/</link>
+      <link>https://www.harecoded.com/amazon-s3-servicio-bueno-bonito-barato-nada-practico-96347/</link>
       <pubDate>Thu, 12 Jul 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/amazon-s3-servicio-bueno-bonito-barato-nada-practico-96347/</guid>
+      <guid>https://www.harecoded.com/amazon-s3-servicio-bueno-bonito-barato-nada-practico-96347/</guid>
       <description>Recientemente compr&amp;eacute; (y luego cancel&amp;eacute;) una cuenta de Amazon Simple Storage Service (Amazon S3). Un espacio de almacenamiento virtual, dig&amp;aacute;mosle un disco duro, a un precio muy competitivo.
 Con S3, pagas tan s&amp;oacute;lo lo que usas. En dos conceptos diferentes: por espacio que consumes al mes, y por peticiones que recibe el servidor.
 Para hacernos una r&amp;aacute;pida idea de los precios, si tenemos que almacenar unos 10GB nos costar&amp;iacute;an 1,5$ al mes.</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Postgresql on Harecoded</title>
-    <link>http://www.harecoded.com/tags/postgresql/</link>
+    <link>https://www.harecoded.com/tags/postgresql/</link>
     <description>Recent content in Postgresql on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 Nov 2005 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installing and configuring PostgreSQL server on Mac</title>
-      <link>http://www.harecoded.com/installing-and-configuring-postgresql-server-on-mac-96298/</link>
+      <link>https://www.harecoded.com/installing-and-configuring-postgresql-server-on-mac-96298/</link>
       <pubDate>Fri, 04 Nov 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/installing-and-configuring-postgresql-server-on-mac-96298/</guid>
+      <guid>https://www.harecoded.com/installing-and-configuring-postgresql-server-on-mac-96298/</guid>
       <description>You can use the Fink package system to install postgresql if you are already using Fink (inside a terminal: sudo fink install postgresql and then configure the server).
 OR you can install postgresql, with the clean solution offered by Marc Liyanage.
 I prefer the 2nd option. If you also choose that, follow carefully the installation instructions and you&#39;ll have PgSQL working in minutes.
@@ -25,10 +25,10 @@ If you&#39;d like to have 2 scripts for manually starting and stoping the databa
     
     <item>
       <title>&#39;show tables&#39; equivalent for PostgreSQL</title>
-      <link>http://www.harecoded.com/show-tables-equivalent-for-postgresql-96288/</link>
+      <link>https://www.harecoded.com/show-tables-equivalent-for-postgresql-96288/</link>
       <pubDate>Tue, 20 Sep 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/show-tables-equivalent-for-postgresql-96288/</guid>
+      <guid>https://www.harecoded.com/show-tables-equivalent-for-postgresql-96288/</guid>
       <description>Here is a tip for refreshing the memory:
 select relname from pg_stat_user_tables order by relname;</description>
     </item>

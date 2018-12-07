@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Betas on Harecoded</title>
-    <link>http://www.harecoded.com/tags/betas/</link>
+    <link>https://www.harecoded.com/tags/betas/</link>
     <description>Recent content in Betas on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Nov 2007 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/betas/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/betas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installing Firefox 3 beta on Ubuntu Gutsy, with Firebug!</title>
-      <link>http://www.harecoded.com/installing-firefox-3-beta-on-ubuntu-gutsy-with-firebug-96361/</link>
+      <link>https://www.harecoded.com/installing-firefox-3-beta-on-ubuntu-gutsy-with-firebug-96361/</link>
       <pubDate>Fri, 23 Nov 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/installing-firefox-3-beta-on-ubuntu-gutsy-with-firebug-96361/</guid>
+      <guid>https://www.harecoded.com/installing-firefox-3-beta-on-ubuntu-gutsy-with-firebug-96361/</guid>
       <description>If you want to test the Firefox 3 new features on your Ubuntu Gutsy installation, but don&#39;t want to loose all the Firebug niceties for developing web apps, here are some quick and dirty steps:
  $ sudo apt-get install Firefox-3.0 (upgrades/downgrades to kernel 2.6.20... weird!) &amp;nbsp;Go to the Fireclipse site and download Firebug-1.1.0b10.xpi. This is a modified version from the firebug original, compatible with Firefox 3.&amp;nbsp; Open Firefox 3, install the xpi by drag &amp;amp; drop to the firefox window.</description>
     </item>

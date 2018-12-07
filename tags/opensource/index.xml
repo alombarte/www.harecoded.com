@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Opensource on Harecoded</title>
-    <link>http://www.harecoded.com/tags/opensource/</link>
+    <link>https://www.harecoded.com/tags/opensource/</link>
     <description>Recent content in Opensource on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Nov 2007 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quicksilver goes opensource</title>
-      <link>http://www.harecoded.com/quicksilver-goes-opensource-96357/</link>
+      <link>https://www.harecoded.com/quicksilver-goes-opensource-96357/</link>
       <pubDate>Thu, 08 Nov 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/quicksilver-goes-opensource-96357/</guid>
+      <guid>https://www.harecoded.com/quicksilver-goes-opensource-96357/</guid>
       <description>The excellent launcher (and much more) Quicksilver that Mac users have been using for so long has been opensourced. This is great news, since more developers can join the product and improve it and extend it.
 
 My hope is that someone will make a cross-platform version, or other projects like Launchy or gnome-launch will add more features thanks to quicksilver knowledgebase. The code can be reached via Google Code.</description>

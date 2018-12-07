@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Default on Harecoded</title>
-    <link>http://www.harecoded.com/tags/default/</link>
+    <link>https://www.harecoded.com/tags/default/</link>
     <description>Recent content in Default on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Feb 2008 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/default/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/default/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Gestión de la batería en Macbook, con SmartSleep</title>
-      <link>http://www.harecoded.com/gestion-bateria-macbook-smartsleep-96368/</link>
+      <link>https://www.harecoded.com/gestion-bateria-macbook-smartsleep-96368/</link>
       <pubDate>Thu, 28 Feb 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/gestion-bateria-macbook-smartsleep-96368/</guid>
+      <guid>https://www.harecoded.com/gestion-bateria-macbook-smartsleep-96368/</guid>
       <description>Si quieres ahondar m&amp;aacute;s en el ahorro de energ&amp;iacute;a de tu mac, en vez de de conformarte con las opciones por defecto del sistema, puedes instalar SmartSleep.prefPane. Una utilidad que te permite configurar qu&amp;eacute; debe hacer el ordenador cuando est&amp;aacute; inactivo, pero teniendo en cuenta la bater&amp;iacute;a restante.&amp;nbsp;
 Si por ejemplo a tu port&amp;aacute;til le queda un 20% de bater&amp;iacute;a probablemente querr&amp;aacute;s que el ahorro sea el m&amp;aacute;ximo, mientras que cuando est&amp;aacute; por encima preferimos algo menos de ahorro y no sufrir los continuos apagones.</description>
     </item>
     
     <item>
       <title>Comments closed</title>
-      <link>http://www.harecoded.com/comments-closed-96318/</link>
+      <link>https://www.harecoded.com/comments-closed-96318/</link>
       <pubDate>Fri, 21 Apr 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/comments-closed-96318/</guid>
+      <guid>https://www.harecoded.com/comments-closed-96318/</guid>
       <description>Fed up of deleteing spam, I decided to disable comments for a while. I will open only comments on a few posts.</description>
     </item>
     
     <item>
       <title>Migrated to Wordpress</title>
-      <link>http://www.harecoded.com/migrated-to-wordpress-96287/</link>
+      <link>https://www.harecoded.com/migrated-to-wordpress-96287/</link>
       <pubDate>Mon, 19 Sep 2005 23:19:09 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/migrated-to-wordpress-96287/</guid>
+      <guid>https://www.harecoded.com/migrated-to-wordpress-96287/</guid>
       <description>This site has been moved from Textpattern to Wordpress, the templates system has been completely rewritten. The appearance of the site is nearly the same and minor changes have done.
 The blog has started!</description>
     </item>
     
     <item>
       <title>About us</title>
-      <link>http://www.harecoded.com/about-us-96286/</link>
+      <link>https://www.harecoded.com/about-us-96286/</link>
       <pubDate>Thu, 15 Sep 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/about-us-96286/</guid>
+      <guid>https://www.harecoded.com/about-us-96286/</guid>
       <description>Manel Aguilar and Albert Lombarte&amp;nbsp;met back in the studying days. Although they took different paths in life after computer studies they have found themselves sharing companies a couple of times. They work now as managers but despite not being very much in contact they keep sharing different web projects, and of course, same interest in gadgetry, apple stuff, spanglish perfectioning, beer consuming, just to mention some of them. They live in Barcelona, Spain where they enjoy an excellent climate with their wives and kids.</description>
     </item>
     

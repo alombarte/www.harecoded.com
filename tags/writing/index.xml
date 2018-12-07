@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Writing on Harecoded</title>
-    <link>http://www.harecoded.com/tags/writing/</link>
+    <link>https://www.harecoded.com/tags/writing/</link>
     <description>Recent content in Writing on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Oct 2010 20:16:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/writing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Best distraction-free writing programs</title>
-      <link>http://www.harecoded.com/best-distraction-free-writing-programs-943854/</link>
+      <link>https://www.harecoded.com/best-distraction-free-writing-programs-943854/</link>
       <pubDate>Wed, 20 Oct 2010 20:16:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/best-distraction-free-writing-programs-943854/</guid>
+      <guid>https://www.harecoded.com/best-distraction-free-writing-programs-943854/</guid>
       <description>I am not a writer, but as many other mortals a lot of times I need to write long documents or put my ideas alltogether. For anyone who works with a computer and needs to write text in a non-distracting environment these tools will be very useful.
 These programs usually are full-screen and only let you see the text you are typing, and usually plain text (without any formats). It might sound simple or even ridiculous, but I am more productive when I stop receiving notifications and being tempted of clicking on that little red number showing unread email or any other procastinators.</description>
     </item>

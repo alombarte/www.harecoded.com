@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Memcache on Harecoded</title>
-    <link>http://www.harecoded.com/tags/memcache/</link>
+    <link>https://www.harecoded.com/tags/memcache/</link>
     <description>Recent content in Memcache on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Feb 2010 20:23:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/memcache/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/memcache/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Instalar Memcache en Mac</title>
-      <link>http://www.harecoded.com/instalar-memcache-mac-517262/</link>
+      <link>https://www.harecoded.com/instalar-memcache-mac-517262/</link>
       <pubDate>Fri, 12 Feb 2010 20:23:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/instalar-memcache-mac-517262/</guid>
+      <guid>https://www.harecoded.com/instalar-memcache-mac-517262/</guid>
       <description>Instalar el demonio de memcached en Mac no es tan complicado como parece siguiendo estos sencillos pasos.
 Primero de todo aseg&amp;uacute;rate que tienes todos los requisitos
 Requisitos para instalar Memcached  Un compilador GCC. No te asustes! Viene instalando las XTools de Mac si es que ya no las tienes Descargarte el script de instalaci&amp;oacute;n desde topfunky  Instalaci&amp;oacute;n del servidor Memcached Abre una terminal i navega hasta la ruta donde te has descargado el script.</description>

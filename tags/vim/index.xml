@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on Harecoded</title>
-    <link>http://www.harecoded.com/tags/vim/</link>
+    <link>https://www.harecoded.com/tags/vim/</link>
     <description>Recent content in Vim on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Oct 2011 07:33:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Synchronize your VIM configuration across different machines</title>
-      <link>http://www.harecoded.com/synchronize-your-vim-configuration-across-different-machines-1295014/</link>
+      <link>https://www.harecoded.com/synchronize-your-vim-configuration-across-different-machines-1295014/</link>
       <pubDate>Thu, 13 Oct 2011 07:33:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/synchronize-your-vim-configuration-across-different-machines-1295014/</guid>
+      <guid>https://www.harecoded.com/synchronize-your-vim-configuration-across-different-machines-1295014/</guid>
       <description>If you are a Vim user, chances are that you also work with several machines, and you spread the same configuration over them.
 I do share my vim configurations between Windows, Mac and Linux and store the same configuration for all the environments in my Dropbox folder. The idea is to have a central place where I can manage all my Vim installations, and then link it. Easy as that.</description>
     </item>
     
     <item>
       <title>Incluir programas externos en Eclipse, Dreamweaver, VIM o Notepad&#43;&#43;</title>
-      <link>http://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
+      <link>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
       <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
+      <guid>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
       <description>Es muy &amp;uacute;til incluir otros programas o macros propias dentro de los editores que utilizamos cada d&amp;iacute;a para desarrollar. A veces necesitamos validar nuestro c&amp;oacute;digo con otro programa, ya sea lanz&amp;aacute;ndolo en un navegador determinado, pas&amp;aacute;ndolo por un script propio, etc...
 En mi caso particular tengo un conjunto de scripts que verifican que el c&amp;oacute;digo sigue unas determinadas reglas de formato, de este forma el c&amp;oacute;digo siempre sigue unos determinados patrones.</description>
     </item>
     
     <item>
       <title>Grabar y ejecutar macros en Vim</title>
-      <link>http://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</link>
+      <link>https://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</link>
       <pubDate>Tue, 09 Sep 2008 12:08:17 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</guid>
+      <guid>https://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</guid>
       <description>Quiz&amp;aacute; VIM sea un editor para freaks, no lo vamos a discutir, pero la verdad es que bien conocido nos puede ahorrar mucho tiempo en hacer las tareas diarias. En este post, explicamos r&amp;aacute;pidamente como grabar una macro y reproducirla N veces.
 Si por ejemplo queremos eliminar de un listado de ficheros de un proyecto las im&amp;aacute;genes, podemos hacer algo como:
  q (Con esto entramos en modo de grabar)</description>

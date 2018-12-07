@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac Php on Harecoded</title>
-    <link>http://www.harecoded.com/tags/mac-php/</link>
+    <link>https://www.harecoded.com/tags/mac-php/</link>
     <description>Recent content in Mac Php on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Apr 2010 21:41:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/mac-php/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/mac-php/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Instalar PHP 5.3 en MAMP</title>
-      <link>http://www.harecoded.com/instalar-php-53-mamp-559108/</link>
+      <link>https://www.harecoded.com/instalar-php-53-mamp-559108/</link>
       <pubDate>Wed, 14 Apr 2010 21:41:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/instalar-php-53-mamp-559108/</guid>
+      <guid>https://www.harecoded.com/instalar-php-53-mamp-559108/</guid>
       <description>Actualizaci&amp;oacute;n: La nueva versi&amp;oacute;n de MAMP ya trae PHP 5.3 por lo que ya no es necesario hacerlo a mano. B&amp;aacute;jate la &amp;uacute;ltima versi&amp;oacute;n!
 Hola,
 A d&amp;iacute;a de escribir este post MAMP viene con la versi&amp;oacute;n 5.2.11 de PHP por lo que no se pueden utilizar muchas de las funciones interesantes que tiene la nueva versi&amp;oacute;n, yo concretamente quer&amp;iacute;a utilizar funciones de fecha como DateTime::createFromFormat() y los namespaces. Para solucionarlo he hecho lo siguiente</description>

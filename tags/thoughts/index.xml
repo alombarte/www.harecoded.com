@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thoughts on Harecoded</title>
-    <link>http://www.harecoded.com/tags/thoughts/</link>
+    <link>https://www.harecoded.com/tags/thoughts/</link>
     <description>Recent content in Thoughts on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Dec 2014 19:52:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Engineering culture for an Internet company</title>
-      <link>http://www.harecoded.com/engineering-culture-for-an-internet-company-2374777/</link>
+      <link>https://www.harecoded.com/engineering-culture-for-an-internet-company-2374777/</link>
       <pubDate>Thu, 11 Dec 2014 19:52:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/engineering-culture-for-an-internet-company-2374777/</guid>
+      <guid>https://www.harecoded.com/engineering-culture-for-an-internet-company-2374777/</guid>
       <description>Hope you will bear with me improvising the definition of engineering culture as the ideas, attitudes, organization and behavior of the members of an engineering-driven company.  Each one of the Internet companies we work in have an engineering culture, regardless of the awareness of their members (and managers). That&#39;s because a company is an ecosystem that operates under a series of individually-disconnected and collectively-connected principles that when placed together over time they become ideas, attitudes and behaviors conforming an Engineering culture: the reality on which the company operates and organizes itself.</description>
     </item>
     

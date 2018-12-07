@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webmarklet on Harecoded</title>
-    <link>http://www.harecoded.com/tags/webmarklet/</link>
+    <link>https://www.harecoded.com/tags/webmarklet/</link>
     <description>Recent content in Webmarklet on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Apr 2012 10:49:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/webmarklet/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/webmarklet/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Saltar a página siguiente en direcciones secuenciales</title>
-      <link>http://www.harecoded.com/saltar-pagina-siguiente-direcciones-secuenciales-1776183/</link>
+      <link>https://www.harecoded.com/saltar-pagina-siguiente-direcciones-secuenciales-1776183/</link>
       <pubDate>Mon, 09 Apr 2012 10:49:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/saltar-pagina-siguiente-direcciones-secuenciales-1776183/</guid>
+      <guid>https://www.harecoded.com/saltar-pagina-siguiente-direcciones-secuenciales-1776183/</guid>
       <description>En muchas ocasiones, en un sitio web nos encontramos una url del tipo:  http://url.ltd/path?id=XXXX   Donde XXXX es un identificador. En ocasiones este identificador es la página que estamos viendo y, en otras, el id del propio elemento.  Imagina, por ejemplo, una lista de perfiles de usuarios, donde el id fuera secuencial. Si quisieras verlos todos tendrías que ir cambiando este número o volviendo a la lista de usuarios y haciendo click en el siguiente.</description>
     </item>
     

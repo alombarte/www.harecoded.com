@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Twitter on Harecoded</title>
-    <link>http://www.harecoded.com/tags/twitter/</link>
+    <link>https://www.harecoded.com/tags/twitter/</link>
     <description>Recent content in Twitter on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 08 May 2009 16:11:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dirty Twitter</title>
-      <link>http://www.harecoded.com/dirty-twitter-248589/</link>
+      <link>https://www.harecoded.com/dirty-twitter-248589/</link>
       <pubDate>Fri, 08 May 2009 16:11:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/dirty-twitter-248589/</guid>
+      <guid>https://www.harecoded.com/dirty-twitter-248589/</guid>
       <description>Fuck! I can&#39;t believe there is a service out there that filters all the world tweets and presents only the dirtiest ones... The offender site is called Cursebird, and that is his job plus it does it well.
 So we all will have to watch our sayings more than ever...</description>
     </item>

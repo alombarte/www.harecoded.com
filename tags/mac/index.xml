@@ -2,142 +2,142 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on Harecoded</title>
-    <link>http://www.harecoded.com/tags/mac/</link>
+    <link>https://www.harecoded.com/tags/mac/</link>
     <description>Recent content in Mac on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Oct 2014 23:07:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>OS X renaming using parameter expansion</title>
-      <link>http://www.harecoded.com/os-x-renaming-using-parameter-expansion-2368474/</link>
+      <link>https://www.harecoded.com/os-x-renaming-using-parameter-expansion-2368474/</link>
       <pubDate>Sat, 18 Oct 2014 23:07:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/os-x-renaming-using-parameter-expansion-2368474/</guid>
+      <guid>https://www.harecoded.com/os-x-renaming-using-parameter-expansion-2368474/</guid>
       <description>When it comes to rename files via command line there is no rename utility under OS X without installing Homebrew. But I still never needed to install it since there is a lot you can do by just making use of the shell parameter expansion.  The parameter expansion allows you to manipulate variables in a very convenient way and when mixed with the mv command you have an unstoppable renaming tool.</description>
     </item>
     
     <item>
       <title>Terminal tuning for Git developers in Mac</title>
-      <link>http://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</link>
+      <link>https://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</link>
       <pubDate>Fri, 19 Sep 2014 17:52:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</guid>
+      <guid>https://www.harecoded.com/terminal-tuning-for-git-developers-in-mac-2364711/</guid>
       <description>If you work with Git in the terminal there are some tweaks you might want to apply to your prompt for safer and faster coding. The following lines are part of my ~/.bash_profile file. I use it on Mac although that might work in Linux as well.  You can copy and paste this code in your ~/.bash_profile (create it if it doesn&#39;t exist), save and open a new terminal to see the changes every time you save.</description>
     </item>
     
     <item>
       <title>Puppet Syntax highlighting under Textmate</title>
-      <link>http://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</link>
+      <link>https://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</link>
       <pubDate>Thu, 11 Oct 2012 16:55:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</guid>
+      <guid>https://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</guid>
       <description> Add some color to your puppet scripts opened in TextMate! Fire this in a terminal:  mkdir -p ~/Application\ Support/TextMate/Bundles git clone https://github.com/masterzen/puppet-textmate-bundle.git Puppet.tmbundle mv Puppet.tmbundle/ ~/Library/Application\ Support/TextMate/Bundles/ rm -fr Puppet.tmbundle   And voilà!   </description>
     </item>
     
     <item>
       <title>Mantener la sesión abierta en iTerm (keep-alive)</title>
-      <link>http://www.harecoded.com/mantener-sesion-abierta-iterm-keep-alive-2160763/</link>
+      <link>https://www.harecoded.com/mantener-sesion-abierta-iterm-keep-alive-2160763/</link>
       <pubDate>Wed, 29 Aug 2012 10:12:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/mantener-sesion-abierta-iterm-keep-alive-2160763/</guid>
+      <guid>https://www.harecoded.com/mantener-sesion-abierta-iterm-keep-alive-2160763/</guid>
       <description>Similarmente a como explicamos sobre cómo mantener la sesión activa en Putty, si queremos dejar la terminal abierta y que no se nos cierre con&amp;nbsp;iTerm cada vez que vamos a hacer un café, comer, o liberar la próstata, hay que seguir estos sencillos pasos:  Abrir Bookmarks&amp;nbsp;-&amp;gt;&amp;nbsp;Manage Profiles  Desplegar Terminal Profiles y seleccionar  Default  Marcar When idle, sends ASCII code    El valor de esta casilla por defecto es 0, pero lo podéis cambiar a cualquier otro código ASCII.</description>
     </item>
     
     <item>
       <title>Cómo expulsar un CD o DVD atascado en Mac</title>
-      <link>http://www.harecoded.com/expulsar-cd-o-dvd-atascado-mac-1966986/</link>
+      <link>https://www.harecoded.com/expulsar-cd-o-dvd-atascado-mac-1966986/</link>
       <pubDate>Fri, 15 Jun 2012 21:37:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/expulsar-cd-o-dvd-atascado-mac-1966986/</guid>
+      <guid>https://www.harecoded.com/expulsar-cd-o-dvd-atascado-mac-1966986/</guid>
       <description>Hoy he puesto un DVD en la unidad del Macbook y a través de los botones de eject era imposible sacar el CD. Mi portátil no tiene el clásico agujero para meter un clip y sacarlo mecánicamente.  Lo que me ha funcionado finalmente es ejecutar desde la terminal:  drutil tray eject   Otras cosas que pueden funcionar son:  Probar de expulsarlo desde la &#34;Utilidad de Discos&#34;</description>
     </item>
     
     <item>
       <title>Autocompletar hosts al escribir ssh en la terminal</title>
-      <link>http://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</link>
+      <link>https://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</link>
       <pubDate>Fri, 23 Mar 2012 15:06:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</guid>
+      <guid>https://www.harecoded.com/autocompletar-hosts-al-escribir-ssh-terminal-1692010/</guid>
       <description>Esta mañana mi compañero Borja me ha enseñado un pequeño truquito para olvidarse de los bookmarks en la terminal. Se trata de autocompletar el comando ssh con los hosts conocidos.  De este modo, cuando escribes ssh en la terminal puedes darle al tabulador para que sugiera o escriba el resto de host por ti. Ejemplo:    Existen múltiples maneras de hacer esto, leyendo configs con puertos y otras barbaridades, pero esta es realmente simple y efectiva y sin duda la que más me gusta.</description>
     </item>
     
     <item>
       <title>Activar y cambiar los colores de la terminal &#43; Prompt</title>
-      <link>http://www.harecoded.com/activar-cambiar-colores-terminal-prompt-1332387/</link>
+      <link>https://www.harecoded.com/activar-cambiar-colores-terminal-prompt-1332387/</link>
       <pubDate>Mon, 05 Dec 2011 07:22:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/activar-cambiar-colores-terminal-prompt-1332387/</guid>
+      <guid>https://www.harecoded.com/activar-cambiar-colores-terminal-prompt-1332387/</guid>
       <description>Ya uses iTerm, Terminal o cualquier otra herramienta en Mac, para ver y tunear los colores de tu terminal basta con editar el fichero ~/.bash_profile e incluir lo siguiente:  export CLICOLOR=&#39;true&#39; export LSCOLORS=&#34;gxfxcxdxbxegedabagacad&#34;   Y conseguirás algo parecido a esto: La primera línea activa los colores, la segunda dice qué colores usar. Cuando guardes el fichero y abras de nuevo la terminal ya verás los colores. Si no te gustan siempre puedes poner los tuyos usando esta referencia:  a black b red c green d brown e blue f magenta g cyan h light grey A block black (gris oscuro) B bold red C bold green D bold brown (amarillo oiga) E bold blue F bold magenta G bold cyan H bold light grey x color por defecto   Además, puedes cambiar la apariencia y modificar tu prompt añadiendo a continuación en tu .</description>
     </item>
     
     <item>
       <title>Conectar por SSH sin password (autenticación de clave pública)</title>
-      <link>http://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</link>
+      <link>https://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</link>
       <pubDate>Mon, 29 Aug 2011 07:03:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</guid>
+      <guid>https://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</guid>
       <description>Para conectar a un servidor remoto por SSH sin usuario ni contraseña todo lo que hace falta es compartir una clave entre cliente y servidor. Los pasos son muy sencillos:   Asegurarse que la carpeta .ssh existe en el servidor al que nos queremos conectar   Crear una clave RSA en la máquina cliente (la que se conecta):
  ssh-keygen -t rsa Cuando se te pida por un password, dale al enter sin poner ninguno (este es el propósito del artículo, sin passwords)   Copiar la clave pública en el servidor:</description>
     </item>
     
     <item>
       <title>Comando `tree` para Mac</title>
-      <link>http://www.harecoded.com/comando-tree-mac-1265483/</link>
+      <link>https://www.harecoded.com/comando-tree-mac-1265483/</link>
       <pubDate>Sat, 27 Aug 2011 16:03:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/comando-tree-mac-1265483/</guid>
+      <guid>https://www.harecoded.com/comando-tree-mac-1265483/</guid>
       <description>Existe una utilidad llamada &#34;tree&#34; en Windows y Linux que sirve para ver un listado de directorio en un formato ASCII un poco más agradable a la vista. Si no quieres bajarte los MacPorts para esta pequeña utilidad lo más fácil es crear un script de una línea y enlazarlo en /bin para poder llamarlo directamente.  El comando en cuestión es este:  find . -print | sed -e &#39;s;[^/]*/;|--;g;s;--|; |;g&#39;   Ahora, para utilizarlo a troche y moche basta con pegar su contenido en un fichero en cualquier ubicación.</description>
     </item>
     
     <item>
       <title>How to backup your full Flickr account (script)</title>
-      <link>http://www.harecoded.com/how-to-backup-your-full-flickr-account-script-1246194/</link>
+      <link>https://www.harecoded.com/how-to-backup-your-full-flickr-account-script-1246194/</link>
       <pubDate>Sun, 24 Jul 2011 11:29:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-backup-your-full-flickr-account-script-1246194/</guid>
+      <guid>https://www.harecoded.com/how-to-backup-your-full-flickr-account-script-1246194/</guid>
       <description>Why you would like to copy all your images stored at Flickr to your computer? Well, maybe you want to browse them later offline, maybe you want to stop paying your PRO account, or to keep them just in case...
 In any case, Flickrtouchr is a simple command-line script to backup Flickr. You don&#39;t need to know python or programming at all. A couple of lines in the Terminal and that&#39;s it.</description>
     </item>
     
     <item>
       <title>How to create a patch and apply it with subversion</title>
-      <link>http://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</link>
+      <link>https://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</link>
       <pubDate>Tue, 15 Feb 2011 21:16:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</guid>
+      <guid>https://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</guid>
       <description>If you want to create a patch with svn you only have to type in the terminal something like:  svn diff yourproject &amp;gt; yourproject.patch   Where yourproject is the folder containing the modified source code.  Then, to restore the patch (apply the changes stored in patch in a new working copy), copy the patch file yourproject.patch in the machine where you want apply the patch and &#34;</description>
     </item>
     
     <item>
       <title>Best distraction-free writing programs</title>
-      <link>http://www.harecoded.com/best-distraction-free-writing-programs-943854/</link>
+      <link>https://www.harecoded.com/best-distraction-free-writing-programs-943854/</link>
       <pubDate>Wed, 20 Oct 2010 20:16:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/best-distraction-free-writing-programs-943854/</guid>
+      <guid>https://www.harecoded.com/best-distraction-free-writing-programs-943854/</guid>
       <description>I am not a writer, but as many other mortals a lot of times I need to write long documents or put my ideas alltogether. For anyone who works with a computer and needs to write text in a non-distracting environment these tools will be very useful.
 These programs usually are full-screen and only let you see the text you are typing, and usually plain text (without any formats). It might sound simple or even ridiculous, but I am more productive when I stop receiving notifications and being tempted of clicking on that little red number showing unread email or any other procastinators.</description>
     </item>
     
     <item>
       <title>Reset iTerm preferences to default</title>
-      <link>http://www.harecoded.com/reset-iterm-preferences-to-default-529907/</link>
+      <link>https://www.harecoded.com/reset-iterm-preferences-to-default-529907/</link>
       <pubDate>Sun, 07 Mar 2010 20:09:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/reset-iterm-preferences-to-default-529907/</guid>
+      <guid>https://www.harecoded.com/reset-iterm-preferences-to-default-529907/</guid>
       <description>If you have messed up your iTerm application preferences you can aways return to the factory settings by deleting your iTerm preferences file. Just delete the following file:
 rm ~/Library/Preferences/net.sourceforge.iTerm.plist This will delete your profiles, very useful when you have remapped keys and you can&#39;t remember how to go back.</description>
     </item>
     
     <item>
       <title>Instalar Memcache en Mac</title>
-      <link>http://www.harecoded.com/instalar-memcache-mac-517262/</link>
+      <link>https://www.harecoded.com/instalar-memcache-mac-517262/</link>
       <pubDate>Fri, 12 Feb 2010 20:23:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/instalar-memcache-mac-517262/</guid>
+      <guid>https://www.harecoded.com/instalar-memcache-mac-517262/</guid>
       <description>Instalar el demonio de memcached en Mac no es tan complicado como parece siguiendo estos sencillos pasos.
 Primero de todo aseg&amp;uacute;rate que tienes todos los requisitos
 Requisitos para instalar Memcached  Un compilador GCC. No te asustes! Viene instalando las XTools de Mac si es que ya no las tienes Descargarte el script de instalaci&amp;oacute;n desde topfunky  Instalaci&amp;oacute;n del servidor Memcached Abre una terminal i navega hasta la ruta donde te has descargado el script.</description>
@@ -145,30 +145,30 @@ Requisitos para instalar Memcached  Un compilador GCC. No te asustes! Viene inst
     
     <item>
       <title>Evitar que se abra iTunes al conectar el iPhone o Ipod</title>
-      <link>http://www.harecoded.com/evitar-se-abra-itunes-al-conectar-iphone-o-ipod-270774/</link>
+      <link>https://www.harecoded.com/evitar-se-abra-itunes-al-conectar-iphone-o-ipod-270774/</link>
       <pubDate>Wed, 03 Jun 2009 07:19:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/evitar-se-abra-itunes-al-conectar-iphone-o-ipod-270774/</guid>
+      <guid>https://www.harecoded.com/evitar-se-abra-itunes-al-conectar-iphone-o-ipod-270774/</guid>
       <description>Esto es una chorrada, pero si sincronizas tu dispositivo con m&amp;aacute;s de un ordernador y te interesa que al enchufarlo no se abra el iTunes hay que seguir estos sencillos pasos (esto vale para Windows y Mac):
  Enchufar el iPhone (o iPod) al ordenador En el iTunes, en el men&amp;uacute; de la derecha, hacer click en el dispositivo Quitar la marca de la casilla &#34;Sincronizar autom&amp;aacute;ticamente al conectar este iPhone&#34;</description>
     </item>
     
     <item>
       <title>SVN merge for Mac OS X</title>
-      <link>http://www.harecoded.com/svn-merge-for-mac-os-x-157489/</link>
+      <link>https://www.harecoded.com/svn-merge-for-mac-os-x-157489/</link>
       <pubDate>Wed, 11 Feb 2009 06:30:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/svn-merge-for-mac-os-x-157489/</guid>
+      <guid>https://www.harecoded.com/svn-merge-for-mac-os-x-157489/</guid>
       <description>If you want to merge branches in your projects using a Mac OS X, you&#39;ll probably miss how straightforward is to do that with the TortoiseSVN client.
 Mac has many SVN-fashioned clients where you can fall in love when you see the GUI, but when it comes to do a merge it seems that all they have forgotten to include support for it. I haven&#39;t seen any free or comercial application for Mac that integrates all the subversion commands in the same tool without pain.</description>
     </item>
     
     <item>
       <title>&#34;ipconfig /flushdns&#34; para Mac OS X</title>
-      <link>http://www.harecoded.com/ipconfig-flushdns-mac-os-x-200405/</link>
+      <link>https://www.harecoded.com/ipconfig-flushdns-mac-os-x-200405/</link>
       <pubDate>Mon, 09 Feb 2009 20:58:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/ipconfig-flushdns-mac-os-x-200405/</guid>
+      <guid>https://www.harecoded.com/ipconfig-flushdns-mac-os-x-200405/</guid>
       <description>Desde el lanzamiento de Mac OS X Leopard (de esto ya hace unos cuantos d&amp;iacute;as) que ya no funciona el comando lookupd -flushcache que utiliz&amp;aacute;bamos para invalidar la cach&amp;eacute; de DNS de Mac.
 Este comando, que era el equivalente mac de ipconfig /flushdns de Windows ahora se ejecuta usando:
 dscacheutil -flushcache
@@ -177,30 +177,30 @@ Lo dejo aqu&amp;iacute; anotado porqu&amp;eacute; soy flojo de memoria para este
     
     <item>
       <title>Spotify, escuchar música online. Competencia de Last.fm</title>
-      <link>http://www.harecoded.com/spotify-escuchar-musica-online-competencia-lastfm-193785/</link>
+      <link>https://www.harecoded.com/spotify-escuchar-musica-online-competencia-lastfm-193785/</link>
       <pubDate>Tue, 27 Jan 2009 15:13:48 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/spotify-escuchar-musica-online-competencia-lastfm-193785/</guid>
+      <guid>https://www.harecoded.com/spotify-escuchar-musica-online-competencia-lastfm-193785/</guid>
       <description>Llevo unos d&amp;iacute;as probando Spotify, gracias a una cuenta beta gratuita que me di&amp;oacute; mi compa&amp;ntilde;ero de trabajo Rufino . Para quienes no hayan o&amp;iacute;do hablar de Spotify es un reproductor de m&amp;uacute;sica en streaming (es decir, la m&amp;uacute;sica no est&amp;aacute; en tu ordenador, sino en sus servidores). Hay que bajarse el programa, que de momento est&amp;aacute; disponible s&amp;oacute;lo para Mac y Windows (Linux a trav&amp;eacute;s de Wine).
 La aplicaci&amp;oacute;n promete mucho (no he probado la de pago), pero lo que se se puede hacer con la versi&amp;oacute;n gratuita incita a usar el programa en su forma completa.</description>
     </item>
     
     <item>
       <title>La actualización de software de Mac se cuelga</title>
-      <link>http://www.harecoded.com/actualizacion-software-mac-se-cuelga-178879/</link>
+      <link>https://www.harecoded.com/actualizacion-software-mac-se-cuelga-178879/</link>
       <pubDate>Sun, 28 Dec 2008 11:55:44 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/actualizacion-software-mac-se-cuelga-178879/</guid>
+      <guid>https://www.harecoded.com/actualizacion-software-mac-se-cuelga-178879/</guid>
       <description>Ya es la segunda vez que el sistema operativo me dice que hay nuevas actualizaciones disponibles y que necesito reiniciar el ordenador, y cuando lo hago, la barra de progreso se detiene mientras est&amp;aacute; &#34;Configurando la instalaci&amp;oacute;n&#34;. Para salir de ah&amp;iacute; tengo que cerrar a lo b&amp;eacute;stia (dejar pulsado unos segundos el bot&amp;oacute;n de encendido).
 Pues bien, seg&amp;uacute;n parece el problema es que los ficheros de actualizaci&amp;oacute;n descargados est&amp;aacute;n corruptos o incompletos y basta con borrar todos los contenidos de la carpeta /Library/Updates.</description>
     </item>
     
     <item>
       <title>Más herramientas para Textmate</title>
-      <link>http://www.harecoded.com/mas-herramientas-textmate-166469/</link>
+      <link>https://www.harecoded.com/mas-herramientas-textmate-166469/</link>
       <pubDate>Mon, 01 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/mas-herramientas-textmate-166469/</guid>
+      <guid>https://www.harecoded.com/mas-herramientas-textmate-166469/</guid>
       <description>Siguiendo la l&amp;iacute;nea lanzada por Albert, vamos a ver un par de nuevas herramientas que nos facilitar&amp;aacute;n todav&amp;iacute;a m&amp;aacute;s el uso de Textmate.
 &#34;Open in Textmate&#34;, abrir en Textmate desde el Finder
 Se trata de un icono/lanzador muy &amp;uacute;til para colocar en el omnipresente Finder, mediante el cu&amp;aacute;l podemos abrir cualquier fichero/directorio en Textmate. S&amp;oacute;lo hay que arrastrar el fichero (o grupo de ficheros) o directorio/s encima de este nuevo icono, y autom&amp;aacute;ticamente se nos iniciar&amp;aacute; Textmate usando la selecci&amp;oacute;n que le hemos pedido.</description>
@@ -208,20 +208,20 @@ Se trata de un icono/lanzador muy &amp;uacute;til para colocar en el omnipresent
     
     <item>
       <title>Textmate: Plugins de PHP, Smarty y Subversion</title>
-      <link>http://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</link>
+      <link>https://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</link>
       <pubDate>Fri, 28 Nov 2008 16:47:55 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</guid>
+      <guid>https://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</guid>
       <description>Textmate es sin duda uno de aquellos editores para Mac OS X de los que hacen quitarse el sombrero. Como muchos otros editores, Textmate tambi&amp;eacute;n soporta plugins (Bundles les llaman) y se pueden instalar un mont&amp;oacute;n de ellos.
 Para los programadores y webmasters que trabajan con PHP hay dos Bundles de especial utilidad: los que permiten Autocompletion para Smarty y Autocompletion para PHP. Para instalarlos simplemente hay que ejectuar en una terminal:</description>
     </item>
     
     <item>
       <title>Subversion (svn) 1.5 para Mac OS X</title>
-      <link>http://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</link>
+      <link>https://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</link>
       <pubDate>Wed, 12 Nov 2008 20:54:35 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</guid>
+      <guid>https://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</guid>
       <description>Si utilizas distintos sistemas operativos y en ellos utilizas versiones distintas de subversion te habr&amp;aacute;s encontrado alguna vez con el mensaje de error:
 svn: This client is too old to work with working copy &#39;.&#39;; please get a newer Subversion client
 Si eres usuario de Mac y te ha pasado esto, o simplemente necesitas un cliente svn 1.5 para mac puedes descargarte la &amp;uacute;ltima versi&amp;oacute;n de SCPlugin que ya incluye soporte para la 1.</description>
@@ -229,29 +229,29 @@ Si eres usuario de Mac y te ha pasado esto, o simplemente necesitas un cliente s
     
     <item>
       <title>File List: Utilidad para renombrar ficheros en lote para Mac OS X</title>
-      <link>http://www.harecoded.com/file-list-utilidad-renombrar-ficheros-lote-mac-os-x-96365/</link>
+      <link>https://www.harecoded.com/file-list-utilidad-renombrar-ficheros-lote-mac-os-x-96365/</link>
       <pubDate>Mon, 11 Feb 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/file-list-utilidad-renombrar-ficheros-lote-mac-os-x-96365/</guid>
+      <guid>https://www.harecoded.com/file-list-utilidad-renombrar-ficheros-lote-mac-os-x-96365/</guid>
       <description>De la mano de Many Tricks nos llega esta excelente utilidad gratuita para renombrar archivos en lote llamada File list. Nos permite hacer las tareas b&amp;aacute;sicas de renombrado de ficheros, como cambiar la extensi&amp;oacute;n, cambiar may&amp;uacute;sculas/min&amp;uacute;sculas, a&amp;ntilde;adir un n&amp;uacute;mero secuencialmente en los ficheros, reemplazar las apariciones de un texto, hacer tareas de ordenaci&amp;oacute;n o crear nuestras propias expresiones regulares... y siempre nos permite previsualizar el resultado final antes de hacer &#34;</description>
     </item>
     
     <item>
       <title>Moving to a Macbook core 2 duo</title>
-      <link>http://www.harecoded.com/moving-to-macbook-core-2-duo-96364/</link>
+      <link>https://www.harecoded.com/moving-to-macbook-core-2-duo-96364/</link>
       <pubDate>Mon, 04 Feb 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/moving-to-macbook-core-2-duo-96364/</guid>
+      <guid>https://www.harecoded.com/moving-to-macbook-core-2-duo-96364/</guid>
       <description>I have owned 5 laptops for the last 6 years, which are a lot of laptops if you ask me... From a Toshiba Satellite with DSTN screen, going next to an IBM Thinkpad 600x and owning only macs since then: Powerbook G4 550 titanium, Powerbook G4 1Ghz 12&#34; and, since yesterday, a shinny (second handed) Macbook 2 Core Duo.
 All those machines were bought second handed and sold consequently. I have been lucky enough with all of them to never consider buying a new (from stores) laptop.</description>
     </item>
     
     <item>
       <title>Are you addicted to all things Apple?</title>
-      <link>http://www.harecoded.com/are-you-addicted-to-all-things-appler-96360/</link>
+      <link>https://www.harecoded.com/are-you-addicted-to-all-things-appler-96360/</link>
       <pubDate>Tue, 20 Nov 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/are-you-addicted-to-all-things-appler-96360/</guid>
+      <guid>https://www.harecoded.com/are-you-addicted-to-all-things-appler-96360/</guid>
       <description>Here you are a survey regarding addictness to Apple... I have only scored 56%, but I know I can make it better :-)
 56%How Addicted to Apple Are You?
 We actually have at home an iMac 20&#34;, powerbook 12&#34;, ibook G3 13&#34;, ipod touch, ipod nano 2nd generation, ipod 4g 20Gb... It sums up 6 Apple items. I know we are in the middle low range of Apple fetishers, so... How many Apple products do you own?</description>
@@ -259,10 +259,10 @@ We actually have at home an iMac 20&#34;, powerbook 12&#34;, ibook G3 13&#34;, i
     
     <item>
       <title>Quicksilver goes opensource</title>
-      <link>http://www.harecoded.com/quicksilver-goes-opensource-96357/</link>
+      <link>https://www.harecoded.com/quicksilver-goes-opensource-96357/</link>
       <pubDate>Thu, 08 Nov 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/quicksilver-goes-opensource-96357/</guid>
+      <guid>https://www.harecoded.com/quicksilver-goes-opensource-96357/</guid>
       <description>The excellent launcher (and much more) Quicksilver that Mac users have been using for so long has been opensourced. This is great news, since more developers can join the product and improve it and extend it.
 
 My hope is that someone will make a cross-platform version, or other projects like Launchy or gnome-launch will add more features thanks to quicksilver knowledgebase. The code can be reached via Google Code.</description>
@@ -270,87 +270,87 @@ My hope is that someone will make a cross-platform version, or other projects li
     
     <item>
       <title>Overburning script for Mac OS X, Record large films in Mac</title>
-      <link>http://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</link>
+      <link>https://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</link>
       <pubDate>Sat, 08 Sep 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</guid>
+      <guid>https://www.harecoded.com/overburning-script-for-mac-os-x-record-large-films-in-mac-96350/</guid>
       <description>If you use the Finder burning tool to create your CDs, or an application that doesn&#39;t support overburning (surpass a little bit the CD or DVD maximum size) I am sure that some time you got anrgy.
 Sometimes are films, sometimes it&#39;s just one more song in the CD library you are creating... The thing is that you have 703MB and you cannot burn a 700MB CD. It won&#39;t happen again!</description>
     </item>
     
     <item>
       <title>How to convert MP3 to AAC, or how to set MP3 as ringtone in your mobile phone</title>
-      <link>http://www.harecoded.com/how-to-convert-mp3-to-aac-or-how-to-set-mp3-as-ringtone-in-your-mobile-phone-96342/</link>
+      <link>https://www.harecoded.com/how-to-convert-mp3-to-aac-or-how-to-set-mp3-as-ringtone-in-your-mobile-phone-96342/</link>
       <pubDate>Mon, 25 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-convert-mp3-to-aac-or-how-to-set-mp3-as-ringtone-in-your-mobile-phone-96342/</guid>
+      <guid>https://www.harecoded.com/how-to-convert-mp3-to-aac-or-how-to-set-mp3-as-ringtone-in-your-mobile-phone-96342/</guid>
       <description>As if I were a teenager, yesterday I found an mp3 song that I hadn&#39;t heard in maybe ten years and a smile came to my face when I imagined that it could be played in my mobile when I need a loud tone (I am on of those who preffer having it silent all the time)
 So I passed the MP3 directly to the mobile but it failed, the mobile can play it but can&#39;t be set as ringtone.</description>
     </item>
     
     <item>
       <title>A free good cross-platform CSS editor</title>
-      <link>http://www.harecoded.com/free-good-cross-platform-css-editor-96327/</link>
+      <link>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</link>
       <pubDate>Fri, 02 Feb 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/free-good-cross-platform-css-editor-96327/</guid>
+      <guid>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</guid>
       <description>There are many applications where you can edit your Cascading Style Sheets (CSS) in Linux, Windows or Mac, but specifically in my Ubuntu I haven&#39;t found an application like CSSED (GTK). It supports auto-completion, really useful wizards, color pickers, preview and a long etcetera. You can go directly to the download page and see specific instructions for Gentoo, BSD, Mac OS X (via Fink), Windows ... or if you are an ubuntu or debian user just type in a terminal (or through the synaptic manager):</description>
     </item>
     
     <item>
       <title>Your Logitech webcam in OS X</title>
-      <link>http://www.harecoded.com/your-logitech-webcam-in-os-x-96325/</link>
+      <link>https://www.harecoded.com/your-logitech-webcam-in-os-x-96325/</link>
       <pubDate>Wed, 22 Nov 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/your-logitech-webcam-in-os-x-96325/</guid>
+      <guid>https://www.harecoded.com/your-logitech-webcam-in-os-x-96325/</guid>
       <description>Tired of chatting or using Skype without video? For all of us who didn&#39;t have an Apple&#39;s iSight camera it&#39;s possible to use almost any PC USB webcam with Macam. Macam is a driver for USB webcams on Mac OS X. It allows hundreds of USB webcams to be used by many Mac OS X video-aware applications. Macam installation is very easy, you only have to copy the Macam component under /Library/Quicktime in your system.</description>
     </item>
     
     <item>
       <title>Cómo conectarse a Internet con un móvil symbian vodafone y OS X</title>
-      <link>http://www.harecoded.com/conectarse-internet-movil-symbian-vodafone-os-x-96323/</link>
+      <link>https://www.harecoded.com/conectarse-internet-movil-symbian-vodafone-os-x-96323/</link>
       <pubDate>Thu, 19 Oct 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/conectarse-internet-movil-symbian-vodafone-os-x-96323/</guid>
+      <guid>https://www.harecoded.com/conectarse-internet-movil-symbian-vodafone-os-x-96323/</guid>
       <description>Si te quieres conectar a internet utilizando tu m&amp;oacute;vil Vodafone via blueetooth (tambi&amp;eacute;n es posible hacerlo v&amp;iacute;a infrarrojos, aunque es m&amp;aacute;s lento que el caballo del malo) aqu&amp;iacute; van algunas observaciones antes de que te empiezes a tirar de los pelos:
  Asegurate que tu m&amp;oacute;vil tiene acceso a Internet En el menu del m&amp;oacute;vil dirigete a: Herramientas &amp;raquo; Ajustes &amp;raquo; Conexi&amp;oacute;n &amp;raquo; Paquetes de datos &amp;raquo; Punto de acceso. Aqu&amp;iacute; debes tener airtelnet.</description>
     </item>
     
     <item>
       <title>How to disable the opening of XTerm when you start X11 on OS X</title>
-      <link>http://www.harecoded.com/how-to-disable-the-opening-xterm-when-you-start-x11-on-os-x-96321/</link>
+      <link>https://www.harecoded.com/how-to-disable-the-opening-xterm-when-you-start-x11-on-os-x-96321/</link>
       <pubDate>Tue, 04 Jul 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-disable-the-opening-xterm-when-you-start-x11-on-os-x-96321/</guid>
+      <guid>https://www.harecoded.com/how-to-disable-the-opening-xterm-when-you-start-x11-on-os-x-96321/</guid>
       <description>Some applications like OpenOffice II, in OS X, run under X11 platform. Due to this, when you open this type of applications the X11 environment starts, opening by default XTerm terminal. To avoid this behaviour you have to edit, by hand, the init file of X11. This file is placed under
 /etc/X11/xinit/xinitrc and the only thing you have to do is to comment the line where it starts XTerm, that is#xterm</description>
     </item>
     
     <item>
       <title>RSS Readers: NetNewsWire free alternative</title>
-      <link>http://www.harecoded.com/rss-readers-netnewswire-free-alternative-96319/</link>
+      <link>https://www.harecoded.com/rss-readers-netnewswire-free-alternative-96319/</link>
       <pubDate>Tue, 16 May 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/rss-readers-netnewswire-free-alternative-96319/</guid>
+      <guid>https://www.harecoded.com/rss-readers-netnewswire-free-alternative-96319/</guid>
       <description>I&#39;ve tried several free RSS readers but the commercial NetNewsWire always seemed better to my opinion. Recentlly, I discovered Vienna which could be a great substitute. Tab navigation, smart folders, styles.... I&#39;ll give it a long try :)</description>
     </item>
     
     <item>
       <title>Essential applications for Mac OS X</title>
-      <link>http://www.harecoded.com/essential-applications-for-mac-os-x-96317/</link>
+      <link>https://www.harecoded.com/essential-applications-for-mac-os-x-96317/</link>
       <pubDate>Sun, 02 Apr 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/essential-applications-for-mac-os-x-96317/</guid>
+      <guid>https://www.harecoded.com/essential-applications-for-mac-os-x-96317/</guid>
       <description>Recently I installed from scratch a couple of machines, and as long I were needing my applications I generated this list of essential ones:
    Quicksilver Free. Quicksilver is a launcher. When you call Quicksilver through the key combination Ctrl+space and you start typing, it suggests an application, document or file that contains that letters you typed in any place. Then you can open it, send it by email, reveal it on Finder and a long long etc.</description>
     </item>
     
     <item>
       <title>Spirited Away</title>
-      <link>http://www.harecoded.com/spirited-away-96306/</link>
+      <link>https://www.harecoded.com/spirited-away-96306/</link>
       <pubDate>Thu, 29 Dec 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/spirited-away-96306/</guid>
+      <guid>https://www.harecoded.com/spirited-away-96306/</guid>
       <description>With Sprited Away [author, MacUpdate] you specify the maximum time of inactivity for your applications. When a program has been inactive for such a time it is automatically hidden by spirited away, so you don&#39;t have many annoying windows visible on the screen.
 If there is any application you don&#39;t want to behave like this you only have to exlcude it in the top bar menu (See right image)
 Spirited away doesn&#39;t have Dock icon nor interfere visually in any other place</description>
@@ -358,10 +358,10 @@ Spirited away doesn&#39;t have Dock icon nor interfere visually in any other pla
     
     <item>
       <title>Increase the ibook display resolution with a 2nd monitor</title>
-      <link>http://www.harecoded.com/increase-the-ibook-display-resolution-with-2nd-monitor-96304/</link>
+      <link>https://www.harecoded.com/increase-the-ibook-display-resolution-with-2nd-monitor-96304/</link>
       <pubDate>Tue, 13 Dec 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/increase-the-ibook-display-resolution-with-2nd-monitor-96304/</guid>
+      <guid>https://www.harecoded.com/increase-the-ibook-display-resolution-with-2nd-monitor-96304/</guid>
       <description>When you plug an iBook 12&#34; to an external monitor you get two duplicated screens. As they are duplicated, the maximum resolution is imposed by your iBook, this is 1024x768 pixels, no matter your second monitor can do 1600x1200.
 I bought an iBook 12&#34; because it&#39;s really portable and lightweight, but for intensive work, a 1024x768 pixels resolution is absolutely not healthy . We need a solution!
 That&#39;s how i&#39;d like to work:   &amp;nbsp; iBook LCD TFT Monitor Usable screens   Before solution 1024x768 1024x768 1   After solution 1024x768 1280x1024+ 2    In order to remove duplication to let your 2nd monitor work with freedom you have to make some changes in the System Preferences/Screens panel, under the tab Align.</description>
@@ -369,29 +369,29 @@ That&#39;s how i&#39;d like to work:   &amp;nbsp; iBook LCD TFT Monitor Usable s
     
     <item>
       <title>Desktop interface elements... unite!</title>
-      <link>http://www.harecoded.com/desktop-interface-elements-unite-96303/</link>
+      <link>https://www.harecoded.com/desktop-interface-elements-unite-96303/</link>
       <pubDate>Mon, 12 Dec 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/desktop-interface-elements-unite-96303/</guid>
+      <guid>https://www.harecoded.com/desktop-interface-elements-unite-96303/</guid>
       <description>I am one of those who prefer desktop interface consistency rather than having every couple of applications with different interface looks, depending on the gui framework they are built upon. Variety is the spice of life, but not on a computer desktop, please.
 Mac OS X has always &#39;suffered&#39; from this diversity of gui presentations, like the rest of Unix variants, and Tiger is even worse. We have some metal apps (Finder, Safari, .</description>
     </item>
     
     <item>
       <title>Don&#39;t play with your system fonts!</title>
-      <link>http://www.harecoded.com/dont-play-with-your-system-fonts-96301/</link>
+      <link>https://www.harecoded.com/dont-play-with-your-system-fonts-96301/</link>
       <pubDate>Tue, 29 Nov 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/dont-play-with-your-system-fonts-96301/</guid>
+      <guid>https://www.harecoded.com/dont-play-with-your-system-fonts-96301/</guid>
       <description>This is what might happen: Playing around with the system fonts can cause funny situations</description>
     </item>
     
     <item>
       <title>Installing and configuring PostgreSQL server on Mac</title>
-      <link>http://www.harecoded.com/installing-and-configuring-postgresql-server-on-mac-96298/</link>
+      <link>https://www.harecoded.com/installing-and-configuring-postgresql-server-on-mac-96298/</link>
       <pubDate>Fri, 04 Nov 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/installing-and-configuring-postgresql-server-on-mac-96298/</guid>
+      <guid>https://www.harecoded.com/installing-and-configuring-postgresql-server-on-mac-96298/</guid>
       <description>You can use the Fink package system to install postgresql if you are already using Fink (inside a terminal: sudo fink install postgresql and then configure the server).
 OR you can install postgresql, with the clean solution offered by Marc Liyanage.
 I prefer the 2nd option. If you also choose that, follow carefully the installation instructions and you&#39;ll have PgSQL working in minutes.
@@ -400,29 +400,29 @@ If you&#39;d like to have 2 scripts for manually starting and stoping the databa
     
     <item>
       <title>Configuració de Mac OS X per veure el programari en català</title>
-      <link>http://www.harecoded.com/configuracio-mac-os-x-per-veure-programari-catala-96293/</link>
+      <link>https://www.harecoded.com/configuracio-mac-os-x-per-veure-programari-catala-96293/</link>
       <pubDate>Mon, 10 Oct 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/configuracio-mac-os-x-per-veure-programari-catala-96293/</guid>
+      <guid>https://www.harecoded.com/configuracio-mac-os-x-per-veure-programari-catala-96293/</guid>
       <description>A la versi&amp;oacute; Tiger del sistema Mac OS X no es va incorporar finalment el sistema operatiu en catal&amp;agrave;. Tot i aix&amp;oacute;, hi ha programari de tercers que est&amp;agrave; localitzat al catal&amp;agrave;. Per veure&#39;l en el vostre idioma per&amp;oacute;, cal que feu una sola vegada les instruccions que a continuaci&amp;oacute; us proporcionem. Si ja us sentiu molt c&amp;oacute;modes amb el mac, i per no fer-vos esperar m&amp;eacute;s, cal que entreu a les prefer&amp;egrave;ncies del sistema / internacional i escolliu el catal&amp;agrave; com el primer idioma de la llista.</description>
     </item>
     
     <item>
       <title>How to disable annoying security warnings in Safari</title>
-      <link>http://www.harecoded.com/how-to-disable-annoying-security-warnings-in-safari-96290/</link>
+      <link>https://www.harecoded.com/how-to-disable-annoying-security-warnings-in-safari-96290/</link>
       <pubDate>Tue, 20 Sep 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-disable-annoying-security-warnings-in-safari-96290/</guid>
+      <guid>https://www.harecoded.com/how-to-disable-annoying-security-warnings-in-safari-96290/</guid>
       <description>In order to forget the annoying security warning in Safari after every application download, you should install Taboo and paste this in a terminal:
 defaults write com.ocdev.taboo ShouldDisplaySecurityWarnings -bool NO</description>
     </item>
     
     <item>
       <title>Installing X11 on Tiger</title>
-      <link>http://www.harecoded.com/installing-x11-on-tiger-96289/</link>
+      <link>https://www.harecoded.com/installing-x11-on-tiger-96289/</link>
       <pubDate>Tue, 20 Sep 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/installing-x11-on-tiger-96289/</guid>
+      <guid>https://www.harecoded.com/installing-x11-on-tiger-96289/</guid>
       <description>If you need X11 on Tiger for running applications like OpenOffice, WingIDE... you&#39;ll need the installation DVD or image. Mount it and install the package:
 System/Installation/Packages/X11User.pkg
 It&#39;s also available when you install Tiger under the advanced option, but hey,don&#39;t waste more time looking for a download on apple site, the Panther days are over.

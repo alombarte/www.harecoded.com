@@ -2,152 +2,152 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Harecoded</title>
-    <link>http://www.harecoded.com/tags/linux/</link>
+    <link>https://www.harecoded.com/tags/linux/</link>
     <description>Recent content in Linux on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 07 May 2016 18:18:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to backup Flickr into Amazon S3/Dropbox/Google Cloud/Drive...</title>
-      <link>http://www.harecoded.com/how-to-backup-flickr-into-amazon-s3dropboxgoogle-clouddrive-2418512/</link>
+      <link>https://www.harecoded.com/how-to-backup-flickr-into-amazon-s3dropboxgoogle-clouddrive-2418512/</link>
       <pubDate>Sat, 07 May 2016 18:18:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-backup-flickr-into-amazon-s3dropboxgoogle-clouddrive-2418512/</guid>
+      <guid>https://www.harecoded.com/how-to-backup-flickr-into-amazon-s3dropboxgoogle-clouddrive-2418512/</guid>
       <description>The following recipe is an&amp;nbsp;easy&amp;nbsp;way to get your full Flickr account backed up in Amazon S3 or similar cloud storage.  Unless you have a really good Internet connection at home or you are doing a backup of a small library the first thing to do would be to create&amp;nbsp;a machine in the cloud, such as Digital Ocean or Amazon EC2 so you can have a high throughput. Once the process is finished you can destroy the machine and the whole operation will cost you a few cents.</description>
     </item>
     
     <item>
       <title>Kill processes using string search</title>
-      <link>http://www.harecoded.com/kill-processes-using-string-search-2303030/</link>
+      <link>https://www.harecoded.com/kill-processes-using-string-search-2303030/</link>
       <pubDate>Sat, 23 Nov 2013 23:28:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/kill-processes-using-string-search-2303030/</guid>
+      <guid>https://www.harecoded.com/kill-processes-using-string-search-2303030/</guid>
       <description>A lot of Linux distributions (and Mac) come with a handy command named&amp;nbsp;pkill installed by default. This command is very useful to kill processes in a more natural way.  Instead of doing a kill/killall based on the ID of the process or the binary name, you can just pass a string that appears in any part of the process list, including the parameters you used to start a service.</description>
     </item>
     
     <item>
       <title>Converting a CSV to SQL using 1 line in bash</title>
-      <link>http://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</link>
+      <link>https://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</link>
       <pubDate>Fri, 07 Jun 2013 11:55:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</guid>
+      <guid>https://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</guid>
       <description>The command line is very powerful and can do amazing stuff in one single line by pipelining a series of commands. This post is inspired after creating a line that mixed sed and awk, but with just only awk I&#39;ll show you an example on how to convert a CSV file to an SQL insert  Let&#39;s take an input CSV named events-2013-06-06.csv with 16 columns per line. It looks like this:  k51b04876036e2,192.</description>
     </item>
     
     <item>
       <title>Convertir de ISO a UTF-8 por línea de comandos</title>
-      <link>http://www.harecoded.com/convertir-iso-utf-8-linea-comandos-2230931/</link>
+      <link>https://www.harecoded.com/convertir-iso-utf-8-linea-comandos-2230931/</link>
       <pubDate>Mon, 10 Dec 2012 11:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/convertir-iso-utf-8-linea-comandos-2230931/</guid>
+      <guid>https://www.harecoded.com/convertir-iso-utf-8-linea-comandos-2230931/</guid>
       <description>Esta mañana he tenido que utilizar un .CSV generado desde Excel.  Al acceder a él desde la línea de comandos me he encontrado que se perdían todos los acentos. Un problema ya clásico este de &#34;los carácteres especiales&#34;.  Gracias al comando &#39;file&#39; he podido descubrir la codificación que Excel le da a nuestro fichero en el momento de hacer la exportación.  &amp;gt;file nombre_fichero.csv
 nombre_fichero.csv: ISO-8859 text, with CRLF line terminators   Lo único que he tenido que hacer es convertirlo en la misma terminal a UTF-8.</description>
     </item>
     
     <item>
       <title>Textos grandes a partir de caracteres básicos en terminal</title>
-      <link>http://www.harecoded.com/textos-grandes-partir-caracteres-basicos-terminal-2186683/</link>
+      <link>https://www.harecoded.com/textos-grandes-partir-caracteres-basicos-terminal-2186683/</link>
       <pubDate>Wed, 14 Nov 2012 10:19:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/textos-grandes-partir-caracteres-basicos-terminal-2186683/</guid>
+      <guid>https://www.harecoded.com/textos-grandes-partir-caracteres-basicos-terminal-2186683/</guid>
       <description>Estaba haciendo un script para automatizar el proceso de conexión a una base de datos, en producción.  Uno de esos scripts que conviene usar con cuidad así que pensé en poner un aviso que se mostrara al ejecutarlo:  [user~]$ cat prod_mysql.sh
 echo &#34;CUIDAOOOOOOOOO!!!!!&#34; mysql -h localhost -u user_prod -plucksoytuhijo main_data   Pero al ejecutarlo pensé que ese aviso no era tan visible com me gustaría así que recordé una herramienta que usaba hace muchos años.</description>
     </item>
     
     <item>
       <title>Varnish VCL: Delete ALL cookies and other magic</title>
-      <link>http://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</link>
+      <link>https://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</link>
       <pubDate>Tue, 09 Oct 2012 14:48:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</guid>
+      <guid>https://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</guid>
       <description>This morning Javi Callón&amp;nbsp;gave me a great introduction in few minutes to the Varnish in steroids world, I really appreciate it. &amp;nbsp;I&#39;d like to share this snippet which might be very interesting for you if you are new to the Varnish magic too.  This has been my first contact with Varnish ever, and I have to say I am quite amazed on how the application is responding now in terms of performance.</description>
     </item>
     
     <item>
       <title>Simple Varnish Installation</title>
-      <link>http://www.harecoded.com/simple-varnish-installation-2175362/</link>
+      <link>https://www.harecoded.com/simple-varnish-installation-2175362/</link>
       <pubDate>Mon, 08 Oct 2012 19:18:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/simple-varnish-installation-2175362/</guid>
+      <guid>https://www.harecoded.com/simple-varnish-installation-2175362/</guid>
       <description>The first thing to do is to make sure your application is passing the headers properly. At least you&#39;ll need this (in PHP):  // Let&#39;s say Varnish caches for 12 hours: $cache_max_age = 60*60*12; header( &#34;Cache-Control: public, must-revalidate, max-age=0, s-maxage=$cache_max_age&#34; );   Varnish installation (CentOS/Redhat):
 RPM taken from https://www.varnish-cache.org/installation/redhat  rpm --nosignature -i https://repo.varnish-cache.org/redhat/varnish-3.0.el5.rpm   After adding the package:  yum install varnish   If you have another Linux see in the link, is more or less the same.</description>
     </item>
     
     <item>
       <title>Putty keep-alive session (mantener activa la sesión)</title>
-      <link>http://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</link>
+      <link>https://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</link>
       <pubDate>Fri, 03 Aug 2012 10:11:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</guid>
+      <guid>https://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</guid>
       <description>Cuando utilizamos putty como cliente ssh muchas veces nos encontramos que, tras un tiempo de inactividad, la sesión se cierra.  Putty cuenta con una opción que nos permite envíar paquestes nulos, de forma automática, cada periodo definido de tiempo. De esa manera, putty, mantendrá la sesión activa.  Antes de activar esta opción hay que tener en cuenta que, el sistema de cancelación automática de una conexión no es más que una medida de seguridad por lo que, en caso de conectarnos a sistemas &#34;</description>
     </item>
     
     <item>
       <title>¿Qué versión de Linux utilizo?</title>
-      <link>http://www.harecoded.com/version-linux-utilizor-1949347/</link>
+      <link>https://www.harecoded.com/version-linux-utilizor-1949347/</link>
       <pubDate>Thu, 10 May 2012 11:33:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/version-linux-utilizor-1949347/</guid>
+      <guid>https://www.harecoded.com/version-linux-utilizor-1949347/</guid>
       <description> Hay muchas formas de saber qué versión de linux estás utilizando, prueba con alguna de estas:  cat /etc/*-release cat /etc/*version cat /proc/version cat /etc/issue   &#34;Lo dejo aquí anotado porqué soy flojo de memoria para este tipo de cosas :)&#34; </description>
     </item>
     
     <item>
       <title>IP&#39;s que usa Facebook Open Graph</title>
-      <link>http://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</link>
+      <link>https://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</link>
       <pubDate>Mon, 30 Apr 2012 10:33:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</guid>
+      <guid>https://www.harecoded.com/ips-usa-facebook-open-graph-1882956/</guid>
       <description>Queremos desarrollar una funcionalidad en nuestro proyecto web que intereactua con Facebook mediante el protocolo Open Graph.  Facebook nos ofrece una herramienta de Debug para validar que, las entradas OG de nuestro site son las esperadas. Con añadir nuestra url en esa herramiento podemos ver un interesante informe.  Cuando lanzamos cualquier tipo de acción desde nuestro site, desde el clásico &#34;me gusta&#34; a las más elaboradas &#34;Custom Actions&#34;</description>
     </item>
     
     <item>
       <title>Contar veces que se pide una URL (y las que no es esa URL)</title>
-      <link>http://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</link>
+      <link>https://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</link>
       <pubDate>Tue, 14 Feb 2012 20:14:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</guid>
+      <guid>https://www.harecoded.com/contar-veces-se-pide-url-no-esa-url-1463840/</guid>
       <description>Hay veces que queremos saber cuántas veces se ha pedido una URL en nuestro servidor y Google Analytics o otro servicio de monitorización basado en Javascript no está disponible. Entonces siempre podemos recurrir a la fuente original de datos, los logs de acceso (esos gran incomprendidos y frecuentemente abandonados) de Apache, Nginx o donde sea.  Si por ejemplo queremos saber cuántas veces se ha pedido la página /abc.html en el mes de febrero (2012_02) y tenemos los logs segmentados por día, será tan sencillo como lanzar un:  grep -c &#34;</description>
     </item>
     
     <item>
       <title>Instalar PHP 5.3 en CentOS</title>
-      <link>http://www.harecoded.com/instalar-php-53-centos-1295513/</link>
+      <link>https://www.harecoded.com/instalar-php-53-centos-1295513/</link>
       <pubDate>Thu, 13 Oct 2011 23:45:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/instalar-php-53-centos-1295513/</guid>
+      <guid>https://www.harecoded.com/instalar-php-53-centos-1295513/</guid>
       <description>Me tienen contento!  Hace muchísimo que deberían haber incluído la versión de PHP 5.3 en los paquetes php por defecto de CentOS, pero parece que se van a quedar con la 5.2 hasta el fin de los tiempos. Ofrecen la versión 5.3 como un paquete separado (php53), lo que implica desinstalar PHP y librerías asociadas para reinstalar la 5.3 con este paquete distinto (incompatible con el anterior claro).  Así que, no pudiéndome aguantar más y con mono de namespaces, funciones lambda y toda la pesca, he migrado mi CentOS 5.</description>
     </item>
     
     <item>
       <title>Conectar por SSH sin password (autenticación de clave pública)</title>
-      <link>http://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</link>
+      <link>https://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</link>
       <pubDate>Mon, 29 Aug 2011 07:03:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</guid>
+      <guid>https://www.harecoded.com/conectar-ssh-password-autenticacion-clave-publica-1266367/</guid>
       <description>Para conectar a un servidor remoto por SSH sin usuario ni contraseña todo lo que hace falta es compartir una clave entre cliente y servidor. Los pasos son muy sencillos:   Asegurarse que la carpeta .ssh existe en el servidor al que nos queremos conectar   Crear una clave RSA en la máquina cliente (la que se conecta):
  ssh-keygen -t rsa Cuando se te pida por un password, dale al enter sin poner ninguno (este es el propósito del artículo, sin passwords)   Copiar la clave pública en el servidor:</description>
     </item>
     
     <item>
       <title>How to backup your full Flickr account (script)</title>
-      <link>http://www.harecoded.com/how-to-backup-your-full-flickr-account-script-1246194/</link>
+      <link>https://www.harecoded.com/how-to-backup-your-full-flickr-account-script-1246194/</link>
       <pubDate>Sun, 24 Jul 2011 11:29:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-backup-your-full-flickr-account-script-1246194/</guid>
+      <guid>https://www.harecoded.com/how-to-backup-your-full-flickr-account-script-1246194/</guid>
       <description>Why you would like to copy all your images stored at Flickr to your computer? Well, maybe you want to browse them later offline, maybe you want to stop paying your PRO account, or to keep them just in case...
 In any case, Flickrtouchr is a simple command-line script to backup Flickr. You don&#39;t need to know python or programming at all. A couple of lines in the Terminal and that&#39;s it.</description>
     </item>
     
     <item>
       <title>Cómo cambiar la extensión a múltiples ficheros desde terminal (unix shell)</title>
-      <link>http://www.harecoded.com/cambiar-extension-multiples-ficheros-terminal-unix-shell-1222900/</link>
+      <link>https://www.harecoded.com/cambiar-extension-multiples-ficheros-terminal-unix-shell-1222900/</link>
       <pubDate>Fri, 17 Jun 2011 21:37:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/cambiar-extension-multiples-ficheros-terminal-unix-shell-1222900/</guid>
+      <guid>https://www.harecoded.com/cambiar-extension-multiples-ficheros-terminal-unix-shell-1222900/</guid>
       <description>Para renombrar la extensi&amp;oacute;n de muchos ficheros a la vez en la terminal, se puede hacer con la siguiente l&amp;iacute;nea:
 for file in *.phtml ; do mv $file `echo $file | sed &#39;s/\(.*\.\)phtml/\1tpl/&#39;` ; done Esto cambiar&amp;iacute;a todas las extensiones phtml por tpl del directorio en que lo lanz&amp;eacute;is. Cambiando la parte en negrita por vuestra extensi&amp;oacute;n favorita ya funcionar&amp;iacute;a.
 Lo que hace la l&amp;iacute;nea es buscar todos los archivos que cumplen la condici&amp;oacute;n *.</description>
@@ -155,19 +155,19 @@ Lo que hace la l&amp;iacute;nea es buscar todos los archivos que cumplen la cond
     
     <item>
       <title>How to create a patch and apply it with subversion</title>
-      <link>http://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</link>
+      <link>https://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</link>
       <pubDate>Tue, 15 Feb 2011 21:16:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</guid>
+      <guid>https://www.harecoded.com/how-to-create-patch-and-apply-it-with-subversion-1167774/</guid>
       <description>If you want to create a patch with svn you only have to type in the terminal something like:  svn diff yourproject &amp;gt; yourproject.patch   Where yourproject is the folder containing the modified source code.  Then, to restore the patch (apply the changes stored in patch in a new working copy), copy the patch file yourproject.patch in the machine where you want apply the patch and &#34;</description>
     </item>
     
     <item>
       <title>Restore broken hard disk creating an image with Ubuntu</title>
-      <link>http://www.harecoded.com/restore-broken-hard-disk-creating-an-image-with-ubuntu-526239/</link>
+      <link>https://www.harecoded.com/restore-broken-hard-disk-creating-an-image-with-ubuntu-526239/</link>
       <pubDate>Mon, 01 Mar 2010 00:22:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/restore-broken-hard-disk-creating-an-image-with-ubuntu-526239/</guid>
+      <guid>https://www.harecoded.com/restore-broken-hard-disk-creating-an-image-with-ubuntu-526239/</guid>
       <description>If your boot partition has been damaged and you cannot boot Ubuntu you still might be able to recover your hard disk and save your data by making an image. All you need is the Ubuntu LiveCD and Partimage, an excellent tool for making backups, or the SystemRescueCD.
 Here you&#39;ll find a detailed explanation on how to use partimage as well:
 http://www.psychocats.net/ubuntu/partimage</description>
@@ -175,30 +175,30 @@ http://www.psychocats.net/ubuntu/partimage</description>
     
     <item>
       <title>TortoiseSVN for Ubuntu Linux: The real alternative</title>
-      <link>http://www.harecoded.com/tortoisesvn-for-ubuntu-linux-the-real-alternative-373573/</link>
+      <link>https://www.harecoded.com/tortoisesvn-for-ubuntu-linux-the-real-alternative-373573/</link>
       <pubDate>Sun, 25 Oct 2009 12:03:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/tortoisesvn-for-ubuntu-linux-the-real-alternative-373573/</guid>
+      <guid>https://www.harecoded.com/tortoisesvn-for-ubuntu-linux-the-real-alternative-373573/</guid>
       <description>I have posted several articles regarding subversion in this blog. If you ask me one thing I like in Windows, then I only have one answer: Tortoise SVN client. This small application is the only thing I love in Windows, for anything else, I&#39;d rather user Mac or Linux.
 But now, there is a Linux alternative to Tortoise SVN called RabbitVCS. I&#39;ve tried it and it works pretty well. This project, formerly NautilusSVN, looks really well and is inspired in the windows tool.</description>
     </item>
     
     <item>
       <title>Cómo reproducir ficheros .RMVB en Ubuntu</title>
-      <link>http://www.harecoded.com/reproducir-ficheros-rmvb-ubuntu-211216/</link>
+      <link>https://www.harecoded.com/reproducir-ficheros-rmvb-ubuntu-211216/</link>
       <pubDate>Sat, 28 Feb 2009 13:57:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/reproducir-ficheros-rmvb-ubuntu-211216/</guid>
+      <guid>https://www.harecoded.com/reproducir-ficheros-rmvb-ubuntu-211216/</guid>
       <description>Los ficheros .rmvb no se pueden reproducir por defecto en Ubuntu, esta extensi&amp;oacute;n es para los de tipo RealMedia Variable Bitrate, pero instalando los c&amp;oacute;decs de Mplayer los podr&amp;aacute;s abrir sin problemas.
 Lo primero que debes instalar, aunque no sea intuitivo es la librer&amp;iacute;a libstdc++5, para hacerlo o bien abre Synaptic ( Sistema -&amp;gt; Administraci&amp;oacute;n -&amp;gt; Gestor de Paquetes )&amp;nbsp; y haz doble click sobre libstdc++5 o ejecuta en la terminal:</description>
     </item>
     
     <item>
       <title>Grabar y ejecutar macros en Vim</title>
-      <link>http://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</link>
+      <link>https://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</link>
       <pubDate>Tue, 09 Sep 2008 12:08:17 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</guid>
+      <guid>https://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</guid>
       <description>Quiz&amp;aacute; VIM sea un editor para freaks, no lo vamos a discutir, pero la verdad es que bien conocido nos puede ahorrar mucho tiempo en hacer las tareas diarias. En este post, explicamos r&amp;aacute;pidamente como grabar una macro y reproducirla N veces.
 Si por ejemplo queremos eliminar de un listado de ficheros de un proyecto las im&amp;aacute;genes, podemos hacer algo como:
  q (Con esto entramos en modo de grabar)</description>
@@ -206,10 +206,10 @@ Si por ejemplo queremos eliminar de un listado de ficheros de un proyecto las im
     
     <item>
       <title>GnomeDo: Quicksilver/Launchy para Gnome (Linux)</title>
-      <link>http://www.harecoded.com/gnomedo-quicksilverlaunchy-gnome-linux-124196/</link>
+      <link>https://www.harecoded.com/gnomedo-quicksilverlaunchy-gnome-linux-124196/</link>
       <pubDate>Tue, 02 Sep 2008 12:08:17 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/gnomedo-quicksilverlaunchy-gnome-linux-124196/</guid>
+      <guid>https://www.harecoded.com/gnomedo-quicksilverlaunchy-gnome-linux-124196/</guid>
       <description>Si hace ya mucho tiempo hablamos de Katapult, un lanzador para KDE, ahora damos el turno a Gnome, con el GnomeDo.&amp;nbsp;
 Al igual que en Quicksilver, se pueden descargar varios plugins interesantes&amp;nbsp;que ampl&amp;iacute;an las funcionalidades b&amp;aacute;sicas del programa, que no son simplemente limitarse a abrir documentos y programas tecleando parte de su nombre.
 Lo que m&amp;aacute;s me gusta de estos programas (sin duda el mejor, la versi&amp;oacute;n original de Mac, Quicksilver) es como uno se olvida de navegar por los men&amp;uacute;s y los sistemas de ficheros.</description>
@@ -217,30 +217,30 @@ Lo que m&amp;aacute;s me gusta de estos programas (sin duda el mejor, la versi&a
     
     <item>
       <title>How to watch and record TV with a PC Ubuntu linux</title>
-      <link>http://www.harecoded.com/how-to-watch-and-record-tv-with-pc-ubuntu-linux-99682/</link>
+      <link>https://www.harecoded.com/how-to-watch-and-record-tv-with-pc-ubuntu-linux-99682/</link>
       <pubDate>Mon, 16 Jun 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-watch-and-record-tv-with-pc-ubuntu-linux-99682/</guid>
+      <guid>https://www.harecoded.com/how-to-watch-and-record-tv-with-pc-ubuntu-linux-99682/</guid>
       <description>Catalan speakers see: &#34;Com veure la TV amb Ubuntu&#34;
 There are many alternatives when we speak of media centers, but I can&#39;t figure out anything other than a computer. It offers all the functionallity you could want in a well-known interface. That&#39;s why I have a PC in the living room, I browse the Internet using my TV (using an HDMI cable) and now I record stuff when I am not at home.</description>
     </item>
     
     <item>
       <title>Linux web development. Test web sites in Internet Explorer inside Linux</title>
-      <link>http://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</link>
+      <link>https://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</link>
       <pubDate>Mon, 19 Nov 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</guid>
+      <guid>https://www.harecoded.com/linux-web-development-test-web-sites-in-internet-explorer-inside-linux-96359/</guid>
       <description>IE: We hate it, but our customers don&#39;t know anything else... So, we must test how Internet Explorer renders our websites. It&#39;s a bit unpractical to boot from another partition, or change your machine for testing. There are a couple of useful practices:
  Install a Virtual Machine for Linux, such as Virtualbox with a windows XP in it Install IE5, IE5.5 or IE6 as a linux standalone application with IEs4Linux  I have a Windows XP with 128MB RAM for Internet Explorer 7 testing inside my VirtualBox for linux.</description>
     </item>
     
     <item>
       <title>Screencast: Cómo capturar tu escritorio Linux en una película</title>
-      <link>http://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</link>
+      <link>https://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</link>
       <pubDate>Wed, 04 Jul 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</guid>
+      <guid>https://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</guid>
       <description>Si quieres grabar una pel&amp;iacute;cula para ense&amp;ntilde;ar al mundo lo que est&amp;aacute;s haciendo en tu escritorio Linux, necesitas recordMyDesktop, una aplicaci&amp;oacute;n que te permite capturar la sesi&amp;oacute;n en formato video utilizando los formatos abiertos OGG Vorbis y theora. Aunque se puede utilizar desde la l&amp;iacute;nea de comandos tambi&amp;eacute;n est&amp;aacute;n disponibles dos versi&amp;oacute;nes gr&amp;aacute;ficas (GTK y PyQT).
 
 Si utilizas la versi&amp;oacute;n 7.04 de Ubuntu (Fesity) puedes instalarlo usando el comando:</description>
@@ -248,37 +248,37 @@ Si utilizas la versi&amp;oacute;n 7.04 de Ubuntu (Fesity) puedes instalarlo usan
     
     <item>
       <title>Basic and simple iptables configurations for home users</title>
-      <link>http://www.harecoded.com/basic-and-simple-iptables-configurations-for-home-users-96337/</link>
+      <link>https://www.harecoded.com/basic-and-simple-iptables-configurations-for-home-users-96337/</link>
       <pubDate>Tue, 12 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/basic-and-simple-iptables-configurations-for-home-users-96337/</guid>
+      <guid>https://www.harecoded.com/basic-and-simple-iptables-configurations-for-home-users-96337/</guid>
       <description>OpenBSD has been always my prefered distribution when I have to install a firewall based on a *NIX machine. The PF rules are what I am used to see. But last year I had to write several configurations for a debian machine using iptables which I am not really used to. Since I tend to forget these things, I paste here a basic configuration, if you want to use it, paste this in your desired starting script.</description>
     </item>
     
     <item>
       <title>A free good cross-platform CSS editor</title>
-      <link>http://www.harecoded.com/free-good-cross-platform-css-editor-96327/</link>
+      <link>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</link>
       <pubDate>Fri, 02 Feb 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/free-good-cross-platform-css-editor-96327/</guid>
+      <guid>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</guid>
       <description>There are many applications where you can edit your Cascading Style Sheets (CSS) in Linux, Windows or Mac, but specifically in my Ubuntu I haven&#39;t found an application like CSSED (GTK). It supports auto-completion, really useful wizards, color pickers, preview and a long etcetera. You can go directly to the download page and see specific instructions for Gentoo, BSD, Mac OS X (via Fink), Windows ... or if you are an ubuntu or debian user just type in a terminal (or through the synaptic manager):</description>
     </item>
     
     <item>
       <title>Quicksilver for Linux</title>
-      <link>http://www.harecoded.com/quicksilver-for-linux-96314/</link>
+      <link>https://www.harecoded.com/quicksilver-for-linux-96314/</link>
       <pubDate>Tue, 21 Mar 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/quicksilver-for-linux-96314/</guid>
+      <guid>https://www.harecoded.com/quicksilver-for-linux-96314/</guid>
       <description>Quicksilver is for me the most useful application in the OS X environment. Few days ago someone shown me the same concept ported to Linux: Katapult. It&#39;s a long way to walk for Katapult to become as much powerful as Quicksilver is, but it gives to Linux users a very useful functionallity. Despite Katapult is a KDE application I&#39;ve been running it in Ubuntu (Gnome) without trouble. If you want to install it (ubuntu): sudo apt-get install katapult In the picture you can see how I started typing &#34;</description>
     </item>
     
     <item>
       <title>Mandrake: adding RPM repositories from your local disk</title>
-      <link>http://www.harecoded.com/mandrake-adding-rpm-repositories-from-your-local-disk-96299/</link>
+      <link>https://www.harecoded.com/mandrake-adding-rpm-repositories-from-your-local-disk-96299/</link>
       <pubDate>Tue, 15 Nov 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/mandrake-adding-rpm-repositories-from-your-local-disk-96299/</guid>
+      <guid>https://www.harecoded.com/mandrake-adding-rpm-repositories-from-your-local-disk-96299/</guid>
       <description>Adding a local folder to the urpmi database is easily done using the urpmi.addmedia command. If this folder is filled with RPMs that you got from somewhere when you attempt to run urpmi.addmedia, an hdlist.cz file will be searched. If you don&#39;t have this file the addmedia will fail.
 To solve this little problem, open a shell and generate the hdlist.cz:
 # su 
@@ -288,20 +288,20 @@ To solve this little problem, open a shell and generate the hdlist.cz:
     
     <item>
       <title>BloGTK :: Update your weblog from your desktop</title>
-      <link>http://www.harecoded.com/blogtk-update-your-weblog-from-your-desktop-96294/</link>
+      <link>https://www.harecoded.com/blogtk-update-your-weblog-from-your-desktop-96294/</link>
       <pubDate>Sat, 15 Oct 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/blogtk-update-your-weblog-from-your-desktop-96294/</guid>
+      <guid>https://www.harecoded.com/blogtk-update-your-weblog-from-your-desktop-96294/</guid>
       <description>BloGTK is a weblog client that allows you to post to your weblog from Linux without the need for a separate browser window. This means that you can forget the Wordpress administration area (just to give an example of weblog)
 BloGTK is compatible with many blogs using the XMLRPC. When configuring the application you only have to pass the absolute path where your xmlrpc file is and start writing. So now you can work offline and when you finish writing the post, simply click on the &#34;</description>
     </item>
     
     <item>
       <title>Script for compressing files with gzip within the terminal with date</title>
-      <link>http://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</link>
+      <link>https://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</link>
       <pubDate>Wed, 14 Sep 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</guid>
+      <guid>https://www.harecoded.com/script-for-compressing-files-with-gzip-within-the-terminal-with-date-96285/</guid>
       <description>This is a simple bash script to compress in tar.gz (gzip) format a file or folder appending date to file name.
 Save this file as gzip.sh and give it execution permissions. From terminal i could be: chmod 755 gzip.sh
 This script does the following:

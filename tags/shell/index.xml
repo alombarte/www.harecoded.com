@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shell on Harecoded</title>
-    <link>http://www.harecoded.com/tags/shell/</link>
+    <link>https://www.harecoded.com/tags/shell/</link>
     <description>Recent content in Shell on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 07 May 2016 18:18:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to backup Flickr into Amazon S3/Dropbox/Google Cloud/Drive...</title>
-      <link>http://www.harecoded.com/how-to-backup-flickr-into-amazon-s3dropboxgoogle-clouddrive-2418512/</link>
+      <link>https://www.harecoded.com/how-to-backup-flickr-into-amazon-s3dropboxgoogle-clouddrive-2418512/</link>
       <pubDate>Sat, 07 May 2016 18:18:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-backup-flickr-into-amazon-s3dropboxgoogle-clouddrive-2418512/</guid>
+      <guid>https://www.harecoded.com/how-to-backup-flickr-into-amazon-s3dropboxgoogle-clouddrive-2418512/</guid>
       <description>The following recipe is an&amp;nbsp;easy&amp;nbsp;way to get your full Flickr account backed up in Amazon S3 or similar cloud storage.  Unless you have a really good Internet connection at home or you are doing a backup of a small library the first thing to do would be to create&amp;nbsp;a machine in the cloud, such as Digital Ocean or Amazon EC2 so you can have a high throughput. Once the process is finished you can destroy the machine and the whole operation will cost you a few cents.</description>
     </item>
     
     <item>
       <title>Finding abusers. List of most frequent IPs in Apache log</title>
-      <link>http://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</link>
+      <link>https://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</link>
       <pubDate>Tue, 25 Jun 2013 07:53:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</guid>
+      <guid>https://www.harecoded.com/finding-abusers-list-most-frequent-ips-in-apache-log-2278797/</guid>
       <description>Internet is full of malware and people with leisure time who will hammer your server with no good intentions, most of them will try to access well-known URLs looking for exploits of software like Wordpress (/wp-admin.php, /edit, etc...).  If you monitor for a while your access_log it&#39;s easy to find out unwanted behaviour. If you want to get a list of the most frequent IPs in your Apache log&amp;nbsp;the following command will get a list of those IPs sorted by number of requests:  [root@www3 ~]# cat /var/log/httpd/access_log_20130620 | awk &#39;{print $1}&#39; | sort | uniq -c | sort -rn | head 912545 95.</description>
     </item>
     
     <item>
       <title>Converting a CSV to SQL using 1 line in bash</title>
-      <link>http://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</link>
+      <link>https://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</link>
       <pubDate>Fri, 07 Jun 2013 11:55:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</guid>
+      <guid>https://www.harecoded.com/converting-csv-to-sql-using-1-line-in-bash-2275563/</guid>
       <description>The command line is very powerful and can do amazing stuff in one single line by pipelining a series of commands. This post is inspired after creating a line that mixed sed and awk, but with just only awk I&#39;ll show you an example on how to convert a CSV file to an SQL insert  Let&#39;s take an input CSV named events-2013-06-06.csv with 16 columns per line. It looks like this:  k51b04876036e2,192.</description>
     </item>
     
     <item>
       <title>Putty keep-alive session (mantener activa la sesión)</title>
-      <link>http://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</link>
+      <link>https://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</link>
       <pubDate>Fri, 03 Aug 2012 10:11:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</guid>
+      <guid>https://www.harecoded.com/putty-keep-alive-session-mantener-activa-sesion-2136431/</guid>
       <description>Cuando utilizamos putty como cliente ssh muchas veces nos encontramos que, tras un tiempo de inactividad, la sesión se cierra.  Putty cuenta con una opción que nos permite envíar paquestes nulos, de forma automática, cada periodo definido de tiempo. De esa manera, putty, mantendrá la sesión activa.  Antes de activar esta opción hay que tener en cuenta que, el sistema de cancelación automática de una conexión no es más que una medida de seguridad por lo que, en caso de conectarnos a sistemas &#34;</description>
     </item>
     
     <item>
       <title>¿Qué versión de Linux utilizo?</title>
-      <link>http://www.harecoded.com/version-linux-utilizor-1949347/</link>
+      <link>https://www.harecoded.com/version-linux-utilizor-1949347/</link>
       <pubDate>Thu, 10 May 2012 11:33:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/version-linux-utilizor-1949347/</guid>
+      <guid>https://www.harecoded.com/version-linux-utilizor-1949347/</guid>
       <description> Hay muchas formas de saber qué versión de linux estás utilizando, prueba con alguna de estas:  cat /etc/*-release cat /etc/*version cat /proc/version cat /etc/issue   &#34;Lo dejo aquí anotado porqué soy flojo de memoria para este tipo de cosas :)&#34; </description>
     </item>
     

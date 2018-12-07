@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Apps on Harecoded</title>
-    <link>http://www.harecoded.com/tags/web-apps/</link>
+    <link>https://www.harecoded.com/tags/web-apps/</link>
     <description>Recent content in Web Apps on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Jul 2014 22:54:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/web-apps/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/web-apps/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Solved: Firefox and IE blocking font awesome (CORS)</title>
-      <link>http://www.harecoded.com/solved-firefox-and-ie-blocking-font-awesome-cors-2353749/</link>
+      <link>https://www.harecoded.com/solved-firefox-and-ie-blocking-font-awesome-cors-2353749/</link>
       <pubDate>Wed, 02 Jul 2014 22:54:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/solved-firefox-and-ie-blocking-font-awesome-cors-2353749/</guid>
+      <guid>https://www.harecoded.com/solved-firefox-and-ie-blocking-font-awesome-cors-2353749/</guid>
       <description>It seemed today that Firefox was blocking the font files when using font-awesome and the web didn&#39;t work properly. But our friend Jorge from the Sphinxdev&amp;nbsp;blog explained us a solution..  In order to enable automatically CORS&amp;nbsp;when a TTF, OTF, EOT or WOFF file is detected&amp;nbsp;you only have to create a .conf file insde&amp;nbsp;/etc/httpd/conf.d with any name and paste inside:  AddType application/font-woff woff AddType application/vnd.ms-fontobject eot AddType application/x-font-ttf ttc ttf AddType font/opentype otf AddType image/svg+xml svg svgz AddEncoding gzip svgz &amp;lt;FilesMatch &#34;</description>
     </item>
     
     <item>
       <title>Best web-based alternatives to Google Reader</title>
-      <link>http://www.harecoded.com/best-web-based-alternatives-to-google-reader-2257200/</link>
+      <link>https://www.harecoded.com/best-web-based-alternatives-to-google-reader-2257200/</link>
       <pubDate>Thu, 14 Mar 2013 10:09:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/best-web-based-alternatives-to-google-reader-2257200/</guid>
+      <guid>https://www.harecoded.com/best-web-based-alternatives-to-google-reader-2257200/</guid>
       <description>If you are a Google Reader reader you have certainly seen the message that is going to disappear by July 1st 2013. If you read from mobile then plenty of cool apps like Flipboard you can use, but when it comes to a web-based interface these are the alternatives I found worth using.  The first thing you should do before it is too late is to download a copy of your Google Reader feeds using Takeout  Then take your time to pick another service, there are plenty.</description>
     </item>
     
     <item>
       <title>GMAIL: Bulk deleted emails based on date</title>
-      <link>http://www.harecoded.com/gmail-bulk-deleted-emails-based-on-date-1293021/</link>
+      <link>https://www.harecoded.com/gmail-bulk-deleted-emails-based-on-date-1293021/</link>
       <pubDate>Wed, 12 Oct 2011 10:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/gmail-bulk-deleted-emails-based-on-date-1293021/</guid>
+      <guid>https://www.harecoded.com/gmail-bulk-deleted-emails-based-on-date-1293021/</guid>
       <description>When I created my gmail account, there was a counter giving you everyday more space. They &#34;sold us&#34; the product as if you never had to delete email again. By looking at that counter it seemed that by now I should have more than a Terabyte of data, truth is that after many years I have less than 8GB. Although it&#39;s a lot of space for the email, if you have automatic notifications, reports, and so on.</description>
     </item>
     
     <item>
       <title>Musica online gratis y sin anuncios</title>
-      <link>http://www.harecoded.com/musica-online-gratis-anuncios-915374/</link>
+      <link>https://www.harecoded.com/musica-online-gratis-anuncios-915374/</link>
       <pubDate>Sat, 09 Oct 2010 20:39:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/musica-online-gratis-anuncios-915374/</guid>
+      <guid>https://www.harecoded.com/musica-online-gratis-anuncios-915374/</guid>
       <description>Desde hace ya bastantes meses vengo usando Grooveshark. Un servicio de streaming que te permite escuchar la m&amp;uacute;sica que quieras de forma gratuita, que a diferencia de Spotify en su versi&amp;oacute;n gratuita no ponen cortes publicitarios, cosa que se agradece enormemente. Grooveshark solo muestra un banner en un lado del reproductor web, por lo que se puede dejar abierto en segundo plano y seguir con otras cosas.
 
 Hoy he descubierto adem&amp;aacute;s PlayListNow, un servicio que ofrece m&amp;uacute;sica en funci&amp;oacute;n de lo que est&amp;eacute;s haciendo en ese momento.</description>
@@ -51,19 +51,19 @@ Hoy he descubierto adem&amp;aacute;s PlayListNow, un servicio que ofrece m&amp;u
     
     <item>
       <title>Google Desktop for Linux</title>
-      <link>http://www.harecoded.com/google-desktop-for-linux-96344/</link>
+      <link>https://www.harecoded.com/google-desktop-for-linux-96344/</link>
       <pubDate>Fri, 29 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/google-desktop-for-linux-96344/</guid>
+      <guid>https://www.harecoded.com/google-desktop-for-linux-96344/</guid>
       <description>As a mac user at home, I&#39;ve depended for a long time upon Spotlight to find stuff in my computer. Not the perfect solution, but at least does the trick. As an Ubuntu Linux user at work, I tried Beagle a long time ago but it was too unstable for my tastes... and never came back. Now comes along Google Desktop for Linux, with a lot of politeness and power. Hurrah!</description>
     </item>
     
     <item>
       <title>I&#39;ve lost my del.icio.us inbox entries</title>
-      <link>http://www.harecoded.com/ive-lost-my-delicious-inbox-entries-96305/</link>
+      <link>https://www.harecoded.com/ive-lost-my-delicious-inbox-entries-96305/</link>
       <pubDate>Thu, 15 Dec 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/ive-lost-my-delicious-inbox-entries-96305/</guid>
+      <guid>https://www.harecoded.com/ive-lost-my-delicious-inbox-entries-96305/</guid>
       <description>This morning del.icio.us was down for maintenance. Some hours after I went back to my inbox to read my daily colleagues entries... BUT NOTHING WAS THERE!! I had a lot of them...
 
 Are they going to appear again?

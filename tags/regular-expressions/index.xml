@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Regular Expressions on Harecoded</title>
-    <link>http://www.harecoded.com/tags/regular-expressions/</link>
+    <link>https://www.harecoded.com/tags/regular-expressions/</link>
     <description>Recent content in Regular Expressions on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Aug 2013 16:44:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/regular-expressions/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/regular-expressions/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A true multiline regexp in PHP. The &#34;I miss U&#34; technique</title>
-      <link>http://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</link>
+      <link>https://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</link>
       <pubDate>Thu, 08 Aug 2013 16:44:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</guid>
+      <guid>https://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</guid>
       <description>The following regular expression matches tags that are opened and close in different lines, albeit can be used for any other purpose. It is also&amp;nbsp;ungreedy, meaning that when the first closing tag is found the rest of equal tags will be ignored.  It is very easy to remember and to apply, I call it the &#34;I MISS YOU&#34; technique, see the why in the regexp modifiers: misU&amp;nbsp;  $html =&amp;lt;&amp;lt;&amp;lt;MULTILINE &amp;lt;p class=&#34;</description>
     </item>
     
     <item>
       <title>Writing complex regular expressions</title>
-      <link>http://www.harecoded.com/writing-complex-regular-expressions-1192414/</link>
+      <link>https://www.harecoded.com/writing-complex-regular-expressions-1192414/</link>
       <pubDate>Fri, 15 Apr 2011 20:48:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/writing-complex-regular-expressions-1192414/</guid>
+      <guid>https://www.harecoded.com/writing-complex-regular-expressions-1192414/</guid>
       <description>Regular expressions are usually hard to read and understand. Even if you have a lot of experience in the subject chances are that when you revisit one of these that you wrote some time ago, it is very difficult to catch up.  Several days ago, a very smart guy at work named Zoltán, recommended us to write complex regular expressions sepparating each logical part in a different line&amp;nbsp;and also comment every single line.</description>
     </item>
     

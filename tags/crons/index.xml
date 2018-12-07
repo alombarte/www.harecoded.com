@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Crons on Harecoded</title>
-    <link>http://www.harecoded.com/tags/crons/</link>
+    <link>https://www.harecoded.com/tags/crons/</link>
     <description>Recent content in Crons on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Nov 2012 12:25:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/crons/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/crons/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Copy/clone/duplicate a mysql database script</title>
-      <link>http://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</link>
+      <link>https://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</link>
       <pubDate>Thu, 08 Nov 2012 12:25:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</guid>
+      <guid>https://www.harecoded.com/copycloneduplicate-mysql-database-script-2184438/</guid>
       <description>This is a simple script that duplicates your entire database. There are many ways in which you can take advantage of having an exact replica of your production database.  In short, the behaviour of the script is the following (in this order, all piped):  Delete the COPY database if possible to start with a fresh one  Create the COPY database  Dump the PRODUCTION database  Inject the output of the dump into the COPY database   Any errors during the process will be logged to the file defined as $ERROR.</description>
     </item>
     

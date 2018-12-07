@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programación on Harecoded</title>
-    <link>http://www.harecoded.com/tags/programaci%C3%B3n/</link>
+    <link>https://www.harecoded.com/tags/programaci%C3%B3n/</link>
     <description>Recent content in Programación on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Jun 2013 10:52:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rellenar una columna con Hash aleatorio en MySQL</title>
-      <link>http://www.harecoded.com/rellenar-columna-hash-aleatorio-mysql-2274754/</link>
+      <link>https://www.harecoded.com/rellenar-columna-hash-aleatorio-mysql-2274754/</link>
       <pubDate>Mon, 03 Jun 2013 10:52:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/rellenar-columna-hash-aleatorio-mysql-2274754/</guid>
+      <guid>https://www.harecoded.com/rellenar-columna-hash-aleatorio-mysql-2274754/</guid>
       <description>Tenemos unos cuantos cientos de datos y queremos crear un hash para poder acceder a ellos de forma directa y cifrada.  Imagina, por ejemplo, la típica tabla de usuarios en la que un campo contiene un hash para guardar en cookies y hacer el autologin por cookie.  Al crear el nuevo atributo este queda vacío así que necesitarás esta pequeña consulta para generar códigos hash de forma aleatoria y muy rápida:  UPDATE `users` SET autologin_hash = MD5(RAND()) WHERE autologin_hash IS NULL;   Fácil eh?</description>
     </item>
     
     <item>
       <title>Instalar Memcache en Mac</title>
-      <link>http://www.harecoded.com/instalar-memcache-mac-517262/</link>
+      <link>https://www.harecoded.com/instalar-memcache-mac-517262/</link>
       <pubDate>Fri, 12 Feb 2010 20:23:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/instalar-memcache-mac-517262/</guid>
+      <guid>https://www.harecoded.com/instalar-memcache-mac-517262/</guid>
       <description>Instalar el demonio de memcached en Mac no es tan complicado como parece siguiendo estos sencillos pasos.
 Primero de todo aseg&amp;uacute;rate que tienes todos los requisitos
 Requisitos para instalar Memcached  Un compilador GCC. No te asustes! Viene instalando las XTools de Mac si es que ya no las tienes Descargarte el script de instalaci&amp;oacute;n desde topfunky  Instalaci&amp;oacute;n del servidor Memcached Abre una terminal i navega hasta la ruta donde te has descargado el script.</description>
@@ -33,20 +33,20 @@ Requisitos para instalar Memcached  Un compilador GCC. No te asustes! Viene inst
     
     <item>
       <title>Incluir programas externos en Eclipse, Dreamweaver, VIM o Notepad&#43;&#43;</title>
-      <link>http://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
+      <link>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
       <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
+      <guid>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
       <description>Es muy &amp;uacute;til incluir otros programas o macros propias dentro de los editores que utilizamos cada d&amp;iacute;a para desarrollar. A veces necesitamos validar nuestro c&amp;oacute;digo con otro programa, ya sea lanz&amp;aacute;ndolo en un navegador determinado, pas&amp;aacute;ndolo por un script propio, etc...
 En mi caso particular tengo un conjunto de scripts que verifican que el c&amp;oacute;digo sigue unas determinadas reglas de formato, de este forma el c&amp;oacute;digo siempre sigue unos determinados patrones.</description>
     </item>
     
     <item>
       <title>Subversion (svn) 1.5 para Mac OS X</title>
-      <link>http://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</link>
+      <link>https://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</link>
       <pubDate>Wed, 12 Nov 2008 20:54:35 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</guid>
+      <guid>https://www.harecoded.com/subversion-svn-15-mac-os-x-157298/</guid>
       <description>Si utilizas distintos sistemas operativos y en ellos utilizas versiones distintas de subversion te habr&amp;aacute;s encontrado alguna vez con el mensaje de error:
 svn: This client is too old to work with working copy &#39;.&#39;; please get a newer Subversion client
 Si eres usuario de Mac y te ha pasado esto, o simplemente necesitas un cliente svn 1.5 para mac puedes descargarte la &amp;uacute;ltima versi&amp;oacute;n de SCPlugin que ya incluye soporte para la 1.</description>
@@ -54,19 +54,19 @@ Si eres usuario de Mac y te ha pasado esto, o simplemente necesitas un cliente s
     
     <item>
       <title>Cómo mover un proyecto en Eclipse</title>
-      <link>http://www.harecoded.com/mover-proyecto-eclipse-114092/</link>
+      <link>https://www.harecoded.com/mover-proyecto-eclipse-114092/</link>
       <pubDate>Wed, 30 Jul 2008 10:53:03 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/mover-proyecto-eclipse-114092/</guid>
+      <guid>https://www.harecoded.com/mover-proyecto-eclipse-114092/</guid>
       <description>A veces necesitamos mover un proyecto de una unidad a otra, o de un&amp;nbsp;volumen&amp;nbsp;a otro, ya sea que estamos en Windows, Linux o Mac. Tenemos configuradas&amp;nbsp;much&amp;iacute;simas opciones, como los workspaces, las carpetas ignoradas, librer&amp;iacute;as externas, codificaci&amp;oacute;n, etc, etc... y no queremos pasar 2 horas m&amp;aacute;s redefiniendo. As&amp;iacute; que deja de hacer la danza del fuego y bailar descalzo sobre las brasas, no es dif&amp;iacute;cil si tienes unas pocas cosas en cuenta.</description>
     </item>
     
     <item>
       <title>Primera Barcelona PHP Conference</title>
-      <link>http://www.harecoded.com/primera-barcelona-php-conference-96366/</link>
+      <link>https://www.harecoded.com/primera-barcelona-php-conference-96366/</link>
       <pubDate>Fri, 22 Feb 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/primera-barcelona-php-conference-96366/</guid>
+      <guid>https://www.harecoded.com/primera-barcelona-php-conference-96366/</guid>
       <description>El S&amp;aacute;bado 23 de Febrero tendr&amp;eacute; el placer de realizar una presentaci&amp;oacute;n en la Primera Barcelona PHPConference. La verdad es que alegra (y acojona) que haya tenido tanto &amp;eacute;xito de participaci&amp;oacute;n... &amp;iexcl;Nada menos que 150 asistentes en la primera convocatoria! Estoy seguro que nos lo vamos a pasar fant&amp;aacute;sticamente, haremos bastantes contactos a nivel personal y profesional y podremos sobre todo vernos las caras algunos de los que estamos en este mundillo del PHP por estos lares catalanes.</description>
     </item>
     

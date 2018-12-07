@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Varnish on Harecoded</title>
-    <link>http://www.harecoded.com/tags/varnish/</link>
+    <link>https://www.harecoded.com/tags/varnish/</link>
     <description>Recent content in Varnish on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 Jul 2014 15:14:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/varnish/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/varnish/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VCL&#39;s Varnish syntax highlighting for PHPStorm</title>
-      <link>http://www.harecoded.com/vcls-varnish-syntax-highlighting-for-phpstorm-2356757/</link>
+      <link>https://www.harecoded.com/vcls-varnish-syntax-highlighting-for-phpstorm-2356757/</link>
       <pubDate>Wed, 23 Jul 2014 15:14:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/vcls-varnish-syntax-highlighting-for-phpstorm-2356757/</guid>
+      <guid>https://www.harecoded.com/vcls-varnish-syntax-highlighting-for-phpstorm-2356757/</guid>
       <description>If you are looking for Varnish&amp;nbsp;syntax highlighting for PHPStorm, as per today, you won&#39;t find a plugin. This post is not publishing a plugin for proper vcl syntax highlighting but a quick hack to see some coloring.  Given the fact&amp;nbsp;Varnish configuration files are very similar to C I tried to associate the .vlc type to C files. &amp;nbsp;It is not rocket science but at least your eyes will hurt less.</description>
     </item>
     
     <item>
       <title>Varnish allow/reject connections with IPs list (ACL)</title>
-      <link>http://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</link>
+      <link>https://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</link>
       <pubDate>Tue, 06 Nov 2012 12:29:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</guid>
+      <guid>https://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</guid>
       <description>In a web server you can use directives to deny the unwanted eye to look at your content. This is an example of how Apache would handle a virtual host that only accepts connections from a series of IPs, but in Varnish that won&#39;t work.  Order Deny,Allow Deny from all # Barcelona IPs Allow from 89.140.xxx.xxx/27 # Japan IP Allow from 222.229.xxx.xxx/32   The reason that this won&#39;t work in Varnish is because the IP Apache is receiving is 127.</description>
     </item>
     
     <item>
       <title>Determining the real client IP with Varnish (w/ X-Forwarded-For)</title>
-      <link>http://www.harecoded.com/determining-the-real-client-ip-with-varnish-w-x-forwarded-for-2177289/</link>
+      <link>https://www.harecoded.com/determining-the-real-client-ip-with-varnish-w-x-forwarded-for-2177289/</link>
       <pubDate>Mon, 15 Oct 2012 11:03:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/determining-the-real-client-ip-with-varnish-w-x-forwarded-for-2177289/</guid>
+      <guid>https://www.harecoded.com/determining-the-real-client-ip-with-varnish-w-x-forwarded-for-2177289/</guid>
       <description>If you implement Varnish in your application one of the early things that you discover is that &amp;nbsp;any IP functionalities you had are now gone. Some examples are:  GEOIP does not resolve the country  Apache logs write 127.0.0.1 as request client IP (or another IP of your LAN)  My own PHP logic cannot longer apply filters by IP    Why? Well, it&#39;s easy to answer.</description>
     </item>
     
     <item>
       <title>Varnish VCL: Delete ALL cookies and other magic</title>
-      <link>http://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</link>
+      <link>https://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</link>
       <pubDate>Tue, 09 Oct 2012 14:48:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</guid>
+      <guid>https://www.harecoded.com/varnish-vcl-delete-all-cookies-and-other-magic-2175580/</guid>
       <description>This morning Javi Callón&amp;nbsp;gave me a great introduction in few minutes to the Varnish in steroids world, I really appreciate it. &amp;nbsp;I&#39;d like to share this snippet which might be very interesting for you if you are new to the Varnish magic too.  This has been my first contact with Varnish ever, and I have to say I am quite amazed on how the application is responding now in terms of performance.</description>
     </item>
     
     <item>
       <title>Simple Varnish Installation</title>
-      <link>http://www.harecoded.com/simple-varnish-installation-2175362/</link>
+      <link>https://www.harecoded.com/simple-varnish-installation-2175362/</link>
       <pubDate>Mon, 08 Oct 2012 19:18:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/simple-varnish-installation-2175362/</guid>
+      <guid>https://www.harecoded.com/simple-varnish-installation-2175362/</guid>
       <description>The first thing to do is to make sure your application is passing the headers properly. At least you&#39;ll need this (in PHP):  // Let&#39;s say Varnish caches for 12 hours: $cache_max_age = 60*60*12; header( &#34;Cache-Control: public, must-revalidate, max-age=0, s-maxage=$cache_max_age&#34; );   Varnish installation (CentOS/Redhat):
 RPM taken from https://www.varnish-cache.org/installation/redhat  rpm --nosignature -i https://repo.varnish-cache.org/redhat/varnish-3.0.el5.rpm   After adding the package:  yum install varnish   If you have another Linux see in the link, is more or less the same.</description>
     </item>

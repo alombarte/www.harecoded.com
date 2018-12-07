@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Psion on Harecoded</title>
-    <link>http://www.harecoded.com/tags/psion/</link>
+    <link>https://www.harecoded.com/tags/psion/</link>
     <description>Recent content in Psion on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Jun 2007 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/psion/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/psion/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>De conferencias con una Psion 5mx</title>
-      <link>http://www.harecoded.com/conferencias-psion-5mx-96331/</link>
+      <link>https://www.harecoded.com/conferencias-psion-5mx-96331/</link>
       <pubDate>Mon, 04 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/conferencias-psion-5mx-96331/</guid>
+      <guid>https://www.harecoded.com/conferencias-psion-5mx-96331/</guid>
       <description>Hace unos d&amp;iacute;as tuve la oportunidad de asistir a la PHP Conference 2007 spring edition celebrada en Stuttgart, Alemania. Dada la experiencia de conferencias anteriores, sab&amp;iacute;a al 100% que no quer&amp;iacute;a llevar un port&amp;aacute;til a las sesiones... Lo he hecho otras veces y odio tener que arrastrar los kilos de tecnolog&amp;iacute;a a todas partes para usarlos s&amp;oacute;lo en contadas ocasiones. Pero sobre todo, odio la dependenia que provoca de los enchufes.</description>
     </item>
     

@@ -2,126 +2,126 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Harecoded</title>
-    <link>http://www.harecoded.com/tags/software/</link>
+    <link>https://www.harecoded.com/tags/software/</link>
     <description>Recent content in Software on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Oct 2012 20:09:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Evitar que Chrome lance a Google tu url como búsqueda</title>
-      <link>http://www.harecoded.com/evitar-chrome-lance-google-url-busqueda-2180657/</link>
+      <link>https://www.harecoded.com/evitar-chrome-lance-google-url-busqueda-2180657/</link>
       <pubDate>Fri, 26 Oct 2012 20:09:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/evitar-chrome-lance-google-url-busqueda-2180657/</guid>
+      <guid>https://www.harecoded.com/evitar-chrome-lance-google-url-busqueda-2180657/</guid>
       <description>El problema   Como desarrollador cada vez me siento más cómodo trabajando con Google Chrome pero hay una cosa que muchas veces me hace perder algo de tiempo:  En ocasiones, al intentar buscar una url poco &#34;normal&#34;, como puede ser en un dominio típico en un entorno de desarrollo, Chrome detecta que no es una url válida y la lanza contra Google en forma de búsqueda.  Un ejemplo   Queremos acceder a nuestra working copy con una url como ésta:&amp;nbsp;development_area/test_script.</description>
     </item>
     
     <item>
       <title>How to setup a remote development environment over SFTP (working copy)</title>
-      <link>http://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</link>
+      <link>https://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</link>
       <pubDate>Thu, 09 Aug 2012 00:10:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</guid>
+      <guid>https://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</guid>
       <description>This article explains how to setup the server and client to work with a remote working copy.  To properly understand this post you should have read the previous post, When to setup a remote development environment over SFTP (working copy).  To have the enviroment up and running you must setup once the server, and then apply the configuration of the client in every developer machine. But the client side is very simple and requires no installation at all.</description>
     </item>
     
     <item>
       <title>When to setup a remote development environment over SFTP (working copy)</title>
-      <link>http://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</link>
+      <link>https://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</link>
       <pubDate>Wed, 08 Aug 2012 17:49:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</guid>
+      <guid>https://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</guid>
       <description>When a programmer has a local copy of the code and an environment fully functional where the web can be tested before going live, we usually call it a&amp;nbsp;working copy.  The action of moving/copying/putting this work in the final live server (a.k.a production server/environment) is called the&amp;nbsp;deploy&amp;nbsp;action.  There are many ways of having a working copy up and running. We, the key stroker maniacs, use to work more or less with one of the following working copy configurations:   No working copy.</description>
     </item>
     
     <item>
       <title>¿Funciona el Office en Mac?</title>
-      <link>http://www.harecoded.com/funciona-office-macr-1890097/</link>
+      <link>https://www.harecoded.com/funciona-office-macr-1890097/</link>
       <pubDate>Mon, 07 May 2012 16:05:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/funciona-office-macr-1890097/</guid>
+      <guid>https://www.harecoded.com/funciona-office-macr-1890097/</guid>
       <description>Esa pregunta me resulta, realmente, odiosa. Es una de las típicas preguntas del usuario de PC que piensa migrar a Mac pero está preocupado por las compatibilidades.  Si la pregunta fuera acerca de cualquier otro software no me molestaría tanto pero... precisamente ese... permite&amp;nbsp; que me justifique:  Estaremos de acuerdo en que, Microsoft Office, es uno de los mejores productos de los que haya lanzado Microsoft. Su calidad se ha ido manteniendo actualización tras actualización desde 1989.</description>
     </item>
     
     <item>
       <title>Google Drive ofrece hasta 16TB de espacio</title>
-      <link>http://www.harecoded.com/google-drive-ofrece-hasta-16tb-espacio-1876609/</link>
+      <link>https://www.harecoded.com/google-drive-ofrece-hasta-16tb-espacio-1876609/</link>
       <pubDate>Wed, 25 Apr 2012 14:13:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/google-drive-ofrece-hasta-16tb-espacio-1876609/</guid>
+      <guid>https://www.harecoded.com/google-drive-ofrece-hasta-16tb-espacio-1876609/</guid>
       <description>Desde hace unos días corría por la web un rumor que decía que, Drive, podría ofrecer hasta 100Gb (pagando por ello, claro está).  Justo veo que han actualizado su web de contratación de espacio.  Cómo podéis ver en la captura, Drive ofrece hasta 16TB de espacio por 800$ al mes.  Una verdadera animalada!. Dropbox ofrece hasta 1TB en su cuenta Teams por el mismo precio.  Considero los precios de google muy competitivos además, gracias a su funcionamiento, es una alternativa muy interesante para compartir archivos.</description>
     </item>
     
     <item>
       <title>Best distraction-free writing programs</title>
-      <link>http://www.harecoded.com/best-distraction-free-writing-programs-943854/</link>
+      <link>https://www.harecoded.com/best-distraction-free-writing-programs-943854/</link>
       <pubDate>Wed, 20 Oct 2010 20:16:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/best-distraction-free-writing-programs-943854/</guid>
+      <guid>https://www.harecoded.com/best-distraction-free-writing-programs-943854/</guid>
       <description>I am not a writer, but as many other mortals a lot of times I need to write long documents or put my ideas alltogether. For anyone who works with a computer and needs to write text in a non-distracting environment these tools will be very useful.
 These programs usually are full-screen and only let you see the text you are typing, and usually plain text (without any formats). It might sound simple or even ridiculous, but I am more productive when I stop receiving notifications and being tempted of clicking on that little red number showing unread email or any other procastinators.</description>
     </item>
     
     <item>
       <title>Reset iTerm preferences to default</title>
-      <link>http://www.harecoded.com/reset-iterm-preferences-to-default-529907/</link>
+      <link>https://www.harecoded.com/reset-iterm-preferences-to-default-529907/</link>
       <pubDate>Sun, 07 Mar 2010 20:09:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/reset-iterm-preferences-to-default-529907/</guid>
+      <guid>https://www.harecoded.com/reset-iterm-preferences-to-default-529907/</guid>
       <description>If you have messed up your iTerm application preferences you can aways return to the factory settings by deleting your iTerm preferences file. Just delete the following file:
 rm ~/Library/Preferences/net.sourceforge.iTerm.plist This will delete your profiles, very useful when you have remapped keys and you can&#39;t remember how to go back.</description>
     </item>
     
     <item>
       <title>SVN merge for Mac OS X</title>
-      <link>http://www.harecoded.com/svn-merge-for-mac-os-x-157489/</link>
+      <link>https://www.harecoded.com/svn-merge-for-mac-os-x-157489/</link>
       <pubDate>Wed, 11 Feb 2009 06:30:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/svn-merge-for-mac-os-x-157489/</guid>
+      <guid>https://www.harecoded.com/svn-merge-for-mac-os-x-157489/</guid>
       <description>If you want to merge branches in your projects using a Mac OS X, you&#39;ll probably miss how straightforward is to do that with the TortoiseSVN client.
 Mac has many SVN-fashioned clients where you can fall in love when you see the GUI, but when it comes to do a merge it seems that all they have forgotten to include support for it. I haven&#39;t seen any free or comercial application for Mac that integrates all the subversion commands in the same tool without pain.</description>
     </item>
     
     <item>
       <title>El fin de las fotos movidas en el iPhone, con Darkroom</title>
-      <link>http://www.harecoded.com/fotos-movidas-iphone-darkroom-183552/</link>
+      <link>https://www.harecoded.com/fotos-movidas-iphone-darkroom-183552/</link>
       <pubDate>Fri, 09 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/fotos-movidas-iphone-darkroom-183552/</guid>
+      <guid>https://www.harecoded.com/fotos-movidas-iphone-darkroom-183552/</guid>
       <description>Se acab&amp;oacute; que las fotos del iphone salgan movidas!
 Si tienes un pulso tan bueno como el m&amp;iacute;o te habr&amp;aacute;s encontrado m&amp;aacute;s de una vez que haces varias tomas de fotograf&amp;iacute;as y siempre te sale la foto desenfocada o movida. Pero tu tienes paciencia y tiras la misma foto 40 veces hasta que sale bien. El simple hecho de pulsar el bot&amp;oacute;n de fotografiar hace que esa m&amp;iacute;nima presi&amp;oacute;n nos mueva el objetivo y adi&amp;oacute;s foto.</description>
     </item>
     
     <item>
       <title>Incluir programas externos en Eclipse, Dreamweaver, VIM o Notepad&#43;&#43;</title>
-      <link>http://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
+      <link>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</link>
       <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
+      <guid>https://www.harecoded.com/incluir-programas-externos-eclipse-dreamweaver-vim-o-notepad-157917/</guid>
       <description>Es muy &amp;uacute;til incluir otros programas o macros propias dentro de los editores que utilizamos cada d&amp;iacute;a para desarrollar. A veces necesitamos validar nuestro c&amp;oacute;digo con otro programa, ya sea lanz&amp;aacute;ndolo en un navegador determinado, pas&amp;aacute;ndolo por un script propio, etc...
 En mi caso particular tengo un conjunto de scripts que verifican que el c&amp;oacute;digo sigue unas determinadas reglas de formato, de este forma el c&amp;oacute;digo siempre sigue unos determinados patrones.</description>
     </item>
     
     <item>
       <title>Textmate: Plugins de PHP, Smarty y Subversion</title>
-      <link>http://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</link>
+      <link>https://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</link>
       <pubDate>Fri, 28 Nov 2008 16:47:55 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</guid>
+      <guid>https://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</guid>
       <description>Textmate es sin duda uno de aquellos editores para Mac OS X de los que hacen quitarse el sombrero. Como muchos otros editores, Textmate tambi&amp;eacute;n soporta plugins (Bundles les llaman) y se pueden instalar un mont&amp;oacute;n de ellos.
 Para los programadores y webmasters que trabajan con PHP hay dos Bundles de especial utilidad: los que permiten Autocompletion para Smarty y Autocompletion para PHP. Para instalarlos simplemente hay que ejectuar en una terminal:</description>
     </item>
     
     <item>
       <title>Grabar y ejecutar macros en Vim</title>
-      <link>http://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</link>
+      <link>https://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</link>
       <pubDate>Tue, 09 Sep 2008 12:08:17 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</guid>
+      <guid>https://www.harecoded.com/grabar-ejecutar-macros-vim-125861/</guid>
       <description>Quiz&amp;aacute; VIM sea un editor para freaks, no lo vamos a discutir, pero la verdad es que bien conocido nos puede ahorrar mucho tiempo en hacer las tareas diarias. En este post, explicamos r&amp;aacute;pidamente como grabar una macro y reproducirla N veces.
 Si por ejemplo queremos eliminar de un listado de ficheros de un proyecto las im&amp;aacute;genes, podemos hacer algo como:
  q (Con esto entramos en modo de grabar)</description>
@@ -129,19 +129,19 @@ Si por ejemplo queremos eliminar de un listado de ficheros de un proyecto las im
     
     <item>
       <title>File List: Utilidad para renombrar ficheros en lote para Mac OS X</title>
-      <link>http://www.harecoded.com/file-list-utilidad-renombrar-ficheros-lote-mac-os-x-96365/</link>
+      <link>https://www.harecoded.com/file-list-utilidad-renombrar-ficheros-lote-mac-os-x-96365/</link>
       <pubDate>Mon, 11 Feb 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/file-list-utilidad-renombrar-ficheros-lote-mac-os-x-96365/</guid>
+      <guid>https://www.harecoded.com/file-list-utilidad-renombrar-ficheros-lote-mac-os-x-96365/</guid>
       <description>De la mano de Many Tricks nos llega esta excelente utilidad gratuita para renombrar archivos en lote llamada File list. Nos permite hacer las tareas b&amp;aacute;sicas de renombrado de ficheros, como cambiar la extensi&amp;oacute;n, cambiar may&amp;uacute;sculas/min&amp;uacute;sculas, a&amp;ntilde;adir un n&amp;uacute;mero secuencialmente en los ficheros, reemplazar las apariciones de un texto, hacer tareas de ordenaci&amp;oacute;n o crear nuestras propias expresiones regulares... y siempre nos permite previsualizar el resultado final antes de hacer &#34;</description>
     </item>
     
     <item>
       <title>Quicksilver goes opensource</title>
-      <link>http://www.harecoded.com/quicksilver-goes-opensource-96357/</link>
+      <link>https://www.harecoded.com/quicksilver-goes-opensource-96357/</link>
       <pubDate>Thu, 08 Nov 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/quicksilver-goes-opensource-96357/</guid>
+      <guid>https://www.harecoded.com/quicksilver-goes-opensource-96357/</guid>
       <description>The excellent launcher (and much more) Quicksilver that Mac users have been using for so long has been opensourced. This is great news, since more developers can join the product and improve it and extend it.
 
 My hope is that someone will make a cross-platform version, or other projects like Launchy or gnome-launch will add more features thanks to quicksilver knowledgebase. The code can be reached via Google Code.</description>
@@ -149,20 +149,20 @@ My hope is that someone will make a cross-platform version, or other projects li
     
     <item>
       <title>Automatic keylock for windows mobile smartphone edition</title>
-      <link>http://www.harecoded.com/automatic-keylock-for-windows-mobile-smartphone-edition-96353/</link>
+      <link>https://www.harecoded.com/automatic-keylock-for-windows-mobile-smartphone-edition-96353/</link>
       <pubDate>Thu, 04 Oct 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/automatic-keylock-for-windows-mobile-smartphone-edition-96353/</guid>
+      <guid>https://www.harecoded.com/automatic-keylock-for-windows-mobile-smartphone-edition-96353/</guid>
       <description>I&#39;m having some fun testing a Samsung i600 (a.k.a. Blackjack) windows mobile smartphone edition. I will probably sell it to someone else who has more respect for Microsoft software, but the Samsung hardware is top notch nonetheless, and I&#39;m liking the device more and more.
 Samsung tries very hard to disguise windows on this mobile, and the result is very good, frankly. Just like Nokia&#39;s Symbian 3rd edition mobiles, this Samsung i600 comes with no automatic keylock, which is INSANE.</description>
     </item>
     
     <item>
       <title>Screencast: Cómo capturar tu escritorio Linux en una película</title>
-      <link>http://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</link>
+      <link>https://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</link>
       <pubDate>Wed, 04 Jul 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</guid>
+      <guid>https://www.harecoded.com/screencast-capturar-escritorio-linux-pelicula-96345/</guid>
       <description>Si quieres grabar una pel&amp;iacute;cula para ense&amp;ntilde;ar al mundo lo que est&amp;aacute;s haciendo en tu escritorio Linux, necesitas recordMyDesktop, una aplicaci&amp;oacute;n que te permite capturar la sesi&amp;oacute;n en formato video utilizando los formatos abiertos OGG Vorbis y theora. Aunque se puede utilizar desde la l&amp;iacute;nea de comandos tambi&amp;eacute;n est&amp;aacute;n disponibles dos versi&amp;oacute;nes gr&amp;aacute;ficas (GTK y PyQT).
 
 Si utilizas la versi&amp;oacute;n 7.04 de Ubuntu (Fesity) puedes instalarlo usando el comando:</description>
@@ -170,86 +170,86 @@ Si utilizas la versi&amp;oacute;n 7.04 de Ubuntu (Fesity) puedes instalarlo usan
     
     <item>
       <title>A fantastic rss reader: readermini.com</title>
-      <link>http://www.harecoded.com/fantastic-rss-reader-readerminicom-96339/</link>
+      <link>https://www.harecoded.com/fantastic-rss-reader-readerminicom-96339/</link>
       <pubDate>Sun, 17 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/fantastic-rss-reader-readerminicom-96339/</guid>
+      <guid>https://www.harecoded.com/fantastic-rss-reader-readerminicom-96339/</guid>
       <description>I have been searching for a good rss reader since I switched my Nokia N800 for a Nokia 770, as the latter doesn&#39;t come with a default application for handling news feeds. And since I had already found a truly perfect image viewer, this became the last software I needed to complete what was a fantastic mobile computer by the way.
 I am a big fan of Google Reader, to the point that I stopped using Netnewswire, one of the best Mac OSX apps in my opinion.</description>
     </item>
     
     <item>
       <title>Automatic code formatting for PHP in your editor or CVS/SVN</title>
-      <link>http://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</link>
+      <link>https://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</link>
       <pubDate>Mon, 28 May 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</guid>
+      <guid>https://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</guid>
       <description>PhpCodeBeautififier is a free tool for PHP programmers that formats PHP files to get a nice presentation and keeps the programmer sanity. We all programmers have our own way of representing code lines, but when the code is shared amongst many programmers it has to be formatted following some conventions.
 PhpCodeBeautifier allows you to specify those patterns you&#39;d like to follow and it will format every file for you. The idea is simple, you continue on being that little unchangeable typer and delegate the &#34;</description>
     </item>
     
     <item>
       <title>Quicksilver substitute for windows</title>
-      <link>http://www.harecoded.com/quicksilver-substitute-for-windows-96329/</link>
+      <link>https://www.harecoded.com/quicksilver-substitute-for-windows-96329/</link>
       <pubDate>Fri, 27 Apr 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/quicksilver-substitute-for-windows-96329/</guid>
+      <guid>https://www.harecoded.com/quicksilver-substitute-for-windows-96329/</guid>
       <description>Some time ago I published an article about an application similar to quicksilver in Linux. Now, after changing my job to another company and being forced to use Windows, the first thing I did was looking for a launcher to quickly open documents and applications. The result was a skinnable program with a simple interface called Launchy . It&#39;s free. With that app, I open a new category in this blog called Windows: I would never believed that i were going to do this :| Enjoy Launchy.</description>
     </item>
     
     <item>
       <title>A free good cross-platform CSS editor</title>
-      <link>http://www.harecoded.com/free-good-cross-platform-css-editor-96327/</link>
+      <link>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</link>
       <pubDate>Fri, 02 Feb 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/free-good-cross-platform-css-editor-96327/</guid>
+      <guid>https://www.harecoded.com/free-good-cross-platform-css-editor-96327/</guid>
       <description>There are many applications where you can edit your Cascading Style Sheets (CSS) in Linux, Windows or Mac, but specifically in my Ubuntu I haven&#39;t found an application like CSSED (GTK). It supports auto-completion, really useful wizards, color pickers, preview and a long etcetera. You can go directly to the download page and see specific instructions for Gentoo, BSD, Mac OS X (via Fink), Windows ... or if you are an ubuntu or debian user just type in a terminal (or through the synaptic manager):</description>
     </item>
     
     <item>
       <title>Your Logitech webcam in OS X</title>
-      <link>http://www.harecoded.com/your-logitech-webcam-in-os-x-96325/</link>
+      <link>https://www.harecoded.com/your-logitech-webcam-in-os-x-96325/</link>
       <pubDate>Wed, 22 Nov 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/your-logitech-webcam-in-os-x-96325/</guid>
+      <guid>https://www.harecoded.com/your-logitech-webcam-in-os-x-96325/</guid>
       <description>Tired of chatting or using Skype without video? For all of us who didn&#39;t have an Apple&#39;s iSight camera it&#39;s possible to use almost any PC USB webcam with Macam. Macam is a driver for USB webcams on Mac OS X. It allows hundreds of USB webcams to be used by many Mac OS X video-aware applications. Macam installation is very easy, you only have to copy the Macam component under /Library/Quicktime in your system.</description>
     </item>
     
     <item>
       <title>Essential applications for Mac OS X</title>
-      <link>http://www.harecoded.com/essential-applications-for-mac-os-x-96317/</link>
+      <link>https://www.harecoded.com/essential-applications-for-mac-os-x-96317/</link>
       <pubDate>Sun, 02 Apr 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/essential-applications-for-mac-os-x-96317/</guid>
+      <guid>https://www.harecoded.com/essential-applications-for-mac-os-x-96317/</guid>
       <description>Recently I installed from scratch a couple of machines, and as long I were needing my applications I generated this list of essential ones:
    Quicksilver Free. Quicksilver is a launcher. When you call Quicksilver through the key combination Ctrl+space and you start typing, it suggests an application, document or file that contains that letters you typed in any place. Then you can open it, send it by email, reveal it on Finder and a long long etc.</description>
     </item>
     
     <item>
       <title>Ubuntu: Play mp3, extract RAR files, install the java plugin... and much more</title>
-      <link>http://www.harecoded.com/ubuntu-play-mp3-extract-rar-files-install-the-java-plugin-and-much-more-96316/</link>
+      <link>https://www.harecoded.com/ubuntu-play-mp3-extract-rar-files-install-the-java-plugin-and-much-more-96316/</link>
       <pubDate>Sun, 02 Apr 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/ubuntu-play-mp3-extract-rar-files-install-the-java-plugin-and-much-more-96316/</guid>
+      <guid>https://www.harecoded.com/ubuntu-play-mp3-extract-rar-files-install-the-java-plugin-and-much-more-96316/</guid>
       <description>Recentlly I posted on How to play mp3 with ubuntu and now I am posting how to do it again but also:
  How to install the Java Plugin How to install the Flash Plugin How to play windows videos RealPlayer Extract RAR files, ACE files and 7-Zip files Enable the Num Lock at system startup Install microsoft fonts and much much more...  The solution arrives by installing EasyUbuntu</description>
     </item>
     
     <item>
       <title>Quicksilver for Linux</title>
-      <link>http://www.harecoded.com/quicksilver-for-linux-96314/</link>
+      <link>https://www.harecoded.com/quicksilver-for-linux-96314/</link>
       <pubDate>Tue, 21 Mar 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/quicksilver-for-linux-96314/</guid>
+      <guid>https://www.harecoded.com/quicksilver-for-linux-96314/</guid>
       <description>Quicksilver is for me the most useful application in the OS X environment. Few days ago someone shown me the same concept ported to Linux: Katapult. It&#39;s a long way to walk for Katapult to become as much powerful as Quicksilver is, but it gives to Linux users a very useful functionallity. Despite Katapult is a KDE application I&#39;ve been running it in Ubuntu (Gnome) without trouble. If you want to install it (ubuntu): sudo apt-get install katapult In the picture you can see how I started typing &#34;</description>
     </item>
     
     <item>
       <title>Spirited Away</title>
-      <link>http://www.harecoded.com/spirited-away-96306/</link>
+      <link>https://www.harecoded.com/spirited-away-96306/</link>
       <pubDate>Thu, 29 Dec 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/spirited-away-96306/</guid>
+      <guid>https://www.harecoded.com/spirited-away-96306/</guid>
       <description>With Sprited Away [author, MacUpdate] you specify the maximum time of inactivity for your applications. When a program has been inactive for such a time it is automatically hidden by spirited away, so you don&#39;t have many annoying windows visible on the screen.
 If there is any application you don&#39;t want to behave like this you only have to exlcude it in the top bar menu (See right image)
 Spirited away doesn&#39;t have Dock icon nor interfere visually in any other place</description>
@@ -257,50 +257,50 @@ Spirited away doesn&#39;t have Dock icon nor interfere visually in any other pla
     
     <item>
       <title>Installing PHP5 on Mac OS X [1 minute]</title>
-      <link>http://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</link>
+      <link>https://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</link>
       <pubDate>Wed, 26 Oct 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</guid>
+      <guid>https://www.harecoded.com/installing-php5-on-mac-os-x-1-minute-96296/</guid>
       <description>Autumn is the worth conferences season for us. It seems that every autumn brings the interesting subjects and this November we (Manuel and myself, Albert) are attending at the PHP Conference 2005 held in Frankfurt, Germany. Last year was the Plone Conference 2004.
 Since we are a couple of sick men, when we assist to a software conference we need to take with us a laptop (mac os x) having pre-installed the matter.</description>
     </item>
     
     <item>
       <title>U*Blog: blog posting from the pda</title>
-      <link>http://www.harecoded.com/ublog-blog-posting-from-the-pda-96297/</link>
+      <link>https://www.harecoded.com/ublog-blog-posting-from-the-pda-96297/</link>
       <pubDate>Mon, 24 Oct 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/ublog-blog-posting-from-the-pda-96297/</guid>
+      <guid>https://www.harecoded.com/ublog-blog-posting-from-the-pda-96297/</guid>
       <description>U*Blog is a fantastic application for publishing content in blogs from your palm device. It quickly shows it is well thought out, with clear functionalities and uncluttered interface. And best of all, it is freeware. U*Blog supports MovableType, Metaweblog and Blogger API compliant bloggers, which covers pretty much all the systems out there. This is my configuration for posting to a wordpress blog:
 Name:	harecoded Type:	MovableType User:	myuser Pwd:	mypwd Host:	www.</description>
     </item>
     
     <item>
       <title>BloGTK :: Update your weblog from your desktop</title>
-      <link>http://www.harecoded.com/blogtk-update-your-weblog-from-your-desktop-96294/</link>
+      <link>https://www.harecoded.com/blogtk-update-your-weblog-from-your-desktop-96294/</link>
       <pubDate>Sat, 15 Oct 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/blogtk-update-your-weblog-from-your-desktop-96294/</guid>
+      <guid>https://www.harecoded.com/blogtk-update-your-weblog-from-your-desktop-96294/</guid>
       <description>BloGTK is a weblog client that allows you to post to your weblog from Linux without the need for a separate browser window. This means that you can forget the Wordpress administration area (just to give an example of weblog)
 BloGTK is compatible with many blogs using the XMLRPC. When configuring the application you only have to pass the absolute path where your xmlrpc file is and start writing. So now you can work offline and when you finish writing the post, simply click on the &#34;</description>
     </item>
     
     <item>
       <title>How to disable annoying security warnings in Safari</title>
-      <link>http://www.harecoded.com/how-to-disable-annoying-security-warnings-in-safari-96290/</link>
+      <link>https://www.harecoded.com/how-to-disable-annoying-security-warnings-in-safari-96290/</link>
       <pubDate>Tue, 20 Sep 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-disable-annoying-security-warnings-in-safari-96290/</guid>
+      <guid>https://www.harecoded.com/how-to-disable-annoying-security-warnings-in-safari-96290/</guid>
       <description>In order to forget the annoying security warning in Safari after every application download, you should install Taboo and paste this in a terminal:
 defaults write com.ocdev.taboo ShouldDisplaySecurityWarnings -bool NO</description>
     </item>
     
     <item>
       <title>Installing X11 on Tiger</title>
-      <link>http://www.harecoded.com/installing-x11-on-tiger-96289/</link>
+      <link>https://www.harecoded.com/installing-x11-on-tiger-96289/</link>
       <pubDate>Tue, 20 Sep 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/installing-x11-on-tiger-96289/</guid>
+      <guid>https://www.harecoded.com/installing-x11-on-tiger-96289/</guid>
       <description>If you need X11 on Tiger for running applications like OpenOffice, WingIDE... you&#39;ll need the installation DVD or image. Mount it and install the package:
 System/Installation/Packages/X11User.pkg
 It&#39;s also available when you install Tiger under the advanced option, but hey,don&#39;t waste more time looking for a download on apple site, the Panther days are over.

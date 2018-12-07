@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vcl on Harecoded</title>
-    <link>http://www.harecoded.com/tags/vcl/</link>
+    <link>https://www.harecoded.com/tags/vcl/</link>
     <description>Recent content in Vcl on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Nov 2012 12:29:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/vcl/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/vcl/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Varnish allow/reject connections with IPs list (ACL)</title>
-      <link>http://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</link>
+      <link>https://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</link>
       <pubDate>Tue, 06 Nov 2012 12:29:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</guid>
+      <guid>https://www.harecoded.com/varnish-allowreject-connections-with-ips-list-acl-2183580/</guid>
       <description>In a web server you can use directives to deny the unwanted eye to look at your content. This is an example of how Apache would handle a virtual host that only accepts connections from a series of IPs, but in Varnish that won&#39;t work.  Order Deny,Allow Deny from all # Barcelona IPs Allow from 89.140.xxx.xxx/27 # Japan IP Allow from 222.229.xxx.xxx/32   The reason that this won&#39;t work in Varnish is because the IP Apache is receiving is 127.</description>
     </item>
     

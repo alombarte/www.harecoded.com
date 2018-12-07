@@ -2,121 +2,121 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Php on Harecoded</title>
-    <link>http://www.harecoded.com/tags/php/</link>
+    <link>https://www.harecoded.com/tags/php/</link>
     <description>Recent content in Php on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Aug 2013 16:44:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A true multiline regexp in PHP. The &#34;I miss U&#34; technique</title>
-      <link>http://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</link>
+      <link>https://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</link>
       <pubDate>Thu, 08 Aug 2013 16:44:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</guid>
+      <guid>https://www.harecoded.com/true-multiline-regexp-in-php-the-i-miss-u-technique-2286008/</guid>
       <description>The following regular expression matches tags that are opened and close in different lines, albeit can be used for any other purpose. It is also&amp;nbsp;ungreedy, meaning that when the first closing tag is found the rest of equal tags will be ignored.  It is very easy to remember and to apply, I call it the &#34;I MISS YOU&#34; technique, see the why in the regexp modifiers: misU&amp;nbsp;  $html =&amp;lt;&amp;lt;&amp;lt;MULTILINE &amp;lt;p class=&#34;</description>
     </item>
     
     <item>
       <title>Features in PHP 5.4</title>
-      <link>http://www.harecoded.com/features-in-php-54-2255484/</link>
+      <link>https://www.harecoded.com/features-in-php-54-2255484/</link>
       <pubDate>Thu, 07 Mar 2013 12:19:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/features-in-php-54-2255484/</guid>
+      <guid>https://www.harecoded.com/features-in-php-54-2255484/</guid>
       <description>We had to create a file upload form that allows a user to upload big files. In order to keep a good experience for the user we decided to show the progress bars.  There are several ways of doing that but it came to my mind that PHP 5.4 had an improvement on file upload, making it easier now and wondered if I had the last excuse to upgrade the servers from 5.</description>
     </item>
     
     <item>
       <title>Apache RewriteCond -f check file exists solution</title>
-      <link>http://www.harecoded.com/apache-rewritecond-f-check-file-exists-solution-2246468/</link>
+      <link>https://www.harecoded.com/apache-rewritecond-f-check-file-exists-solution-2246468/</link>
       <pubDate>Sat, 02 Feb 2013 19:44:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/apache-rewritecond-f-check-file-exists-solution-2246468/</guid>
+      <guid>https://www.harecoded.com/apache-rewritecond-f-check-file-exists-solution-2246468/</guid>
       <description>If your Apache virtualhost or htaccess configuration uses a rewrite condition (RewriteCond) in order to allow nice URLs, you should be aware that since Apache 2.2 the &#34;check if file or exists&#34; works a little bit different. Any of the following examples might have stopped working for you:  RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILENAME} !-s   The solution to correct it is very simple, but I couldn&#39;t see it documented.</description>
     </item>
     
     <item>
       <title>Llamadas cURL a través de distintas interfaces</title>
-      <link>http://www.harecoded.com/llamadas-curl-traves-distintas-interfaces-2183696/</link>
+      <link>https://www.harecoded.com/llamadas-curl-traves-distintas-interfaces-2183696/</link>
       <pubDate>Tue, 13 Nov 2012 07:50:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/llamadas-curl-traves-distintas-interfaces-2183696/</guid>
+      <guid>https://www.harecoded.com/llamadas-curl-traves-distintas-interfaces-2183696/</guid>
       <description>Si tu servidor web dispone de varias interfaces de red y quieres que ciertas peticiones que haces con cURL salgan a través de una IP específica puedes modificar el flag CURLOPT_INTERFACE de cURL pásandole la IP.  Un ejemplo tonto podría ser:  ... // Todas mis interfaces de red: $interfaces = array( &#39;91.121.157.41&#39;, &#39;178.33.161.225&#39;, &#39;188.165.128.67&#39;, &#39;178.33.166.125&#39;, &#39;178.33.163.125&#39;, ); // Salir aleatoriamente por una de ellas: $rand_interface = $interfaces[rand(0,count($interfaces)-1)]; curl_setopt($curl_handle, CURLOPT_INTERFACE, $rand_interface ); .</description>
     </item>
     
     <item>
       <title>Smarty: Concatenation of variables inside block parameters</title>
-      <link>http://www.harecoded.com/smarty-concatenation-variables-inside-block-parameters-2162707/</link>
+      <link>https://www.harecoded.com/smarty-concatenation-variables-inside-block-parameters-2162707/</link>
       <pubDate>Tue, 04 Sep 2012 11:37:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/smarty-concatenation-variables-inside-block-parameters-2162707/</guid>
+      <guid>https://www.harecoded.com/smarty-concatenation-variables-inside-block-parameters-2162707/</guid>
       <description>In Smarty sometimes you need to concatenate 2 variables and pass it as a single variable inside a&amp;nbsp;block. But the placeholder won&#39;t allow any expected PHP syntax  You want to accomplish something like:  {assign var=&#34;MYVAR&#34; value=$variable1.$variable2}   But, the dot in smarty is for array access, so, what about...  {assign var=&#34;MYVAR&#34; value=$variable1+$variable2}   No. It does not work either. Ah! Let&#39;s try a modifier:  {assign var=&#34;</description>
     </item>
     
     <item>
       <title>How to setup a remote development environment over SFTP (working copy)</title>
-      <link>http://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</link>
+      <link>https://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</link>
       <pubDate>Thu, 09 Aug 2012 00:10:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</guid>
+      <guid>https://www.harecoded.com/how-to-setup-remote-development-environment-over-sftp-working-copy-2139989/</guid>
       <description>This article explains how to setup the server and client to work with a remote working copy.  To properly understand this post you should have read the previous post, When to setup a remote development environment over SFTP (working copy).  To have the enviroment up and running you must setup once the server, and then apply the configuration of the client in every developer machine. But the client side is very simple and requires no installation at all.</description>
     </item>
     
     <item>
       <title>When to setup a remote development environment over SFTP (working copy)</title>
-      <link>http://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</link>
+      <link>https://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</link>
       <pubDate>Wed, 08 Aug 2012 17:49:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</guid>
+      <guid>https://www.harecoded.com/when-to-setup-remote-development-environment-over-sftp-working-copy-2139816/</guid>
       <description>When a programmer has a local copy of the code and an environment fully functional where the web can be tested before going live, we usually call it a&amp;nbsp;working copy.  The action of moving/copying/putting this work in the final live server (a.k.a production server/environment) is called the&amp;nbsp;deploy&amp;nbsp;action.  There are many ways of having a working copy up and running. We, the key stroker maniacs, use to work more or less with one of the following working copy configurations:   No working copy.</description>
     </item>
     
     <item>
       <title>Merge Json files</title>
-      <link>http://www.harecoded.com/merge-json-files-1407663/</link>
+      <link>https://www.harecoded.com/merge-json-files-1407663/</link>
       <pubDate>Wed, 01 Feb 2012 10:22:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/merge-json-files-1407663/</guid>
+      <guid>https://www.harecoded.com/merge-json-files-1407663/</guid>
       <description>With this small script you could merge some json files in a new one in json validated format. &amp;nbsp;The script uses each file name like array key.  Look the example:  file1.json:  {&#34;array1&#34;:[&#34;elem1&#34;,&#34;elem2&#34;,&#34;elem3&#34;],&#34;array2&#34;:[&#34;elem1&#34;,&#34;elem2&#34;,&#34;elem3&#34;]}   file2.json  {&#34;array3&#34;:[&#34;elem1&#34;,&#34;elem2&#34;,&#34;elem3&#34;]}   &amp;nbsp;  Whit our script you could run:  php merge_jsons.php file1.json file2.json &amp;gt; merged_jsons.json    &amp;nbsp;  Now you can open merged_jsons.json and look this:  {&#34;</description>
     </item>
     
     <item>
       <title>Convert a CSV to JSON with PHP</title>
-      <link>http://www.harecoded.com/convert-csv-to-json-with-php-1380114/</link>
+      <link>https://www.harecoded.com/convert-csv-to-json-with-php-1380114/</link>
       <pubDate>Tue, 24 Jan 2012 23:12:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/convert-csv-to-json-with-php-1380114/</guid>
+      <guid>https://www.harecoded.com/convert-csv-to-json-with-php-1380114/</guid>
       <description>Imagine a data list dumped in a plain text file (e.g: CSV) and you need to convert it to JSON format. You could use this simple php script to do such task.  It&#39;s the simplest version but from here you can customize it to fit your requeriments.  Usage:  php script_name.php file_to_convert.csv &amp;gt; result.json   The script:  $csv = file_get_contents( $argv[1] );
 $csv = explode(&#34;\n&#34;, trim($csv) );</description>
     </item>
     
     <item>
       <title>Instalar PHP 5.3 en CentOS</title>
-      <link>http://www.harecoded.com/instalar-php-53-centos-1295513/</link>
+      <link>https://www.harecoded.com/instalar-php-53-centos-1295513/</link>
       <pubDate>Thu, 13 Oct 2011 23:45:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/instalar-php-53-centos-1295513/</guid>
+      <guid>https://www.harecoded.com/instalar-php-53-centos-1295513/</guid>
       <description>Me tienen contento!  Hace muchísimo que deberían haber incluído la versión de PHP 5.3 en los paquetes php por defecto de CentOS, pero parece que se van a quedar con la 5.2 hasta el fin de los tiempos. Ofrecen la versión 5.3 como un paquete separado (php53), lo que implica desinstalar PHP y librerías asociadas para reinstalar la 5.3 con este paquete distinto (incompatible con el anterior claro).  Así que, no pudiéndome aguantar más y con mono de namespaces, funciones lambda y toda la pesca, he migrado mi CentOS 5.</description>
     </item>
     
     <item>
       <title>Writing complex regular expressions</title>
-      <link>http://www.harecoded.com/writing-complex-regular-expressions-1192414/</link>
+      <link>https://www.harecoded.com/writing-complex-regular-expressions-1192414/</link>
       <pubDate>Fri, 15 Apr 2011 20:48:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/writing-complex-regular-expressions-1192414/</guid>
+      <guid>https://www.harecoded.com/writing-complex-regular-expressions-1192414/</guid>
       <description>Regular expressions are usually hard to read and understand. Even if you have a lot of experience in the subject chances are that when you revisit one of these that you wrote some time ago, it is very difficult to catch up.  Several days ago, a very smart guy at work named Zoltán, recommended us to write complex regular expressions sepparating each logical part in a different line&amp;nbsp;and also comment every single line.</description>
     </item>
     
     <item>
       <title>Instalar Memcache en Mac</title>
-      <link>http://www.harecoded.com/instalar-memcache-mac-517262/</link>
+      <link>https://www.harecoded.com/instalar-memcache-mac-517262/</link>
       <pubDate>Fri, 12 Feb 2010 20:23:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/instalar-memcache-mac-517262/</guid>
+      <guid>https://www.harecoded.com/instalar-memcache-mac-517262/</guid>
       <description>Instalar el demonio de memcached en Mac no es tan complicado como parece siguiendo estos sencillos pasos.
 Primero de todo aseg&amp;uacute;rate que tienes todos los requisitos
 Requisitos para instalar Memcached  Un compilador GCC. No te asustes! Viene instalando las XTools de Mac si es que ya no las tienes Descargarte el script de instalaci&amp;oacute;n desde topfunky  Instalaci&amp;oacute;n del servidor Memcached Abre una terminal i navega hasta la ruta donde te has descargado el script.</description>
@@ -124,67 +124,67 @@ Requisitos para instalar Memcached  Un compilador GCC. No te asustes! Viene inst
     
     <item>
       <title>Fill: Smarty PHP plugin to fill variables in string (sprintf brother)</title>
-      <link>http://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</link>
+      <link>https://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</link>
       <pubDate>Thu, 06 Aug 2009 23:48:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</guid>
+      <guid>https://www.harecoded.com/fill-smarty-php-plugin-to-fill-variables-in-string-sprintf-brother-311577/</guid>
       <description>Today I quickly created a plugin for Smarty to fill variables inside a string (subject) using the passed parameters as variable names.&amp;nbsp;I use this specially while constructing URLs because my addresses are translated and they &#34;subjects&#34; are always variables. This plugin does nearly the same you could do with the sprintf modifier, but I placed this behaviour inside a function.  The &#34;subject&#34; defines the string containing the pattern to be filled and containing the vars to be filled, and the variables are any string surrounded by your preferred delimiter (defaults to %).</description>
     </item>
     
     <item>
       <title>Textmate: Plugins de PHP, Smarty y Subversion</title>
-      <link>http://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</link>
+      <link>https://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</link>
       <pubDate>Fri, 28 Nov 2008 16:47:55 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</guid>
+      <guid>https://www.harecoded.com/textmate-plugins-php-smarty-subversion-166131/</guid>
       <description>Textmate es sin duda uno de aquellos editores para Mac OS X de los que hacen quitarse el sombrero. Como muchos otros editores, Textmate tambi&amp;eacute;n soporta plugins (Bundles les llaman) y se pueden instalar un mont&amp;oacute;n de ellos.
 Para los programadores y webmasters que trabajan con PHP hay dos Bundles de especial utilidad: los que permiten Autocompletion para Smarty y Autocompletion para PHP. Para instalarlos simplemente hay que ejectuar en una terminal:</description>
     </item>
     
     <item>
       <title>Exitazo de la primera PHP Barcelona Conference</title>
-      <link>http://www.harecoded.com/exitazo-primera-php-barcelona-conference-96367/</link>
+      <link>https://www.harecoded.com/exitazo-primera-php-barcelona-conference-96367/</link>
       <pubDate>Mon, 25 Feb 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/exitazo-primera-php-barcelona-conference-96367/</guid>
+      <guid>https://www.harecoded.com/exitazo-primera-php-barcelona-conference-96367/</guid>
       <description>Pues s&amp;iacute;, el s&amp;aacute;bado 23 de Febrero celebramos la primera PHP Barcelona Conference, y fue todo un exitazo: de participaci&amp;oacute;n, de organizaci&amp;oacute;n (no se nos descuajaring&amp;oacute; la agenda), las instalaciones (Bocanord) eran fant&amp;aacute;sticas as&amp;iacute; como los medios que pusieron a nuestra disposici&amp;oacute;n; la mejor sala del complejo, un equipo de proyecci&amp;oacute;n de cine y buena voluntad a raudales.
 Por mi parte, qued&amp;eacute; muy contento con mi presentaci&amp;oacute;n &#34;Optimizaci&amp;oacute;n de aplicaciones PHP - Client Side&#34;</description>
     </item>
     
     <item>
       <title>Primera Barcelona PHP Conference</title>
-      <link>http://www.harecoded.com/primera-barcelona-php-conference-96366/</link>
+      <link>https://www.harecoded.com/primera-barcelona-php-conference-96366/</link>
       <pubDate>Fri, 22 Feb 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/primera-barcelona-php-conference-96366/</guid>
+      <guid>https://www.harecoded.com/primera-barcelona-php-conference-96366/</guid>
       <description>El S&amp;aacute;bado 23 de Febrero tendr&amp;eacute; el placer de realizar una presentaci&amp;oacute;n en la Primera Barcelona PHPConference. La verdad es que alegra (y acojona) que haya tenido tanto &amp;eacute;xito de participaci&amp;oacute;n... &amp;iexcl;Nada menos que 150 asistentes en la primera convocatoria! Estoy seguro que nos lo vamos a pasar fant&amp;aacute;sticamente, haremos bastantes contactos a nivel personal y profesional y podremos sobre todo vernos las caras algunos de los que estamos en este mundillo del PHP por estos lares catalanes.</description>
     </item>
     
     <item>
       <title>Servicios web basados en REST</title>
-      <link>http://www.harecoded.com/servicios-web-basados-rest-96340/</link>
+      <link>https://www.harecoded.com/servicios-web-basados-rest-96340/</link>
       <pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/servicios-web-basados-rest-96340/</guid>
+      <guid>https://www.harecoded.com/servicios-web-basados-rest-96340/</guid>
       <description>Os dejo un enlace a un fant&amp;aacute;stico art&amp;iacute;culo de mi compa&amp;ntilde;ero Oriol Jim&amp;eacute;nez sobre servicios web basados en REST. Desde luego, c&amp;oacute;mo se agradece cuando la gente no se limita a postear sobre un tema a la ligera, sino que en cambio se moja y dedica unas horillas de su vida a explicar con todo lujo de detalles lo que considera de inter&amp;eacute;s para los dem&amp;aacute;s.</description>
     </item>
     
     <item>
       <title>Automatic code formatting for PHP in your editor or CVS/SVN</title>
-      <link>http://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</link>
+      <link>https://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</link>
       <pubDate>Mon, 28 May 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</guid>
+      <guid>https://www.harecoded.com/automatic-code-formatting-for-php-in-your-editor-or-cvssvn-96330/</guid>
       <description>PhpCodeBeautififier is a free tool for PHP programmers that formats PHP files to get a nice presentation and keeps the programmer sanity. We all programmers have our own way of representing code lines, but when the code is shared amongst many programmers it has to be formatted following some conventions.
 PhpCodeBeautifier allows you to specify those patterns you&#39;d like to follow and it will format every file for you. The idea is simple, you continue on being that little unchangeable typer and delegate the &#34;</description>
     </item>
     
     <item>
       <title>Obfuscate e-mails in PHP</title>
-      <link>http://www.harecoded.com/obfuscate-mails-in-php-96310/</link>
+      <link>https://www.harecoded.com/obfuscate-mails-in-php-96310/</link>
       <pubDate>Mon, 09 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/obfuscate-mails-in-php-96310/</guid>
+      <guid>https://www.harecoded.com/obfuscate-mails-in-php-96310/</guid>
       <description>Exactly one year ago, I was complaining to one of my clients ISP about the increasing volume of spam those people were receiving lately. The ISP answered me with some not particularly useful advices, except for one: they had inspected my client&#39;s website and had found that the contacts section had a list of clean e-mail addresses, happily standing there to the delight of some spammer&#39;s spider bot. I had put them there in the good-old format mailto:dontphunk@withmyheart.</description>
     </item>
     

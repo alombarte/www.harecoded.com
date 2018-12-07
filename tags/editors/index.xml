@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Editors on Harecoded</title>
-    <link>http://www.harecoded.com/tags/editors/</link>
+    <link>https://www.harecoded.com/tags/editors/</link>
     <description>Recent content in Editors on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Oct 2012 16:55:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/editors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/editors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Puppet Syntax highlighting under Textmate</title>
-      <link>http://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</link>
+      <link>https://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</link>
       <pubDate>Thu, 11 Oct 2012 16:55:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</guid>
+      <guid>https://www.harecoded.com/puppet-syntax-highlighting-under-textmate-2176234/</guid>
       <description> Add some color to your puppet scripts opened in TextMate! Fire this in a terminal:  mkdir -p ~/Application\ Support/TextMate/Bundles git clone https://github.com/masterzen/puppet-textmate-bundle.git Puppet.tmbundle mv Puppet.tmbundle/ ~/Library/Application\ Support/TextMate/Bundles/ rm -fr Puppet.tmbundle   And voilà!   </description>
     </item>
     

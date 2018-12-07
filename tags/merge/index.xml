@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Merge on Harecoded</title>
-    <link>http://www.harecoded.com/tags/merge/</link>
+    <link>https://www.harecoded.com/tags/merge/</link>
     <description>Recent content in Merge on Harecoded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Feb 2009 06:30:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.harecoded.com/tags/merge/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.harecoded.com/tags/merge/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SVN merge for Mac OS X</title>
-      <link>http://www.harecoded.com/svn-merge-for-mac-os-x-157489/</link>
+      <link>https://www.harecoded.com/svn-merge-for-mac-os-x-157489/</link>
       <pubDate>Wed, 11 Feb 2009 06:30:00 +0000</pubDate>
       
-      <guid>http://www.harecoded.com/svn-merge-for-mac-os-x-157489/</guid>
+      <guid>https://www.harecoded.com/svn-merge-for-mac-os-x-157489/</guid>
       <description>If you want to merge branches in your projects using a Mac OS X, you&#39;ll probably miss how straightforward is to do that with the TortoiseSVN client.
 Mac has many SVN-fashioned clients where you can fall in love when you see the GUI, but when it comes to do a merge it seems that all they have forgotten to include support for it. I haven&#39;t seen any free or comercial application for Mac that integrates all the subversion commands in the same tool without pain.</description>
     </item>
